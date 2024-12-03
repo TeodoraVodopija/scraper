@@ -1,0 +1,2425 @@
+
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <!--detect slow internet connection-->
+<script type="text/javascript">
+    var IS_SLOW_INTERNET = false;
+    var SLOW_INTERNET_THRESHOLD = 5000;//ms
+    var slowLoadTimeout = window.setTimeout(function () {
+        IS_SLOW_INTERNET = true;
+    }, SLOW_INTERNET_THRESHOLD);
+
+    window.addEventListener('load', function () {
+        window.clearTimeout(slowLoadTimeout);
+    }, false);
+</script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <title>Komentari - Index.hr</title>
+    <!--todo: remove on production-->
+    <meta name="description" content="Najčitaniji hrvatski sportski komentatori. Dea Redžić, Zvonko Alač, Vice Karin, Omar Tipura, komentari sport">
+    <meta property="fb:app_id" content="216060115209819">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <link rel="preload" href="//micro.rubiconproject.com/prebid/dynamic/26072.js" as="script" /> 
+    <link rel="preload" href="https://pagead2.googlesyndication.com/tag/js/gpt.js" as="script" />
+
+     <!--adblock detection-->
+<script src="/Scripts/adblockDetect/ads.js"></script>
+    
+
+<script>
+    window.constants = window.constants || {};
+    window.constants.statsServiceHost = 'https://stats.index.hr';
+    window.constants.socketsHost = 'https://sockets.index.hr';
+    window.constants.chatHost = 'https://chat.index.hr';
+    window.constants.interactiveHost = 'https://interactive.index.hr';
+</script>
+
+        <!--recover ads, if adblock detected-->
+<!--adpushup recovery-->
+<script data-cfasync="false" type="text/javascript">(function (w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/41144/adRecover.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+
+
+    <link rel='preconnect' href='https://fonts.googleapis.com' crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="preload" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="stylesheet">
+
+    
+
+    
+        <link href="/Content/desktop-bundle.min.css?v=0b68ac5f-181a-47ea-be89-0931f46ada5e" rel="preload" as="style" />
+        <link href="/Scripts/desktop-bundle.min.js?v=0b68ac5f-181a-47ea-be89-0931f46ada5e" rel="preload" as="script" />
+
+        <link href="/Content/desktop-bundle.min.css?v=0b68ac5f-181a-47ea-be89-0931f46ada5e" rel="stylesheet" />
+        <script src="/Scripts/desktop-bundle.min.js?v=0b68ac5f-181a-47ea-be89-0931f46ada5e"></script>
+    
+
+    
+<script>
+    !function (e, o, n, i) { if (!e) { e = e || {}, window.permutive = e, e.q = []; var t = function () { return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (e) { return (e ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> e / 4).toString(16) }) }; e.config = i || {}, e.config.apiKey = o, e.config.workspaceId = n, e.config.environment = e.config.environment || "production", (window.crypto || window.msCrypto) && (e.config.viewId = t()); for (var g = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], r = 0; r < g.length; r++) { var w = g[r]; e[w] = function (o) { return function () { var n = Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: o, arguments: n }) } }(w) } } }(window.permutive, "cd150efe-ff8f-4596-bfca-1c8765fae796", "b4d7f9ad-9746-4daa-b552-8205ef41f49d", { "consentRequired": true });
+    window.googletag = window.googletag || {}, window.googletag.cmd = window.googletag.cmd || [], window.googletag.cmd.push(function () { if (0 === window.googletag.pubads().getTargeting("permutive").length) { var e = window.localStorage.getItem("_pdfps"); window.googletag.pubads().setTargeting("permutive", e ? JSON.parse(e) : []); var o = window.localStorage.getItem("permutive-id"); o && (window.googletag.pubads().setTargeting("puid", o), window.googletag.pubads().setTargeting("ptime", Date.now().toString())), window.permutive.config.viewId && window.googletag.pubads().setTargeting("prmtvvid", window.permutive.config.viewId), window.permutive.config.workspaceId && window.googletag.pubads().setTargeting("prmtvwid", window.permutive.config.workspaceId) } });
+    
+</script>
+<script async src="https://b4d7f9ad-9746-4daa-b552-8205ef41f49d.edge.permutive.app/b4d7f9ad-9746-4daa-b552-8205ef41f49d-web.js"></script>
+
+
+    
+
+<script type="text/javascript" src="https://interactive.index.hr/js/embed/interactive.min.js"></script>
+<script>
+    var $inin = $inin || {};
+
+    $inin.config = {
+        log: false,
+        enabled: false
+    }
+
+    var $ininque = $ininque || [];
+
+    var userPPID = accountService.GetUserPPID();
+
+    if (userPPID){
+        $inin.setClientUserId(userPPID);
+    }
+
+    $inin.enable();
+</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="didomi/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-5ZTNWH8GVX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5ZTNWH8GVX');
+</script>
+
+        
+<!-- //Connect Container: Index.hr -->
+<script src="//get.s-onetag.com/90d743ad-16c9-44d6-bb59-5f0ed674ef3b/tag.min.js" async defer></script>
+
+
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    
+    
+
+
+<!-- Make sure this is inserted before your GPT tag -->
+<script>
+    var amazonAdSlots = [];
+
+</script>
+
+
+
+    
+
+<script type="text/javascript">
+    window.gdprAppliesGlobally = true; (function () {
+        function a(e) {
+            if (!window.frames[e]) {
+                if (document.body && document.body.firstChild) { var t = document.body; var n = document.createElement("iframe"); n.style.display = "none"; n.name = e; n.title = e; t.insertBefore(n, t.firstChild) }
+                else { setTimeout(function () { a(e) }, 5) }
+            }
+        } function e(n, r, o, c, s) {
+            function e(e, t, n, a) { if (typeof n !== "function") { return } if (!window[r]) { window[r] = [] } var i = false; if (s) { i = s(e, t, n) } if (!i) { window[r].push({ command: e, parameter: t, callback: n, version: a }) } } e.stub = true; function t(a) {
+                if (!window[n] || window[n].stub !== true) { return } if (!a.data) { return }
+                var i = typeof a.data === "string"; var e; try { e = i ? JSON.parse(a.data) : a.data } catch (t) { return } if (e[o]) { var r = e[o]; window[n](r.command, r.parameter, function (e, t) { var n = {}; n[c] = { returnValue: e, success: t, callId: r.callId }; a.source.postMessage(i ? JSON.stringify(n) : n, "*") }, r.version) }
+            }
+            if (typeof window[n] !== "function") { window[n] = e; if (window.addEventListener) { window.addEventListener("message", t, false) } else { window.attachEvent("onmessage", t) } }
+        } e("__tcfapi", "__tcfapiBuffer", "__tcfapiCall", "__tcfapiReturn"); a("__tcfapiLocator"); (function (e) {
+            var t = document.createElement("script"); t.id = "spcloader"; t.type = "text/javascript"; t.async = true; t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target=" + document.location.hostname; t.charset = "utf-8"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n)
+        })("02757520-ed8b-4c54-8bfd-4a5f5548de98")
+    })();</script>
+
+
+<!--didomi-->
+<!--end-->
+
+
+    <script>
+        googletag.cmd.push(function () {
+        
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().setTargeting('rubrika', 'sport');
+    googletag.pubads().setTargeting('podrubrikaId', '1738');
+    googletag.pubads().setTargeting('sectionhomepage', 'komentari');
+;
+        });
+    </script>
+
+    
+<script>
+    var mainIndexDomainPath = "https://www.index.hr" + window.location.pathname;
+
+    googletag.cmd.push(function () {
+        googletag.pubads().disableInitialLoad();
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs(true);
+        googletag.pubads().setTargeting('projekt', 'index');
+        googletag.pubads().setTargeting('referer', '');
+        googletag.pubads().setTargeting('hostname', 'www.index.hr');
+        googletag.pubads().setTargeting('ar_1', 'false');
+        googletag.pubads().setTargeting('ab_test', '');
+        googletag.pubads().setTargeting('prebid', 'demand manager');
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                googletag.pubads().setTargeting('TPC', label);
+            });
+        }
+        else {
+            googletag.pubads().setTargeting('TPC', 'none');
+        }
+
+    });
+
+    googleTagService.AddSlotRenderEndedListener();
+</script>
+    <script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+
+    <meta property="og:title" content="Komentari" />
+    <meta property="og:description" content="Naj&#x10D;itaniji hrvatski sportski komentatori. Dea Red&#x17E;i&#x107;, Zvonko Ala&#x10D;, Vice Karin, Omar Tipura, komentari sport" />
+    <meta property="og:image" content="/Content/img/main-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@indexhr">
+    <meta name="twitter:title" content="Komentari">
+    <meta name="twitter:description" content="Naj&#x10D;itaniji hrvatski sportski komentatori. Dea Red&#x17E;i&#x107;, Zvonko Ala&#x10D;, Vice Karin, Omar Tipura, komentari sport">
+    <meta name="twitter:image" content="/Content/img/main-image.png">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebSite","name":"Index.hr","potentialAction":{"@type":"SearchAction","target":"https://www.index.hr/trazi.aspx?upit={search_term_string}","query-input":"required name=search_term_string"},"url":"https://www.index.hr/"}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}
+    </script>
+
+    <!-- Meta Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1418122964915670');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1418122964915670&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Meta Pixel Code -->
+
+
+    <script src="https://apetite.index.hr/bundles/apetite.js"></script>
+    <script>
+        var apetite = new AnalyticsPetite({ host: 'https://apetite.index.hr' });
+        
+    apetite.setCategory('sport');
+
+            apetite.collect();
+    </script>
+
+    
+    <link rel="canonical" href="https://www.index.hr/sport/rubrika/komentari/1738.aspx">
+    <link rel="alternate" href="https://www.index.hr/mobile/kategorija/1738">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebPage","name":"Komentari","description":"Najčitaniji hrvatski sportski komentatori. Dea Redžić, Zvonko Alač, Vice Karin, Omar Tipura, komentari sport","url":"https://www.index.hr/","publisher":{"@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"ItemList","description":"Komentari","url":"https://www.index.hr/sport/rubrika/komentari/1738","itemListElement":[{"@type":"ListItem","name":"Najveći klub svijeta postao je i najlošiji gubitnik","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/c91a9164-7766-478b-8877-8e2d4adf1bed.jpg","url":"https://www.index.hr/sport/clanak/najveci-klub-svijeta-postao-je-i-najlosiji-gubitnik/2611077.aspx","position":1},{"@type":"ListItem","name":"United na klupi više nema trenera, nego cirkusanta","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/a30e7c7a-4131-47a5-8ddb-53e672e63afa.jpg","url":"https://www.index.hr/sport/clanak/united-na-klupi-vise-nema-trenera-nego-cirkusanta/2609871.aspx","position":2},{"@type":"ListItem","name":"Nije prirodno to što Gvardiol radi","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/20bd806c-c335-4053-817c-7c979d3cde58.jpg","url":"https://www.index.hr/sport/clanak/nije-prirodno-to-sto-gvardiol-radi/2608574.aspx","position":3},{"@type":"ListItem","name":"Najbolja zamjena na svijetu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/9b87309f-667f-493e-967b-676bc9d6d3c6.jpg","url":"https://www.index.hr/sport/clanak/najbolja-zamjena-na-svijetu/2600790.aspx","position":4},{"@type":"ListItem","name":"Dinamo je zaboravio nepisano nogometno pravilo. Jakirović je zbog toga nastradao","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/018c5231-fb37-40fe-9817-1479df99a3d7.jpg","url":"https://www.index.hr/sport/clanak/dinamo-je-zaboravio-nepisano-nogometno-pravilo-jakirovic-je-zbog-toga-nastradao/2599875.aspx","position":5},{"@type":"ListItem","name":"Lokalni kockar osmislio algoritam i od maloga kluba stvorio kandidata za trofeje","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8b248d99-e19a-4da9-a0d6-e60bd64a7a39.jpg","url":"https://www.index.hr/sport/clanak/lokalni-kockar-osmislio-algoritam-i-od-maloga-kluba-stvorio-kandidata-za-trofeje/2599892.aspx","position":6},{"@type":"ListItem","name":"Je li Mbappe promijenio Real?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/151c1b0e-09f7-4076-9bfe-021247f3b88c.jpg","url":"https://www.index.hr/sport/clanak/je-li-mbappe-promijenio-real/2599611.aspx","position":7},{"@type":"ListItem","name":"Modrićev potez otključao je Kovačića. To je najveći dobitak Hrvatske","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/15d6d9b1-0900-418a-b98d-6fef7804b925.jpg","url":"https://www.index.hr/sport/clanak/modricev-potez-otkljucao-je-kovacica-to-je-najveci-dobitak-hrvatske/2596911.aspx","position":8},{"@type":"ListItem","name":"Rijeka sada vuče potez van svake logike","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5243508a-3938-45b3-b1ce-40adc4f50c9e.jpg","url":"https://www.index.hr/sport/clanak/rijeka-sada-vuce-potez-van-svake-logike/2595473.aspx","position":9},{"@type":"ListItem","name":"Rijeka ima šansu potpuno preokrenuti cijelu sezonu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/1305250b-9fbe-4b1d-ab16-35f5804af488.jpg","url":"https://www.index.hr/sport/clanak/rijeka-ima-sansu-potpuno-preokrenuti-cijelu-sezonu/2593633.aspx","position":10},{"@type":"ListItem","name":"Što je Arne Slot donio u Liverpool i u čemu je najveći problem?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2e258409-44d0-4ac5-be62-cfdb2c6531d2.jpg","url":"https://www.index.hr/sport/clanak/sto-je-arne-slot-donio-u-liverpool-i-u-cemu-je-najveci-problem/2591269.aspx","position":11},{"@type":"ListItem","name":"Što izvodi Chelsea?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/06516ca3-7d11-483f-a49c-b3786c3544f0.jpg","url":"https://www.index.hr/sport/clanak/sto-izvodi-chelsea/2590382.aspx","position":12},{"@type":"ListItem","name":"Rijeka je na krivom putu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b8a085d6-9a6d-4e91-8cc6-4332c5fa5244.jpg","url":"https://www.index.hr/sport/clanak/rijeka-je-na-krivom-putu/2590376.aspx","position":13},{"@type":"ListItem","name":"Hajduk je amateru dao da se igra sportskog direktora. Dobio je kaos prije Gospe","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4ca1b556-ee9b-4510-a192-2201051b2755.jpg","url":"https://www.index.hr/sport/clanak/hajduk-je-amateru-dao-da-se-igra-sportskog-direktora-dobio-je-kaos-prije-gospe/2590317.aspx","position":14},{"@type":"ListItem","name":"Hajduk, Rijeka i Osijek u Europi su antireklama za hrvatski nogomet","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/20cbdf3f-cb4b-4340-8cd0-006168a46a18.jpg","url":"https://www.index.hr/sport/clanak/hajduk-rijeka-i-osijek-u-europi-su-antireklama-za-hrvatski-nogomet/2589265.aspx","position":15},{"@type":"ListItem","name":"HRT živi u prošlosti. To se jasno vidi prema tome kako prenosi Olimpijske igre","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/52897a2d-e34f-498f-88fe-d8947c9463e4.jpg","url":"https://www.index.hr/sport/clanak/hrt-zivi-u-proslosti-to-se-jasno-vidi-prema-tome-kako-prenosi-olimpijske-igre/2588827.aspx","position":16},{"@type":"ListItem","name":"Kraljica je dobila novog kralja","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/fc8f2bdf-97d8-49cc-9929-0f1df1f96e0a.jpg","url":"https://www.index.hr/sport/clanak/kraljica-je-dobila-novog-kralja/2588696.aspx","position":17},{"@type":"ListItem","name":"Koja Rijeka je prava Rijeka?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/096cf4ab-c9fb-4218-ae64-18e5851592f6.jpg","url":"https://www.index.hr/sport/clanak/koja-rijeka-je-prava-rijeka/2588170.aspx","position":18},{"@type":"ListItem","name":"Prošle sezone je bio rezerva protiv Rijeke, a sada je Unitedov as od 60 milijuna eura","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4682d6d3-acfe-4835-a84c-2e95dfbabef2.jpg","url":"https://www.index.hr/sport/clanak/prosle-sezone-je-bio-rezerva-protiv-rijeke-a-sada-je-unitedov-as-od-60-milijuna-eura/2584711.aspx","position":19},{"@type":"ListItem","name":"Nikada zasluženiji prvak","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/326ba6b4-abc3-47b3-97d8-00975480f185.jpg","url":"https://www.index.hr/sport/clanak/nikada-zasluzeniji-prvak/2582639.aspx","position":20},{"@type":"ListItem","name":"Obojica su nametnula paklen ritam, ali velika je razlika između Leke i Gattusa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0a29a719-2ee6-437e-b18d-6c86ef801e8d.jpg","url":"https://www.index.hr/sport/clanak/obojica-su-nametnula-paklen-ritam-ali-velika-je-razlika-izmedju-leke-i-gattusa/2580240.aspx","position":21},{"@type":"ListItem","name":"Tko nije vidio Duarteovu loptu kako prolazi kroz obruč?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/dbd15a13-6e2c-4f77-9232-d2292304ec17.jpg","url":"https://www.index.hr/sport/clanak/tko-nije-vidio-duarteovu-loptu-kako-prolazi-kroz-obruc/2580169.aspx","position":22},{"@type":"ListItem","name":"Kao nekad protiv Senegala ili Nigerije. Ali nema razloga za dramu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/3280571b-3442-4cf9-b537-484354859859.jpg","url":"https://www.index.hr/sport/clanak/kao-nekad-protiv-senegala-ili-nigerije-ali-nema-razloga-za-dramu/2579353.aspx","position":23},{"@type":"ListItem","name":"Hrvatska se vraća jer ima ono što nije imala desetljećima","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/eeef3729-0671-4672-9210-f64bcddd1a37.jpg","url":"https://www.index.hr/sport/clanak/hrvatska-se-vraca-jer-ima-ono-sto-nije-imala-desetljecima/2579068.aspx","position":24},{"@type":"ListItem","name":"Jedna od najčudesnijih reprezentacija Eura gradila se 15 godina","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2df71d45-bb59-48b6-80bb-012e1bdddfb3.jpg","url":"https://www.index.hr/sport/clanak/jedna-od-najcudesnijih-reprezentacija-eura-gradila-se-15-godina/2578401.aspx","position":25},{"@type":"ListItem","name":"Ismijavali su ga, a na Euru igra nogomet kakav ne viđamo na reprezentativnoj razini","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d1b5b229-d610-4cb0-9ec3-eedd4c2d4d6e.jpg","url":"https://www.index.hr/sport/clanak/ismijavali-su-ga-a-na-euru-igra-nogomet-kakav-ne-vidjamo-na-reprezentativnoj-razini/2577049.aspx","position":26},{"@type":"ListItem","name":"Novi trener Lakersa učinio je isto što i Aco Petrović. Svijet košarke puno je izgubio","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/225bd67b-0e5d-4ddd-ad12-704fe43c1587.png","url":"https://www.index.hr/sport/clanak/novi-trener-lakersa-ucinio-je-isto-sto-i-aco-petrovic-svijet-kosarke-puno-je-izgubio/2576070.aspx","position":27},{"@type":"ListItem","name":"Skupština je pokazala da Hajduk srlja u novu izgubljenu sezonu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/a54f7115-3cb4-40d2-bcbd-7d84657997f6.jpg","url":"https://www.index.hr/sport/clanak/skupstina-je-pokazala-da-hajduk-srlja-u-novu-izgubljenu-sezonu/2571590.aspx","position":28},{"@type":"ListItem","name":"Saudijci zasad spašavaju Hrgovića. Još jedan, dva poraza i preostaje mu samo Babić","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/02a11551-64b9-4491-8044-38328a64b43f.jpg","url":"https://www.index.hr/sport/clanak/saudijci-zasad-spasavaju-hrgovica-jos-jedan-dva-poraza-i-preostaje-mu-samo-babic/2570089.aspx","position":29},{"@type":"ListItem","name":"Rijeka je znala kakav je Sopić. Dati mu otkaz bio bi promašaj","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b77638c5-574b-44be-ae4a-0bcc35cf4503.jpg","url":"https://www.index.hr/sport/clanak/rijeka-je-znala-kakav-je-sopic-dati-mu-otkaz-bio-bi-promasaj/2568537.aspx","position":30},{"@type":"ListItem","name":"Stoper veteran je postavio skupo plaćene PSG-ove zvijezde gdje im je mjesto","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/1ed99b50-a1cc-499f-a678-69606aaeb049.jpg","url":"https://www.index.hr/sport/clanak/stoper-veteran-je-postavio-skupo-placene-psgove-zvijezde-gdje-im-je-mjesto/2563254.aspx","position":31},{"@type":"ListItem","name":"Rijeka (ni)je zaslužila više","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d09b3ca5-d137-4c40-9f16-5bcd778add74.jpg","url":"https://www.index.hr/sport/clanak/rijeka-nije-zasluzila-vise/2562615.aspx","position":32},{"@type":"ListItem","name":"Imao je brojke kao Messi, a onda ga je United uništio. Sada je ponovo oživio","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5daf8084-1a83-46f3-bee4-ab75293d9055.jpg","url":"https://www.index.hr/sport/clanak/imao-je-brojke-kao-messi-a-onda-ga-je-united-unistio-sada-je-ponovo-ozivio/2561541.aspx","position":33},{"@type":"ListItem","name":"Katastrofa igrača od 50 milijuna eura","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b09b5997-95a7-4e0a-a1ba-f8a9c209ef57.jpg","url":"https://www.index.hr/sport/clanak/katastrofa-igraca-od-50-milijuna-eura/2561133.aspx","position":34},{"@type":"ListItem","name":"Tko zaista upravlja Hajdukom?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/95c99e52-4a25-46d7-8131-c48179302887.jpg","url":"https://www.index.hr/sport/clanak/tko-zaista-upravlja-hajdukom/2560055.aspx","position":35},{"@type":"ListItem","name":"Povratak Marka Pjace","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5b840a9a-986f-4bb5-9ee1-84fa4453f457.jpg","url":"https://www.index.hr/sport/clanak/povratak-marka-pjace/2559675.aspx","position":36},{"@type":"ListItem","name":"Kako je igrač od 85 milijuna eura pokvario Kloppov oproštaj od Liverpoola","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/93a183ff-8dfb-4e83-8335-e6b9b0f40a81.jpg","url":"https://www.index.hr/sport/clanak/kako-je-igrac-od-85-milijuna-eura-pokvario-kloppov-oprostaj-od-liverpoola/2559462.aspx","position":37},{"@type":"ListItem","name":"Jedan potez genija pogurao je Real prema polufinalu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4bedd663-f360-4740-b316-063bf07e5327.jpg","url":"https://www.index.hr/sport/clanak/jedan-potez-genija-pogurao-je-real-prema-polufinalu/2557411.aspx","position":38},{"@type":"ListItem","name":"Kako je Barcelona katarskom novcu poklonila posljednju priliku?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ddeefd56-3ca6-4d62-8073-c6d26be8ec2b.jpg","url":"https://www.index.hr/sport/clanak/kako-je-barcelona-katarskom-novcu-poklonila-posljednju-priliku/2557067.aspx","position":39},{"@type":"ListItem","name":"Ismijavali su ga zbog formacije 2-7-2. Sad je korak do senzacije i Lige prvaka","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/e7525a1b-e29e-469d-b4f2-9e05afdfbfb2.jpg","url":"https://www.index.hr/sport/clanak/ismijavali-su-ga-zbog-formacije-272-sad-je-korak-do-senzacije-i-lige-prvaka/2556551.aspx","position":40},{"@type":"ListItem","name":"Najbolja obrana SHNL-a","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/bc13c7cb-ffd5-4ede-ab3c-5ae2fc857b36.jpg","url":"https://www.index.hr/sport/clanak/najbolja-obrana-shnla/2556545.aspx","position":41},{"@type":"ListItem","name":"Hajduk je već prežaljen","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/bab48bb5-b19f-46b9-aa6b-2e72f6633c09.jpg","url":"https://www.index.hr/sport/clanak/hajduk-je-vec-prezaljen/2556362.aspx","position":42},{"@type":"ListItem","name":"Otkrivamo što se događalo u pozadini Nikoličiusovog odlaska iz Hajduka","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2ae5fbef-c68a-46b0-9ef4-7227e1ce37bd.jpg","url":"https://www.index.hr/sport/clanak/otkrivamo-sto-se-dogadjalo-u-pozadini-nikoliciusovog-odlaska-iz-hajduka/2555508.aspx","position":43},{"@type":"ListItem","name":"Otišao je populist koji je htio uspješni, a ne kmečavi Hajduk","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/64b1c2ec-12ec-4cd4-8a23-9d3cf4f6951a.jpg","url":"https://www.index.hr/sport/clanak/otisao-je-populist-koji-je-htio-uspjesni-a-ne-kmecavi-hajduk/2554998.aspx","position":44},{"@type":"ListItem","name":"Hajduk se nikad nije našao u sličnoj situaciji, Nadzorni odbor je izdao članove","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/51641195-83a2-4282-88b4-1be172b93448.jpg","url":"https://www.index.hr/sport/clanak/hajduk-se-nikad-nije-nasao-u-slicnoj-situaciji-nadzorni-odbor-je-izdao-clanove/2554827.aspx","position":45},{"@type":"ListItem","name":"Arteta je Arsenal pretvorio u obrambeni beton. Evo kako je to uspio","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/16e491bb-2817-4e5c-a088-0650fa548b0f.jpg","url":"https://www.index.hr/sport/clanak/arteta-je-arsenal-pretvorio-u-obrambeni-beton-evo-kako-je-to-uspio/2554778.aspx","position":46},{"@type":"ListItem","name":"Ozbiljan klub ne donosi odluke ovako kako je to napravio Hajduk","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/af2aa892-bf64-46cf-97db-8dac035c26e2.jpg","url":"https://www.index.hr/sport/clanak/ozbiljan-klub-ne-donosi-odluke-ovako-kako-je-to-napravio-hajduk/2554552.aspx","position":47},{"@type":"ListItem","name":"Klasični hrvatski derbi","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d9955b50-6d3a-4b6e-9c71-5b71e63e5069.jpg","url":"https://www.index.hr/sport/clanak/klasicni-hrvatski-derbi/2554425.aspx","position":48},{"@type":"ListItem","name":"Pripremali su se za ispadanje. Sad igraju jednu od najluđih sezona modernog nogometa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ed48f1e7-4358-4741-a39d-9c0b1e6d625a.jpg","url":"https://www.index.hr/sport/clanak/pripremali-su-se-za-ispadanje-sad-igraju-jednu-od-najludjih-sezona-modernog-nogometa/2553602.aspx","position":49},{"@type":"ListItem","name":"Hajduk je samo luda sreća spasila od velikog debakla","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/6a285263-4d39-4808-a095-50c0cbf21d7e.jpg","url":"https://www.index.hr/sport/clanak/hajduk-je-samo-luda-sreca-spasila-od-velikog-debakla/2553401.aspx","position":50},{"@type":"ListItem","name":"Zadnja utakmica najbolje pokazuje koliko je Rijeka moćnija nego prije dvije godine","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4f44698f-2b3d-4e8b-b719-a05691a8b699.jpg","url":"https://www.index.hr/sport/clanak/zadnja-utakmica-najbolje-pokazuje-koliko-je-rijeka-mocnija-nego-prije-dvije-godine/2552446.aspx","position":51},{"@type":"ListItem","name":"Na Poljudu smo gledali dvije ekipe koje ne igraju nogomet. Onda se pojavio majstor","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/371870f2-2e63-4fd9-b43e-b89a29de09df.jpg","url":"https://www.index.hr/sport/clanak/na-poljudu-smo-gledali-dvije-ekipe-koje-ne-igraju-nogomet-onda-se-pojavio-majstor/2552402.aspx","position":52},{"@type":"ListItem","name":"Hajduk ne požuruje Perišića, a Dalić je ispao licemjeran","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f7a43467-3319-4444-abdd-a6a58ecadb49.jpg","url":"https://www.index.hr/sport/clanak/hajduk-ne-pozuruje-perisica-a-dalic-je-ispao-licemjeran/2551955.aspx","position":53},{"@type":"ListItem","name":"Ova rečenica je najveća pogreška u mandatu Lukše Jakobušića","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/3f5713b1-9ed5-4e76-a0c2-10a73d805a5b.jpg","url":"https://www.index.hr/sport/clanak/ova-recenica-je-najveca-pogreska-u-mandatu-lukse-jakobusica/2551019.aspx","position":54},{"@type":"ListItem","name":"Reprezentacija se pretvorila u putujući cirkus. Vrijeme je da se vrati u Hrvatsku","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/a68f2d84-3c85-4008-8b3c-ff85111da6fb.jpg","url":"https://www.index.hr/sport/clanak/reprezentacija-se-pretvorila-u-putujuci-cirkus-vrijeme-je-da-se-vrati-u-hrvatsku/2550118.aspx","position":55},{"@type":"ListItem","name":"Barca je bila razorena. Onda su je spasili školarci","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/9ffcea25-90d3-416b-861b-c984f5f4820a.jpg","url":"https://www.index.hr/sport/clanak/barca-je-bila-razorena-onda-su-je-spasili-skolarci/2548575.aspx","position":56},{"@type":"ListItem","name":"Jakobušić i Nikoličius četiri godine traže trenera. Ako ga dosad nisu našli, ni neće","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/765a4588-b6f0-47fb-a2b9-11d9029ac13a.jpg","url":"https://www.index.hr/sport/clanak/jakobusic-i-nikolicius-cetiri-godine-traze-trenera-ako-ga-dosad-nisu-nasli-ni-nece/2548345.aspx","position":57},{"@type":"ListItem","name":"Nema nazad za Hajduk. Samo je jedan izlaz iz ove situacije","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/55ff5694-377d-4a4d-950d-7d185dd5c734.jpg","url":"https://www.index.hr/sport/clanak/nema-nazad-za-hajduk-samo-je-jedan-izlaz-iz-ove-situacije/2548003.aspx","position":58},{"@type":"ListItem","name":"Rijeka leti na domaći pogon","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/970e159f-f12f-4f77-898d-8759ae8b9460.jpg","url":"https://www.index.hr/sport/clanak/rijeka-leti-na-domaci-pogon/2546276.aspx","position":59},{"@type":"ListItem","name":"Kako je šačica huligana spasila Dinamo","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f121a2ac-a768-4468-8e78-e90d328383b0.jpg","url":"https://www.index.hr/sport/clanak/kako-je-sacica-huligana-spasila-dinamo/2546123.aspx","position":60}]}
+    </script>
+
+</head>
+<body>
+    <script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '216060115209819',
+            xfbml: true,
+            version: 'v19.0'
+        });
+    };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/hr_HR/sdk.js"></script>
+    <!--OpenX-->
+<iframe src="//u.openx.net/w/1.0/pd?ph=&cb=28093ded-f693-43ad-9b41-c205ad437caa&gdpr=1&gdpr_consent=2" style="display:none;width:0;height:0;border:0; border:none;"></iframe>
+
+        
+
+
+
+
+    <div class="main-container no-padding main-content-bg">
+            
+
+
+<!-- /21703950087/DB1_hr -->
+<div id='DB1_hr' class="js-slot-container" data-css-class="google-box bottom-margin-40">
+    <script>
+        googletag.cmd.push(function () {
+            var db1Slot = googletag.defineSlot('/21703950087/DB1_hr_Sport', [[970, 250], [970, 500], [1140, 250], [1140, 500], [1140, 415], [1, 1]], 'DB1_hr').addService(googletag.pubads());
+
+
+            googletag.display('DB1_hr');
+        });
+    </script>
+</div>
+
+    </div>
+
+    
+
+
+<header class="main-menu-container">
+    <div class="float-menu no-height" style="" menu-fix-top>
+        <div class="main-container no-height clearfix">
+            <div class="main-menu no-height">
+                    <h1 class="js-logo logo sport-gradient-bg">
+                        <img class="main" src="/Content/img/logo/index_sport.svg" alt="index.hr" />
+                        <img class="small" src="/Content/img/logo/paprika_logo.svg" alt="index.hr" />
+                        <a class="homepage-link" href="/" title="index.hr"> </a>
+                    </h1>
+                <nav class="menu-holder clearfix">
+                    <ul>
+                        <li class="menu-naslovnica">
+                            <a class="main-text-hover no-drop" href="/"> Naslovnica</a>
+                        </li>
+
+                        <li>
+                            <a class="vijesti-text-hover" href="/vijesti">
+                                Vijesti
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sport-text-hover" href="/sport">
+                                Sport
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable magazin-text-hover">Magazin</span>
+                            <ul class="dropdown-content display-none">
+                                <li class="magazin-bg-hover">
+                                    <a href="/magazin">
+                                        Magazin
+                                    </a>
+                                </li>
+                                <li class="shopping-bg-gradient-hover">
+                                    <a href="/shopping">
+                                        Shopping
+                                    </a>
+                                </li>
+                                <li class="ljubimci-bg-hover">
+                                    <a href="/ljubimci">
+                                        Ljubimci
+                                    </a>
+                                </li>
+                                <li class="food-bg-hover">
+                                    <a href="/food">
+                                        Food
+                                    </a>
+                                </li>
+                                <li class="mame-bg-hover">
+                                    <a href="/mame">
+                                        Mame
+                                    </a>
+                                </li>
+                                <li class="auto-bg-hover">
+                                    <a href="/auto">
+                                        Auto
+                                    </a>
+                                </li>
+                                <li class="fit-bg-hover">
+                                    <a href="/fit">
+                                        Fit
+                                    </a>
+                                </li>
+                                <li class="chill-bg-hover">
+                                    <a href="/chill">
+                                        Chill
+                                    </a>
+                                </li>
+                                <li class="horoskop-bg-hover">
+                                    <a href="/horoskop">
+                                        Horoskop
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="oglasi-text-hover" href="https://www.index.hr/oglasi">
+                                Oglasi
+                            </a>
+                        </li>
+                        <li>
+                            <a class="recepti-text-hover" href="https://recepti.index.hr">
+                                Recepti
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable">Ostalo</span>
+                            <ul class="dropdown-content ostalo display-none">
+                                <li class="main-bg-hover">
+                                    <a href="https://jobs.index.hr/">
+                                        Zaposli se na Indexu
+                                    </a>
+                                </li>
+                                <li class="lajkhr-bg-hover">
+                                    <a href="http://www.index.hr/lajk/">
+                                        Lajk.hr
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tecaj">
+                                        Tečaj
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tv">
+                                        TV program
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/kino">
+                                        Kino
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/vrijeme">
+                                        Vrijeme
+                                    </a>
+                                </li>
+                                <li class="kalendar-bg-hover">
+                                    <a href="/kalendar">
+                                        Kalendar
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="right-part">
+                        <li id="login-menu" class="menu-drop">
+                            <div id="menu-login"
+     v-scope
+     v-cloak
+     @mounted="onLoad">
+    <div v-if="userInfo !== null && userInfo.IsLoggedIn === true">
+        <div class="user-menu expandable no-padding">
+            <div v-if="userInfo.ProfileImage === null" class="initials-holder separator center-aligner">
+                <div class="initials center-aligner">
+                    {{userInfo.Initials}}
+                </div>
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+
+            <div v-if="userInfo.ProfileImage !== null" class="avatar separator center-aligner">
+                <img :src="'https://ip.index.hr/remote/bucket.index.hr/b/index/' + userInfo.ProfileImage + '?width=20&height=20&mode=crop'" />
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+        </div>
+        <ul class="dropdown-content display-none">
+            <li class="main-bg-hover">
+                <a href="/profil">Moj profil</a>
+            </li>
+            <li class="main-bg-hover">
+                <a @click="logout">Odjavite se</a>
+            </li>
+        </ul>
+    </div>
+
+    <div v-if="userInfo === null || userInfo.IsLoggedIn === false" @click="login" class="user-menu no-padding">
+        <div class="login-btn separator">
+            <i class="index-user-alt"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+    PetiteVue.createApp({
+        userInfo: {},
+        onLoad() {
+            var self = this;
+
+            var userInfoCookie = accountService.GetUserInfo();
+
+            if (userInfoCookie != null) {
+                self.userInfo = accountService.GetUserInfo();
+            }
+            else {
+                $.post('/create-user-cookie', function (response) {
+                    self.userInfo = accountService.GetUserInfo();
+                });
+            }
+        },
+        login() {
+            globalDirectives.ShowLoginPopup()
+        },
+        logout() {
+            accountService.Logout('/profil/odjava')
+        }
+    }).mount("#menu-login");
+</script>
+
+                        </li>
+                        <li>
+                            <a href="/trazi.aspx" class="menu-icon btn-open-search"><i class="index-magnifier"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+        
+
+
+    <div class="sub-menu-container main-container">
+        <div class="sub-menu-holder scroll-menu-arrows-holder" data-animate-width="200">
+            <ul class="sub-menu scroll-menu clearfix">
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport">Sport</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najnovije?kategorija=150">Najnovije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najcitanije?kategorija=150">Naj&#x10D;itanije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/nogomet/1638.aspx">Nogomet</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/transferi/1650.aspx">Transferi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/kosarka/1639.aspx">Ko&#x161;arka</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/tenis/1640.aspx">Tenis</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/regija/1692.aspx">Regija</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom active">
+                        <a class="" href="/sport/rubrika/komentari/1738.aspx">Komentari</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/borilacki-sportovi/1662.aspx">Borila&#x10D;ki sportovi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/ostali-sportovi/1641.aspx">Ostali sportovi</a>
+                    </li>
+            </ul>
+            <div class="scroll-menu-arrows display-none">
+                <div class="navigation-arrow left-arrow disabled sport-text-hover"><i class="index-arrow-left"></i></div>
+                <div class="navigation-arrow right-arrow disabled sport-text-hover"><i class="index-arrow-right"></i></div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+
+    
+
+
+
+
+
+
+    <!-- /21703950087/D_OUP -->
+<div id="D_OUP">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_ALL', 'D_OUP').addService(googletag.pubads());
+
+            googletag.display('D_OUP');
+        });
+    </script>
+</div>
+    <!-- /21703950087/D_OUP_wallpaper -->
+<div id="D_OUP_wallpaper">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_wallpaper', 'D_OUP_wallpaper').addService(googletag.pubads());
+
+            googletag.display('D_OUP_wallpaper');
+        });
+    </script>
+</div>
+
+
+
+
+<div class="js-slot-container" data-has-close-btn="true">
+    <div class="js-slot-close-btn dfp-close-btn dfp-close-btn-fixed display-none">
+        <div class="close-btn-creative">
+            <i class="index-close"></i>
+        </div>
+    </div>
+
+    <!-- /21703950087/D_sticky -->
+    <div id='D_sticky' class="js-slot-holder" data-css-class="google-box bottom-sticky">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.defineSlot('/21703950087/D_sticky_all', [[1200, 150], [728, 90], [970, 250], [970, 90], [1, 1]], 'D_sticky').addService(googletag.pubads());
+
+                googletag.display('D_sticky');
+            });
+        </script>
+    </div>
+</div>
+
+
+
+<div class="category-holder">
+    <div class="category-content-holder main-container main-content-bg">
+
+        
+
+
+        <div class="flex">
+            <div class="left-part">
+                    
+
+    <div class="first-news-holder vertical">
+        <a class="sport-text-hover scale-img-hover" href="/sport/clanak/gol-je-pao-iz-greske-baturine-da-je-ispucao-ne-bi-se-sigura-nista-pitalo/2620377.aspx">
+            <div class="img-holder">
+                <img class="main-img" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8b087082-9410-443a-8f39-a0fc42136471.jpg?width=854&height=443&mode=crop&anchor=topcenter&scale=both" alt="Gol je pao iz gre&#x161;ke Baturine. Da je ispucao, ne bi se Sigura ni&#x161;ta pitalo" />
+            </div>
+            <div class="content-holder">
+                <h2 class="title">Gol je pao iz greške Baturine. Da je ispucao, ne bi se Sigura ništa pitalo</h2>
+                <p class="summary">POBJEDU Hajduka nad Dinamom u 15. kolu SHNL-a komentirao je Kre&#x161;imir Re&#x17E;i&#x107;.</p>
+                <div class="publish-date">1.12.2024.</div>
+            </div>
+        </a>
+    </div>
+
+
+                <div class="other-news">
+                    <div class="animate-box">
+                        <div class="items-container">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/najveci-klub-svijeta-postao-je-i-najlosiji-gubitnik/2611077.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Najve&#x107;i klub svijeta postao je i najlo&#x161;iji gubitnik" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/c91a9164-7766-478b-8877-8e2d4adf1bed.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Najveći klub svijeta postao je i najlošiji gubitnik</h3>
+                    <span class="summary">REAL MADRID je svoj unutarnji nemir pretvorio u borbu protiv svih ostalih. Takvo pona&#x161;anje ne pristaje najve&#x107;em nogometnom brendu na svijetu.</span>
+                    <div class="publish-date">31.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/united-na-klupi-vise-nema-trenera-nego-cirkusanta/2609871.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="United na klupi vi&#x161;e nema trenera, nego cirkusanta" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/a30e7c7a-4131-47a5-8ddb-53e672e63afa.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">United na klupi više nema trenera, nego cirkusanta</h3>
+                    <span class="summary">PROGLA&#x160;AVA se genijem i uspore&#x111;uje s Guardiolom, no potezi mu s nogometom nemaju veze. Erik Ten Hag je potpuno poludio.</span>
+                    <div class="publish-date">27.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nije-prirodno-to-sto-gvardiol-radi/2608574.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nije prirodno to &#x161;to Gvardiol radi" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/20bd806c-c335-4053-817c-7c979d3cde58.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nije prirodno to što Gvardiol radi</h3>
+                    <span class="summary">GVARDIOL je bio najbolji igra&#x10D; Cityja ovog kola te je potvrdio da ovo &#x161;to on radi ne mo&#x17E;e napraviti nijedan drugi brani&#x10D; svijeta.</span>
+                    <div class="publish-date">21.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/najbolja-zamjena-na-svijetu/2600790.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Najbolja zamjena na svijetu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/9b87309f-667f-493e-967b-676bc9d6d3c6.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Najbolja zamjena na svijetu</h3>
+                    <span class="summary">JHON DURAN je prije nekoliko godina igrao nogomet na ulicama Medellina. Sada zabija &#x10D;e&#x161;&#x107;e nego Haaland.</span>
+                    <div class="publish-date">25.9.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dinamo-je-zaboravio-nepisano-nogometno-pravilo-jakirovic-je-zbog-toga-nastradao/2599875.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dinamo je zaboravio nepisano nogometno pravilo. Jakirovi&#x107; je zbog toga nastradao" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/018c5231-fb37-40fe-9817-1479df99a3d7.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dinamo je zaboravio nepisano nogometno pravilo. Jakirović je zbog toga nastradao</h3>
+                    <span class="summary">AKO SE REZULTAT spominje kao onaj koji je klju&#x10D;an za opstanak trenera, tu bi Jakirovi&#x107; doista morao imati ogroman kredit.</span>
+                    <div class="publish-date">20.9.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/lokalni-kockar-osmislio-algoritam-i-od-maloga-kluba-stvorio-kandidata-za-trofeje/2599892.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Lokalni kockar osmislio algoritam i od maloga kluba stvorio kandidata za trofeje" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8b248d99-e19a-4da9-a0d6-e60bd64a7a39.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Lokalni kockar osmislio algoritam i od maloga kluba stvorio kandidata za trofeje</h3>
+                    <span class="summary">BRIGHTON je ljetos bio drugi najve&#x107;i potro&#x161;a&#x10D; na tr&#x17E;i&#x161;tu, a na klupu su doveli najmla&#x111;eg trenera ikada. Vjeruju da mogu postati sila Premier lige.</span>
+                    <div class="publish-date">20.9.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-0');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-0');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/je-li-mbappe-promijenio-real/2599611.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Je li Mbappe promijenio Real?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/151c1b0e-09f7-4076-9bfe-021247f3b88c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Je li Mbappe promijenio Real?</h3>
+                    <span class="summary">MBAPPE je u zadnjih pet utakmica za Real zabio tek dva gola iz igre. To je minoran problem naspram drugih koje klub ima.</span>
+                    <div class="publish-date">19.9.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/modricev-potez-otkljucao-je-kovacica-to-je-najveci-dobitak-hrvatske/2596911.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Modri&#x107;ev potez otklju&#x10D;ao je Kova&#x10D;i&#x107;a. To je najve&#x107;i dobitak Hrvatske" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/15d6d9b1-0900-418a-b98d-6fef7804b925.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Modrićev potez otključao je Kovačića. To je najveći dobitak Hrvatske</h3>
+                    <span class="summary">MATEO KOVA&#x10C;I&#x106; ve&#x107; neko vrijeme igra bolje za reprezentaciju, ali ovaj ciklus dao mu je mnogo prikladniju ulogu.</span>
+                    <div class="publish-date">9.9.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/rijeka-sada-vuce-potez-van-svake-logike/2595473.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Rijeka sada vu&#x10D;e potez van svake logike" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5243508a-3938-45b3-b1ce-40adc4f50c9e.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Rijeka sada vuče potez van svake logike</h3>
+                    <span class="summary">RIJEKA je tek sada po&#x10D;ela raditi na pro&#x161;irivanju igra&#x10D;kog kadra.</span>
+                    <div class="publish-date">4.9.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/rijeka-ima-sansu-potpuno-preokrenuti-cijelu-sezonu/2593633.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Rijeka ima &#x161;ansu potpuno preokrenuti cijelu sezonu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/1305250b-9fbe-4b1d-ab16-35f5804af488.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Rijeka ima šansu potpuno preokrenuti cijelu sezonu</h3>
+                    <span class="summary">RIJEKA je pobijedila Osijek i tako uspje&#x161;no zakora&#x10D;ila u klju&#x10D;ni tjedan za klub.</span>
+                    <div class="publish-date">27.8.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sto-je-arne-slot-donio-u-liverpool-i-u-cemu-je-najveci-problem/2591269.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x160;to je Arne Slot donio u Liverpool i u &#x10D;emu je najve&#x107;i problem?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2e258409-44d0-4ac5-be62-cfdb2c6531d2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Što je Arne Slot donio u Liverpool i u čemu je najveći problem?</h3>
+                    <span class="summary">LIVERPOOL je u prvoj utakmici protiv Ipswicha pokazao &#x161;to od njega &#x17E;eli Arne Slot. No za borbu za trofeje trebat &#x107;e mu i potezi uprave.</span>
+                    <div class="publish-date">20.8.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sto-izvodi-chelsea/2590382.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x160;to izvodi Chelsea?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/06516ca3-7d11-483f-a49c-b3786c3544f0.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Što izvodi Chelsea?</h3>
+                    <span class="summary">CHELSEA je opet tro&#x161;io vi&#x161;e od ikoga. To &#x107;e mu prije donijeti novu blama&#x17E;u negoli uspjeh.</span>
+                    <div class="publish-date">15.8.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-1');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-1');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/rijeka-je-na-krivom-putu/2590376.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Rijeka je na krivom putu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b8a085d6-9a6d-4e91-8cc6-4332c5fa5244.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Rijeka je na krivom putu</h3>
+                    <span class="summary">RIJEKA je u utorak &#x161;okirala javnost objaviv&#x161;i kako &#x17D;eljko Sopi&#x107; vi&#x161;e nije glavni trener kluba.</span>
+                    <div class="publish-date">14.8.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hajduk-je-amateru-dao-da-se-igra-sportskog-direktora-dobio-je-kaos-prije-gospe/2590317.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hajduk je amateru dao da se igra sportskog direktora. Dobio je kaos prije Gospe" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4ca1b556-ee9b-4510-a192-2201051b2755.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hajduk je amateru dao da se igra sportskog direktora. Dobio je kaos prije Gospe</h3>
+                    <span class="summary">SVE &#x160;TO se sada doga&#x111;a u Hajduku posljedica je katastrofalne odluke iz svibnja.</span>
+                    <div class="publish-date">13.8.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hajduk-rijeka-i-osijek-u-europi-su-antireklama-za-hrvatski-nogomet/2589265.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hajduk, Rijeka i Osijek u Europi su antireklama za hrvatski nogomet" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/20cbdf3f-cb4b-4340-8cd0-006168a46a18.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hajduk, Rijeka i Osijek u Europi su antireklama za hrvatski nogomet</h3>
+                    <span class="summary">HAJDUK izgleda zabrinjavaju&#x107;e, Osijek &#x107;e te&#x161;ko bez Miereza, a Rijeka je jalova.</span>
+                    <div class="publish-date">9.8.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrt-zivi-u-proslosti-to-se-jasno-vidi-prema-tome-kako-prenosi-olimpijske-igre/2588827.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="HRT &#x17E;ivi u pro&#x161;losti. To se jasno vidi prema tome kako prenosi Olimpijske igre" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/52897a2d-e34f-498f-88fe-d8947c9463e4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">HRT živi u prošlosti. To se jasno vidi prema tome kako prenosi Olimpijske igre</h3>
+                    <span class="summary">&#x160;TO SMO tijekom Olimpijskih igara mogli vidjeti na HRT-u?</span>
+                    <div class="publish-date">8.8.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/kraljica-je-dobila-novog-kralja/2588696.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Kraljica je dobila novog kralja" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/fc8f2bdf-97d8-49cc-9929-0f1df1f96e0a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Kraljica je dobila novog kralja</h3>
+                    <span class="summary">POSLJEDNJI koji je radio ovakvu promid&#x17E;bu za atletiku bio je Usain Bolt.</span>
+                    <div class="publish-date">7.8.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/koja-rijeka-je-prava-rijeka/2588170.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Koja Rijeka je prava Rijeka?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/096cf4ab-c9fb-4218-ae64-18e5851592f6.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Koja Rijeka je prava Rijeka?</h3>
+                    <span class="summary">RIJEKA je visokom pobjedom nad Lokomotivom uspje&#x161;no otvorila liga&#x161;ku sezonu.</span>
+                    <div class="publish-date">5.8.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-2');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-2');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/prosle-sezone-je-bio-rezerva-protiv-rijeke-a-sada-je-unitedov-as-od-60-milijuna-eura/2584711.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pro&#x161;le sezone je bio rezerva protiv Rijeke, a sada je Unitedov as od 60 milijuna eura" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4682d6d3-acfe-4835-a84c-2e95dfbabef2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Prošle sezone je bio rezerva protiv Rijeke, a sada je Unitedov as od 60 milijuna eura</h3>
+                    <span class="summary">MANCHESTER UNITED je platio 62 milijuna eura Lenyja Yora, osamnaestogodi&#x161;njeg stopera koji je odigrao tek jednu ozbiljnu sezonu. &#x160;to im on donosi?</span>
+                    <div class="publish-date">23.7.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nikada-zasluzeniji-prvak/2582639.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nikada zaslu&#x17E;eniji prvak" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/326ba6b4-abc3-47b3-97d8-00975480f185.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nikada zasluženiji prvak</h3>
+                    <span class="summary">MLADOST i sustav u kojem nema zvijezda &#x160;panjolskoj su donijeli najzaslu&#x17E;eniji naslov prvaka ikada.</span>
+                    <div class="publish-date">15.7.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/obojica-su-nametnula-paklen-ritam-ali-velika-je-razlika-izmedju-leke-i-gattusa/2580240.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Obojica su nametnula paklen ritam, ali velika je razlika izme&#x111;u Leke i Gattusa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0a29a719-2ee6-437e-b18d-6c86ef801e8d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Obojica su nametnula paklen ritam, ali velika je razlika između Leke i Gattusa</h3>
+                    <span class="summary">TALIJAN je uveo nove metode rada u Hajduk.</span>
+                    <div class="publish-date">7.7.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/tko-nije-vidio-duarteovu-loptu-kako-prolazi-kroz-obruc/2580169.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Tko nije vidio Duarteovu loptu kako prolazi kroz obru&#x10D;?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/dbd15a13-6e2c-4f77-9232-d2292304ec17.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Tko nije vidio Duarteovu loptu kako prolazi kroz obruč?</h3>
+                    <span class="summary">&#x17D;IVCIRANJE je vje&#x10D;na sudbina svih koji desetlje&#x107;ima gledaju hrvatsku ko&#x161;arka&#x161;ku reprezentaciju, ali ovaj put zavr&#x161;etak je bio nekako druk&#x10D;iji.</span>
+                    <div class="publish-date">7.7.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/kao-nekad-protiv-senegala-ili-nigerije-ali-nema-razloga-za-dramu/2579353.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Kao nekad protiv Senegala ili Nigerije. Ali nema razloga za dramu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/3280571b-3442-4cf9-b537-484354859859.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Kao nekad protiv Senegala ili Nigerije. Ali nema razloga za dramu</h3>
+                    <span class="summary">HRVATSKA je do&#x17E;ivjela poraz od Novog Zelanda, ali bez zna&#x10D;ajnih posljedica i ozbiljnih razloga za zabrinutost.</span>
+                    <div class="publish-date">4.7.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatska-se-vraca-jer-ima-ono-sto-nije-imala-desetljecima/2579068.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatska se vra&#x107;a jer ima ono &#x161;to nije imala desetlje&#x107;ima" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/eeef3729-0671-4672-9210-f64bcddd1a37.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatska se vraća jer ima ono što nije imala desetljećima</h3>
+                    <span class="summary">HRVATSKA je razbila Sloveniju u Pireju 108:92 i napravila velik korak, ne samo prema Olimpijskim igrama u Parizu nego i relevantnosti i respektabilnosti. Ko&#x161;arka nam napokon ima smisla.</span>
+                    <div class="publish-date">3.7.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-3');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-3');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jedna-od-najcudesnijih-reprezentacija-eura-gradila-se-15-godina/2578401.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jedna od naj&#x10D;udesnijih reprezentacija Eura gradila se 15 godina" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2df71d45-bb59-48b6-80bb-012e1bdddfb3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jedna od najčudesnijih reprezentacija Eura gradila se 15 godina</h3>
+                    <span class="summary">GRUZIJA je protiv &#x160;panjolske upisala te&#x17E;ak poraz, no njihova borba na ovom Euru &#x107;e ostati zauvijek zapam&#x107;ena.</span>
+                    <div class="publish-date">1.7.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ismijavali-su-ga-a-na-euru-igra-nogomet-kakav-ne-vidjamo-na-reprezentativnoj-razini/2577049.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ismijavali su ga, a na Euru igra nogomet kakav ne vi&#x111;amo na reprezentativnoj razini" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d1b5b229-d610-4cb0-9ec3-eedd4c2d4d6e.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ismijavali su ga, a na Euru igra nogomet kakav ne viđamo na reprezentativnoj razini</h3>
+                    <span class="summary">AUSTRIJA je prije dvije godine u Ligi nacija ispala iz grupe u kojoj je Hrvatska bila prva. Zadr&#x17E;ali su isti stil igre i doveli ga do savr&#x161;enstva na Euru.</span>
+                    <div class="publish-date">26.6.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/novi-trener-lakersa-ucinio-je-isto-sto-i-aco-petrovic-svijet-kosarke-puno-je-izgubio/2576070.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Novi trener Lakersa u&#x10D;inio je isto &#x161;to i Aco Petrovi&#x107;. Svijet ko&#x161;arke puno je izgubio" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/225bd67b-0e5d-4ddd-ad12-704fe43c1587.png?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Novi trener Lakersa učinio je isto što i Aco Petrović. Svijet košarke puno je izgubio</h3>
+                    <span class="summary">JJ REDICK novi je trener LA Lakersa. Ko&#x161;arka&#x161;ki fanovi izgubili su puno, a pitanje je &#x161;to su Lakersi dobili.</span>
+                    <div class="publish-date">22.6.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/skupstina-je-pokazala-da-hajduk-srlja-u-novu-izgubljenu-sezonu/2571590.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Skup&#x161;tina je pokazala da Hajduk srlja u novu izgubljenu sezonu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/a54f7115-3cb4-40d2-bcbd-7d84657997f6.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Skupština je pokazala da Hajduk srlja u novu izgubljenu sezonu</h3>
+                    <span class="summary">ODR&#x17D;ANA je glavna skup&#x161;tina Hajduka.</span>
+                    <div class="publish-date">7.6.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/saudijci-zasad-spasavaju-hrgovica-jos-jedan-dva-poraza-i-preostaje-mu-samo-babic/2570089.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Saudijci zasad spa&#x161;avaju Hrgovi&#x107;a. Jo&#x161; jedan, dva poraza i preostaje mu samo Babi&#x107;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/02a11551-64b9-4491-8044-38328a64b43f.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Saudijci zasad spašavaju Hrgovića. Još jedan, dva poraza i preostaje mu samo Babić</h3>
+                    <span class="summary">FILIP HRGOVI&#x106; ima tri opcije: umiroviti se, ponovno se izgraditi ili okrenuti se Alenu Babi&#x107;u.</span>
+                    <div class="publish-date">2.6.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/rijeka-je-znala-kakav-je-sopic-dati-mu-otkaz-bio-bi-promasaj/2568537.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Rijeka je znala kakav je Sopi&#x107;. Dati mu otkaz bio bi proma&#x161;aj" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b77638c5-574b-44be-ae4a-0bcc35cf4503.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Rijeka je znala kakav je Sopić. Dati mu otkaz bio bi promašaj</h3>
+                    <span class="summary">RIJEKA je pobjedom nad Slaven Belupom isprala gorak okus negativnog niza i s pozitivnom notom zatvorila sezonu.</span>
+                    <div class="publish-date">27.5.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>
+                            <div class="read-more-news display-none">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/stoper-veteran-je-postavio-skupo-placene-psgove-zvijezde-gdje-im-je-mjesto/2563254.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Stoper veteran je postavio skupo pla&#x107;ene PSG-ove zvijezde gdje im je mjesto" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/1ed99b50-a1cc-499f-a678-69606aaeb049.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Stoper veteran je postavio skupo plaćene PSG-ove zvijezde gdje im je mjesto</h3>
+                    <span class="summary">BORUSSIA DORTMUND je na krilima veteranskog stopera zaustavila skupo pla&#x107;ene zvijezde.</span>
+                    <div class="publish-date">8.5.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/rijeka-nije-zasluzila-vise/2562615.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Rijeka (ni)je zaslu&#x17E;ila vi&#x161;e" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d09b3ca5-d137-4c40-9f16-5bcd778add74.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Rijeka (ni)je zaslužila više</h3>
+                    <span class="summary">RIJEKA je izgubila od Dinama na Rujevici i tako se vjerojatno oprostila od borbe za prvaka.</span>
+                    <div class="publish-date">6.5.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/imao-je-brojke-kao-messi-a-onda-ga-je-united-unistio-sada-je-ponovo-ozivio/2561541.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Imao je brojke kao Messi, a onda ga je United uni&#x161;tio. Sada je ponovo o&#x17E;ivio" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5daf8084-1a83-46f3-bee4-ab75293d9055.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Imao je brojke kao Messi, a onda ga je United uništio. Sada je ponovo oživio</h3>
+                    <span class="summary">JADON SANCHO je odu&#x161;evio u utakmici protiv PSG-a. Nakon kalvarije u Unitedu, s Dortmundom bi mogao napraviti &#x10D;udo.</span>
+                    <div class="publish-date">2.5.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/katastrofa-igraca-od-50-milijuna-eura/2561133.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Katastrofa igra&#x10D;a od 50 milijuna eura" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b09b5997-95a7-4e0a-a1ba-f8a9c209ef57.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Katastrofa igrača od 50 milijuna eura</h3>
+                    <span class="summary">BAYERN je u drugom poluvremenu takti&#x10D;ki sjajno odgovorio Realu, no po tko zna koji put Madri&#x111;ani su prona&#x161;li recept za dobar rezultat.</span>
+                    <div class="publish-date">1.5.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/tko-zaista-upravlja-hajdukom/2560055.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Tko zaista upravlja Hajdukom?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/95c99e52-4a25-46d7-8131-c48179302887.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Tko zaista upravlja Hajdukom?</h3>
+                    <span class="summary">HAJDUK ima novog predsjednika i razdoblje bezglavosti je brzo zavr&#x161;eno. Ili ipak nije?</span>
+                    <div class="publish-date">27.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/povratak-marka-pjace/2559675.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Povratak Marka Pjace" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5b840a9a-986f-4bb5-9ee1-84fa4453f457.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Povratak Marka Pjace</h3>
+                    <span class="summary">RIJEKA se kockala s Pjacom i pogodila. Dobila je najboljeg igra&#x10D;a lige.</span>
+                    <div class="publish-date">25.4.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-5');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-5');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/kako-je-igrac-od-85-milijuna-eura-pokvario-kloppov-oprostaj-od-liverpoola/2559462.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Kako je igra&#x10D; od 85 milijuna eura pokvario Kloppov opro&#x161;taj od Liverpoola" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/93a183ff-8dfb-4e83-8335-e6b9b0f40a81.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Kako je igrač od 85 milijuna eura pokvario Kloppov oproštaj od Liverpoola</h3>
+                    <span class="summary">PRIJE ne&#x161;to vi&#x161;e od mjesec dana je Liverpool sanjao &#x10D;etverostruku krunu. Dogodio im se kolaps koji &#x107;e ih ostaviti na jednom trofeju.</span>
+                    <div class="publish-date">25.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jedan-potez-genija-pogurao-je-real-prema-polufinalu/2557411.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jedan potez genija pogurao je Real prema polufinalu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4bedd663-f360-4740-b316-063bf07e5327.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jedan potez genija pogurao je Real prema polufinalu</h3>
+                    <span class="summary">MANCHESTER CITY je dominirao susretom, no u Ligi prvaka ni to nije garancija za izbacivanje Real Madrida.</span>
+                    <div class="publish-date">18.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/kako-je-barcelona-katarskom-novcu-poklonila-posljednju-priliku/2557067.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Kako je Barcelona katarskom novcu poklonila posljednju priliku?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ddeefd56-3ca6-4d62-8073-c6d26be8ec2b.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Kako je Barcelona katarskom novcu poklonila posljednju priliku?</h3>
+                    <span class="summary">BARCELONA je kontrolirala dvome&#x10D;, no ogromna gre&#x161;ka okrenula ga je naopako.</span>
+                    <div class="publish-date">17.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ismijavali-su-ga-zbog-formacije-272-sad-je-korak-do-senzacije-i-lige-prvaka/2556551.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ismijavali su ga zbog formacije 2-7-2. Sad je korak do senzacije i Lige prvaka" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/e7525a1b-e29e-469d-b4f2-9e05afdfbfb2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ismijavali su ga zbog formacije 2-7-2. Sad je korak do senzacije i Lige prvaka</h3>
+                    <span class="summary">BOLOGNA idu&#x107;e sezone ima &#x161;ansu igrati Ligu prvaka. U tu poziciju ih je doveo &#x10D;ovjek kojem su se svi pred koju godinu rugali.</span>
+                    <div class="publish-date">16.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/najbolja-obrana-shnla/2556545.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Najbolja obrana SHNL-a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/bc13c7cb-ffd5-4ede-ab3c-5ae2fc857b36.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Najbolja obrana SHNL-a</h3>
+                    <span class="summary">RIJEKA je slavila u regionalnom derbiju i zadr&#x17E;ala razmak nad Dinamom.</span>
+                    <div class="publish-date">15.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hajduk-je-vec-prezaljen/2556362.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hajduk je ve&#x107; pre&#x17E;aljen" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/bab48bb5-b19f-46b9-aa6b-2e72f6633c09.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hajduk je već prežaljen</h3>
+                    <span class="summary">NOVI poraz Hajduka na praznom Poljudu.</span>
+                    <div class="publish-date">15.4.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-6');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-6');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/otkrivamo-sto-se-dogadjalo-u-pozadini-nikoliciusovog-odlaska-iz-hajduka/2555508.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Otkrivamo &#x161;to se doga&#x111;alo u pozadini Nikoli&#x10D;iusovog odlaska iz Hajduka" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2ae5fbef-c68a-46b0-9ef4-7227e1ce37bd.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Otkrivamo što se događalo u pozadini Nikoličiusovog odlaska iz Hajduka</h3>
+                    <span class="summary">MINDAUGAS NIKOLI&#x10C;IUS odlazi s mjesta sportskog direktora Hajduka na kraju sezone.</span>
+                    <div class="publish-date">11.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/otisao-je-populist-koji-je-htio-uspjesni-a-ne-kmecavi-hajduk/2554998.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Oti&#x161;ao je populist koji je htio uspje&#x161;ni, a ne kme&#x10D;avi Hajduk" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/64b1c2ec-12ec-4cd4-8a23-9d3cf4f6951a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Otišao je populist koji je htio uspješni, a ne kmečavi Hajduk</h3>
+                    <span class="summary">OCIJENITI mandat biv&#x161;eg Hajdukovog predsjednika je gotovo nemogu&#x107;e.</span>
+                    <div class="publish-date">10.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hajduk-se-nikad-nije-nasao-u-slicnoj-situaciji-nadzorni-odbor-je-izdao-clanove/2554827.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hajduk se nikad nije na&#x161;ao u sli&#x10D;noj situaciji, Nadzorni odbor je izdao &#x10D;lanove" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/51641195-83a2-4282-88b4-1be172b93448.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hajduk se nikad nije našao u sličnoj situaciji, Nadzorni odbor je izdao članove</h3>
+                    <span class="summary">JOSIP PAVI&#x106; ne&#x107;e biti predsjednik Hajduka.</span>
+                    <div class="publish-date">9.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/arteta-je-arsenal-pretvorio-u-obrambeni-beton-evo-kako-je-to-uspio/2554778.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Arteta je Arsenal pretvorio u obrambeni beton. Evo kako je to uspio" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/16e491bb-2817-4e5c-a088-0650fa548b0f.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Arteta je Arsenal pretvorio u obrambeni beton. Evo kako je to uspio</h3>
+                    <span class="summary">&#x160;PANJOLAC je &#x17E;rtvovao neke stvari koje su godinama bile u temeljima Arsenala da bi danas imao ovako mo&#x107;an obrambeni stroj.</span>
+                    <div class="publish-date">9.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ozbiljan-klub-ne-donosi-odluke-ovako-kako-je-to-napravio-hajduk/2554552.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ozbiljan klub ne donosi odluke ovako kako je to napravio Hajduk" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/af2aa892-bf64-46cf-97db-8dac035c26e2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ozbiljan klub ne donosi odluke ovako kako je to napravio Hajduk</h3>
+                    <span class="summary">LUK&#x160;A JAKOBU&#x160;I&#x106; vi&#x161;e nije predsjednik Hajduka.</span>
+                    <div class="publish-date">8.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/klasicni-hrvatski-derbi/2554425.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Klasi&#x10D;ni hrvatski derbi" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d9955b50-6d3a-4b6e-9c71-5b71e63e5069.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Klasični hrvatski derbi</h3>
+                    <span class="summary">RIJEKA je u derbiju pobijedila Hajduk i nastavila pohod prema tituli.</span>
+                    <div class="publish-date">8.4.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-7');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-7');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/pripremali-su-se-za-ispadanje-sad-igraju-jednu-od-najludjih-sezona-modernog-nogometa/2553602.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pripremali su se za ispadanje. Sad igraju jednu od najlu&#x111;ih sezona modernog nogometa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ed48f1e7-4358-4741-a39d-9c0b1e6d625a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Pripremali su se za ispadanje. Sad igraju jednu od najluđih sezona modernog nogometa</h3>
+                    <span class="summary">BREST je po&#x10D;etkom ove sezone o&#x10D;ekivao da &#x107;e ispasti iz lige. Sada igraju jednu od najimpresivnijih sezona u moderno vrijeme.</span>
+                    <div class="publish-date">5.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hajduk-je-samo-luda-sreca-spasila-od-velikog-debakla/2553401.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hajduk je samo luda sre&#x107;a spasila od velikog debakla" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/6a285263-4d39-4808-a095-50c0cbf21d7e.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hajduk je samo luda sreća spasila od velikog debakla</h3>
+                    <span class="summary">DINAMO je u nekoliko dana ugasio Hajdukovu sezonu.</span>
+                    <div class="publish-date">4.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/zadnja-utakmica-najbolje-pokazuje-koliko-je-rijeka-mocnija-nego-prije-dvije-godine/2552446.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Zadnja utakmica najbolje pokazuje koliko je Rijeka mo&#x107;nija nego prije dvije godine" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4f44698f-2b3d-4e8b-b719-a05691a8b699.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Zadnja utakmica najbolje pokazuje koliko je Rijeka moćnija nego prije dvije godine</h3>
+                    <span class="summary">RIJEKA je bez problema svladala Rude&#x161;.</span>
+                    <div class="publish-date">1.4.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/na-poljudu-smo-gledali-dvije-ekipe-koje-ne-igraju-nogomet-onda-se-pojavio-majstor/2552402.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Na Poljudu smo gledali dvije ekipe koje ne igraju nogomet. Onda se pojavio majstor" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/371870f2-2e63-4fd9-b43e-b89a29de09df.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Na Poljudu smo gledali dvije ekipe koje ne igraju nogomet. Onda se pojavio majstor</h3>
+                    <span class="summary">DINAMO je do&#x161;ao na korak do toga da Hajduk potpuno izbaci iz utrke za naslov prvaka.</span>
+                    <div class="publish-date">31.3.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hajduk-ne-pozuruje-perisica-a-dalic-je-ispao-licemjeran/2551955.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hajduk ne po&#x17E;uruje Peri&#x161;i&#x107;a, a Dali&#x107; je ispao licemjeran" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f7a43467-3319-4444-abdd-a6a58ecadb49.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hajduk ne požuruje Perišića, a Dalić je ispao licemjeran</h3>
+                    <span class="summary">KOLIKO je blizu povratak Ivana Peri&#x161;i&#x107;a na teren?</span>
+                    <div class="publish-date">30.3.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ova-recenica-je-najveca-pogreska-u-mandatu-lukse-jakobusica/2551019.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ova re&#x10D;enica je najve&#x107;a pogre&#x161;ka u mandatu Luk&#x161;e Jakobu&#x161;i&#x107;a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/3f5713b1-9ed5-4e76-a0c2-10a73d805a5b.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ova rečenica je najveća pogreška u mandatu Lukše Jakobušića</h3>
+                    <span class="summary">HAJDUK je na prekretnici, a mandat uprave traje do kraja sezone.</span>
+                    <div class="publish-date">28.3.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-8');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-8');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/reprezentacija-se-pretvorila-u-putujuci-cirkus-vrijeme-je-da-se-vrati-u-hrvatsku/2550118.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Reprezentacija se pretvorila u putuju&#x107;i cirkus. Vrijeme je da se vrati u Hrvatsku" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/a68f2d84-3c85-4008-8b3c-ff85111da6fb.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Reprezentacija se pretvorila u putujući cirkus. Vrijeme je da se vrati u Hrvatsku</h3>
+                    <span class="summary">HRVATSKA je odigrala nebitnu utakmicu. Mora li to ba&#x161; biti tako?</span>
+                    <div class="publish-date">24.3.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/barca-je-bila-razorena-onda-su-je-spasili-skolarci/2548575.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Barca je bila razorena. Onda su je spasili &#x161;kolarci" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/9ffcea25-90d3-416b-861b-c984f5f4820a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Barca je bila razorena. Onda su je spasili školarci</h3>
+                    <span class="summary">BARCELONA ne igra dobru sezonu, ali dvoje tinejd&#x17E;era obe&#x107;avaju bolju budu&#x107;nost.</span>
+                    <div class="publish-date">19.3.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jakobusic-i-nikolicius-cetiri-godine-traze-trenera-ako-ga-dosad-nisu-nasli-ni-nece/2548345.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jakobu&#x161;i&#x107; i Nikoli&#x10D;ius &#x10D;etiri godine tra&#x17E;e trenera. Ako ga dosad nisu na&#x161;li, ni ne&#x107;e" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/765a4588-b6f0-47fb-a2b9-11d9029ac13a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jakobušić i Nikoličius četiri godine traže trenera. Ako ga dosad nisu našli, ni neće</h3>
+                    <span class="summary">NA POLJUDU nikad nema mira.</span>
+                    <div class="publish-date">18.3.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nema-nazad-za-hajduk-samo-je-jedan-izlaz-iz-ove-situacije/2548003.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nema nazad za Hajduk. Samo je jedan izlaz iz ove situacije" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/55ff5694-377d-4a4d-950d-7d185dd5c734.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nema nazad za Hajduk. Samo je jedan izlaz iz ove situacije</h3>
+                    <span class="summary">HAJDUK je do&#x17E;ivio te&#x17E;ak udarac u borbi za naslov prvaka.</span>
+                    <div class="publish-date">17.3.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/rijeka-leti-na-domaci-pogon/2546276.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Rijeka leti na doma&#x107;i pogon" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/970e159f-f12f-4f77-898d-8759ae8b9460.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Rijeka leti na domaći pogon</h3>
+                    <span class="summary">RIJEKA je protiv Osijeka opet dobila novog heroja.</span>
+                    <div class="publish-date">11.3.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/kako-je-sacica-huligana-spasila-dinamo/2546123.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Kako je &#x161;a&#x10D;ica huligana spasila Dinamo" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f121a2ac-a768-4468-8e78-e90d328383b0.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Kako je šačica huligana spasila Dinamo</h3>
+                    <span class="summary">POBJEDA Zajeca je pobjeda svih koji su htjeli &#x10D;astan Dinamo.</span>
+                    <div class="publish-date">10.3.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                            </div>
+
+                            <div class="btn-read-more" data-offset="0">
+                                <div class="read-more-text">PRIKAŽI JOŠ VIJESTI<i class="index-arrow-down sport-text"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part">
+                
+
+
+<!-- /21703950087/Box1 -->
+<div id='Box1' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box1_sport_hr', sizes, 'Box1').addService(googletag.pubads());
+
+            googletag.display('Box1');
+        });
+    </script>
+</div>
+
+
+                <div class="category-timeline-holder timeline-holder">
+                    <div class="header clearfix">
+                        <h2>Sport</h2>
+                        <div class="periods btn-group">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                danas <i class="index-arrow-down sport-text"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                    <li class="sport-bg-hover" data-value="today">Danas</li>
+                                    <li class="sport-bg-hover" data-value="yesterday">Ju&#x10D;er</li>
+                                    <li class="sport-bg-hover" data-value="week">Zadnjih 7 dana</li>
+                                    <li class="sport-bg-hover" data-value="month">Zadnjih 30 dana</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="most-read-holder">
+                        
+
+    <div class="timeline-content most-read">
+        <ul>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">1</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/bjelica-ga-je-izbacio-iz-momcadi-sada-se-oglasio-prvi-put-nakon-incidenta/2620746.aspx?index_ref=_sport_najcitanije_d">
+                            Bjelica ga je izbacio iz momčadi. Sada se oglasio prvi put nakon incidenta
+                        </a>
+                        <div class="line" style="width: 90%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">2</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/navijac-bernaueru-znas-koliko-mrzimo-hajduk-branic-dinama-odgovorio-znam/2620809.aspx?index_ref=_sport_najcitanije_d">
+                            Navijač Bernaueru: Znaš koliko mrzimo Hajduk? Branič Dinama odgovorio: Znam
+                        </a>
+                        <div class="line" style="width: 81%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">3</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/skaut-se-divi-hajdukovom-dragulju-ima-sut-kao-shaqiri-ali-je-bolji-igrac-od-njega/2620879.aspx?index_ref=_sport_najcitanije_d">
+                            Skaut se divi Hajdukovom dragulju: Ima šut kao Shaqiri, ali je bolji igrač od njega
+                        </a>
+                        <div class="line" style="width: 72%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">4</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ludnica-za-baturinom-sport-barcelona-ga-prati-mjesecima/2620772.aspx?index_ref=_sport_najcitanije_d">
+                            Ludnica za Baturinom. Sport: Barcelona ga prati mjesecima
+                        </a>
+                        <div class="line" style="width: 63%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">5</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/nogomet-sam-poceo-igrati-u-progonstvu-uz-modrica-sam-bio-u-najboljem-kadru-u-hnlu/2620281.aspx?index_ref=_sport_najcitanije_d">
+                            "Nogomet sam počeo igrati u progonstvu. Uz Modrića sam bio u najboljem kadru u HNL-u"
+                        </a>
+                        <div class="line" style="width: 54%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">6</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ivanisevicev-rival-o-igi-swiatek-dozivotna-suspenzija-bez-obzira-tko-ste/2620881.aspx?index_ref=_sport_najcitanije_d">
+                            Ivaniševićev rival o Igi Swiatek: Doživotna suspenzija. Bez obzira tko ste
+                        </a>
+                        <div class="line" style="width: 45%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">7</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/premierligaski-kapetan-odbio-nositi-traku-duginih-boja-klub-dao-objasnjenje/2620802.aspx?index_ref=_sport_najcitanije_d">
+                            Premierligaški kapetan odbio nositi traku duginih boja. Klub dao objašnjenje
+                        </a>
+                        <div class="line" style="width: 36%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">8</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/napisao-je-da-voli-isusa-preko-duginih-boja-savez-ga-opomenuo-da-je-to-zabranjeno/2620894.aspx?index_ref=_sport_najcitanije_d">
+                            Napisao je da voli Isusa preko duginih boja. Savez ga opomenuo da je to zabranjeno
+                        </a>
+                        <div class="line" style="width: 27%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">9</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/trebao-je-u-dinamo-sad-iz-zvezde-porucuje-smetale-su-nam-dinamove-pobjede-u-lpu/2620903.aspx?index_ref=_sport_najcitanije_d">
+                            Trebao je u Dinamo. Sad iz Zvezde poručuje: Smetale su nam Dinamove pobjede u LP-u
+                        </a>
+                        <div class="line" style="width: 18%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">10</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/video-trcali-smo-s-poznatim-trenerom-edom-po-magli-otkrio-nam-je-trikove-za-trening/2617705.aspx?index_ref=_sport_najcitanije_d">
+                            <span class='title-parsed-text'>VIDEO</span>  Trčali smo s poznatim trenerom Edom po magli. Otkrio nam je trikove za trening 
+                        </a>
+                        <div class="line" style="width: 9%;"></div>
+                    </div>
+                </li>
+        </ul>
+        <a class="more-news" href="/najcitanije?kategorija=150&amp;timerange=today">Prikaži još vijesti</a>
+    </div>
+
+                    </div>
+                </div>
+                <div class="separator-55"></div>
+                
+
+
+<!-- /21703950087/Box2 -->
+<div id='Box2' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box2_sport_hr', sizes, 'Box2').addService(googletag.pubads());
+
+            googletag.display('Box2');
+        });
+    </script>
+</div>
+
+                <div class="separator-50"></div>
+                <div class="sticky">
+                    
+
+
+<!-- /21703950087/DSF_sticky -->
+<div id='DSF_sticky' class="js-slot-container" data-css-class="google-box">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF_sticky_sport', [[300, 600], [300, 250], [1, 1]], 'DSF_sticky').addService(googletag.pubads());
+
+            googletag.display('DSF_sticky');
+        });
+    </script>
+</div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+<!-- /21703950087/DSF5 -->
+<div id='DSF5' class="js-slot-container" data-css-class="google-box top-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF5_Sport', [[970, 90], [970, 250], [970, 500], [728, 90], [800, 250], [1, 1]], 'DSF5').addService(googletag.pubads());
+
+            googletag.display('DSF5');
+        });
+    </script>
+</div>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="popup-overlay-container js-login-popup display-none">
+    <div class="popup-holder comments-login-popup-holder">
+        <div class="btn-close-popup" close-popup>
+            <i class="index-close"></i>
+        </div>
+
+        <div class="main-title">
+            Prijavite se
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">
+                Brza prijava
+            </div>
+            <div class="section-desc">
+                (traje par sekundi)
+            </div>
+            <div class="login-social-holder flex">
+                <a class="social-btn fb flex" onclick="accountService.Login('/profil/prijava?auth_action=login-facebook&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fkomentari%2F1738.aspx')">
+                    <img src="/Content/img/login/fb.svg" /> Facebook
+                </a>
+                <a class="social-btn google flex" onclick="accountService.Login('/profil/prijava?auth_action=login-google&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fkomentari%2F1738.aspx')">
+                    <img src="/Content/img/login/google.svg" /> Google
+                </a>
+            </div>
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">Prijava emailom</div>
+            <form class="login-form" action="/profil/prijava?redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fkomentari%2F1738.aspx" method="post" onsubmit="accountService.OnLoginFormSubmit()">
+
+                <div class="input-holder">
+                    <i class="index-mail3"></i>
+                    <input type="email" class="input-field" required name="login_hint" placeholder="Unesite email" value="" />
+                </div>
+                <div class="description">Ako već niste registirani, poslat ćemo vam email s linkom za nastavak registracije.</div>
+                <button class="login-btn" type="submit">Prijavite se</button>
+            </form>
+        </div>
+
+        <div class="disclaimer-holder">
+            Kreiranjem i prijavom na račun slažete se s našim <br>
+            <a href="https://www.index.hr/uvjeti-koristenja">Uvjetima korištenja</a> i <a href="https://www.index.hr/uvjeti-koristenja#pravila-o-zastiti-privatnosti">Pravilima o privatnosti</a>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <footer class="main-footer main-container main-content-bg clearfix">
+    <a class="logo" href="/"><img class="logo-img" src="/Content/img/logo/logo_footer_196x29.svg" /></a>
+    <nav class="list-holder flex">
+        <ul>
+            <li class="heading">
+                <a class="vijesti-text-hover" href="/vijesti">
+                    Vijesti
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/hrvatska/22.aspx">
+                    Hrvatska
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/zagreb/1553.aspx">
+                    Zagreb
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/regija/1540.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/eu/5040.aspx">
+                    EU
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/svijet/23.aspx">
+                    Svijet
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/znanost/1722.aspx">
+                    Znanost
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/crna-kronika/46.aspx">
+                    Crna kronika
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/komentari/1413.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/novac/1554.aspx">
+                    Novac
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/afere">
+                    Afere
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="sport-text-hover" href="/sport">
+                    Sport
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/nogomet/1638.aspx">
+                    Nogomet
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/transferi/1650.aspx">
+                    Transferi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/kosarka/1639.aspx">
+                    Košarka
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/tenis/1640.aspx">
+                    Tenis
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/regija/1692.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/komentari/1738.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/borilacki-sportovi/1662.aspx">
+                    Borilački sportovi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/ostali-sportovi/1641.aspx">
+                    Ostali sportovi
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="magazin-text-hover" href="/magazin">
+                    Magazin
+                </a>
+            </li>
+            <li>
+                <a class="shopping-text-hover" href="/shopping">
+                    Shopping
+                </a>
+            </li>
+            <li>
+                <a class="ljubimci-text-hover" href="/ljubimci">
+                    Ljubimci
+                </a>
+            </li>
+
+            <li>
+                <a class="food-text-hover" href="/food">
+                    Food
+                </a>
+            </li>
+            <li>
+                <a class="mame-text-hover" href="/mame">
+                    Mame
+                </a>
+            </li>
+            <li>
+                <a class="auto-text-hover" href="/auto">
+                    Auto
+                </a>
+            </li>
+            <li>
+                <a class="fit-text-hover" href="/fit">
+                    Fit
+                </a>
+            </li>
+            <li>
+                <a class="chill-text-hover" href="/chill">
+                    Chill
+                </a>
+            </li>
+            <li>
+                <a class="horoskop-text-hover" href="/horoskop">
+                    Horoskop
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Plus
+            </li>
+            <li><a class="oglasi-text-hover" href="https://www.index.hr/oglasi/">Oglasi</a></li>
+            <li><a class="recepti-text-hover" href="https://recepti.index.hr/">Recepti</a></li>
+            <li><a class="lajkhr-text-hover" href="http://www.index.hr/lajk/">Lajk.hr</a></li>
+            <li><a class="odgovori-text-hover" href="https://odgovori.index.hr/">Odgovori</a></li>
+            <li>
+                <a class="kalendar-text-hover" href="/kalendar">
+                    Kalendar
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Info
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tecaj">
+                    Tečaj
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tv">
+                    TV program
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/kino">
+                    Kino
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/vrijeme">
+                    Vrijeme
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/rss/info">
+                    RSS
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                PRATITE NAS
+            </li>
+            <li>
+                <a href="https://www.facebook.com/index.hr/" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="facebook index-facebook"></i>Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="youtube index-youtube"></i>Youtube</a>
+            </li>
+            <li>
+                <a href="https://instagram.com/index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="instagram index-instagram"></i>Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="tiktok index-tiktok"></i>TikTok</a>
+            </li>
+            <li><a href="/posaljite-pricu" class="main-text-hover">Pošaljite nam vijest </a></li>
+            <li><a href="/newsletter" class="main-text-hover">Newsletter</a></li>
+        </ul>
+    </nav>
+    <ul class="impressum">
+        <li><a href="https://cjenik.index.hr">Oglašavanje</a></li>
+        <li><a href="https://jobs.index.hr/">Zaposli se na Indexu</a></li>
+        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/impressum">Impressum</a></li>
+        <li><a href="/uvjeti-koristenja">Uvjeti korištenja</a></li>
+        <li>
+            <a href="javascript:Didomi.preferences.show()">
+                Postavke kolačića
+            </a>
+        </li>
+        <li>
+            © 2024 Index
+        </li>
+    </ul>
+</footer>
+
+    </footer>
+
+    
+
+
+<script>
+    //load the apstag.js library (amazon prebid)
+    !function (a9, a, p, s, t, A, g) { if (a[a9]) return; function q(c, r) { a[a9]._Q.push([c, r]) } a[a9] = { init: function () { q("i", arguments) }, fetchBids: function () { q("f", arguments) }, setDisplayBids: function () { }, targetingKeys: function () { return [] }, _Q: [] }; A = p.createElement(s); A.async = !0; A.src = t; g = p.getElementsByTagName(s)[0]; g.parentNode.insertBefore(A, g) }("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");
+
+    //initialize the apstag.js library on the page to allow bidding
+    apstag.init({
+        pubID: '03086deb-b728-420a-9fad-35ee317c06f6', //enter your pub ID here as shown above, it must within quotes
+        adServer: 'googletag'
+    });
+
+    var PREBID_TIMEOUT = 2000;
+
+    
+    var CONSENT_TIMEOUT = 1000;
+    var FAILSAFE_TIMEOUT = 4000;
+
+    var USER_PPID = accountService.GetUserPPID();
+
+    var requestManager = {
+        adserverRequestSent: false,
+        aps: false,
+        prebid: false
+    };
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+    var adUnits = adUnits || [];
+    var amazonAdSlots = amazonAdSlots || [];
+
+   
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    function initializeGoogletagRefreshWithPrebid() {
+        console.log("AD_INITIALISE_GPT_WITH_PREBID");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        if (cookieService.GetCookie("lcl_near_full") != null) {
+            console.log('localstorage full targeting')
+            googletag.pubads().setTargeting("localstorageFull", "yes");
+        }
+
+        //if PPID provided, set it
+        if (USER_PPID && didomiService.IsGoogleAllowed()) {
+            console.log('AD_PPID_SET', USER_PPID)
+            googletag.pubads().setTargeting("ppid_test", "yes");
+            googletag.pubads().setPublisherProvidedId(USER_PPID);
+
+        }
+        else {
+            googletag.pubads().setTargeting("ppid_test", "no");
+        }
+
+        //amazon prebid init
+        if (amazonAdSlots.length > 0) {
+            apstag.fetchBids({
+                slots: amazonAdSlots,
+                timeout: PREBID_TIMEOUT
+            }, function (bids) {
+                apstag.setDisplayBids();
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack(); // checks whether both APS and Prebid have returned
+            });
+        }
+        else {
+            requestManager.aps = true; // signals that APS request has completed
+            biddersBack(); // checks whether both APS and Prebid have returned
+        }
+
+        //amazon sometimes does process timeout well, so we will add a failsafe to mark it as done from our side, otherwise it will be too slow
+        setTimeout(function () {
+            if (!requestManager.aps) {
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack();
+            }
+        }, PREBID_TIMEOUT)
+
+       
+        pbjs.rp.requestBids({
+            callback: prebidCallback,
+            //gptSlotObjects: googletag.pubads().getSlots()
+        });
+    }
+
+    function initializeGoogletagWithLimitedAds() {
+        console.log("AD_INITIALISE_GPT_WITH_LIMITED_ADS");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        sendAdserverRequest();
+    }
+
+    // when both APS and Prebid have returned, initiate ad request
+    //this function will call function which sends ad request, only if amazon and prebid returned their requests
+    function biddersBack() {
+        if (requestManager.aps && requestManager.prebid) {
+            sendAdserverRequest();
+        }
+        return;
+    }
+
+    function prebidCallback() {
+        requestManager.prebid = true;
+        biddersBack();
+    }
+
+    //will send ad requests if not already sent, otherwise will do nothing
+    function sendAdserverRequest() {
+        if (requestManager.adserverRequestSent === true) {
+            return;
+        }
+
+        requestManager.adserverRequestSent = true;
+
+        var slots = googletag.pubads().getSlots();
+
+        if (slots.length > 0) {
+            googletag.enableServices();
+
+            var slotsToRefresh = [];
+
+            for (i = 0; i < slots.length; i++) {
+                var slot = slots[i];
+
+                var slotElementId = slot.getSlotElementId();
+                var element = document.getElementById(slotElementId);
+
+                var useLazyLoad = false;
+                var useMra = false;
+
+                if (element) {
+                    var useLazyLoadAttr = element.dataset.lazyLoad;
+                    var useMraAttr = element.dataset.useMra;
+
+                    if (useLazyLoadAttr && useLazyLoadAttr == 'True') {
+                        useLazyLoad = true;
+                    }
+
+                    if (useMraAttr && useMraAttr == 'true') {
+                        useMra = true;
+                    }
+                }
+
+                if (useLazyLoad) {
+                    observeAdElement(element, slot);
+                }
+                else if (useMra) {
+                    googletag.pubads().refresh([slot]);
+                }
+                else {
+                    slotsToRefresh.push(slot);
+                }
+            }
+
+            console.log("AD_PBJS_CALLBACK");
+
+            googletag.pubads().refresh(slotsToRefresh);
+
+            console.log("AD_REFRESHED");
+        }
+    }
+
+    function observeAdElement(element, slot) {
+        var observerOptions = {
+            root: null,
+            rootMargin: '300px',
+            threshold: 0
+        };
+
+        let impressionViewableObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    googletag.pubads().refresh([slot]);
+
+                    observer.unobserve(entry.target);
+                }
+            })
+        }, observerOptions);
+
+        impressionViewableObserver.observe(element);
+    }
+
+    // we must wait didomi to be ready, so we can pass consent
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) {
+        console.log("AD_DIDOMI_READY")
+        loadPrebid();
+
+    });
+
+    window.didomiEventListeners = window.didomiEventListeners || [];
+    window.didomiEventListeners.push({
+        event: 'consent.changed',
+        listener: function (context) {
+            // The user consent status has changed, so we wil send permutive PV
+            permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT);
+        }
+    });
+
+    // Function to load Rubicon Project script
+    function loadPrebid() {
+        var prebidScript = document.createElement('script');
+        prebidScript.async = true;
+        prebidScript.src = '//micro.rubiconproject.com/prebid/dynamic/26072.js';
+        prebidScript.onload = loadGPT; // Load GPT.js after Prebid script is loaded
+        document.head.appendChild(prebidScript);
+
+       
+    }
+
+    // Function to load GPT.js
+    function loadGPT() {
+        var gptScript = document.createElement('script');
+        gptScript.async = true;
+        gptScript.src = "https://pagead2.googlesyndication.com/tag/js/gpt.js";
+        gptScript.onload = init;
+        document.head.appendChild(gptScript);
+
+        console.log("AD_PREBID_LOADED")
+      
+    }
+
+    function init() {
+        console.log("AD_GPT_LOADED")
+        console.log("AD_STARTING_AD_TECH_STUFF")
+        permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT)
+            .then(initializeAdLayer)
+            .catch(error => {
+                console.error("AD_IN_PERMUTIVE_STACK");
+                console.warn("Continuing to load ad tech without permutive");
+
+                initializeAdLayer();
+            });
+    }
+
+    function initializeAdLayer() {
+        if (didomiService.IsGoogleAllowed() && Didomi.getUserStatus().purposes.consent.disabled.length == 0) {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: false
+                });
+            });
+
+            googletag.cmd.push(function () {
+                pbjs.que.push(function () {
+                    initializeGoogletagRefreshWithPrebid();
+                });
+            });
+        }
+        else {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: true
+                });
+            });
+
+            googletag.cmd.push(function () {
+                initializeGoogletagWithLimitedAds();
+            });
+        }
+    }
+
+</script>
+
+    
+    
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    (function () {
+        window.dm = window.dm || { AjaxData: [] };
+        window.dm.AjaxEvent = function (et, d, ssid, ad) {
+            dm.AjaxData.push({ et: et, d: d, ssid: ssid, ad: ad });
+            window.DotMetricsObj && DotMetricsObj.onAjaxDataUpdate();
+        };
+        var d = document,
+            h = d.getElementsByTagName('head')[0],
+            s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://script.dotmetrics.net/door.js?id=12270';
+        h.appendChild(s);
+    }());
+    /* ]]> */
+</script>
+
+
+    <script>
+        var mostReadUrl = '/Category/MostReadNews?categoryId=150&categorySlug=sport&timerange=%25timerange%25';
+
+        categoryService.InitAll();
+    </script>
+
+
+    <script>
+        googleEventService.CreateCustomEventGA4("layout", "ab_fifty-fifty", "");
+        googleEventService.CreateCustomEventGA4("user_data", "ab_fifty-fifty", "");
+
+        // if ad block detected send event
+        if (window.indexCanRunAds === undefined) {
+            googleEventService.CreateCustomEventGA4("layout", "ad_block_detected", "true");
+        }
+
+        var abCookieUrl = '/setabcookie';
+
+        globalDirectives.InitAll();
+        layoutService.InitAll();
+
+        layoutService.SetCurrentUrl('https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fkomentari%2F1738.aspx');
+        deviceService.TrackIfNeeded();
+    </script>
+
+    
+</body>
+</html>

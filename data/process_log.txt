@@ -1,0 +1,45 @@
+2024-12-03 16:49:22,250 - INFO - Fetching content from: https://www.index.hr/
+2024-12-03 16:49:22,731 - INFO - Content fetched and saved to: data\Index_20241203164922.txt
+2024-12-03 16:49:23,102 - INFO - Sports Categories Found:
+2024-12-03 16:49:23,102 - INFO -  - Nogomet: https://www.index.hr/sport/rubrika/nogomet/1638.aspx
+2024-12-03 16:49:23,103 - INFO -  - Transferi: https://www.index.hr/sport/rubrika/transferi/1650.aspx
+2024-12-03 16:49:23,103 - INFO -  - Košarka: https://www.index.hr/sport/rubrika/kosarka/1639.aspx
+2024-12-03 16:49:23,103 - INFO -  - Tenis: https://www.index.hr/sport/rubrika/tenis/1640.aspx
+2024-12-03 16:49:23,104 - INFO -  - Regija: https://www.index.hr/sport/rubrika/regija/1692.aspx
+2024-12-03 16:49:23,104 - INFO -  - Komentari: https://www.index.hr/sport/rubrika/komentari/1738.aspx
+2024-12-03 16:49:23,104 - INFO -  - Borilački sportovi: https://www.index.hr/sport/rubrika/borilacki-sportovi/1662.aspx
+2024-12-03 16:49:23,104 - INFO -  - Ostali sportovi: https://www.index.hr/sport/rubrika/ostali-sportovi/1641.aspx
+2024-12-03 16:49:23,105 - INFO - Fetching data for category: Nogomet from https://www.index.hr/sport/rubrika/nogomet/1638.aspx
+2024-12-03 16:49:23,314 - INFO - Data for category 'Nogomet' saved to data\Nogomet.txt
+2024-12-03 16:49:23,315 - INFO - Fetching data for category: Transferi from https://www.index.hr/sport/rubrika/transferi/1650.aspx
+2024-12-03 16:49:23,520 - INFO - Data for category 'Transferi' saved to data\Transferi.txt
+2024-12-03 16:49:23,521 - INFO - Fetching data for category: Košarka from https://www.index.hr/sport/rubrika/kosarka/1639.aspx
+2024-12-03 16:49:23,709 - INFO - Data for category 'Košarka' saved to data\Košarka.txt
+2024-12-03 16:49:23,710 - INFO - Fetching data for category: Tenis from https://www.index.hr/sport/rubrika/tenis/1640.aspx
+2024-12-03 16:49:23,927 - INFO - Data for category 'Tenis' saved to data\Tenis.txt
+2024-12-03 16:49:23,927 - INFO - Fetching data for category: Regija from https://www.index.hr/sport/rubrika/regija/1692.aspx
+2024-12-03 16:49:24,190 - INFO - Data for category 'Regija' saved to data\Regija.txt
+2024-12-03 16:49:24,191 - INFO - Fetching data for category: Komentari from https://www.index.hr/sport/rubrika/komentari/1738.aspx
+2024-12-03 16:49:24,366 - INFO - Data for category 'Komentari' saved to data\Komentari.txt
+2024-12-03 16:49:24,366 - INFO - Fetching data for category: Borilački sportovi from https://www.index.hr/sport/rubrika/borilacki-sportovi/1662.aspx
+2024-12-03 16:49:24,559 - INFO - Data for category 'Borilački sportovi' saved to data\Borilački_sportovi.txt
+2024-12-03 16:49:24,559 - INFO - Fetching data for category: Ostali sportovi from https://www.index.hr/sport/rubrika/ostali-sportovi/1641.aspx
+2024-12-03 16:49:24,759 - INFO - Data for category 'Ostali sportovi' saved to data\Ostali_sportovi.txt
+2024-12-03 16:49:24,761 - INFO - Processing file: data\Borilački_sportovi.txt
+2024-12-03 16:49:25,390 - INFO - News for 'Borilački_sportovi' saved to data\Borilački_sportovi.xlsx.
+2024-12-03 16:49:25,390 - INFO - Processing file: data\Komentari.txt
+2024-12-03 16:49:25,800 - INFO - News for 'Komentari' saved to data\Komentari.xlsx.
+2024-12-03 16:49:25,800 - INFO - Processing file: data\Košarka.txt
+2024-12-03 16:49:26,222 - INFO - News for 'Košarka' saved to data\Košarka.xlsx.
+2024-12-03 16:49:26,223 - INFO - Processing file: data\Nogomet.txt
+2024-12-03 16:49:26,628 - INFO - News for 'Nogomet' saved to data\Nogomet.xlsx.
+2024-12-03 16:49:26,628 - INFO - Processing file: data\Ostali_sportovi.txt
+2024-12-03 16:49:27,076 - INFO - News for 'Ostali_sportovi' saved to data\Ostali_sportovi.xlsx.
+2024-12-03 16:49:27,076 - INFO - Processing file: data\process_log.txt
+2024-12-03 16:49:27,087 - INFO - No news found in file: process_log.txt.
+2024-12-03 16:49:27,087 - INFO - Processing file: data\Regija.txt
+2024-12-03 16:49:27,499 - INFO - News for 'Regija' saved to data\Regija.xlsx.
+2024-12-03 16:49:27,499 - INFO - Processing file: data\Tenis.txt
+2024-12-03 16:49:27,860 - INFO - News for 'Tenis' saved to data\Tenis.xlsx.
+2024-12-03 16:49:27,861 - INFO - Processing file: data\Transferi.txt
+2024-12-03 16:49:28,254 - INFO - News for 'Transferi' saved to data\Transferi.xlsx.

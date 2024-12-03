@@ -1,0 +1,2425 @@
+
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <!--detect slow internet connection-->
+<script type="text/javascript">
+    var IS_SLOW_INTERNET = false;
+    var SLOW_INTERNET_THRESHOLD = 5000;//ms
+    var slowLoadTimeout = window.setTimeout(function () {
+        IS_SLOW_INTERNET = true;
+    }, SLOW_INTERNET_THRESHOLD);
+
+    window.addEventListener('load', function () {
+        window.clearTimeout(slowLoadTimeout);
+    }, false);
+</script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <title>Ostali sportovi - Index.hr</title>
+    <!--todo: remove on production-->
+    <meta name="description" content="Najnovije vijesti iz rukometa, Formule 1, vaterpola, skijanja. Iz minute u minutu: rukomet, F1, skijanje, vaterpolo, Ferrari, Domagoj Duvnjak, Lino Červar, Filip Zubčić">
+    <meta property="fb:app_id" content="216060115209819">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <link rel="preload" href="//micro.rubiconproject.com/prebid/dynamic/26072.js" as="script" /> 
+    <link rel="preload" href="https://pagead2.googlesyndication.com/tag/js/gpt.js" as="script" />
+
+     <!--adblock detection-->
+<script src="/Scripts/adblockDetect/ads.js"></script>
+    
+
+<script>
+    window.constants = window.constants || {};
+    window.constants.statsServiceHost = 'https://stats.index.hr';
+    window.constants.socketsHost = 'https://sockets.index.hr';
+    window.constants.chatHost = 'https://chat.index.hr';
+    window.constants.interactiveHost = 'https://interactive.index.hr';
+</script>
+
+        <!--recover ads, if adblock detected-->
+<!--adpushup recovery-->
+<script data-cfasync="false" type="text/javascript">(function (w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/41144/adRecover.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+
+
+    <link rel='preconnect' href='https://fonts.googleapis.com' crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="preload" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="stylesheet">
+
+    
+
+    
+        <link href="/Content/desktop-bundle.min.css?v=0b68ac5f-181a-47ea-be89-0931f46ada5e" rel="preload" as="style" />
+        <link href="/Scripts/desktop-bundle.min.js?v=0b68ac5f-181a-47ea-be89-0931f46ada5e" rel="preload" as="script" />
+
+        <link href="/Content/desktop-bundle.min.css?v=0b68ac5f-181a-47ea-be89-0931f46ada5e" rel="stylesheet" />
+        <script src="/Scripts/desktop-bundle.min.js?v=0b68ac5f-181a-47ea-be89-0931f46ada5e"></script>
+    
+
+    
+<script>
+    !function (e, o, n, i) { if (!e) { e = e || {}, window.permutive = e, e.q = []; var t = function () { return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (e) { return (e ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> e / 4).toString(16) }) }; e.config = i || {}, e.config.apiKey = o, e.config.workspaceId = n, e.config.environment = e.config.environment || "production", (window.crypto || window.msCrypto) && (e.config.viewId = t()); for (var g = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], r = 0; r < g.length; r++) { var w = g[r]; e[w] = function (o) { return function () { var n = Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: o, arguments: n }) } }(w) } } }(window.permutive, "cd150efe-ff8f-4596-bfca-1c8765fae796", "b4d7f9ad-9746-4daa-b552-8205ef41f49d", { "consentRequired": true });
+    window.googletag = window.googletag || {}, window.googletag.cmd = window.googletag.cmd || [], window.googletag.cmd.push(function () { if (0 === window.googletag.pubads().getTargeting("permutive").length) { var e = window.localStorage.getItem("_pdfps"); window.googletag.pubads().setTargeting("permutive", e ? JSON.parse(e) : []); var o = window.localStorage.getItem("permutive-id"); o && (window.googletag.pubads().setTargeting("puid", o), window.googletag.pubads().setTargeting("ptime", Date.now().toString())), window.permutive.config.viewId && window.googletag.pubads().setTargeting("prmtvvid", window.permutive.config.viewId), window.permutive.config.workspaceId && window.googletag.pubads().setTargeting("prmtvwid", window.permutive.config.workspaceId) } });
+    
+</script>
+<script async src="https://b4d7f9ad-9746-4daa-b552-8205ef41f49d.edge.permutive.app/b4d7f9ad-9746-4daa-b552-8205ef41f49d-web.js"></script>
+
+
+    
+
+<script type="text/javascript" src="https://interactive.index.hr/js/embed/interactive.min.js"></script>
+<script>
+    var $inin = $inin || {};
+
+    $inin.config = {
+        log: false,
+        enabled: false
+    }
+
+    var $ininque = $ininque || [];
+
+    var userPPID = accountService.GetUserPPID();
+
+    if (userPPID){
+        $inin.setClientUserId(userPPID);
+    }
+
+    $inin.enable();
+</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="didomi/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-5ZTNWH8GVX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5ZTNWH8GVX');
+</script>
+
+        
+<!-- //Connect Container: Index.hr -->
+<script src="//get.s-onetag.com/90d743ad-16c9-44d6-bb59-5f0ed674ef3b/tag.min.js" async defer></script>
+
+
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    
+    
+
+
+<!-- Make sure this is inserted before your GPT tag -->
+<script>
+    var amazonAdSlots = [];
+
+</script>
+
+
+
+    
+
+<script type="text/javascript">
+    window.gdprAppliesGlobally = true; (function () {
+        function a(e) {
+            if (!window.frames[e]) {
+                if (document.body && document.body.firstChild) { var t = document.body; var n = document.createElement("iframe"); n.style.display = "none"; n.name = e; n.title = e; t.insertBefore(n, t.firstChild) }
+                else { setTimeout(function () { a(e) }, 5) }
+            }
+        } function e(n, r, o, c, s) {
+            function e(e, t, n, a) { if (typeof n !== "function") { return } if (!window[r]) { window[r] = [] } var i = false; if (s) { i = s(e, t, n) } if (!i) { window[r].push({ command: e, parameter: t, callback: n, version: a }) } } e.stub = true; function t(a) {
+                if (!window[n] || window[n].stub !== true) { return } if (!a.data) { return }
+                var i = typeof a.data === "string"; var e; try { e = i ? JSON.parse(a.data) : a.data } catch (t) { return } if (e[o]) { var r = e[o]; window[n](r.command, r.parameter, function (e, t) { var n = {}; n[c] = { returnValue: e, success: t, callId: r.callId }; a.source.postMessage(i ? JSON.stringify(n) : n, "*") }, r.version) }
+            }
+            if (typeof window[n] !== "function") { window[n] = e; if (window.addEventListener) { window.addEventListener("message", t, false) } else { window.attachEvent("onmessage", t) } }
+        } e("__tcfapi", "__tcfapiBuffer", "__tcfapiCall", "__tcfapiReturn"); a("__tcfapiLocator"); (function (e) {
+            var t = document.createElement("script"); t.id = "spcloader"; t.type = "text/javascript"; t.async = true; t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target=" + document.location.hostname; t.charset = "utf-8"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n)
+        })("02757520-ed8b-4c54-8bfd-4a5f5548de98")
+    })();</script>
+
+
+<!--didomi-->
+<!--end-->
+
+
+    <script>
+        googletag.cmd.push(function () {
+        
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().setTargeting('rubrika', 'sport');
+    googletag.pubads().setTargeting('podrubrikaId', '1641');
+    googletag.pubads().setTargeting('sectionhomepage', 'ostali sportovi');
+;
+        });
+    </script>
+
+    
+<script>
+    var mainIndexDomainPath = "https://www.index.hr" + window.location.pathname;
+
+    googletag.cmd.push(function () {
+        googletag.pubads().disableInitialLoad();
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs(true);
+        googletag.pubads().setTargeting('projekt', 'index');
+        googletag.pubads().setTargeting('referer', '');
+        googletag.pubads().setTargeting('hostname', 'www.index.hr');
+        googletag.pubads().setTargeting('ar_1', 'false');
+        googletag.pubads().setTargeting('ab_test', '');
+        googletag.pubads().setTargeting('prebid', 'demand manager');
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                googletag.pubads().setTargeting('TPC', label);
+            });
+        }
+        else {
+            googletag.pubads().setTargeting('TPC', 'none');
+        }
+
+    });
+
+    googleTagService.AddSlotRenderEndedListener();
+</script>
+    <script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+
+    <meta property="og:title" content="Ostali sportovi" />
+    <meta property="og:description" content="Najnovije vijesti iz rukometa, Formule 1, vaterpola, skijanja. Iz minute u minutu: rukomet, F1, skijanje, vaterpolo, Ferrari, Domagoj Duvnjak, Lino &#x10C;ervar, Filip Zub&#x10D;i&#x107;" />
+    <meta property="og:image" content="/Content/img/main-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@indexhr">
+    <meta name="twitter:title" content="Ostali sportovi">
+    <meta name="twitter:description" content="Najnovije vijesti iz rukometa, Formule 1, vaterpola, skijanja. Iz minute u minutu: rukomet, F1, skijanje, vaterpolo, Ferrari, Domagoj Duvnjak, Lino &#x10C;ervar, Filip Zub&#x10D;i&#x107;">
+    <meta name="twitter:image" content="/Content/img/main-image.png">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebSite","name":"Index.hr","potentialAction":{"@type":"SearchAction","target":"https://www.index.hr/trazi.aspx?upit={search_term_string}","query-input":"required name=search_term_string"},"url":"https://www.index.hr/"}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}
+    </script>
+
+    <!-- Meta Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1418122964915670');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1418122964915670&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Meta Pixel Code -->
+
+
+    <script src="https://apetite.index.hr/bundles/apetite.js"></script>
+    <script>
+        var apetite = new AnalyticsPetite({ host: 'https://apetite.index.hr' });
+        
+    apetite.setCategory('sport');
+
+            apetite.collect();
+    </script>
+
+    
+    <link rel="canonical" href="https://www.index.hr/sport/rubrika/ostali-sportovi/1641.aspx">
+    <link rel="alternate" href="https://www.index.hr/mobile/kategorija/1641">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebPage","name":"Ostali sportovi","description":"Najnovije vijesti iz rukometa, Formule 1, vaterpola, skijanja. Iz minute u minutu: rukomet, F1, skijanje, vaterpolo, Ferrari, Domagoj Duvnjak, Lino Červar, Filip Zubčić","url":"https://www.index.hr/","publisher":{"@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"ItemList","description":"Ostali sportovi","url":"https://www.index.hr/sport/rubrika/ostali-sportovi/1641","itemListElement":[{"@type":"ListItem","name":"Spašen je rukomet u BiH. Ivici Obrvanu isplaćen dug od 138.000 eura","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/03ae14b5-de82-4cf7-aca0-dfdf73213e45.jpg","url":"https://www.index.hr/sport/clanak/spasen-je-rukomet-u-bih-ivici-obrvanu-isplacen-dug-od-138000-eura/2620788.aspx","position":1},{"@type":"ListItem","name":"Otkriveno koliko će dugo Shiffrin pauzirati:\u00A0Doslovno imam ranu u abdomenu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4fa2115f-9de7-43cb-836a-19b2a1f7192e.jpg","url":"https://www.index.hr/sport/clanak/otkriveno-koliko-ce-dugo-shiffrin-pauzirati\u00A0doslovno-imam-ranu-u-abdomenu/2620780.aspx","position":2},{"@type":"ListItem","name":"Slovenke osigurale drugi krug Europskog prvenstva. Pogledajte slavlje u autobusu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4ef21ea8-b8bb-4298-927b-810a821d7ff1.jpg","url":"https://www.index.hr/sport/clanak/slovenke-osigurale-drugi-krug-europskog-prvenstva-pogledajte-slavlje-u-autobusu/2620737.aspx","position":3},{"@type":"ListItem","name":"Puležanka Petra Kliba primila Ružu među vjetrovima za pobjedu na Barcolani","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d4a1ed0f-9e02-4d79-a4b2-2ff09655e9e2.jpg","url":"https://www.index.hr/sport/clanak/pulezanka-petra-kliba-primila-ruzu-medju-vjetrovima-za-pobjedu-na-barcolani/2620725.aspx","position":4},{"@type":"ListItem","name":"Trkački vikend na Kvarneru kreće ove subote","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/deccc099-c7ce-4b62-b85d-e47cec1edad5.png","url":"https://www.index.hr/sport/clanak/trkacki-vikend-na-kvarneru-krece-ove-subote/2620620.aspx","position":5},{"@type":"ListItem","name":"Hrvatska socca reprezentacija pobjedom protiv Argentine na korak do prolaska skupine","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/de71265a-0ad2-4bb1-8512-eb2fee642ab8.jpg","url":"https://www.index.hr/sport/clanak/hrvatska-socca-reprezentacija-pobjedom-protiv-argentine-na-korak-do-prolaska-skupine/2620615.aspx","position":6},{"@type":"ListItem","name":"Prkačin: Ako odigramo najbolje što možemo, ne bojim se za rezultat","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8782c1e8-417c-4c07-9546-89d3a34d2e2a.jpg","url":"https://www.index.hr/sport/clanak/prkacin-ako-odigramo-najbolje-sto-mozemo-ne-bojim-se-za-rezultat/2620580.aspx","position":7},{"@type":"ListItem","name":"Verstappen poludio na Russela: Ne želim s njim imati nikakvog posla","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d8f55bc0-0773-4f3c-a426-5fa196e8ba08.jpg","url":"https://www.index.hr/sport/clanak/verstappen-poludio-na-russela-ne-zelim-s-njim-imati-nikakvog-posla/2620538.aspx","position":8},{"@type":"ListItem","name":"Odlična Zrinka Ljutić zauzela šesto mjesto u slalomu u američkom\u00A0Killingtonu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8c4f38c0-4a85-42e2-af5c-aa1437390bfe.jpg","url":"https://www.index.hr/sport/clanak/odlicna-zrinka-ljutic-zauzela-sesto-mjesto-u-slalomu-u-americkom\u00A0killingtonu/2620353.aspx","position":9},{"@type":"ListItem","name":"Solidan nastup Zrinke Ljutić, Leona Popović ostala bez druge vožnje","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4765e741-c3a1-4a7c-b11a-8f76a2ad135a.jpg","url":"https://www.index.hr/sport/clanak/solidan-nastup-zrinke-ljutic-leona-popovic-ostala-bez-druge-voznje/2620299.aspx","position":10},{"@type":"ListItem","name":"Tjelohranitelj ukrao fotografije i nalaze bolesnog Schumachera pa ucjenjivao obitelj","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/9f59120f-1b0b-40c0-8d6b-5ace61e0a343.jpg","url":"https://www.index.hr/sport/clanak/tjelohranitelj-ukrao-fotografije-i-nalaze-bolesnog-schumachera-pa-ucjenjivao-obitelj/2620125.aspx","position":11},{"@type":"ListItem","name":"MNK Hajduk na službenom profilu: Zgazite purgere","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/980c7d3d-7800-4ebd-9653-3cfde6162b3c.jpg","url":"https://www.index.hr/sport/clanak/mnk-hajduk-na-sluzbenom-profilu-zgazite-purgere/2620286.aspx","position":12},{"@type":"ListItem","name":"VIDEO MNK Hajduk nakon pobjede u Kupu: \"Samo jednu želju imam...\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/3df718ad-0b7f-48b0-9faf-67df757661e0.jpg","url":"https://www.index.hr/sport/clanak/video-mnk-hajduk-nakon-pobjede-u-kupu-samo-jednu-zelju-imam/2620258.aspx","position":13},{"@type":"ListItem","name":"Shiffrin nakon teškog pada: Nema razloga za brigu. Ne mogu se pomaknuti","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0724a427-219d-4a9a-8be2-50e8271eaf5b.jpg","url":"https://www.index.hr/sport/clanak/shiffrin-nakon-teskog-pada-nema-razloga-za-brigu-ne-mogu-se-pomaknuti/2620189.aspx","position":14},{"@type":"ListItem","name":"Hrvatski ragbijaši u zadnjoj sekundi ispustili pobjedu protiv Luksemburga","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/74d6d6eb-ef38-4fb9-aa36-ad03063da2c3.jpeg","url":"https://www.index.hr/sport/clanak/hrvatski-ragbijasi-u-zadnjoj-sekundi-ispustili-pobjedu-protiv-luksemburga/2620176.aspx","position":15},{"@type":"ListItem","name":"Futsal Dinamo porazom 5:1 završio nastup u grupnoj fazi Lige prvaka","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0f7e1e29-9256-4b93-8fdd-fa0b2be20d8c.jpg","url":"https://www.index.hr/sport/clanak/futsal-dinamo-porazom-51-zavrsio-nastup-u-grupnoj-fazi-lige-prvaka/2620166.aspx","position":16},{"@type":"ListItem","name":"Pogledajte reakciju Zrinke Ljutić nakon teškog pada Shiffrin. Nije slavila 2. mjesto","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/1f8078c3-9567-44b9-9330-ab3db07809e9.jpg","url":"https://www.index.hr/sport/clanak/pogledajte-reakciju-zrinke-ljutic-nakon-teskog-pada-shiffrin-nije-slavila-2-mjesto/2620157.aspx","position":17},{"@type":"ListItem","name":"Ljutić nakon sjajne utrke: Potresao me pad Shiffrin. Nadam se da će biti dobro","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/93a0fd09-ebb6-4afa-b9cb-0011699d6c45.png","url":"https://www.index.hr/sport/clanak/ljutic-nakon-sjajne-utrke-potresao-me-pad-shiffrin-nadam-se-da-ce-biti-dobro/2620156.aspx","position":18},{"@type":"ListItem","name":"Hokejaši Siska izgubili petu utakmicu zaredom i prvi put nisu zabili gol u ligi","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/a7718b33-45f6-4dff-9a16-36d0fd99315d.jpg","url":"https://www.index.hr/sport/clanak/hokejasi-siska-izgubili-petu-utakmicu-zaredom-i-prvi-put-nisu-zabili-gol-u-ligi/2620155.aspx","position":19},{"@type":"ListItem","name":"Pogledajte vožnju kojom je Ljutić došla do svog najboljeg rezultata u veleslalomu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4c1e5a8d-84ae-42d1-a2ce-10b77b653e51.jpg","url":"https://www.index.hr/sport/clanak/pogledajte-voznju-kojom-je-ljutic-dosla-do-svog-najboljeg-rezultata-u-veleslalomu/2620141.aspx","position":20},{"@type":"ListItem","name":"Ljutić je prva hrvatska skijašica na postolju u veleslalomu nakon Janice Kostelić","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2c401dac-c1a6-437c-8679-fa86318a4e4c.jpg","url":"https://www.index.hr/sport/clanak/ljutic-je-prva-hrvatska-skijasica-na-postolju-u-veleslalomu-nakon-janice-kostelic/2620139.aspx","position":21},{"@type":"ListItem","name":"Fantastična Zrinka Ljutić osvojila drugo mjesto na veleslalomu u SAD-u","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d4645743-a748-406b-8d68-6842904913ed.jpg","url":"https://www.index.hr/sport/clanak/fantasticna-zrinka-ljutic-osvojila-drugo-mjesto-na-veleslalomu-u-sadu/2618392.aspx","position":22},{"@type":"ListItem","name":"Ljutić peta nakon prve vožnje veleslaloma u Killingtonu. Borit će se za postolje","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/c8f4b02f-1338-4955-b26d-9aafb8ab123e.jpg","url":"https://www.index.hr/sport/clanak/ljutic-peta-nakon-prve-voznje-veleslaloma-u-killingtonu-borit-ce-se-za-postolje/2620104.aspx","position":23},{"@type":"ListItem","name":"Hrvatske rukometašice: Ne smijemo podcijeniti Farske otoke","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8f3fc497-fcf6-41b1-a747-a3b16f971af9.jpg","url":"https://www.index.hr/sport/clanak/hrvatske-rukometasice-ne-smijemo-podcijeniti-farske-otoke/2620081.aspx","position":24},{"@type":"ListItem","name":"Tko je Miloš Kos, srpski rukometaš RK Zagreba koji je nokautirao suigrača?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/cb71b759-42d6-45bf-9cb2-dfed6de723ad.jpg","url":"https://www.index.hr/sport/clanak/tko-je-milos-kos-srpski-rukometas-rk-zagreba-koji-je-nokautirao-suigraca/2619786.aspx","position":25},{"@type":"ListItem","name":"Gdje gledati hrvatske rukometašice na Europskom prvenstvu?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/52a76b79-d5c1-4b9a-a12b-c7be0ef375fe.jpg","url":"https://www.index.hr/sport/clanak/gdje-gledati-hrvatske-rukometasice-na-europskom-prvenstvu/2619728.aspx","position":26},{"@type":"ListItem","name":"Odbojkašice Mladosti izgubile od Maritze Plovdiv u Ligi prvakinja","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/24a5b3c9-f3bb-4333-a3dc-997435111397.jpg","url":"https://www.index.hr/sport/clanak/odbojkasice-mladosti-izgubile-od-maritze-plovdiv-u-ligi-prvakinja/2619666.aspx","position":27},{"@type":"ListItem","name":"Futsal Dinamo ostao bez šansi za polufinale Lige prvaka","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/85e0ec7a-00d5-4fd1-85a0-f532b5310c12.jpg","url":"https://www.index.hr/sport/clanak/futsal-dinamo-ostao-bez-sansi-za-polufinale-lige-prvaka/2619653.aspx","position":28},{"@type":"ListItem","name":"Nastavljen crni niz KHL Siska. Red Bull II s 4:1 slavio u Ledenoj dvorani","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b7579663-a49c-495c-95ed-4d6ec491ce86.jpg","url":"https://www.index.hr/sport/clanak/nastavljen-crni-niz-khl-siska-red-bull-ii-s-41-slavio-u-ledenoj-dvorani/2619651.aspx","position":29},{"@type":"ListItem","name":"Počinje 56. Zlatna pirueta, najstarije svjetsko natjecanje u umjetničkom klizanju","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/22298eee-7263-49d5-a67c-ecc604d18eeb.jpg","url":"https://www.index.hr/sport/clanak/pocinje-56-zlatna-pirueta-najstarije-svjetsko-natjecanje-u-umjetnickom-klizanju/2619626.aspx","position":30},{"@type":"ListItem","name":"Olmissum porazom ostao bez šanse za final-four Lige prvaka. Dinamu sada treba pobjeda","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/78210069-80b8-4cff-bd2b-2e4fb3b3a913.jpg","url":"https://www.index.hr/sport/clanak/olmissum-porazom-ostao-bez-sanse-za-finalfour-lige-prvaka-dinamu-sada-treba-pobjeda/2619616.aspx","position":31},{"@type":"ListItem","name":"Hrvatske rukometašice otvaraju Euro s Danskom: Nemamo šanse ako nismo na 200 posto","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/77e216f0-99e6-4cbf-9ca2-36e50ec5ecc7.jpg","url":"https://www.index.hr/sport/clanak/hrvatske-rukometasice-otvaraju-euro-s-danskom-nemamo-sanse-ako-nismo-na-200-posto/2619561.aspx","position":32},{"@type":"ListItem","name":"Belgijski biciklist preminuo na 19. rođendan","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0875e3fd-1fa0-4345-aaeb-7588b95fcbb2.jpg","url":"https://www.index.hr/sport/clanak/belgijski-biciklist-preminuo-na-19-rodjendan/2619512.aspx","position":33},{"@type":"ListItem","name":"Futsal Dinamo: Molimo navijače da prestanu pušiti u dvorani","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8c08a81d-7d1b-46d4-b440-0ce53abae65e.jpg","url":"https://www.index.hr/sport/clanak/futsal-dinamo-molimo-navijace-da-prestanu-pusiti-u-dvorani/2619507.aspx","position":34},{"@type":"ListItem","name":"Futsal Dinamo i Olmissum remizirali u prvom kolu Elitne runde futsal Lige prvaka","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/a1edbefc-5f52-424e-bfe6-5f33eb7f0d38.jpg","url":"https://www.index.hr/sport/clanak/futsal-dinamo-i-olmissum-remizirali-u-prvom-kolu-elitne-runde-futsal-lige-prvaka/2619273.aspx","position":35},{"@type":"ListItem","name":"UEFA se divila njegovim rabonama. Sad s Futsal Dinamom napada europski naslov","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/bb832014-3214-4c85-9b80-7727f786ef2d.jpg","url":"https://www.index.hr/sport/clanak/uefa-se-divila-njegovim-rabonama-sad-s-futsal-dinamom-napada-europski-naslov/2618971.aspx","position":36},{"@type":"ListItem","name":"Hrvatski klubovi danas igraju derbi u futsal Ligi prvaka. Evo gdje ih možete gledati","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/9ed2d7c7-dc32-4916-a4f7-863f2187d43e.jpg","url":"https://www.index.hr/sport/clanak/hrvatski-klubovi-danas-igraju-derbi-u-futsal-ligi-prvaka-evo-gdje-ih-mozete-gledati/2619024.aspx","position":37},{"@type":"ListItem","name":"Grad Zagreb i ZET olakšali dinamovcima odlazak s Futsal Lige prvaka na nogometnu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4a389a30-ef66-43e4-a86c-b682cb2275b2.jpg","url":"https://www.index.hr/sport/clanak/grad-zagreb-i-zet-olaksali-dinamovcima-odlazak-s-futsal-lige-prvaka-na-nogometnu/2618952.aspx","position":38},{"@type":"ListItem","name":"Dejan Savić novi je izbornik Crne Gore","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/fe4bfe86-d672-4c00-9f74-ec2e75c0ce53.jpg","url":"https://www.index.hr/sport/clanak/dejan-savic-novi-je-izbornik-crne-gore/2618745.aspx","position":39},{"@type":"ListItem","name":"General Motor/Cadillac ulazi u Formulu 1 kao 11. ekipa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/01e21fc7-1dec-4689-8c65-ab77c162d45a.jpg","url":"https://www.index.hr/sport/clanak/general-motorcadillac-ulazi-u-formulu-1-kao-11-ekipa/2618599.aspx","position":40},{"@type":"ListItem","name":"Romeo Grbavac doznao protivnika u prvom kolu SP-a","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4aa913fc-7f1e-4033-9d00-ce3a5b0e011d.jpg","url":"https://www.index.hr/sport/clanak/romeo-grbavac-doznao-protivnika-u-prvom-kolu-spa/2618540.aspx","position":41},{"@type":"ListItem","name":"Kaos u Crnoj Gori. Navijači protivnike zvali ustašama i gađali ih bocama","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ac32f80b-b069-4cbe-9ce6-08cbcb24339d.jpg","url":"https://www.index.hr/sport/clanak/kaos-u-crnoj-gori-navijaci-protivnike-zvali-ustasama-i-gadjali-ih-bocama/2618522.aspx","position":42},{"@type":"ListItem","name":"Veliki tjedan za navijače Dinama. Gledat će čak dvije Lige prvaka u Zagrebu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/650e2e29-961b-4ee0-81a9-0921084da7dd.jpg","url":"https://www.index.hr/sport/clanak/veliki-tjedan-za-navijace-dinama-gledat-ce-cak-dvije-lige-prvaka-u-zagrebu/2618514.aspx","position":43},{"@type":"ListItem","name":"Boris Krčmar ne ide na Svjetsko prvenstvo","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/52bb0b9b-6b07-4518-8390-b7f3dc2b1e4a.jpg","url":"https://www.index.hr/sport/clanak/boris-krcmar-ne-ide-na-svjetsko-prvenstvo/2618494.aspx","position":44},{"@type":"ListItem","name":"Dan kada je Ivica Kostelić uspio ono što nitko nikad nije","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/14657a7e-ae0d-469d-8bb1-909346e76b23.jpg","url":"https://www.index.hr/sport/clanak/dan-kada-je-ivica-kostelic-uspio-ono-sto-nitko-nikad-nije/2618427.aspx","position":45},{"@type":"ListItem","name":"Senzacija u Slovačkoj! Romeo Grbavac u hrvatskom finalu izborio nastup na SP u pikadu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8592a57a-4e87-42b3-b50d-78c4eaf24cf6.jpg","url":"https://www.index.hr/sport/clanak/senzacija-u-slovackoj-romeo-grbavac-u-hrvatskom-finalu-izborio-nastup-na-sp-u-pikadu/2618244.aspx","position":46},{"@type":"ListItem","name":"Samuel Kolega podbacio u drugoj vožnji. Lovio rezultat karijere, a završio 16.","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/6bf59381-3405-4ff3-a8ed-ad6cd8c1de60.jpg","url":"https://www.index.hr/sport/clanak/samuel-kolega-podbacio-u-drugoj-voznji-lovio-rezultat-karijere-a-zavrsio-16/2616862.aspx","position":47},{"@type":"ListItem","name":"Fantastična utrka Kolege, borit će se za postolje u slalomu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/bea911c9-29ec-4c88-8bc8-99c18803c4c2.jpg","url":"https://www.index.hr/sport/clanak/fantasticna-utrka-kolege-borit-ce-se-za-postolje-u-slalomu/2618140.aspx","position":48},{"@type":"ListItem","name":"VIDEO Verstappen se borio sa suzama na putu prema boksu: \"Kakva sezona, četiri puta\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d02fadce-6038-4eab-9202-7c4670fc6750.jpg","url":"https://www.index.hr/sport/clanak/video-verstappen-se-borio-sa-suzama-na-putu-prema-boksu-kakva-sezona-cetiri-puta/2618124.aspx","position":49},{"@type":"ListItem","name":"VIDEO Verstappen osigurao novi naslov prvaka Formule 1, Russell slavio u Las Vegasu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b4b9326e-cf44-4d9f-9e8b-e7261441e663.jpg","url":"https://www.index.hr/sport/clanak/video-verstappen-osigurao-novi-naslov-prvaka-formule-1-russell-slavio-u-las-vegasu/2618111.aspx","position":50},{"@type":"ListItem","name":"Udarac koji je od nevinog i nekonfliktnog sporta napravio svjetsku priču godine","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/aaeb1495-ecbd-44f8-ad14-ff973e2d347a.jpg","url":"https://www.index.hr/sport/clanak/udarac-koji-je-od-nevinog-i-nekonfliktnog-sporta-napravio-svjetsku-pricu-godine/2616912.aspx","position":51},{"@type":"ListItem","name":"WRC ima novog prvaka","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/c8678269-8f5c-481a-930d-f727bf6059b5.jpg","url":"https://www.index.hr/sport/clanak/wrc-ima-novog-prvaka/2618101.aspx","position":52},{"@type":"ListItem","name":"Talijani prekinuli čudesan niz KHL Siska","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/55bd43ac-6169-45ec-9eb7-a403775289e3.jpg","url":"https://www.index.hr/sport/clanak/talijani-prekinuli-cudesan-niz-khl-siska/2618087.aspx","position":53},{"@type":"ListItem","name":"Ljutić s 24. mjesta skočila u top 10 slaloma u Gurglu, Albanka druga","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d16199aa-a7d1-4cda-ab21-0882b8ffc912.jpg","url":"https://www.index.hr/sport/clanak/ljutic-s-24-mjesta-skocila-u-top-10-slaloma-u-gurglu-albanka-druga/2616860.aspx","position":54},{"@type":"ListItem","name":"VIDEO Hrvat spektakularnim golom u zadnjoj sekundi srušio lidera rukometne Bundeslige","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/34379b8a-9a1e-48a4-9bb0-91169888ac71.jpg","url":"https://www.index.hr/sport/clanak/video-hrvat-spektakularnim-golom-u-zadnjoj-sekundi-srusio-lidera-rukometne-bundeslige/2617972.aspx","position":55},{"@type":"ListItem","name":"VIDEO F1 vozač završio u ogradi. Komentator: Ovo je šteta od 1.5 milijuna eura","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/7ad37b07-ffdb-4f76-881d-87ad44e7462b.jpg","url":"https://www.index.hr/sport/clanak/video-f1-vozac-zavrsio-u-ogradi-komentator-ovo-je-steta-od-15-milijuna-eura/2617966.aspx","position":56},{"@type":"ListItem","name":"Hrvatske skijašice izvan prvih 15 u prvoj vožnji slaloma u Gurglu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/abf2dd03-2546-45fc-acb1-264dcdf46b41.jpg","url":"https://www.index.hr/sport/clanak/hrvatske-skijasice-izvan-prvih-15-u-prvoj-voznji-slaloma-u-gurglu/2617952.aspx","position":57},{"@type":"ListItem","name":"Russellu pole position u Vegasu, ali svi će pratiti dvojac iz trećeg startnog reda","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/799f77de-06e3-49a2-9595-f0247eafe73c.jpg","url":"https://www.index.hr/sport/clanak/russellu-pole-position-u-vegasu-ali-svi-ce-pratiti-dvojac-iz-treceg-startnog-reda/2617932.aspx","position":58},{"@type":"ListItem","name":"Smajlagić napustio Borac: Dolazimo u situaciju da igrač nema što za jesti","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/a9934565-d458-4afb-96f3-8e4cec276887.jpg","url":"https://www.index.hr/sport/clanak/smajlagic-napustio-borac-dolazimo-u-situaciju-da-igrac-nema-sto-za-jesti/2617901.aspx","position":59},{"@type":"ListItem","name":"Danas je trebao igrati protiv bivšeg svjetskog prvaka, ali je pao na testu na droge","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/158ffdff-b67e-4f3d-a572-50d368a5858a.jpg","url":"https://www.index.hr/sport/clanak/danas-je-trebao-igrati-protiv-bivseg-svjetskog-prvaka-ali-je-pao-na-testu-na-droge/2617818.aspx","position":60}]}
+    </script>
+
+</head>
+<body>
+    <script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '216060115209819',
+            xfbml: true,
+            version: 'v19.0'
+        });
+    };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/hr_HR/sdk.js"></script>
+    <!--OpenX-->
+<iframe src="//u.openx.net/w/1.0/pd?ph=&cb=e498bb09-45cc-4576-92ea-8b6df457e2f8&gdpr=1&gdpr_consent=2" style="display:none;width:0;height:0;border:0; border:none;"></iframe>
+
+        
+
+
+
+
+    <div class="main-container no-padding main-content-bg">
+            
+
+
+<!-- /21703950087/DB1_hr -->
+<div id='DB1_hr' class="js-slot-container" data-css-class="google-box bottom-margin-40">
+    <script>
+        googletag.cmd.push(function () {
+            var db1Slot = googletag.defineSlot('/21703950087/DB1_hr_Sport', [[970, 250], [970, 500], [1140, 250], [1140, 500], [1140, 415], [1, 1]], 'DB1_hr').addService(googletag.pubads());
+
+
+            googletag.display('DB1_hr');
+        });
+    </script>
+</div>
+
+    </div>
+
+    
+
+
+<header class="main-menu-container">
+    <div class="float-menu no-height" style="" menu-fix-top>
+        <div class="main-container no-height clearfix">
+            <div class="main-menu no-height">
+                    <h1 class="js-logo logo sport-gradient-bg">
+                        <img class="main" src="/Content/img/logo/index_sport.svg" alt="index.hr" />
+                        <img class="small" src="/Content/img/logo/paprika_logo.svg" alt="index.hr" />
+                        <a class="homepage-link" href="/" title="index.hr"> </a>
+                    </h1>
+                <nav class="menu-holder clearfix">
+                    <ul>
+                        <li class="menu-naslovnica">
+                            <a class="main-text-hover no-drop" href="/"> Naslovnica</a>
+                        </li>
+
+                        <li>
+                            <a class="vijesti-text-hover" href="/vijesti">
+                                Vijesti
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sport-text-hover" href="/sport">
+                                Sport
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable magazin-text-hover">Magazin</span>
+                            <ul class="dropdown-content display-none">
+                                <li class="magazin-bg-hover">
+                                    <a href="/magazin">
+                                        Magazin
+                                    </a>
+                                </li>
+                                <li class="shopping-bg-gradient-hover">
+                                    <a href="/shopping">
+                                        Shopping
+                                    </a>
+                                </li>
+                                <li class="ljubimci-bg-hover">
+                                    <a href="/ljubimci">
+                                        Ljubimci
+                                    </a>
+                                </li>
+                                <li class="food-bg-hover">
+                                    <a href="/food">
+                                        Food
+                                    </a>
+                                </li>
+                                <li class="mame-bg-hover">
+                                    <a href="/mame">
+                                        Mame
+                                    </a>
+                                </li>
+                                <li class="auto-bg-hover">
+                                    <a href="/auto">
+                                        Auto
+                                    </a>
+                                </li>
+                                <li class="fit-bg-hover">
+                                    <a href="/fit">
+                                        Fit
+                                    </a>
+                                </li>
+                                <li class="chill-bg-hover">
+                                    <a href="/chill">
+                                        Chill
+                                    </a>
+                                </li>
+                                <li class="horoskop-bg-hover">
+                                    <a href="/horoskop">
+                                        Horoskop
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="oglasi-text-hover" href="https://www.index.hr/oglasi">
+                                Oglasi
+                            </a>
+                        </li>
+                        <li>
+                            <a class="recepti-text-hover" href="https://recepti.index.hr">
+                                Recepti
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable">Ostalo</span>
+                            <ul class="dropdown-content ostalo display-none">
+                                <li class="main-bg-hover">
+                                    <a href="https://jobs.index.hr/">
+                                        Zaposli se na Indexu
+                                    </a>
+                                </li>
+                                <li class="lajkhr-bg-hover">
+                                    <a href="http://www.index.hr/lajk/">
+                                        Lajk.hr
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tecaj">
+                                        Tečaj
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tv">
+                                        TV program
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/kino">
+                                        Kino
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/vrijeme">
+                                        Vrijeme
+                                    </a>
+                                </li>
+                                <li class="kalendar-bg-hover">
+                                    <a href="/kalendar">
+                                        Kalendar
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="right-part">
+                        <li id="login-menu" class="menu-drop">
+                            <div id="menu-login"
+     v-scope
+     v-cloak
+     @mounted="onLoad">
+    <div v-if="userInfo !== null && userInfo.IsLoggedIn === true">
+        <div class="user-menu expandable no-padding">
+            <div v-if="userInfo.ProfileImage === null" class="initials-holder separator center-aligner">
+                <div class="initials center-aligner">
+                    {{userInfo.Initials}}
+                </div>
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+
+            <div v-if="userInfo.ProfileImage !== null" class="avatar separator center-aligner">
+                <img :src="'https://ip.index.hr/remote/bucket.index.hr/b/index/' + userInfo.ProfileImage + '?width=20&height=20&mode=crop'" />
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+        </div>
+        <ul class="dropdown-content display-none">
+            <li class="main-bg-hover">
+                <a href="/profil">Moj profil</a>
+            </li>
+            <li class="main-bg-hover">
+                <a @click="logout">Odjavite se</a>
+            </li>
+        </ul>
+    </div>
+
+    <div v-if="userInfo === null || userInfo.IsLoggedIn === false" @click="login" class="user-menu no-padding">
+        <div class="login-btn separator">
+            <i class="index-user-alt"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+    PetiteVue.createApp({
+        userInfo: {},
+        onLoad() {
+            var self = this;
+
+            var userInfoCookie = accountService.GetUserInfo();
+
+            if (userInfoCookie != null) {
+                self.userInfo = accountService.GetUserInfo();
+            }
+            else {
+                $.post('/create-user-cookie', function (response) {
+                    self.userInfo = accountService.GetUserInfo();
+                });
+            }
+        },
+        login() {
+            globalDirectives.ShowLoginPopup()
+        },
+        logout() {
+            accountService.Logout('/profil/odjava')
+        }
+    }).mount("#menu-login");
+</script>
+
+                        </li>
+                        <li>
+                            <a href="/trazi.aspx" class="menu-icon btn-open-search"><i class="index-magnifier"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+        
+
+
+    <div class="sub-menu-container main-container">
+        <div class="sub-menu-holder scroll-menu-arrows-holder" data-animate-width="200">
+            <ul class="sub-menu scroll-menu clearfix">
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport">Sport</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najnovije?kategorija=150">Najnovije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najcitanije?kategorija=150">Naj&#x10D;itanije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/nogomet/1638.aspx">Nogomet</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/transferi/1650.aspx">Transferi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/kosarka/1639.aspx">Ko&#x161;arka</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/tenis/1640.aspx">Tenis</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/regija/1692.aspx">Regija</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/komentari/1738.aspx">Komentari</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/borilacki-sportovi/1662.aspx">Borila&#x10D;ki sportovi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom active">
+                        <a class="" href="/sport/rubrika/ostali-sportovi/1641.aspx">Ostali sportovi</a>
+                    </li>
+            </ul>
+            <div class="scroll-menu-arrows display-none">
+                <div class="navigation-arrow left-arrow disabled sport-text-hover"><i class="index-arrow-left"></i></div>
+                <div class="navigation-arrow right-arrow disabled sport-text-hover"><i class="index-arrow-right"></i></div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+
+    
+
+
+
+
+
+
+    <!-- /21703950087/D_OUP -->
+<div id="D_OUP">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_ALL', 'D_OUP').addService(googletag.pubads());
+
+            googletag.display('D_OUP');
+        });
+    </script>
+</div>
+    <!-- /21703950087/D_OUP_wallpaper -->
+<div id="D_OUP_wallpaper">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_wallpaper', 'D_OUP_wallpaper').addService(googletag.pubads());
+
+            googletag.display('D_OUP_wallpaper');
+        });
+    </script>
+</div>
+
+
+
+
+<div class="js-slot-container" data-has-close-btn="true">
+    <div class="js-slot-close-btn dfp-close-btn dfp-close-btn-fixed display-none">
+        <div class="close-btn-creative">
+            <i class="index-close"></i>
+        </div>
+    </div>
+
+    <!-- /21703950087/D_sticky -->
+    <div id='D_sticky' class="js-slot-holder" data-css-class="google-box bottom-sticky">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.defineSlot('/21703950087/D_sticky_all', [[1200, 150], [728, 90], [970, 250], [970, 90], [1, 1]], 'D_sticky').addService(googletag.pubads());
+
+                googletag.display('D_sticky');
+            });
+        </script>
+    </div>
+</div>
+
+
+
+<div class="category-holder">
+    <div class="category-content-holder main-container main-content-bg">
+
+        
+
+
+        <div class="flex">
+            <div class="left-part">
+                    
+
+    <div class="first-news-holder vertical">
+        <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sok-za-marcela-hirschera-potrgao-je-krizni-ligament-mozda-sam-konacno-zavrsio/2620812.aspx">
+            <div class="img-holder">
+                <img class="main-img" src="https://ip.index.hr/remote/bucket.index.hr/b/index/18e742d3-3320-4092-b430-a6c52548bacf.jpg?width=854&height=443&mode=crop&anchor=topcenter&scale=both" alt="&#x160;ok za Marcela Hirschera, potrgao je kri&#x17E;ni ligament: Mo&#x17E;da sam kona&#x10D;no zavr&#x161;io" />
+            </div>
+            <div class="content-holder">
+                <h2 class="title">Šok za Marcela Hirschera, potrgao je križni ligament: Možda sam konačno završio</h2>
+                <p class="summary">SLAVNI skija&#x161; pretrpio je te&#x161;ku ozljedu.</p>
+                <div class="publish-date">3.12.2024.</div>
+            </div>
+        </a>
+    </div>
+
+
+                <div class="other-news">
+                    <div class="animate-box">
+                        <div class="items-container">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/spasen-je-rukomet-u-bih-ivici-obrvanu-isplacen-dug-od-138000-eura/2620788.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Spa&#x161;en je rukomet u BiH. Ivici Obrvanu ispla&#x107;en dug od 138.000 eura" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/03ae14b5-de82-4cf7-aca0-dfdf73213e45.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Spašen je rukomet u BiH. Ivici Obrvanu isplaćen dug od 138.000 eura</h3>
+                    <span class="summary">RUKOMETNI SAVEZ BiH isplatio je hrvatskom treneru Ivicu Obrvanu dugovanje od&#xA0;138.812,18 eura. Time je spa&#x161;en rukomet u Bosni i Hercegovini.</span>
+                    <div class="publish-date">3.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/otkriveno-koliko-ce-dugo-shiffrin-pauzirati%C2%A0doslovno-imam-ranu-u-abdomenu/2620780.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Otkriveno koliko &#x107;e dugo Shiffrin pauzirati:&#xA0;Doslovno imam ranu u abdomenu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4fa2115f-9de7-43cb-836a-19b2a1f7192e.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Otkriveno koliko će dugo Shiffrin pauzirati: Doslovno imam ranu u abdomenu</h3>
+                    <span class="summary">IZGUBILA je ravnote&#x17E;u i pri punoj se brzini zabila u za&#x161;titnu mre&#x17E;u.</span>
+                    <div class="publish-date">3.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/slovenke-osigurale-drugi-krug-europskog-prvenstva-pogledajte-slavlje-u-autobusu/2620737.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Slovenke osigurale drugi krug Europskog prvenstva. Pogledajte slavlje u autobusu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4ef21ea8-b8bb-4298-927b-810a821d7ff1.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Slovenke osigurale drugi krug Europskog prvenstva. Pogledajte slavlje u autobusu</h3>
+                    <span class="summary">ZA RAZLIKU od njih, hrvatskim rukometa&#x161;icama prolaz je vrlo upitan.</span>
+                    <div class="publish-date">2.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/pulezanka-petra-kliba-primila-ruzu-medju-vjetrovima-za-pobjedu-na-barcolani/2620725.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pule&#x17E;anka Petra Kliba primila Ru&#x17E;u me&#x111;u vjetrovima za pobjedu na Barcolani" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d4a1ed0f-9e02-4d79-a4b2-2ff09655e9e2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Puležanka Petra Kliba primila Ružu među vjetrovima za pobjedu na Barcolani</h3>
+                    <span class="summary">JO&#x160; JEDAN uspjeh hrvatskog jedrenja.</span>
+                    <div class="publish-date">2.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/trkacki-vikend-na-kvarneru-krece-ove-subote/2620620.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Trka&#x10D;ki vikend na Kvarneru kre&#x107;e ove subote" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/deccc099-c7ce-4b62-b85d-e47cec1edad5.png?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Trkački vikend na Kvarneru kreće ove subote</h3>
+                    <span class="summary">OVOG vikenda na Kvarneru i subota i nedjelja rezervirani su za tr&#x10D;anje, rekreaciju, humanitarni rad i dobru zabavu.</span>
+                    <div class="publish-date">2.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatska-socca-reprezentacija-pobjedom-protiv-argentine-na-korak-do-prolaska-skupine/2620615.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatska socca reprezentacija pobjedom protiv Argentine na korak do prolaska skupine" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/de71265a-0ad2-4bb1-8512-eb2fee642ab8.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatska socca reprezentacija pobjedom protiv Argentine na korak do prolaska skupine</h3>
+                    <span class="summary">USPJELI su ostvariti sjajan rezultat.</span>
+                    <div class="publish-date">2.12.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-0');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-0');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/prkacin-ako-odigramo-najbolje-sto-mozemo-ne-bojim-se-za-rezultat/2620580.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Prka&#x10D;in: Ako odigramo najbolje &#x161;to mo&#x17E;emo, ne bojim se za rezultat" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8782c1e8-417c-4c07-9546-89d3a34d2e2a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Prkačin: Ako odigramo najbolje što možemo, ne bojim se za rezultat</h3>
+                    <span class="summary">HRVATSKE rukometa&#x161;ice u 20:30 sati igraju protiv &#x160;vicarske.</span>
+                    <div class="publish-date">2.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/verstappen-poludio-na-russela-ne-zelim-s-njim-imati-nikakvog-posla/2620538.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Verstappen poludio na Russela: Ne &#x17E;elim s njim imati nikakvog posla" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d8f55bc0-0773-4f3c-a426-5fa196e8ba08.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Verstappen poludio na Russela: Ne želim s njim imati nikakvog posla</h3>
+                    <span class="summary">NIZOZEMSKI voza&#x10D; nije bio sretan nakon Velike nagrade Katra.</span>
+                    <div class="publish-date">2.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/odlicna-zrinka-ljutic-zauzela-sesto-mjesto-u-slalomu-u-americkom%C2%A0killingtonu/2620353.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Odli&#x10D;na Zrinka Ljuti&#x107; zauzela &#x161;esto mjesto u slalomu u ameri&#x10D;kom&#xA0;Killingtonu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8c4f38c0-4a85-42e2-af5c-aa1437390bfe.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Odlična Zrinka Ljutić zauzela šesto mjesto u slalomu u američkom Killingtonu</h3>
+                    <span class="summary">HRVATSKA skija&#x161;ica nastupila je u drugoj vo&#x17E;nji slaloma u Killingtonu.</span>
+                    <div class="publish-date">1.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/solidan-nastup-zrinke-ljutic-leona-popovic-ostala-bez-druge-voznje/2620299.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Solidan nastup Zrinke Ljuti&#x107;, Leona Popovi&#x107; ostala bez druge vo&#x17E;nje" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4765e741-c3a1-4a7c-b11a-8f76a2ad135a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Solidan nastup Zrinke Ljutić, Leona Popović ostala bez druge vožnje</h3>
+                    <span class="summary">EVO REZULTATA prve vo&#x17E;nje slaloma u Killingtonu.</span>
+                    <div class="publish-date">1.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/tjelohranitelj-ukrao-fotografije-i-nalaze-bolesnog-schumachera-pa-ucjenjivao-obitelj/2620125.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Tjelohranitelj ukrao fotografije i nalaze bolesnog Schumachera pa ucjenjivao obitelj" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/9f59120f-1b0b-40c0-8d6b-5ace61e0a343.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Tjelohranitelj ukrao fotografije i nalaze bolesnog Schumachera pa ucjenjivao obitelj</h3>
+                    <span class="summary">SADA &#x10D;eka su&#x111;enje.</span>
+                    <div class="publish-date">1.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mnk-hajduk-na-sluzbenom-profilu-zgazite-purgere/2620286.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="MNK Hajduk na slu&#x17E;benom profilu: Zgazite purgere" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/980c7d3d-7800-4ebd-9653-3cfde6162b3c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">MNK Hajduk na službenom profilu: Zgazite purgere</h3>
+                    <span class="summary">U SLATINI su odradili uvertiru za derbi.</span>
+                    <div class="publish-date">1.12.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-1');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-1');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-mnk-hajduk-nakon-pobjede-u-kupu-samo-jednu-zelju-imam/2620258.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO MNK Hajduk nakon pobjede u Kupu: &quot;Samo jednu &#x17E;elju imam...&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/3df718ad-0b7f-48b0-9faf-67df757661e0.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  MNK Hajduk nakon pobjede u Kupu: "Samo jednu želju imam..."</h3>
+                    <span class="summary">POGLEDAJTE snimku.</span>
+                    <div class="publish-date">1.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/shiffrin-nakon-teskog-pada-nema-razloga-za-brigu-ne-mogu-se-pomaknuti/2620189.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Shiffrin nakon te&#x161;kog pada: Nema razloga za brigu. Ne mogu se pomaknuti" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0724a427-219d-4a9a-8be2-50e8271eaf5b.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Shiffrin nakon teškog pada: Nema razloga za brigu. Ne mogu se pomaknuti</h3>
+                    <span class="summary">MIKAELA SHIFFRIN je sino&#x107; do&#x17E;ivjela te&#x17E;ak pad u drugoj vo&#x17E;nji veleslaloma.</span>
+                    <div class="publish-date">1.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatski-ragbijasi-u-zadnjoj-sekundi-ispustili-pobjedu-protiv-luksemburga/2620176.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatski ragbija&#x161;i u zadnjoj sekundi ispustili pobjedu protiv Luksemburga" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/74d6d6eb-ef38-4fb9-aa36-ad03063da2c3.jpeg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatski ragbijaši u zadnjoj sekundi ispustili pobjedu protiv Luksemburga</h3>
+                    <span class="summary">DO PROLJE&#x106;A &#x107;e morati strahovati za ostanak u drugom rangu europskog ragbija.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/futsal-dinamo-porazom-51-zavrsio-nastup-u-grupnoj-fazi-lige-prvaka/2620166.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Futsal Dinamo porazom 5:1 zavr&#x161;io nastup u grupnoj fazi Lige prvaka" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0f7e1e29-9256-4b93-8fdd-fa0b2be20d8c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Futsal Dinamo porazom 5:1 završio nastup u grupnoj fazi Lige prvaka</h3>
+                    <span class="summary">FUTSAL DINAMO izgubio je 1:5 od kazahstanskog Kairata u tre&#x107;em kolu skupine B elitne runde Lige prvaka.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/pogledajte-reakciju-zrinke-ljutic-nakon-teskog-pada-shiffrin-nije-slavila-2-mjesto/2620157.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pogledajte reakciju Zrinke Ljuti&#x107; nakon te&#x161;kog pada Shiffrin. Nije slavila 2. mjesto" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/1f8078c3-9567-44b9-9330-ab3db07809e9.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Pogledajte reakciju Zrinke Ljutić nakon teškog pada Shiffrin. Nije slavila 2. mjesto</h3>
+                    <span class="summary">MIKAELA Shiffrin je prvu vo&#x17E;nju zavr&#x161;ila na prvom mjestu, no na sredini staze u drugoj vo&#x17E;nji je pala.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ljutic-nakon-sjajne-utrke-potresao-me-pad-shiffrin-nadam-se-da-ce-biti-dobro/2620156.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ljuti&#x107; nakon sjajne utrke: Potresao me pad Shiffrin. Nadam se da &#x107;e biti dobro" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/93a0fd09-ebb6-4afa-b9cb-0011699d6c45.png?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ljutić nakon sjajne utrke: Potresao me pad Shiffrin. Nadam se da će biti dobro</h3>
+                    <span class="summary">HRVATSKA skija&#x161;ica Zrinka Ljuti&#x107; u ameri&#x10D;kom je Killingtonu ostvarila najbolji rezultat karijere u veleslalomu.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-2');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-2');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hokejasi-siska-izgubili-petu-utakmicu-zaredom-i-prvi-put-nisu-zabili-gol-u-ligi/2620155.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hokeja&#x161;i Siska izgubili petu utakmicu zaredom i prvi put nisu zabili gol u ligi" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/a7718b33-45f6-4dff-9a16-36d0fd99315d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hokejaši Siska izgubili petu utakmicu zaredom i prvi put nisu zabili gol u ligi</h3>
+                    <span class="summary">HOKEJA&#x160;I Siska ne znaju za pobjedu ve&#x107; pet kola u nizu.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/pogledajte-voznju-kojom-je-ljutic-dosla-do-svog-najboljeg-rezultata-u-veleslalomu/2620141.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pogledajte vo&#x17E;nju kojom je Ljuti&#x107; do&#x161;la do svog najboljeg rezultata u veleslalomu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4c1e5a8d-84ae-42d1-a2ce-10b77b653e51.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Pogledajte vožnju kojom je Ljutić došla do svog najboljeg rezultata u veleslalomu</h3>
+                    <span class="summary">BILA JE to vo&#x17E;nja koju vrijedi jo&#x161; jednom pogledati.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ljutic-je-prva-hrvatska-skijasica-na-postolju-u-veleslalomu-nakon-janice-kostelic/2620139.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ljuti&#x107; je prva hrvatska skija&#x161;ica na postolju u veleslalomu nakon Janice Kosteli&#x107;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2c401dac-c1a6-437c-8679-fa86318a4e4c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ljutić je prva hrvatska skijašica na postolju u veleslalomu nakon Janice Kostelić</h3>
+                    <span class="summary">ZRINKA LJUTI&#x106; je prva hrvatska skija&#x161;ica koja je stala na veleslalomsko postolje u Svjetskom kupu nakon pobjede Janice Kosteli&#x107; iz 2006. godine.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/fantasticna-zrinka-ljutic-osvojila-drugo-mjesto-na-veleslalomu-u-sadu/2618392.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Fantasti&#x10D;na Zrinka Ljuti&#x107; osvojila drugo mjesto na veleslalomu u SAD-u" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d4645743-a748-406b-8d68-6842904913ed.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Fantastična Zrinka Ljutić osvojila drugo mjesto na veleslalomu u SAD-u</h3>
+                    <span class="summary">HRVATSKA skija&#x161;ica Zrinka Ljuti&#x107; je ostvarila najbolji rezultat karijere u veleslalomu.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ljutic-peta-nakon-prve-voznje-veleslaloma-u-killingtonu-borit-ce-se-za-postolje/2620104.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ljuti&#x107; peta nakon prve vo&#x17E;nje veleslaloma u Killingtonu. Borit &#x107;e se za postolje" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/c8f4b02f-1338-4955-b26d-9aafb8ab123e.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ljutić peta nakon prve vožnje veleslaloma u Killingtonu. Borit će se za postolje</h3>
+                    <span class="summary">DRUGA vo&#x17E;nja po&#x10D;inje u 19 sati.&#xA0;Ljuti&#x107; mo&#x17E;e do najboljeg rezultata karijere u veleslalomu.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatske-rukometasice-ne-smijemo-podcijeniti-farske-otoke/2620081.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatske rukometa&#x161;ice: Ne smijemo podcijeniti Farske otoke" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8f3fc497-fcf6-41b1-a747-a3b16f971af9.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatske rukometašice: Ne smijemo podcijeniti Farske otoke</h3>
+                    <span class="summary">HRVATSKE rukometa&#x161;ice Sara &#x160;envald i Lucija Be&#x161;en najavile su utakmicu s Farskim otocima na Europskom prvenstvu.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-3');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-3');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/tko-je-milos-kos-srpski-rukometas-rk-zagreba-koji-je-nokautirao-suigraca/2619786.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Tko je Milo&#x161; Kos, srpski rukometa&#x161; RK Zagreba koji je nokautirao suigra&#x10D;a?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/cb71b759-42d6-45bf-9cb2-dfed6de723ad.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Tko je Miloš Kos, srpski rukometaš RK Zagreba koji je nokautirao suigrača?</h3>
+                    <span class="summary">RUKOMETNI klub Zagreb suspendirao je svoje dvije zvijezde, Milo&#x161;a Kosa i Zvonimira Srnu.</span>
+                    <div class="publish-date">29.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/gdje-gledati-hrvatske-rukometasice-na-europskom-prvenstvu/2619728.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Gdje gledati hrvatske rukometa&#x161;ice na Europskom prvenstvu?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/52a76b79-d5c1-4b9a-a12b-c7be0ef375fe.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Gdje gledati hrvatske rukometašice na Europskom prvenstvu?</h3>
+                    <span class="summary">HRVATSKA prvu utakmicu igra protiv Danske, jedne od najja&#x10D;ih ekipa na svijetu.</span>
+                    <div class="publish-date">29.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/odbojkasice-mladosti-izgubile-od-maritze-plovdiv-u-ligi-prvakinja/2619666.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Odbojka&#x161;ice Mladosti izgubile od Maritze Plovdiv u Ligi prvakinja" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/24a5b3c9-f3bb-4333-a3dc-997435111397.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Odbojkašice Mladosti izgubile od Maritze Plovdiv u Ligi prvakinja</h3>
+                    <span class="summary">BIO IM JE to tre&#x107;i poraz u tri kola elitnog natjecanja.</span>
+                    <div class="publish-date">28.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/futsal-dinamo-ostao-bez-sansi-za-polufinale-lige-prvaka/2619653.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Futsal Dinamo ostao bez &#x161;ansi za polufinale Lige prvaka" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/85e0ec7a-00d5-4fd1-85a0-f532b5310c12.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Futsal Dinamo ostao bez šansi za polufinale Lige prvaka</h3>
+                    <span class="summary">DINAMO &#x107;e jo&#x161; odigrati utakmicu protiv Kairata u subotu, ali ona ne&#x107;e biti bitna.</span>
+                    <div class="publish-date">28.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nastavljen-crni-niz-khl-siska-red-bull-ii-s-41-slavio-u-ledenoj-dvorani/2619651.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nastavljen crni niz KHL Siska. Red Bull II s 4:1 slavio u Ledenoj dvorani" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b7579663-a49c-495c-95ed-4d6ec491ce86.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nastavljen crni niz KHL Siska. Red Bull II s 4:1 slavio u Ledenoj dvorani</h3>
+                    <span class="summary">SI&#x160;&#x10C;ANI nisu mogli do pobjede.</span>
+                    <div class="publish-date">28.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/pocinje-56-zlatna-pirueta-najstarije-svjetsko-natjecanje-u-umjetnickom-klizanju/2619626.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Po&#x10D;inje 56. Zlatna pirueta, najstarije svjetsko natjecanje u umjetni&#x10D;kom klizanju" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/22298eee-7263-49d5-a67c-ecc604d18eeb.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Počinje 56. Zlatna pirueta, najstarije svjetsko natjecanje u umjetničkom klizanju</h3>
+                    <span class="summary">ULAZ je za sve gledatelje na zagreba&#x10D;kom Velesajmu&#xA0;besplatan. Revija pobjednika&#xA0;odr&#x17E;at &#x107;e se u subotu&#xA0;7.12. u Ledenoj dvorani Zibel u Sisku, a cijena ulaznice stajat &#x107;e 5 eura.</span>
+                    <div class="publish-date">28.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>
+                            <div class="read-more-news display-none">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/olmissum-porazom-ostao-bez-sanse-za-finalfour-lige-prvaka-dinamu-sada-treba-pobjeda/2619616.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Olmissum porazom ostao bez &#x161;anse za final-four Lige prvaka. Dinamu sada treba pobjeda" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/78210069-80b8-4cff-bd2b-2e4fb3b3a913.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Olmissum porazom ostao bez šanse za final-four Lige prvaka. Dinamu sada treba pobjeda</h3>
+                    <span class="summary">JEDAN hrvatski klub je ostao bez &#x161;anse za prolazak u Ligi prvaka.</span>
+                    <div class="publish-date">28.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatske-rukometasice-otvaraju-euro-s-danskom-nemamo-sanse-ako-nismo-na-200-posto/2619561.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatske rukometa&#x161;ice otvaraju Euro s Danskom: Nemamo &#x161;anse ako nismo na 200 posto" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/77e216f0-99e6-4cbf-9ca2-36e50ec5ecc7.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatske rukometašice otvaraju Euro s Danskom: Nemamo šanse ako nismo na 200 posto</h3>
+                    <span class="summary">EUROPSKO rukometno prvenstvo za rukometa&#x161;ice koje zajedni&#x10D;ki organiziraju Ma&#x111;arska, Austrija i &#x160;vicarska trajat &#x107;e od 28. studenog do 15. prosinca.</span>
+                    <div class="publish-date">28.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/belgijski-biciklist-preminuo-na-19-rodjendan/2619512.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Belgijski biciklist preminuo na 19. ro&#x111;endan" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0875e3fd-1fa0-4345-aaeb-7588b95fcbb2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Belgijski biciklist preminuo na 19. rođendan</h3>
+                    <span class="summary">BELGIJSKI biciklist&#xA0;Tuur Hancke (19) preminuo je na vlastiti ro&#x111;endan.</span>
+                    <div class="publish-date">28.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/futsal-dinamo-molimo-navijace-da-prestanu-pusiti-u-dvorani/2619507.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Futsal Dinamo: Molimo navija&#x10D;e da prestanu pu&#x161;iti u dvorani" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8c08a81d-7d1b-46d4-b440-0ce53abae65e.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Futsal Dinamo: Molimo navijače da prestanu pušiti u dvorani</h3>
+                    <span class="summary">FUTSAL DINAMO organizator je skupine B elitne runde Lige prvaka. Objavio je priop&#x107;enje za navija&#x10D;e.</span>
+                    <div class="publish-date">28.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/futsal-dinamo-i-olmissum-remizirali-u-prvom-kolu-elitne-runde-futsal-lige-prvaka/2619273.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Futsal Dinamo i Olmissum remizirali u prvom kolu Elitne runde futsal Lige prvaka" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/a1edbefc-5f52-424e-bfe6-5f33eb7f0d38.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Futsal Dinamo i Olmissum remizirali u prvom kolu Elitne runde futsal Lige prvaka</h3>
+                    <span class="summary">ODIGRANA je prva utakmica hrvatskih klubova Elitne runde futsal Lige prvaka.</span>
+                    <div class="publish-date">27.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/uefa-se-divila-njegovim-rabonama-sad-s-futsal-dinamom-napada-europski-naslov/2618971.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="UEFA se divila njegovim rabonama. Sad s Futsal Dinamom napada europski naslov" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/bb832014-3214-4c85-9b80-7727f786ef2d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">UEFA se divila njegovim rabonama. Sad s Futsal Dinamom napada europski naslov</h3>
+                    <span class="summary">PRED Plavima su veliki izazovi.</span>
+                    <div class="publish-date">27.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-5');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-5');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatski-klubovi-danas-igraju-derbi-u-futsal-ligi-prvaka-evo-gdje-ih-mozete-gledati/2619024.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatski klubovi danas igraju derbi u futsal Ligi prvaka. Evo gdje ih mo&#x17E;ete gledati" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/9ed2d7c7-dc32-4916-a4f7-863f2187d43e.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatski klubovi danas igraju derbi u futsal Ligi prvaka. Evo gdje ih možete gledati</h3>
+                    <span class="summary">VELIK dan za hrvatske klubove.</span>
+                    <div class="publish-date">27.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/grad-zagreb-i-zet-olaksali-dinamovcima-odlazak-s-futsal-lige-prvaka-na-nogometnu/2618952.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Grad Zagreb i ZET olak&#x161;ali dinamovcima odlazak s Futsal Lige prvaka na nogometnu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4a389a30-ef66-43e4-a86c-b682cb2275b2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Grad Zagreb i ZET olakšali dinamovcima odlazak s Futsal Lige prvaka na nogometnu</h3>
+                    <span class="summary">SUTRA &#x107;e se u Zagrebu odr&#x17E;ati dvije utakmice Lige prvaka.</span>
+                    <div class="publish-date">26.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dejan-savic-novi-je-izbornik-crne-gore/2618745.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dejan Savi&#x107; novi je izbornik Crne Gore" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/fe4bfe86-d672-4c00-9f74-ec2e75c0ce53.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dejan Savić novi je izbornik Crne Gore</h3>
+                    <span class="summary">DEJAN Savi&#x107; novi je izbornik Crne Gore</span>
+                    <div class="publish-date">26.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/general-motorcadillac-ulazi-u-formulu-1-kao-11-ekipa/2618599.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="General Motor/Cadillac ulazi u Formulu 1 kao 11. ekipa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/01e21fc7-1dec-4689-8c65-ab77c162d45a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">General Motor/Cadillac ulazi u Formulu 1 kao 11. ekipa</h3>
+                    <span class="summary">USPJELI su nakon tri godine borbe.</span>
+                    <div class="publish-date">25.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/romeo-grbavac-doznao-protivnika-u-prvom-kolu-spa/2618540.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Romeo Grbavac doznao protivnika u prvom kolu SP-a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4aa913fc-7f1e-4033-9d00-ce3a5b0e011d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Romeo Grbavac doznao protivnika u prvom kolu SP-a</h3>
+                    <span class="summary">GRBAVAC je jedini hrvatski predstavnik na ovogodi&#x161;njem Svjetskom prvenstvu u pikadu.</span>
+                    <div class="publish-date">25.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/kaos-u-crnoj-gori-navijaci-protivnike-zvali-ustasama-i-gadjali-ih-bocama/2618522.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Kaos u Crnoj Gori. Navija&#x10D;i protivnike zvali usta&#x161;ama i ga&#x111;ali ih bocama" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ac32f80b-b069-4cbe-9ce6-08cbcb24339d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Kaos u Crnoj Gori. Navijači protivnike zvali ustašama i gađali ih bocama</h3>
+                    <span class="summary">KAOTI&#x10C;NA rukometna utakmica odigrana je u crnogorskom prvenstvu izme&#x111;u Lov&#x107;ena i Berane.</span>
+                    <div class="publish-date">25.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-6');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-6');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/veliki-tjedan-za-navijace-dinama-gledat-ce-cak-dvije-lige-prvaka-u-zagrebu/2618514.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Veliki tjedan za navija&#x10D;e Dinama. Gledat &#x107;e &#x10D;ak dvije Lige prvaka u Zagrebu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/650e2e29-961b-4ee0-81a9-0921084da7dd.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Veliki tjedan za navijače Dinama. Gledat će čak dvije Lige prvaka u Zagrebu</h3>
+                    <span class="summary">ISPRED navija&#x10D;a Dinama je velik tjedan.</span>
+                    <div class="publish-date">25.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/boris-krcmar-ne-ide-na-svjetsko-prvenstvo/2618494.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Boris Kr&#x10D;mar ne ide na Svjetsko prvenstvo" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/52bb0b9b-6b07-4518-8390-b7f3dc2b1e4a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Boris Krčmar ne ide na Svjetsko prvenstvo</h3>
+                    <span class="summary">ISPAO je s kvalifikacijskog turnira.</span>
+                    <div class="publish-date">25.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dan-kada-je-ivica-kostelic-uspio-ono-sto-nitko-nikad-nije/2618427.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dan kada je Ivica Kosteli&#x107; uspio ono &#x161;to nitko nikad nije" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/14657a7e-ae0d-469d-8bb1-909346e76b23.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dan kada je Ivica Kostelić uspio ono što nitko nikad nije</h3>
+                    <span class="summary">PRO&#x160;LE su 23 godine od velikog skija&#x161;kog &#x10D;uda.</span>
+                    <div class="publish-date">25.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/senzacija-u-slovackoj-romeo-grbavac-u-hrvatskom-finalu-izborio-nastup-na-sp-u-pikadu/2618244.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Senzacija u Slova&#x10D;koj! Romeo Grbavac u hrvatskom finalu izborio nastup na SP u pikadu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8592a57a-4e87-42b3-b50d-78c4eaf24cf6.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Senzacija u Slovačkoj! Romeo Grbavac u hrvatskom finalu izborio nastup na SP u pikadu</h3>
+                    <span class="summary">SJAJNA predstava hrvatskih pikadista na kvalifikacijskom turniru.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/samuel-kolega-podbacio-u-drugoj-voznji-lovio-rezultat-karijere-a-zavrsio-16/2616862.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Samuel Kolega podbacio u drugoj vo&#x17E;nji. Lovio rezultat karijere, a zavr&#x161;io 16." loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/6bf59381-3405-4ff3-a8ed-ad6cd8c1de60.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Samuel Kolega podbacio u drugoj vožnji. Lovio rezultat karijere, a završio 16.</h3>
+                    <span class="summary">IAKO je nakon prve vo&#x17E;nje bio odli&#x10D;an sedmi, Kolega nije zavr&#x161;io ni me&#x111;u najboljih 15.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/fantasticna-utrka-kolege-borit-ce-se-za-postolje-u-slalomu/2618140.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Fantasti&#x10D;na utrka Kolege, borit &#x107;e se za postolje u slalomu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/bea911c9-29ec-4c88-8bc8-99c18803c4c2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Fantastična utrka Kolege, borit će se za postolje u slalomu</h3>
+                    <span class="summary">DRUGA slalomska vo&#x17E;nja zapo&#x10D;inje u 13:30.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-7');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-7');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-verstappen-se-borio-sa-suzama-na-putu-prema-boksu-kakva-sezona-cetiri-puta/2618124.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Verstappen se borio sa suzama na putu prema boksu: &quot;Kakva sezona, &#x10D;etiri puta&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d02fadce-6038-4eab-9202-7c4670fc6750.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Verstappen se borio sa suzama na putu prema boksu: "Kakva sezona, četiri puta"</h3>
+                    <span class="summary">MAX VERSTAPPEN bio je neuobi&#x10D;ajeno emotivan nakon osvajanja &#x10D;etvrtog naslova prvaka Formule 1.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-verstappen-osigurao-novi-naslov-prvaka-formule-1-russell-slavio-u-las-vegasu/2618111.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Verstappen osigurao novi naslov prvaka Formule 1, Russell slavio u Las Vegasu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b4b9326e-cf44-4d9f-9e8b-e7261441e663.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Verstappen osigurao novi naslov prvaka Formule 1, Russell slavio u Las Vegasu</h3>
+                    <span class="summary">U LAS VEGASU je pobijedio George Russell, ali pravo slavlje imao je Nizozemac.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/udarac-koji-je-od-nevinog-i-nekonfliktnog-sporta-napravio-svjetsku-pricu-godine/2616912.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Udarac koji je od nevinog i nekonfliktnog sporta napravio svjetsku pri&#x10D;u godine" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/aaeb1495-ecbd-44f8-ad14-ff973e2d347a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Udarac koji je od nevinog i nekonfliktnog sporta napravio svjetsku priču godine</h3>
+                    <span class="summary">RIVALSTVO Tonye Harding i Nancy Kerrigan najlu&#x111;a je pri&#x10D;a u povijesti umjetni&#x10D;kog klizanja.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/wrc-ima-novog-prvaka/2618101.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="WRC ima novog prvaka" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/c8678269-8f5c-481a-930d-f727bf6059b5.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">WRC ima novog prvaka</h3>
+                    <span class="summary">ISKORISTIO je odustajanje jednoga suparnika Estonca Otta T&#xE4;naka (Hyundai) na zadnjem WRC reliju sezone u Japanu.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/talijani-prekinuli-cudesan-niz-khl-siska/2618087.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Talijani prekinuli &#x10D;udesan niz KHL Siska" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/55bd43ac-6169-45ec-9eb7-a403775289e3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Talijani prekinuli čudesan niz KHL Siska</h3>
+                    <span class="summary">NIJE I&#x160;LO protiv Cortine.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ljutic-s-24-mjesta-skocila-u-top-10-slaloma-u-gurglu-albanka-druga/2616860.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ljuti&#x107; s 24. mjesta sko&#x10D;ila u top 10 slaloma u Gurglu, Albanka druga" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d16199aa-a7d1-4cda-ab21-0882b8ffc912.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ljutić s 24. mjesta skočila u top 10 slaloma u Gurglu, Albanka druga</h3>
+                    <span class="summary">U AUSTRIJSKOM Gurglu odr&#x17E;an je drugi slalom sezone Svjetskoga kupa za skija&#x161;ice.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-8');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-8');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-hrvat-spektakularnim-golom-u-zadnjoj-sekundi-srusio-lidera-rukometne-bundeslige/2617972.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Hrvat spektakularnim golom u zadnjoj sekundi sru&#x161;io lidera rukometne Bundeslige" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/34379b8a-9a1e-48a4-9bb0-91169888ac71.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Hrvat spektakularnim golom u zadnjoj sekundi srušio lidera rukometne Bundeslige</h3>
+                    <span class="summary">FILIP VISTOROP junak je pobjede nad vode&#x107;om mom&#x10D;adi lige.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-f1-vozac-zavrsio-u-ogradi-komentator-ovo-je-steta-od-15-milijuna-eura/2617966.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO F1 voza&#x10D; zavr&#x161;io u ogradi. Komentator: Ovo je &#x161;teta od 1.5 milijuna eura" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/7ad37b07-ffdb-4f76-881d-87ad44e7462b.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  F1 vozač završio u ogradi. Komentator: Ovo je šteta od 1.5 milijuna eura</h3>
+                    <span class="summary">UTRKA za VN Las Vegasa vozi se u 7 ujutro po srednjoeuropskom vremenu.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatske-skijasice-izvan-prvih-15-u-prvoj-voznji-slaloma-u-gurglu/2617952.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatske skija&#x161;ice izvan prvih 15 u prvoj vo&#x17E;nji slaloma u Gurglu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/abf2dd03-2546-45fc-acb1-264dcdf46b41.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatske skijašice izvan prvih 15 u prvoj vožnji slaloma u Gurglu</h3>
+                    <span class="summary">I POPOVI&#x106; i Ljuti&#x107; daleko su od pobjedni&#x10D;kog postolja u Gurglu.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/russellu-pole-position-u-vegasu-ali-svi-ce-pratiti-dvojac-iz-treceg-startnog-reda/2617932.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Russellu pole position u Vegasu, ali svi &#x107;e pratiti dvojac iz tre&#x107;eg startnog reda" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/799f77de-06e3-49a2-9595-f0247eafe73c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Russellu pole position u Vegasu, ali svi će pratiti dvojac iz trećeg startnog reda</h3>
+                    <span class="summary">GEORGE RUSSELL pobijedio je na kvalifikacijama, ali na utrci &#x107;e u fokusu biti na Verstappenu i Norrisu.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/smajlagic-napustio-borac-dolazimo-u-situaciju-da-igrac-nema-sto-za-jesti/2617901.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Smajlagi&#x107; napustio Borac: Dolazimo u situaciju da igra&#x10D; nema &#x161;to za jesti" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/a9934565-d458-4afb-96f3-8e4cec276887.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Smajlagić napustio Borac: Dolazimo u situaciju da igrač nema što za jesti</h3>
+                    <span class="summary">SMAJLAGI&#x106; je rekao da se klub nalazi u veoma lo&#x161;oj situaciji, jer igra&#x10D;i i on nisu primili pla&#x107;u mjesecima.</span>
+                    <div class="publish-date">22.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/danas-je-trebao-igrati-protiv-bivseg-svjetskog-prvaka-ali-je-pao-na-testu-na-droge/2617818.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Danas je trebao igrati protiv biv&#x161;eg svjetskog prvaka, ali je pao na testu na droge" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/158ffdff-b67e-4f3d-a572-50d368a5858a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Danas je trebao igrati protiv bivšeg svjetskog prvaka, ali je pao na testu na droge</h3>
+                    <span class="summary">ENGLESKI igra&#x10D; pikada danas je trebao nastupiti u prvom kolu Players Championship Finalsa.</span>
+                    <div class="publish-date">22.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                            </div>
+
+                            <div class="btn-read-more" data-offset="0">
+                                <div class="read-more-text">PRIKAŽI JOŠ VIJESTI<i class="index-arrow-down sport-text"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part">
+                
+
+
+<!-- /21703950087/Box1 -->
+<div id='Box1' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box1_sport_hr', sizes, 'Box1').addService(googletag.pubads());
+
+            googletag.display('Box1');
+        });
+    </script>
+</div>
+
+
+                <div class="category-timeline-holder timeline-holder">
+                    <div class="header clearfix">
+                        <h2>Sport</h2>
+                        <div class="periods btn-group">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                danas <i class="index-arrow-down sport-text"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                    <li class="sport-bg-hover" data-value="today">Danas</li>
+                                    <li class="sport-bg-hover" data-value="yesterday">Ju&#x10D;er</li>
+                                    <li class="sport-bg-hover" data-value="week">Zadnjih 7 dana</li>
+                                    <li class="sport-bg-hover" data-value="month">Zadnjih 30 dana</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="most-read-holder">
+                        
+
+    <div class="timeline-content most-read">
+        <ul>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">1</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/bjelica-ga-je-izbacio-iz-momcadi-sada-se-oglasio-prvi-put-nakon-incidenta/2620746.aspx?index_ref=_sport_najcitanije_d">
+                            Bjelica ga je izbacio iz momčadi. Sada se oglasio prvi put nakon incidenta
+                        </a>
+                        <div class="line" style="width: 90%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">2</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/navijac-bernaueru-znas-koliko-mrzimo-hajduk-branic-dinama-odgovorio-znam/2620809.aspx?index_ref=_sport_najcitanije_d">
+                            Navijač Bernaueru: Znaš koliko mrzimo Hajduk? Branič Dinama odgovorio: Znam
+                        </a>
+                        <div class="line" style="width: 81%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">3</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/skaut-se-divi-hajdukovom-dragulju-ima-sut-kao-shaqiri-ali-je-bolji-igrac-od-njega/2620879.aspx?index_ref=_sport_najcitanije_d">
+                            Skaut se divi Hajdukovom dragulju: Ima šut kao Shaqiri, ali je bolji igrač od njega
+                        </a>
+                        <div class="line" style="width: 72%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">4</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ludnica-za-baturinom-sport-barcelona-ga-prati-mjesecima/2620772.aspx?index_ref=_sport_najcitanije_d">
+                            Ludnica za Baturinom. Sport: Barcelona ga prati mjesecima
+                        </a>
+                        <div class="line" style="width: 63%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">5</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/nogomet-sam-poceo-igrati-u-progonstvu-uz-modrica-sam-bio-u-najboljem-kadru-u-hnlu/2620281.aspx?index_ref=_sport_najcitanije_d">
+                            "Nogomet sam počeo igrati u progonstvu. Uz Modrića sam bio u najboljem kadru u HNL-u"
+                        </a>
+                        <div class="line" style="width: 54%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">6</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ivanisevicev-rival-o-igi-swiatek-dozivotna-suspenzija-bez-obzira-tko-ste/2620881.aspx?index_ref=_sport_najcitanije_d">
+                            Ivaniševićev rival o Igi Swiatek: Doživotna suspenzija. Bez obzira tko ste
+                        </a>
+                        <div class="line" style="width: 45%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">7</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/premierligaski-kapetan-odbio-nositi-traku-duginih-boja-klub-dao-objasnjenje/2620802.aspx?index_ref=_sport_najcitanije_d">
+                            Premierligaški kapetan odbio nositi traku duginih boja. Klub dao objašnjenje
+                        </a>
+                        <div class="line" style="width: 36%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">8</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/napisao-je-da-voli-isusa-preko-duginih-boja-savez-ga-opomenuo-da-je-to-zabranjeno/2620894.aspx?index_ref=_sport_najcitanije_d">
+                            Napisao je da voli Isusa preko duginih boja. Savez ga opomenuo da je to zabranjeno
+                        </a>
+                        <div class="line" style="width: 27%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">9</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/trebao-je-u-dinamo-sad-iz-zvezde-porucuje-smetale-su-nam-dinamove-pobjede-u-lpu/2620903.aspx?index_ref=_sport_najcitanije_d">
+                            Trebao je u Dinamo. Sad iz Zvezde poručuje: Smetale su nam Dinamove pobjede u LP-u
+                        </a>
+                        <div class="line" style="width: 18%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">10</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/video-trcali-smo-s-poznatim-trenerom-edom-po-magli-otkrio-nam-je-trikove-za-trening/2617705.aspx?index_ref=_sport_najcitanije_d">
+                            <span class='title-parsed-text'>VIDEO</span>  Trčali smo s poznatim trenerom Edom po magli. Otkrio nam je trikove za trening 
+                        </a>
+                        <div class="line" style="width: 9%;"></div>
+                    </div>
+                </li>
+        </ul>
+        <a class="more-news" href="/najcitanije?kategorija=150&amp;timerange=today">Prikaži još vijesti</a>
+    </div>
+
+                    </div>
+                </div>
+                <div class="separator-55"></div>
+                
+
+
+<!-- /21703950087/Box2 -->
+<div id='Box2' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box2_sport_hr', sizes, 'Box2').addService(googletag.pubads());
+
+            googletag.display('Box2');
+        });
+    </script>
+</div>
+
+                <div class="separator-50"></div>
+                <div class="sticky">
+                    
+
+
+<!-- /21703950087/DSF_sticky -->
+<div id='DSF_sticky' class="js-slot-container" data-css-class="google-box">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF_sticky_sport', [[300, 600], [300, 250], [1, 1]], 'DSF_sticky').addService(googletag.pubads());
+
+            googletag.display('DSF_sticky');
+        });
+    </script>
+</div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+<!-- /21703950087/DSF5 -->
+<div id='DSF5' class="js-slot-container" data-css-class="google-box top-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF5_Sport', [[970, 90], [970, 250], [970, 500], [728, 90], [800, 250], [1, 1]], 'DSF5').addService(googletag.pubads());
+
+            googletag.display('DSF5');
+        });
+    </script>
+</div>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="popup-overlay-container js-login-popup display-none">
+    <div class="popup-holder comments-login-popup-holder">
+        <div class="btn-close-popup" close-popup>
+            <i class="index-close"></i>
+        </div>
+
+        <div class="main-title">
+            Prijavite se
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">
+                Brza prijava
+            </div>
+            <div class="section-desc">
+                (traje par sekundi)
+            </div>
+            <div class="login-social-holder flex">
+                <a class="social-btn fb flex" onclick="accountService.Login('/profil/prijava?auth_action=login-facebook&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fostali-sportovi%2F1641.aspx')">
+                    <img src="/Content/img/login/fb.svg" /> Facebook
+                </a>
+                <a class="social-btn google flex" onclick="accountService.Login('/profil/prijava?auth_action=login-google&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fostali-sportovi%2F1641.aspx')">
+                    <img src="/Content/img/login/google.svg" /> Google
+                </a>
+            </div>
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">Prijava emailom</div>
+            <form class="login-form" action="/profil/prijava?redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fostali-sportovi%2F1641.aspx" method="post" onsubmit="accountService.OnLoginFormSubmit()">
+
+                <div class="input-holder">
+                    <i class="index-mail3"></i>
+                    <input type="email" class="input-field" required name="login_hint" placeholder="Unesite email" value="" />
+                </div>
+                <div class="description">Ako već niste registirani, poslat ćemo vam email s linkom za nastavak registracije.</div>
+                <button class="login-btn" type="submit">Prijavite se</button>
+            </form>
+        </div>
+
+        <div class="disclaimer-holder">
+            Kreiranjem i prijavom na račun slažete se s našim <br>
+            <a href="https://www.index.hr/uvjeti-koristenja">Uvjetima korištenja</a> i <a href="https://www.index.hr/uvjeti-koristenja#pravila-o-zastiti-privatnosti">Pravilima o privatnosti</a>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <footer class="main-footer main-container main-content-bg clearfix">
+    <a class="logo" href="/"><img class="logo-img" src="/Content/img/logo/logo_footer_196x29.svg" /></a>
+    <nav class="list-holder flex">
+        <ul>
+            <li class="heading">
+                <a class="vijesti-text-hover" href="/vijesti">
+                    Vijesti
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/hrvatska/22.aspx">
+                    Hrvatska
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/zagreb/1553.aspx">
+                    Zagreb
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/regija/1540.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/eu/5040.aspx">
+                    EU
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/svijet/23.aspx">
+                    Svijet
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/znanost/1722.aspx">
+                    Znanost
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/crna-kronika/46.aspx">
+                    Crna kronika
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/komentari/1413.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/novac/1554.aspx">
+                    Novac
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/afere">
+                    Afere
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="sport-text-hover" href="/sport">
+                    Sport
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/nogomet/1638.aspx">
+                    Nogomet
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/transferi/1650.aspx">
+                    Transferi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/kosarka/1639.aspx">
+                    Košarka
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/tenis/1640.aspx">
+                    Tenis
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/regija/1692.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/komentari/1738.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/borilacki-sportovi/1662.aspx">
+                    Borilački sportovi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/ostali-sportovi/1641.aspx">
+                    Ostali sportovi
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="magazin-text-hover" href="/magazin">
+                    Magazin
+                </a>
+            </li>
+            <li>
+                <a class="shopping-text-hover" href="/shopping">
+                    Shopping
+                </a>
+            </li>
+            <li>
+                <a class="ljubimci-text-hover" href="/ljubimci">
+                    Ljubimci
+                </a>
+            </li>
+
+            <li>
+                <a class="food-text-hover" href="/food">
+                    Food
+                </a>
+            </li>
+            <li>
+                <a class="mame-text-hover" href="/mame">
+                    Mame
+                </a>
+            </li>
+            <li>
+                <a class="auto-text-hover" href="/auto">
+                    Auto
+                </a>
+            </li>
+            <li>
+                <a class="fit-text-hover" href="/fit">
+                    Fit
+                </a>
+            </li>
+            <li>
+                <a class="chill-text-hover" href="/chill">
+                    Chill
+                </a>
+            </li>
+            <li>
+                <a class="horoskop-text-hover" href="/horoskop">
+                    Horoskop
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Plus
+            </li>
+            <li><a class="oglasi-text-hover" href="https://www.index.hr/oglasi/">Oglasi</a></li>
+            <li><a class="recepti-text-hover" href="https://recepti.index.hr/">Recepti</a></li>
+            <li><a class="lajkhr-text-hover" href="http://www.index.hr/lajk/">Lajk.hr</a></li>
+            <li><a class="odgovori-text-hover" href="https://odgovori.index.hr/">Odgovori</a></li>
+            <li>
+                <a class="kalendar-text-hover" href="/kalendar">
+                    Kalendar
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Info
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tecaj">
+                    Tečaj
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tv">
+                    TV program
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/kino">
+                    Kino
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/vrijeme">
+                    Vrijeme
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/rss/info">
+                    RSS
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                PRATITE NAS
+            </li>
+            <li>
+                <a href="https://www.facebook.com/index.hr/" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="facebook index-facebook"></i>Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="youtube index-youtube"></i>Youtube</a>
+            </li>
+            <li>
+                <a href="https://instagram.com/index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="instagram index-instagram"></i>Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="tiktok index-tiktok"></i>TikTok</a>
+            </li>
+            <li><a href="/posaljite-pricu" class="main-text-hover">Pošaljite nam vijest </a></li>
+            <li><a href="/newsletter" class="main-text-hover">Newsletter</a></li>
+        </ul>
+    </nav>
+    <ul class="impressum">
+        <li><a href="https://cjenik.index.hr">Oglašavanje</a></li>
+        <li><a href="https://jobs.index.hr/">Zaposli se na Indexu</a></li>
+        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/impressum">Impressum</a></li>
+        <li><a href="/uvjeti-koristenja">Uvjeti korištenja</a></li>
+        <li>
+            <a href="javascript:Didomi.preferences.show()">
+                Postavke kolačića
+            </a>
+        </li>
+        <li>
+            © 2024 Index
+        </li>
+    </ul>
+</footer>
+
+    </footer>
+
+    
+
+
+<script>
+    //load the apstag.js library (amazon prebid)
+    !function (a9, a, p, s, t, A, g) { if (a[a9]) return; function q(c, r) { a[a9]._Q.push([c, r]) } a[a9] = { init: function () { q("i", arguments) }, fetchBids: function () { q("f", arguments) }, setDisplayBids: function () { }, targetingKeys: function () { return [] }, _Q: [] }; A = p.createElement(s); A.async = !0; A.src = t; g = p.getElementsByTagName(s)[0]; g.parentNode.insertBefore(A, g) }("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");
+
+    //initialize the apstag.js library on the page to allow bidding
+    apstag.init({
+        pubID: '03086deb-b728-420a-9fad-35ee317c06f6', //enter your pub ID here as shown above, it must within quotes
+        adServer: 'googletag'
+    });
+
+    var PREBID_TIMEOUT = 2000;
+
+    
+    var CONSENT_TIMEOUT = 1000;
+    var FAILSAFE_TIMEOUT = 4000;
+
+    var USER_PPID = accountService.GetUserPPID();
+
+    var requestManager = {
+        adserverRequestSent: false,
+        aps: false,
+        prebid: false
+    };
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+    var adUnits = adUnits || [];
+    var amazonAdSlots = amazonAdSlots || [];
+
+   
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    function initializeGoogletagRefreshWithPrebid() {
+        console.log("AD_INITIALISE_GPT_WITH_PREBID");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        if (cookieService.GetCookie("lcl_near_full") != null) {
+            console.log('localstorage full targeting')
+            googletag.pubads().setTargeting("localstorageFull", "yes");
+        }
+
+        //if PPID provided, set it
+        if (USER_PPID && didomiService.IsGoogleAllowed()) {
+            console.log('AD_PPID_SET', USER_PPID)
+            googletag.pubads().setTargeting("ppid_test", "yes");
+            googletag.pubads().setPublisherProvidedId(USER_PPID);
+
+        }
+        else {
+            googletag.pubads().setTargeting("ppid_test", "no");
+        }
+
+        //amazon prebid init
+        if (amazonAdSlots.length > 0) {
+            apstag.fetchBids({
+                slots: amazonAdSlots,
+                timeout: PREBID_TIMEOUT
+            }, function (bids) {
+                apstag.setDisplayBids();
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack(); // checks whether both APS and Prebid have returned
+            });
+        }
+        else {
+            requestManager.aps = true; // signals that APS request has completed
+            biddersBack(); // checks whether both APS and Prebid have returned
+        }
+
+        //amazon sometimes does process timeout well, so we will add a failsafe to mark it as done from our side, otherwise it will be too slow
+        setTimeout(function () {
+            if (!requestManager.aps) {
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack();
+            }
+        }, PREBID_TIMEOUT)
+
+       
+        pbjs.rp.requestBids({
+            callback: prebidCallback,
+            //gptSlotObjects: googletag.pubads().getSlots()
+        });
+    }
+
+    function initializeGoogletagWithLimitedAds() {
+        console.log("AD_INITIALISE_GPT_WITH_LIMITED_ADS");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        sendAdserverRequest();
+    }
+
+    // when both APS and Prebid have returned, initiate ad request
+    //this function will call function which sends ad request, only if amazon and prebid returned their requests
+    function biddersBack() {
+        if (requestManager.aps && requestManager.prebid) {
+            sendAdserverRequest();
+        }
+        return;
+    }
+
+    function prebidCallback() {
+        requestManager.prebid = true;
+        biddersBack();
+    }
+
+    //will send ad requests if not already sent, otherwise will do nothing
+    function sendAdserverRequest() {
+        if (requestManager.adserverRequestSent === true) {
+            return;
+        }
+
+        requestManager.adserverRequestSent = true;
+
+        var slots = googletag.pubads().getSlots();
+
+        if (slots.length > 0) {
+            googletag.enableServices();
+
+            var slotsToRefresh = [];
+
+            for (i = 0; i < slots.length; i++) {
+                var slot = slots[i];
+
+                var slotElementId = slot.getSlotElementId();
+                var element = document.getElementById(slotElementId);
+
+                var useLazyLoad = false;
+                var useMra = false;
+
+                if (element) {
+                    var useLazyLoadAttr = element.dataset.lazyLoad;
+                    var useMraAttr = element.dataset.useMra;
+
+                    if (useLazyLoadAttr && useLazyLoadAttr == 'True') {
+                        useLazyLoad = true;
+                    }
+
+                    if (useMraAttr && useMraAttr == 'true') {
+                        useMra = true;
+                    }
+                }
+
+                if (useLazyLoad) {
+                    observeAdElement(element, slot);
+                }
+                else if (useMra) {
+                    googletag.pubads().refresh([slot]);
+                }
+                else {
+                    slotsToRefresh.push(slot);
+                }
+            }
+
+            console.log("AD_PBJS_CALLBACK");
+
+            googletag.pubads().refresh(slotsToRefresh);
+
+            console.log("AD_REFRESHED");
+        }
+    }
+
+    function observeAdElement(element, slot) {
+        var observerOptions = {
+            root: null,
+            rootMargin: '300px',
+            threshold: 0
+        };
+
+        let impressionViewableObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    googletag.pubads().refresh([slot]);
+
+                    observer.unobserve(entry.target);
+                }
+            })
+        }, observerOptions);
+
+        impressionViewableObserver.observe(element);
+    }
+
+    // we must wait didomi to be ready, so we can pass consent
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) {
+        console.log("AD_DIDOMI_READY")
+        loadPrebid();
+
+    });
+
+    window.didomiEventListeners = window.didomiEventListeners || [];
+    window.didomiEventListeners.push({
+        event: 'consent.changed',
+        listener: function (context) {
+            // The user consent status has changed, so we wil send permutive PV
+            permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT);
+        }
+    });
+
+    // Function to load Rubicon Project script
+    function loadPrebid() {
+        var prebidScript = document.createElement('script');
+        prebidScript.async = true;
+        prebidScript.src = '//micro.rubiconproject.com/prebid/dynamic/26072.js';
+        prebidScript.onload = loadGPT; // Load GPT.js after Prebid script is loaded
+        document.head.appendChild(prebidScript);
+
+       
+    }
+
+    // Function to load GPT.js
+    function loadGPT() {
+        var gptScript = document.createElement('script');
+        gptScript.async = true;
+        gptScript.src = "https://pagead2.googlesyndication.com/tag/js/gpt.js";
+        gptScript.onload = init;
+        document.head.appendChild(gptScript);
+
+        console.log("AD_PREBID_LOADED")
+      
+    }
+
+    function init() {
+        console.log("AD_GPT_LOADED")
+        console.log("AD_STARTING_AD_TECH_STUFF")
+        permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT)
+            .then(initializeAdLayer)
+            .catch(error => {
+                console.error("AD_IN_PERMUTIVE_STACK");
+                console.warn("Continuing to load ad tech without permutive");
+
+                initializeAdLayer();
+            });
+    }
+
+    function initializeAdLayer() {
+        if (didomiService.IsGoogleAllowed() && Didomi.getUserStatus().purposes.consent.disabled.length == 0) {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: false
+                });
+            });
+
+            googletag.cmd.push(function () {
+                pbjs.que.push(function () {
+                    initializeGoogletagRefreshWithPrebid();
+                });
+            });
+        }
+        else {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: true
+                });
+            });
+
+            googletag.cmd.push(function () {
+                initializeGoogletagWithLimitedAds();
+            });
+        }
+    }
+
+</script>
+
+    
+    
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    (function () {
+        window.dm = window.dm || { AjaxData: [] };
+        window.dm.AjaxEvent = function (et, d, ssid, ad) {
+            dm.AjaxData.push({ et: et, d: d, ssid: ssid, ad: ad });
+            window.DotMetricsObj && DotMetricsObj.onAjaxDataUpdate();
+        };
+        var d = document,
+            h = d.getElementsByTagName('head')[0],
+            s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://script.dotmetrics.net/door.js?id=12270';
+        h.appendChild(s);
+    }());
+    /* ]]> */
+</script>
+
+
+    <script>
+        var mostReadUrl = '/Category/MostReadNews?categoryId=150&categorySlug=sport&timerange=%25timerange%25';
+
+        categoryService.InitAll();
+    </script>
+
+
+    <script>
+        googleEventService.CreateCustomEventGA4("layout", "ab_fifty-fifty", "");
+        googleEventService.CreateCustomEventGA4("user_data", "ab_fifty-fifty", "");
+
+        // if ad block detected send event
+        if (window.indexCanRunAds === undefined) {
+            googleEventService.CreateCustomEventGA4("layout", "ad_block_detected", "true");
+        }
+
+        var abCookieUrl = '/setabcookie';
+
+        globalDirectives.InitAll();
+        layoutService.InitAll();
+
+        layoutService.SetCurrentUrl('https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fostali-sportovi%2F1641.aspx');
+        deviceService.TrackIfNeeded();
+    </script>
+
+    
+</body>
+</html>

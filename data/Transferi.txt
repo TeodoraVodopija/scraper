@@ -1,0 +1,2425 @@
+
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <!--detect slow internet connection-->
+<script type="text/javascript">
+    var IS_SLOW_INTERNET = false;
+    var SLOW_INTERNET_THRESHOLD = 5000;//ms
+    var slowLoadTimeout = window.setTimeout(function () {
+        IS_SLOW_INTERNET = true;
+    }, SLOW_INTERNET_THRESHOLD);
+
+    window.addEventListener('load', function () {
+        window.clearTimeout(slowLoadTimeout);
+    }, false);
+</script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <title>Transferi - Index.hr</title>
+    <!--todo: remove on production-->
+    <meta name="description" content="Najnoviji transferi i glasine">
+    <meta property="fb:app_id" content="216060115209819">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <link rel="preload" href="//micro.rubiconproject.com/prebid/dynamic/26072.js" as="script" /> 
+    <link rel="preload" href="https://pagead2.googlesyndication.com/tag/js/gpt.js" as="script" />
+
+     <!--adblock detection-->
+<script src="/Scripts/adblockDetect/ads.js"></script>
+    
+
+<script>
+    window.constants = window.constants || {};
+    window.constants.statsServiceHost = 'https://stats.index.hr';
+    window.constants.socketsHost = 'https://sockets.index.hr';
+    window.constants.chatHost = 'https://chat.index.hr';
+    window.constants.interactiveHost = 'https://interactive.index.hr';
+</script>
+
+        <!--recover ads, if adblock detected-->
+<!--adpushup recovery-->
+<script data-cfasync="false" type="text/javascript">(function (w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/41144/adRecover.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+
+
+    <link rel='preconnect' href='https://fonts.googleapis.com' crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="preload" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="stylesheet">
+
+    
+
+    
+        <link href="/Content/desktop-bundle.min.css?v=b11b4c97-bb50-4173-8acb-0b8e886647e0" rel="preload" as="style" />
+        <link href="/Scripts/desktop-bundle.min.js?v=b11b4c97-bb50-4173-8acb-0b8e886647e0" rel="preload" as="script" />
+
+        <link href="/Content/desktop-bundle.min.css?v=b11b4c97-bb50-4173-8acb-0b8e886647e0" rel="stylesheet" />
+        <script src="/Scripts/desktop-bundle.min.js?v=b11b4c97-bb50-4173-8acb-0b8e886647e0"></script>
+    
+
+    
+<script>
+    !function (e, o, n, i) { if (!e) { e = e || {}, window.permutive = e, e.q = []; var t = function () { return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (e) { return (e ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> e / 4).toString(16) }) }; e.config = i || {}, e.config.apiKey = o, e.config.workspaceId = n, e.config.environment = e.config.environment || "production", (window.crypto || window.msCrypto) && (e.config.viewId = t()); for (var g = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], r = 0; r < g.length; r++) { var w = g[r]; e[w] = function (o) { return function () { var n = Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: o, arguments: n }) } }(w) } } }(window.permutive, "cd150efe-ff8f-4596-bfca-1c8765fae796", "b4d7f9ad-9746-4daa-b552-8205ef41f49d", { "consentRequired": true });
+    window.googletag = window.googletag || {}, window.googletag.cmd = window.googletag.cmd || [], window.googletag.cmd.push(function () { if (0 === window.googletag.pubads().getTargeting("permutive").length) { var e = window.localStorage.getItem("_pdfps"); window.googletag.pubads().setTargeting("permutive", e ? JSON.parse(e) : []); var o = window.localStorage.getItem("permutive-id"); o && (window.googletag.pubads().setTargeting("puid", o), window.googletag.pubads().setTargeting("ptime", Date.now().toString())), window.permutive.config.viewId && window.googletag.pubads().setTargeting("prmtvvid", window.permutive.config.viewId), window.permutive.config.workspaceId && window.googletag.pubads().setTargeting("prmtvwid", window.permutive.config.workspaceId) } });
+    
+</script>
+<script async src="https://b4d7f9ad-9746-4daa-b552-8205ef41f49d.edge.permutive.app/b4d7f9ad-9746-4daa-b552-8205ef41f49d-web.js"></script>
+
+
+    
+
+<script type="text/javascript" src="https://interactive.index.hr/js/embed/interactive.min.js"></script>
+<script>
+    var $inin = $inin || {};
+
+    $inin.config = {
+        log: false,
+        enabled: false
+    }
+
+    var $ininque = $ininque || [];
+
+    var userPPID = accountService.GetUserPPID();
+
+    if (userPPID){
+        $inin.setClientUserId(userPPID);
+    }
+
+    $inin.enable();
+</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="didomi/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-5ZTNWH8GVX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5ZTNWH8GVX');
+</script>
+
+        
+<!-- //Connect Container: Index.hr -->
+<script src="//get.s-onetag.com/90d743ad-16c9-44d6-bb59-5f0ed674ef3b/tag.min.js" async defer></script>
+
+
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    
+    
+
+
+<!-- Make sure this is inserted before your GPT tag -->
+<script>
+    var amazonAdSlots = [];
+
+</script>
+
+
+
+    
+
+<script type="text/javascript">
+    window.gdprAppliesGlobally = true; (function () {
+        function a(e) {
+            if (!window.frames[e]) {
+                if (document.body && document.body.firstChild) { var t = document.body; var n = document.createElement("iframe"); n.style.display = "none"; n.name = e; n.title = e; t.insertBefore(n, t.firstChild) }
+                else { setTimeout(function () { a(e) }, 5) }
+            }
+        } function e(n, r, o, c, s) {
+            function e(e, t, n, a) { if (typeof n !== "function") { return } if (!window[r]) { window[r] = [] } var i = false; if (s) { i = s(e, t, n) } if (!i) { window[r].push({ command: e, parameter: t, callback: n, version: a }) } } e.stub = true; function t(a) {
+                if (!window[n] || window[n].stub !== true) { return } if (!a.data) { return }
+                var i = typeof a.data === "string"; var e; try { e = i ? JSON.parse(a.data) : a.data } catch (t) { return } if (e[o]) { var r = e[o]; window[n](r.command, r.parameter, function (e, t) { var n = {}; n[c] = { returnValue: e, success: t, callId: r.callId }; a.source.postMessage(i ? JSON.stringify(n) : n, "*") }, r.version) }
+            }
+            if (typeof window[n] !== "function") { window[n] = e; if (window.addEventListener) { window.addEventListener("message", t, false) } else { window.attachEvent("onmessage", t) } }
+        } e("__tcfapi", "__tcfapiBuffer", "__tcfapiCall", "__tcfapiReturn"); a("__tcfapiLocator"); (function (e) {
+            var t = document.createElement("script"); t.id = "spcloader"; t.type = "text/javascript"; t.async = true; t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target=" + document.location.hostname; t.charset = "utf-8"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n)
+        })("02757520-ed8b-4c54-8bfd-4a5f5548de98")
+    })();</script>
+
+
+<!--didomi-->
+<!--end-->
+
+
+    <script>
+        googletag.cmd.push(function () {
+        
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().setTargeting('rubrika', 'sport');
+    googletag.pubads().setTargeting('podrubrikaId', '1650');
+    googletag.pubads().setTargeting('sectionhomepage', 'transferi');
+;
+        });
+    </script>
+
+    
+<script>
+    var mainIndexDomainPath = "https://www.index.hr" + window.location.pathname;
+
+    googletag.cmd.push(function () {
+        googletag.pubads().disableInitialLoad();
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs(true);
+        googletag.pubads().setTargeting('projekt', 'index');
+        googletag.pubads().setTargeting('referer', '');
+        googletag.pubads().setTargeting('hostname', 'www.index.hr');
+        googletag.pubads().setTargeting('ar_1', 'false');
+        googletag.pubads().setTargeting('ab_test', '');
+        googletag.pubads().setTargeting('prebid', 'demand manager');
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                googletag.pubads().setTargeting('TPC', label);
+            });
+        }
+        else {
+            googletag.pubads().setTargeting('TPC', 'none');
+        }
+
+    });
+
+    googleTagService.AddSlotRenderEndedListener();
+</script>
+    <script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+
+    <meta property="og:title" content="Transferi" />
+    <meta property="og:description" content="Najnoviji transferi i glasine" />
+    <meta property="og:image" content="/Content/img/main-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@indexhr">
+    <meta name="twitter:title" content="Transferi">
+    <meta name="twitter:description" content="Najnoviji transferi i glasine">
+    <meta name="twitter:image" content="/Content/img/main-image.png">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebSite","name":"Index.hr","potentialAction":{"@type":"SearchAction","target":"https://www.index.hr/trazi.aspx?upit={search_term_string}","query-input":"required name=search_term_string"},"url":"https://www.index.hr/"}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}
+    </script>
+
+    <!-- Meta Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1418122964915670');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1418122964915670&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Meta Pixel Code -->
+
+
+    <script src="https://apetite.index.hr/bundles/apetite.js"></script>
+    <script>
+        var apetite = new AnalyticsPetite({ host: 'https://apetite.index.hr' });
+        
+    apetite.setCategory('sport');
+
+            apetite.collect();
+    </script>
+
+    
+    <link rel="canonical" href="https://www.index.hr/sport/rubrika/transferi/1650.aspx">
+    <link rel="alternate" href="https://www.index.hr/mobile/kategorija/1650">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebPage","name":"Transferi","description":"Najnoviji transferi i glasine","url":"https://www.index.hr/","publisher":{"@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"ItemList","description":"Transferi","url":"https://www.index.hr/sport/rubrika/transferi/1650","itemListElement":[{"@type":"ListItem","name":"Razočarani Salah pregovara s PSG-om?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ef1df341-e527-456a-96ed-1a7336b623ed.jpg","url":"https://www.index.hr/sport/clanak/razocarani-salah-pregovara-s-psgom/2620282.aspx","position":1},{"@type":"ListItem","name":"Dinamo već u siječnju sprema prodaju Baturine za 25 milijuna eura?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/258ee8e6-509d-4d6f-8e26-42afbf9a82d4.jpg","url":"https://www.index.hr/sport/clanak/dinamo-vec-u-sijecnju-sprema-prodaju-baturine-za-25-milijuna-eura/2620714.aspx","position":2},{"@type":"ListItem","name":"Dinamo želi napadača koji briljira u Sloveniji? Morao bi platiti 5 milijuna eura","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/df9ab386-1d99-4d8b-836c-e44597f9603d.jpg","url":"https://www.index.hr/sport/clanak/dinamo-zeli-napadaca-koji-briljira-u-sloveniji-morao-bi-platiti-5-milijuna-eura/2620112.aspx","position":3},{"@type":"ListItem","name":"Novi trener Uniteda kreće u čistku. Već je odredio prvog igrača kojeg više ne želi","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/aa171095-194a-4757-bc16-5ee71ad1a6e1.jpg","url":"https://www.index.hr/sport/clanak/novi-trener-uniteda-krece-u-cistku-vec-je-odredio-prvog-igraca-kojeg-vise-ne-zeli/2620072.aspx","position":4},{"@type":"ListItem","name":"Rekao je da bi se u SHNL vratio samo u Dinamo. Sad se čini da bi se to moglo dogoditi","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b7aab22b-2e9e-448b-9f33-4ec93b569f96.jpg","url":"https://www.index.hr/sport/clanak/rekao-je-da-bi-se-u-shnl-vratio-samo-u-dinamo-sad-se-cini-da-bi-se-to-moglo-dogoditi/2619953.aspx","position":5},{"@type":"ListItem","name":"Real je sve dogovorio s Daviesom, probleme mu stvara njegov agent","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/99bb87c8-21d2-4826-bed1-1e57a3006794.jpg","url":"https://www.index.hr/sport/clanak/real-je-sve-dogovorio-s-daviesom-probleme-mu-stvara-njegov-agent/2619780.aspx","position":6},{"@type":"ListItem","name":"Nikad u karijeri ga nitko nije kupio, a igrao je za Bayern i PSG. Sad ide u novi klub","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5bb78360-c773-43a7-b34c-47c722633e85.jpg","url":"https://www.index.hr/sport/clanak/nikad-u-karijeri-ga-nitko-nije-kupio-a-igrao-je-za-bayern-i-psg-sad-ide-u-novi-klub/2619629.aspx","position":7},{"@type":"ListItem","name":"Španjolci: Hajduk želi napadača iz La Lige. Kupljen je za milijun eura, ali ne igra","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5a730f67-18f6-4314-a01f-1f6365b9a0af.jpg","url":"https://www.index.hr/sport/clanak/spanjolci-hajduk-zeli-napadaca-iz-la-lige-kupljen-je-za-milijun-eura-ali-ne-igra/2619039.aspx","position":8},{"@type":"ListItem","name":"Mourinho odbacio glasine o Ronaldu u Fenerbahčeu: Smiješno","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d8619da2-acaa-4b6d-a91a-298ebec67fe3.jpg","url":"https://www.index.hr/sport/clanak/mourinho-odbacio-glasine-o-ronaldu-u-fenerbahceu-smijesno/2618181.aspx","position":9},{"@type":"ListItem","name":"Španjolci: Real Madrid kreće po Luku Vuškovića","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8b828b04-f9f4-4ae1-800a-3335830995d2.jpg","url":"https://www.index.hr/sport/clanak/spanjolci-real-madrid-krece-po-luku-vuskovica/2618050.aspx","position":10},{"@type":"ListItem","name":"Barca kreće po zamjenu za Lewandowskog. Stići će besplatno i koštati ju 80 mil. eura","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ae136045-f16b-4477-903e-4521ba1dedd8.jpg","url":"https://www.index.hr/sport/clanak/barca-krece-po-zamjenu-za-lewandowskog-stici-ce-besplatno-i-kostati-ju-80-mil-eura/2617961.aspx","position":11},{"@type":"ListItem","name":"U Italiji se uvodi još jedan prijelazni rok za nogometaše?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/3993305f-6c6b-4334-8ab0-69b8eb898b1a.jpg","url":"https://www.index.hr/sport/clanak/u-italiji-se-uvodi-jos-jedan-prijelazni-rok-za-nogometase/2617722.aspx","position":12},{"@type":"ListItem","name":"Uspoređuju ga s Pedrijem, Real ga želi i može ga dovesti za 2 milijuna eura","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/c62d7287-baa1-46d9-aa76-b8c8891248af.jpg","url":"https://www.index.hr/sport/clanak/usporedjuju-ga-s-pedrijem-real-ga-zeli-i-moze-ga-dovesti-za-2-milijuna-eura/2617708.aspx","position":13},{"@type":"ListItem","name":"Eurosport: Mourinho je krenuo po Ronalda","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/46f0d178-351d-4333-a870-5c2d590ca772.jpg","url":"https://www.index.hr/sport/clanak/eurosport-mourinho-je-krenuo-po-ronalda/2617614.aspx","position":14},{"@type":"ListItem","name":"Ed Sheeran omiljenom klubu pomogao dovesti nogometaša","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0cc7dea2-5228-4263-a567-14d4ab44d23a.jpg","url":"https://www.index.hr/sport/clanak/ed-sheeran-omiljenom-klubu-pomogao-dovesti-nogometasa/2617527.aspx","position":15},{"@type":"ListItem","name":"Goal ocijenio je li Gvardiolov transfer u City pogodak ili promašaj","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/7c49199b-87c7-40e8-9fa5-7461fbe4087d.jpg","url":"https://www.index.hr/sport/clanak/goal-ocijenio-je-li-gvardiolov-transfer-u-city-pogodak-ili-promasaj/2617229.aspx","position":16},{"@type":"ListItem","name":"Doznajemo: Nema ništa od povratka brončanog s SP-a u SHNL","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/98dcb1b8-6833-4526-bb7b-66007c0230e5.jpg","url":"https://www.index.hr/sport/clanak/doznajemo-nema-nista-od-povratka-broncanog-s-spa-u-shnl/2617084.aspx","position":17},{"@type":"ListItem","name":"Kanađani najavljuju transfer hajdukovca. \"Može igrati u Španjolskoj, Engleskoj...\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/df192325-b2a8-4bb6-89f5-0123e8e80574.jpg","url":"https://www.index.hr/sport/clanak/kanadjani-najavljuju-transfer-hajdukovca-moze-igrati-u-spanjolskoj-engleskoj/2616378.aspx","position":18},{"@type":"ListItem","name":"Neymar raskida ogroman ugovor sa Saudijcima i vraća se doma?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/cad14543-1c6b-48dc-a9a2-ff4b16134e99.jpg","url":"https://www.index.hr/sport/clanak/neymar-raskida-ogroman-ugovor-sa-saudijcima-i-vraca-se-doma/2616319.aspx","position":19},{"@type":"ListItem","name":"Ljetos je došao u Dinamo, a sad ga žele Sevilla, Rayo Vallecano i Betis?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/25a190e4-f675-43fe-80bf-cc6c5e0e35f0.jpg","url":"https://www.index.hr/sport/clanak/ljetos-je-dosao-u-dinamo-a-sad-ga-zele-sevilla-rayo-vallecano-i-betis/2616098.aspx","position":20},{"@type":"ListItem","name":"Navijači ga ne žele jer je ošamario Modrića 2022. Sad je prvi izbor Realu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f6316b62-dd67-41f9-ae0f-fba5fef3ee61.jpg","url":"https://www.index.hr/sport/clanak/navijaci-ga-ne-zele-jer-je-osamario-modrica-2022-sad-je-prvi-izbor-realu/2615869.aspx","position":21},{"@type":"ListItem","name":"Hrvatskog braniča čeka transfer karijere? Insajder najavio i debi za reprezentaciju","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/78f71c2e-039b-4d96-97a3-d6b3a2df2f0d.jpg","url":"https://www.index.hr/sport/clanak/hrvatskog-branica-ceka-transfer-karijere-insajder-najavio-i-debi-za-reprezentaciju/2615599.aspx","position":22},{"@type":"ListItem","name":"Deco: Samo su dva igrača kao naš Lewandowski. Haaland je jedan od njih","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d0532b7a-717f-4986-a791-6dd77709c612.jpg","url":"https://www.index.hr/sport/clanak/deco-samo-su-dva-igraca-kao-nas-lewandowski-haaland-je-jedan-od-njih/2615513.aspx","position":23},{"@type":"ListItem","name":"VIDEO Navijači Rome u deliriju dočekali Jurićevog nasljednika. Vratio se iz mirovine","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0649dc86-7574-47da-8fdd-f3b85fd6c479.jpg","url":"https://www.index.hr/sport/clanak/video-navijaci-rome-u-deliriju-docekali-juricevog-nasljednika-vratio-se-iz-mirovine/2615442.aspx","position":24},{"@type":"ListItem","name":"Atletico o dovođenju Petra Sučića: Ta se vijest može odbaciti","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/e3bb2354-5af3-4f3a-92c7-214e44f08fd3.jpg","url":"https://www.index.hr/sport/clanak/atletico-o-dovodjenju-petra-sucica-ta-se-vijest-moze-odbaciti/2615345.aspx","position":25},{"@type":"ListItem","name":"Marcelova poruka na Instagramu izazvala ludnicu kod navijača čileanskog prvaka","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5b83933b-895a-411e-a5e9-f255e7347644.jpg","url":"https://www.index.hr/sport/clanak/marcelova-poruka-na-instagramu-izazvala-ludnicu-kod-navijaca-cileanskog-prvaka/2615131.aspx","position":26},{"@type":"ListItem","name":"Real želi četvoricu igrača: \"Oni su ključni za budućnost kluba\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/bb781347-a306-4943-8324-ca2acd8a3f57.jpg","url":"https://www.index.hr/sport/clanak/real-zeli-cetvoricu-igraca-oni-su-kljucni-za-buducnost-kluba/2614903.aspx","position":27},{"@type":"ListItem","name":"Turski mediji: Oršića je trener otpisao rečenicom da nema energije ni za trening","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/bdc78dbd-0348-40bb-a10b-db72b27e196a.jpg","url":"https://www.index.hr/sport/clanak/turski-mediji-orsica-je-trener-otpisao-recenicom-da-nema-energije-ni-za-trening/2614787.aspx","position":28},{"@type":"ListItem","name":"Sky Sports: Baturina nakon sezone napušta Dinamo","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/781751c2-f367-48b5-a1ff-435d56b3f7d8.jpg","url":"https://www.index.hr/sport/clanak/sky-sports-baturina-nakon-sezone-napusta-dinamo/2614722.aspx","position":29},{"@type":"ListItem","name":"Real želi igrača Leverkusena. Zbog njega će prekršiti klupsko pravilo?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/c2185215-5ff0-4c85-bc46-514a011127b3.jpg","url":"https://www.index.hr/sport/clanak/real-zeli-igraca-leverkusena-zbog-njega-ce-prekrsiti-klupsko-pravilo/2614705.aspx","position":30},{"@type":"ListItem","name":"Atletico zagrizao za Dinamovog dragulja: \"Peđa Mijatović ga je posebno preporučio\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/3b3be0d8-7939-484b-ab3c-3ce002dc3b89.jpg","url":"https://www.index.hr/sport/clanak/atletico-zagrizao-za-dinamovog-dragulja-pedja-mijatovic-ga-je-posebno-preporucio/2614646.aspx","position":31},{"@type":"ListItem","name":"Real u siječnju želi dovesti igrača Al Nassra i upropastiti Ronaldove snove","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/52dbb9bd-f2c1-42c8-9807-e1e349b1c9ac.jpg","url":"https://www.index.hr/sport/clanak/real-u-sijecnju-zeli-dovesti-igraca-al-nassra-i-upropastiti-ronaldove-snove/2614314.aspx","position":32},{"@type":"ListItem","name":"Španjolci: Modrić odlazi u lipnju, desetku ostavlja zvijezdi Bundeslige","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/972b5c7e-42c7-4e1c-9092-7e3d18cf8d49.jpg","url":"https://www.index.hr/sport/clanak/spanjolci-modric-odlazi-u-lipnju-desetku-ostavlja-zvijezdi-bundeslige/2614119.aspx","position":33},{"@type":"ListItem","name":"Ima 16 godina, igra u Gruziji, vrijedi 300.000 eura i žele ga Real i Barca","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/e35414f0-2356-4eaf-9c63-4b2c2678e8d2.jpg","url":"https://www.index.hr/sport/clanak/ima-16-godina-igra-u-gruziji-vrijedi-300000-eura-i-zele-ga-real-i-barca/2614108.aspx","position":34},{"@type":"ListItem","name":"Hrvatski napadač u čudesnoj formi. Austrijanci za njegov otkup moraju srušiti rekord","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2fcb6cd6-b90a-42a5-95dc-52260d25d0e3.jpg","url":"https://www.index.hr/sport/clanak/hrvatski-napadac-u-cudesnoj-formi-austrijanci-za-njegov-otkup-moraju-srusiti-rekord/2613784.aspx","position":35},{"@type":"ListItem","name":"Nijemci: Sopić je kandidat za preuzimanje propalog velikana","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/811a7b21-f6c2-4359-8735-6ce61c167243.jpg","url":"https://www.index.hr/sport/clanak/nijemci-sopic-je-kandidat-za-preuzimanje-propalog-velikana/2613526.aspx","position":36},{"@type":"ListItem","name":"Real nakon pet godina kupuje u siječnju. Romano otkriva tko je \"top prioritet\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/be6389fb-6c32-47a3-8e56-8fd20a14a61c.jpg","url":"https://www.index.hr/sport/clanak/real-nakon-pet-godina-kupuje-u-sijecnju-romano-otkriva-tko-je-top-prioritet/2613493.aspx","position":37},{"@type":"ListItem","name":"Gorica dovela igrača koji je prošle sezone bio u Dinamu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f2e62ed9-8422-41eb-a1e1-ecf8a68bcdbe.jpg","url":"https://www.index.hr/sport/clanak/gorica-dovela-igraca-koji-je-prosle-sezone-bio-u-dinamu/2613500.aspx","position":38},{"@type":"ListItem","name":"Šego je srušio Hajduk. Splićani će se utješiti polovinom njegove odštete","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/6644b44b-2444-4593-9c82-3ab89222c446.jpg","url":"https://www.index.hr/sport/clanak/sego-je-srusio-hajduk-splicani-ce-se-utjesiti-polovinom-njegove-odstete/2613478.aspx","position":39},{"@type":"ListItem","name":"Španjolski medij: Bomba. Saudijci spremaju najveću razmjenu u povijesti nogometa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/034e559d-b984-4fae-8d53-f2d05347f27f.jpg","url":"https://www.index.hr/sport/clanak/spanjolski-medij-bomba-saudijci-spremaju-najvecu-razmjenu-u-povijesti-nogometa/2613354.aspx","position":40},{"@type":"ListItem","name":"Sportski direktor Hoffenheima: Imao sam dug razgovor s Kramarićem","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/e438eb3d-9229-4a56-96e6-5509e706d382.jpg","url":"https://www.index.hr/sport/clanak/sportski-direktor-hoffenheima-imao-sam-dug-razgovor-s-kramaricem/2612968.aspx","position":41},{"@type":"ListItem","name":"Ljetos odbio pola Europe i otišao u Romu, no napušta je već na zimu?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/57e2d7ea-74c5-4e70-a2ee-3141a8c90ffa.jpg","url":"https://www.index.hr/sport/clanak/ljetos-odbio-pola-europe-i-otisao-u-romu-no-napusta-je-vec-na-zimu/2612951.aspx","position":42},{"@type":"ListItem","name":"Nijemci: Baturina je odbio Real","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/89bd9b7e-c2c5-4c0b-b30a-14bf075840f2.jpg","url":"https://www.index.hr/sport/clanak/nijemci-baturina-je-odbio-real/2612730.aspx","position":43},{"@type":"ListItem","name":"Saudijci nude Viniciusu pet milijardi eura. Otkriveno je što bi još dobio osim novca","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b63bed13-763c-4acb-9d03-7824fb279e72.jpg","url":"https://www.index.hr/sport/clanak/saudijci-nude-viniciusu-pet-milijardi-eura-otkriveno-je-sto-bi-jos-dobio-osim-novca/2612419.aspx","position":44},{"@type":"ListItem","name":"Marca: Vinicius? Sve je moguće","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/339fa472-1c4d-40a5-b165-b1e641fdc650.jpg","url":"https://www.index.hr/sport/clanak/marca-vinicius-sve-je-moguce/2612295.aspx","position":45},{"@type":"ListItem","name":"Neymar napušta Saudijsku Arabiju i vraća se u klub u kojem je započeo karijeru?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d671b770-4ea5-4fbe-a6b8-8db38646e15d.jpg","url":"https://www.index.hr/sport/clanak/neymar-napusta-saudijsku-arabiju-i-vraca-se-u-klub-u-kojem-je-zapoceo-karijeru/2612239.aspx","position":46},{"@type":"ListItem","name":"VIDEO Čudesni golgeter zabio 4. Trener: Neću ga u siječnju odvesti za sobom u United","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/90cf6308-e763-46c3-b520-61f33cb39405.jpg","url":"https://www.index.hr/sport/clanak/video-cudesni-golgeter-zabio-4-trener-necu-ga-u-sijecnju-odvesti-za-sobom-u-united/2612110.aspx","position":47},{"@type":"ListItem","name":"Milan Đuričić (79) je novi trener najvećeg hrvatskog nogometnog cirkusa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/65ae7b99-8fcf-4492-b9f6-cdd0bdac2c35.jpg","url":"https://www.index.hr/sport/clanak/milan-djuricic-79-je-novi-trener-najveceg-hrvatskog-nogometnog-cirkusa/2612097.aspx","position":48},{"@type":"ListItem","name":"VIDEO Ovako su navijači Sportinga dočekali njihovog trenera koji odlazi u United","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/c7af5521-cc63-4116-aa6f-59b07312448b.jpg","url":"https://www.index.hr/sport/clanak/video-ovako-su-navijaci-sportinga-docekali-njihovog-trenera-koji-odlazi-u-united/2612056.aspx","position":49},{"@type":"ListItem","name":"Real u paketu želi dovesti najpoželjnije nogometaša i trenera na svijetu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d2f6447f-16ee-41de-b81a-908996ed9778.jpg","url":"https://www.index.hr/sport/clanak/real-u-paketu-zeli-dovesti-najpozeljnije-nogometasa-i-trenera-na-svijetu/2612002.aspx","position":50},{"@type":"ListItem","name":"Ibričić: Da Džeko dođe u Hajduk, govorio bih kao Bjelica","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d726e1d6-d5f5-408a-9a75-f321c21b6b7e.jpg","url":"https://www.index.hr/sport/clanak/ibricic-da-dzeko-dodje-u-hajduk-govorio-bih-kao-bjelica/2611891.aspx","position":51},{"@type":"ListItem","name":"Liverpool želi jednog od najubojitijih napadača Europe","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/be264653-1d98-41fd-b1c6-e8e54ae27418.jpg","url":"https://www.index.hr/sport/clanak/liverpool-zeli-jednog-od-najubojitijih-napadaca-europe/2611854.aspx","position":52},{"@type":"ListItem","name":"United poručio Antonyju: Možeš ići","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f3c56daf-9adf-48d0-a382-cc725b9f64a9.jpg","url":"https://www.index.hr/sport/clanak/united-porucio-antonyju-mozes-ici/2611744.aspx","position":53},{"@type":"ListItem","name":"United je našao novog trenera. Ima samo 4 godine iskustva i senzacionalne rezultate","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/76f2db89-ce7c-45f9-a829-61e1e2bf7cff.jpg","url":"https://www.index.hr/sport/clanak/united-je-nasao-novog-trenera-ima-samo-4-godine-iskustva-i-senzacionalne-rezultate/2610925.aspx","position":54},{"@type":"ListItem","name":"Balotelli predstavljen u novom klubu. \"Zločesti dečko talijanskog nogometa\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/57bb209f-cdf7-4674-9817-e8da9b3b8efc.jpg","url":"https://www.index.hr/sport/clanak/balotelli-predstavljen-u-novom-klubu-zlocesti-decko-talijanskog-nogometa/2610828.aspx","position":55},{"@type":"ListItem","name":"Liverpool traži zamjenu za Salaha. Našao ju je u Realu i spreman je dati 70 mil. eura","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/7c87626f-ec55-4404-a790-5f427a97ece9.jpg","url":"https://www.index.hr/sport/clanak/liverpool-trazi-zamjenu-za-salaha-nasao-ju-je-u-realu-i-spreman-je-dati-70-mil-eura/2610683.aspx","position":56},{"@type":"ListItem","name":"Balotelli se u iznenađujućem poslu vraća u Serie A? Pregovori su u tijeku","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/fbc63f1e-dd4f-4981-8177-9450f3f9b621.jpg","url":"https://www.index.hr/sport/clanak/balotelli-se-u-iznenadjujucem-poslu-vraca-u-serie-a-pregovori-su-u-tijeku/2610188.aspx","position":57},{"@type":"ListItem","name":"Ima 26 godina i 58 nastupa u SHNL-u. Sad je potpisao za hrvatskog trećeligaša","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/e572e62e-86d0-4f25-ad09-123ed15dfac2.jpg","url":"https://www.index.hr/sport/clanak/ima-26-godina-i-58-nastupa-u-shnlu-sad-je-potpisao-za-hrvatskog-treceligasa/2609192.aspx","position":58},{"@type":"ListItem","name":"Juventus objavio da je doveo Realovog wonderkida. Zatim poručio da se šalio","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/69d2bae1-ab0a-40ed-9053-2dbaa01595cb.jpg","url":"https://www.index.hr/sport/clanak/juventus-objavio-da-je-doveo-realovog-wonderkida-zatim-porucio-da-se-salio/2608808.aspx","position":59},{"@type":"ListItem","name":"Balotelli je tri mjeseca bez kluba. Sad je pronašao novi?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f3a6f14a-9abb-4dfa-b76f-789e2d2c27ed.jpg","url":"https://www.index.hr/sport/clanak/balotelli-je-tri-mjeseca-bez-kluba-sad-je-pronasao-novi/2608153.aspx","position":60}]}
+    </script>
+
+</head>
+<body>
+    <script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '216060115209819',
+            xfbml: true,
+            version: 'v19.0'
+        });
+    };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/hr_HR/sdk.js"></script>
+    <!--OpenX-->
+<iframe src="//u.openx.net/w/1.0/pd?ph=&cb=226f82b3-6582-4784-bb70-07674b651e3a&gdpr=1&gdpr_consent=2" style="display:none;width:0;height:0;border:0; border:none;"></iframe>
+
+        
+
+
+
+
+    <div class="main-container no-padding main-content-bg">
+            
+
+
+<!-- /21703950087/DB1_hr -->
+<div id='DB1_hr' class="js-slot-container" data-css-class="google-box bottom-margin-40">
+    <script>
+        googletag.cmd.push(function () {
+            var db1Slot = googletag.defineSlot('/21703950087/DB1_hr_Sport', [[970, 250], [970, 500], [1140, 250], [1140, 500], [1140, 415], [1, 1]], 'DB1_hr').addService(googletag.pubads());
+
+
+            googletag.display('DB1_hr');
+        });
+    </script>
+</div>
+
+    </div>
+
+    
+
+
+<header class="main-menu-container">
+    <div class="float-menu no-height" style="" menu-fix-top>
+        <div class="main-container no-height clearfix">
+            <div class="main-menu no-height">
+                    <h1 class="js-logo logo sport-gradient-bg">
+                        <img class="main" src="/Content/img/logo/index_sport.svg" alt="index.hr" />
+                        <img class="small" src="/Content/img/logo/paprika_logo.svg" alt="index.hr" />
+                        <a class="homepage-link" href="/" title="index.hr"> </a>
+                    </h1>
+                <nav class="menu-holder clearfix">
+                    <ul>
+                        <li class="menu-naslovnica">
+                            <a class="main-text-hover no-drop" href="/"> Naslovnica</a>
+                        </li>
+
+                        <li>
+                            <a class="vijesti-text-hover" href="/vijesti">
+                                Vijesti
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sport-text-hover" href="/sport">
+                                Sport
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable magazin-text-hover">Magazin</span>
+                            <ul class="dropdown-content display-none">
+                                <li class="magazin-bg-hover">
+                                    <a href="/magazin">
+                                        Magazin
+                                    </a>
+                                </li>
+                                <li class="shopping-bg-gradient-hover">
+                                    <a href="/shopping">
+                                        Shopping
+                                    </a>
+                                </li>
+                                <li class="ljubimci-bg-hover">
+                                    <a href="/ljubimci">
+                                        Ljubimci
+                                    </a>
+                                </li>
+                                <li class="food-bg-hover">
+                                    <a href="/food">
+                                        Food
+                                    </a>
+                                </li>
+                                <li class="mame-bg-hover">
+                                    <a href="/mame">
+                                        Mame
+                                    </a>
+                                </li>
+                                <li class="auto-bg-hover">
+                                    <a href="/auto">
+                                        Auto
+                                    </a>
+                                </li>
+                                <li class="fit-bg-hover">
+                                    <a href="/fit">
+                                        Fit
+                                    </a>
+                                </li>
+                                <li class="chill-bg-hover">
+                                    <a href="/chill">
+                                        Chill
+                                    </a>
+                                </li>
+                                <li class="horoskop-bg-hover">
+                                    <a href="/horoskop">
+                                        Horoskop
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="oglasi-text-hover" href="https://www.index.hr/oglasi">
+                                Oglasi
+                            </a>
+                        </li>
+                        <li>
+                            <a class="recepti-text-hover" href="https://recepti.index.hr">
+                                Recepti
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable">Ostalo</span>
+                            <ul class="dropdown-content ostalo display-none">
+                                <li class="main-bg-hover">
+                                    <a href="https://jobs.index.hr/">
+                                        Zaposli se na Indexu
+                                    </a>
+                                </li>
+                                <li class="lajkhr-bg-hover">
+                                    <a href="http://www.index.hr/lajk/">
+                                        Lajk.hr
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tecaj">
+                                        Tečaj
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tv">
+                                        TV program
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/kino">
+                                        Kino
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/vrijeme">
+                                        Vrijeme
+                                    </a>
+                                </li>
+                                <li class="kalendar-bg-hover">
+                                    <a href="/kalendar">
+                                        Kalendar
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="right-part">
+                        <li id="login-menu" class="menu-drop">
+                            <div id="menu-login"
+     v-scope
+     v-cloak
+     @mounted="onLoad">
+    <div v-if="userInfo !== null && userInfo.IsLoggedIn === true">
+        <div class="user-menu expandable no-padding">
+            <div v-if="userInfo.ProfileImage === null" class="initials-holder separator center-aligner">
+                <div class="initials center-aligner">
+                    {{userInfo.Initials}}
+                </div>
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+
+            <div v-if="userInfo.ProfileImage !== null" class="avatar separator center-aligner">
+                <img :src="'https://ip.index.hr/remote/bucket.index.hr/b/index/' + userInfo.ProfileImage + '?width=20&height=20&mode=crop'" />
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+        </div>
+        <ul class="dropdown-content display-none">
+            <li class="main-bg-hover">
+                <a href="/profil">Moj profil</a>
+            </li>
+            <li class="main-bg-hover">
+                <a @click="logout">Odjavite se</a>
+            </li>
+        </ul>
+    </div>
+
+    <div v-if="userInfo === null || userInfo.IsLoggedIn === false" @click="login" class="user-menu no-padding">
+        <div class="login-btn separator">
+            <i class="index-user-alt"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+    PetiteVue.createApp({
+        userInfo: {},
+        onLoad() {
+            var self = this;
+
+            var userInfoCookie = accountService.GetUserInfo();
+
+            if (userInfoCookie != null) {
+                self.userInfo = accountService.GetUserInfo();
+            }
+            else {
+                $.post('/create-user-cookie', function (response) {
+                    self.userInfo = accountService.GetUserInfo();
+                });
+            }
+        },
+        login() {
+            globalDirectives.ShowLoginPopup()
+        },
+        logout() {
+            accountService.Logout('/profil/odjava')
+        }
+    }).mount("#menu-login");
+</script>
+
+                        </li>
+                        <li>
+                            <a href="/trazi.aspx" class="menu-icon btn-open-search"><i class="index-magnifier"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+        
+
+
+    <div class="sub-menu-container main-container">
+        <div class="sub-menu-holder scroll-menu-arrows-holder" data-animate-width="200">
+            <ul class="sub-menu scroll-menu clearfix">
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport">Sport</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najnovije?kategorija=150">Najnovije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najcitanije?kategorija=150">Naj&#x10D;itanije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/nogomet/1638.aspx">Nogomet</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom active">
+                        <a class="" href="/sport/rubrika/transferi/1650.aspx">Transferi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/kosarka/1639.aspx">Ko&#x161;arka</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/tenis/1640.aspx">Tenis</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/regija/1692.aspx">Regija</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/komentari/1738.aspx">Komentari</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/borilacki-sportovi/1662.aspx">Borila&#x10D;ki sportovi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/ostali-sportovi/1641.aspx">Ostali sportovi</a>
+                    </li>
+            </ul>
+            <div class="scroll-menu-arrows display-none">
+                <div class="navigation-arrow left-arrow disabled sport-text-hover"><i class="index-arrow-left"></i></div>
+                <div class="navigation-arrow right-arrow disabled sport-text-hover"><i class="index-arrow-right"></i></div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+
+    
+
+
+
+
+
+
+    <!-- /21703950087/D_OUP -->
+<div id="D_OUP">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_ALL', 'D_OUP').addService(googletag.pubads());
+
+            googletag.display('D_OUP');
+        });
+    </script>
+</div>
+    <!-- /21703950087/D_OUP_wallpaper -->
+<div id="D_OUP_wallpaper">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_wallpaper', 'D_OUP_wallpaper').addService(googletag.pubads());
+
+            googletag.display('D_OUP_wallpaper');
+        });
+    </script>
+</div>
+
+
+
+
+<div class="js-slot-container" data-has-close-btn="true">
+    <div class="js-slot-close-btn dfp-close-btn dfp-close-btn-fixed display-none">
+        <div class="close-btn-creative">
+            <i class="index-close"></i>
+        </div>
+    </div>
+
+    <!-- /21703950087/D_sticky -->
+    <div id='D_sticky' class="js-slot-holder" data-css-class="google-box bottom-sticky">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.defineSlot('/21703950087/D_sticky_all', [[1200, 150], [728, 90], [970, 250], [970, 90], [1, 1]], 'D_sticky').addService(googletag.pubads());
+
+                googletag.display('D_sticky');
+            });
+        </script>
+    </div>
+</div>
+
+
+
+<div class="category-holder">
+    <div class="category-content-holder main-container main-content-bg">
+
+        
+
+
+        <div class="flex">
+            <div class="left-part">
+                    
+
+    <div class="first-news-holder vertical">
+        <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ludnica-za-baturinom-sport-barcelona-ga-prati-mjesecima/2620772.aspx">
+            <div class="img-holder">
+                <img class="main-img" src="https://ip.index.hr/remote/bucket.index.hr/b/index/1b86c741-f84a-47fd-aae2-a17e6b059735.jpg?width=854&height=443&mode=crop&anchor=topcenter&scale=both" alt="Ludnica za Baturinom. Sport: Barcelona ga prati mjesecima" />
+            </div>
+            <div class="content-holder">
+                <h2 class="title">Ludnica za Baturinom. Sport: Barcelona ga prati mjesecima</h2>
+                <p class="summary">MARTIN BATURINA (21) o&#x10D;ekuje velik transfer. Mjesecima se pi&#x161;e o interesu europskih velikana, a Sport sada isti&#x10D;e da je Barcelona u utrci.</p>
+                <div class="publish-date">3.12.2024.</div>
+            </div>
+        </a>
+    </div>
+
+
+                <div class="other-news">
+                    <div class="animate-box">
+                        <div class="items-container">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/razocarani-salah-pregovara-s-psgom/2620282.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Razo&#x10D;arani Salah pregovara s PSG-om?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ef1df341-e527-456a-96ed-1a7336b623ed.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Razočarani Salah pregovara s PSG-om?</h3>
+                    <span class="summary">MOHAMEDU SALAHU na kraju sezone istje&#x10D;e ugovor s Liverpoolom. L&#x27;Equipe pi&#x161;e da je zapo&#x10D;eo pregovore s PSG-om.</span>
+                    <div class="publish-date">3.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dinamo-vec-u-sijecnju-sprema-prodaju-baturine-za-25-milijuna-eura/2620714.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dinamo ve&#x107; u sije&#x10D;nju sprema prodaju Baturine za 25 milijuna eura?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/258ee8e6-509d-4d6f-8e26-42afbf9a82d4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dinamo već u siječnju sprema prodaju Baturine za 25 milijuna eura?</h3>
+                    <span class="summary">&#x10C;INI SE da bi veznjak Dinama vrlo brzo mogao dogovoriti transfer karijere.</span>
+                    <div class="publish-date">2.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dinamo-zeli-napadaca-koji-briljira-u-sloveniji-morao-bi-platiti-5-milijuna-eura/2620112.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dinamo &#x17E;eli napada&#x10D;a koji briljira u Sloveniji? Morao bi platiti 5 milijuna eura" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/df9ab386-1d99-4d8b-836c-e44597f9603d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dinamo želi napadača koji briljira u Sloveniji? Morao bi platiti 5 milijuna eura</h3>
+                    <span class="summary">PREDSJEDNIK ljubljanske Olimpije tra&#x17E;i pet milijuna eura za svojeg napada&#x10D;a.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/novi-trener-uniteda-krece-u-cistku-vec-je-odredio-prvog-igraca-kojeg-vise-ne-zeli/2620072.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Novi trener Uniteda kre&#x107;e u &#x10D;istku. Ve&#x107; je odredio prvog igra&#x10D;a kojeg vi&#x161;e ne &#x17E;eli" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/aa171095-194a-4757-bc16-5ee71ad1a6e1.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Novi trener Uniteda kreće u čistku. Već je odredio prvog igrača kojeg više ne želi</h3>
+                    <span class="summary">CHRISTIAN ERIKSEN nije se nametnuo Rubenu Amorimu u kratkom razdoblju od smjene na klupi Uniteda.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/rekao-je-da-bi-se-u-shnl-vratio-samo-u-dinamo-sad-se-cini-da-bi-se-to-moglo-dogoditi/2619953.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Rekao je da bi se u SHNL vratio samo u Dinamo. Sad se &#x10D;ini da bi se to moglo dogoditi" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b7aab22b-2e9e-448b-9f33-4ec93b569f96.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Rekao je da bi se u SHNL vratio samo u Dinamo. Sad se čini da bi se to moglo dogoditi</h3>
+                    <span class="summary">DINAMO je naciljao novog napada&#x10D;a.</span>
+                    <div class="publish-date">29.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/real-je-sve-dogovorio-s-daviesom-probleme-mu-stvara-njegov-agent/2619780.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Real je sve dogovorio s Daviesom, probleme mu stvara njegov agent" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/99bb87c8-21d2-4826-bed1-1e57a3006794.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Real je sve dogovorio s Daviesom, probleme mu stvara njegov agent</h3>
+                    <span class="summary">PISALO se da je sve dogovoreno jo&#x161; u o&#x17E;ujku.</span>
+                    <div class="publish-date">29.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-0');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-0');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nikad-u-karijeri-ga-nitko-nije-kupio-a-igrao-je-za-bayern-i-psg-sad-ide-u-novi-klub/2619629.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nikad u karijeri ga nitko nije kupio, a igrao je za Bayern i PSG. Sad ide u novi klub" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5bb78360-c773-43a7-b34c-47c722633e85.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nikad u karijeri ga nitko nije kupio, a igrao je za Bayern i PSG. Sad ide u novi klub</h3>
+                    <span class="summary">SPREMA novi transfer.</span>
+                    <div class="publish-date">28.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/spanjolci-hajduk-zeli-napadaca-iz-la-lige-kupljen-je-za-milijun-eura-ali-ne-igra/2619039.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x160;panjolci: Hajduk &#x17E;eli napada&#x10D;a iz La Lige. Kupljen je za milijun eura, ali ne igra" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5a730f67-18f6-4314-a01f-1f6365b9a0af.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Španjolci: Hajduk želi napadača iz La Lige. Kupljen je za milijun eura, ali ne igra</h3>
+                    <span class="summary">ASIER VILLALIBRE (27), napada&#x10D; Alavesa, &#x17E;elja je Hajduka. Lider SHNL-a za njega se bori sa &#x161;panjolskim drugoliga&#x161;em Eibarom i poljskom Legijom iz Var&#x161;ave.</span>
+                    <div class="publish-date">27.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mourinho-odbacio-glasine-o-ronaldu-u-fenerbahceu-smijesno/2618181.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Mourinho odbacio glasine o Ronaldu u Fenerbah&#x10D;eu: Smije&#x161;no" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d8619da2-acaa-4b6d-a91a-298ebec67fe3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Mourinho odbacio glasine o Ronaldu u Fenerbahčeu: Smiješno</h3>
+                    <span class="summary">PISALO se da je Mourinho zvao Ronalda. Trener Fenera to demantira.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/spanjolci-real-madrid-krece-po-luku-vuskovica/2618050.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x160;panjolci: Real Madrid kre&#x107;e po Luku Vu&#x161;kovi&#x107;a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8b828b04-f9f4-4ae1-800a-3335830995d2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Španjolci: Real Madrid kreće po Luku Vuškovića</h3>
+                    <span class="summary">SJAJNI mladi stoper bi mogao napustiti Tottenham i prije nego &#x161;to uop&#x107;e dobije &#x161;ansu zaigrati za njega.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/barca-krece-po-zamjenu-za-lewandowskog-stici-ce-besplatno-i-kostati-ju-80-mil-eura/2617961.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Barca kre&#x107;e po zamjenu za Lewandowskog. Sti&#x107;i &#x107;e besplatno i ko&#x161;tati ju 80 mil. eura" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ae136045-f16b-4477-903e-4521ba1dedd8.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Barca kreće po zamjenu za Lewandowskog. Stići će besplatno i koštati ju 80 mil. eura</h3>
+                    <span class="summary">NJEGOVI golovi ru&#x161;ili su u ovoj sezoni Real i Atletico, a zaslu&#x17E;an je i za bod protiv Juventusa.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/u-italiji-se-uvodi-jos-jedan-prijelazni-rok-za-nogometase/2617722.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="U Italiji se uvodi jo&#x161; jedan prijelazni rok za nogometa&#x161;e?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/3993305f-6c6b-4334-8ab0-69b8eb898b1a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">U Italiji se uvodi još jedan prijelazni rok za nogometaše?</h3>
+                    <span class="summary">ZAPO&#x10C;EO bi po&#x10D;etkom lipnja.</span>
+                    <div class="publish-date">22.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-1');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-1');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/usporedjuju-ga-s-pedrijem-real-ga-zeli-i-moze-ga-dovesti-za-2-milijuna-eura/2617708.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Uspore&#x111;uju ga s Pedrijem, Real ga &#x17E;eli i mo&#x17E;e ga dovesti za 2 milijuna eura" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/c62d7287-baa1-46d9-aa76-b8c8891248af.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Uspoređuju ga s Pedrijem, Real ga želi i može ga dovesti za 2 milijuna eura</h3>
+                    <span class="summary">U OVOJ sezoni zabio je jedan gol i upisao jednu asistenciju.</span>
+                    <div class="publish-date">22.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/eurosport-mourinho-je-krenuo-po-ronalda/2617614.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Eurosport: Mourinho je krenuo po Ronalda" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/46f0d178-351d-4333-a870-5c2d590ca772.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Eurosport: Mourinho je krenuo po Ronalda</h3>
+                    <span class="summary">CRISTIANO RONALDO je pod ugovorom s Al Nassrom do kraja lipnja sljede&#x107;e godine.</span>
+                    <div class="publish-date">22.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ed-sheeran-omiljenom-klubu-pomogao-dovesti-nogometasa/2617527.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ed Sheeran omiljenom klubu pomogao dovesti nogometa&#x161;a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0cc7dea2-5228-4263-a567-14d4ab44d23a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ed Sheeran omiljenom klubu pomogao dovesti nogometaša</h3>
+                    <span class="summary">POPULARNI glazbenik Ed Sheeran pomogao je u dovo&#x111;enju nogometa&#x161;a u klub &#x10D;iji je navija&#x10D; i dioni&#x10D;ar.</span>
+                    <div class="publish-date">21.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/goal-ocijenio-je-li-gvardiolov-transfer-u-city-pogodak-ili-promasaj/2617229.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Goal ocijenio je li Gvardiolov transfer u City pogodak ili proma&#x161;aj" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/7c49199b-87c7-40e8-9fa5-7461fbe4087d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Goal ocijenio je li Gvardiolov transfer u City pogodak ili promašaj</h3>
+                    <span class="summary">GOAL je objavio popis 25 najve&#x107;ih nogometnih transfera 21. stolje&#x107;a te ocijenio jesu li bili pogodak ili proma&#x161;aj.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/doznajemo-nema-nista-od-povratka-broncanog-s-spa-u-shnl/2617084.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Doznajemo: Nema ni&#x161;ta od povratka bron&#x10D;anog s SP-a u SHNL" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/98dcb1b8-6833-4526-bb7b-66007c0230e5.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Doznajemo: Nema ništa od povratka brončanog s SP-a u SHNL</h3>
+                    <span class="summary">BORNA BARI&#x160;I&#x106; (32) ljetos je nakon &#x161;est godina u Rangersima pre&#x161;ao iz &#x160;kotske u turski Trabzonspor.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/kanadjani-najavljuju-transfer-hajdukovca-moze-igrati-u-spanjolskoj-engleskoj/2616378.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Kana&#x111;ani najavljuju transfer hajdukovca. &quot;Mo&#x17E;e igrati u &#x160;panjolskoj, Engleskoj...&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/df192325-b2a8-4bb6-89f5-0123e8e80574.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Kanađani najavljuju transfer hajdukovca. "Može igrati u Španjolskoj, Engleskoj..."</h3>
+                    <span class="summary">KANADSKI novinari u podcastu Northern F&#xFA;tbol govorili su o potencijalnom transferu Hajdukova bo&#x10D;nog brani&#x10D;a i veznjaka.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-2');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-2');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/neymar-raskida-ogroman-ugovor-sa-saudijcima-i-vraca-se-doma/2616319.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Neymar raskida ogroman ugovor sa Saudijcima i vra&#x107;a se doma?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/cad14543-1c6b-48dc-a9a2-ff4b16134e99.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Neymar raskida ogroman ugovor sa Saudijcima i vraća se doma?</h3>
+                    <span class="summary">ZA AL-HILAL odigrao je tek sedam utakmica u godinu i tri mjeseca te je dao jedan gol.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ljetos-je-dosao-u-dinamo-a-sad-ga-zele-sevilla-rayo-vallecano-i-betis/2616098.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ljetos je do&#x161;ao u Dinamo, a sad ga &#x17E;ele Sevilla, Rayo Vallecano i Betis?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/25a190e4-f675-43fe-80bf-cc6c5e0e35f0.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ljetos je došao u Dinamo, a sad ga žele Sevilla, Rayo Vallecano i Betis?</h3>
+                    <span class="summary">TURSKI insajder Ekrem Konur pi&#x161;e o interesu &#x161;panjolskih klubova za brani&#x10D;em Dinama.</span>
+                    <div class="publish-date">16.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/navijaci-ga-ne-zele-jer-je-osamario-modrica-2022-sad-je-prvi-izbor-realu/2615869.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Navija&#x10D;i ga ne &#x17E;ele jer je o&#x161;amario Modri&#x107;a 2022. Sad je prvi izbor Realu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f6316b62-dd67-41f9-ae0f-fba5fef3ee61.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Navijači ga ne žele jer je ošamario Modrića 2022. Sad je prvi izbor Realu</h3>
+                    <span class="summary">NEVI&#x110;ENA kriza s te&#x161;kim ozljedama, prije svega brani&#x10D;a, tjera Real da napravi ono &#x161;to nikako ne &#x17E;eli i &#x161;to nije uradio pet godina - kupi igra&#x10D;a u zimskom prijelaznom roku.</span>
+                    <div class="publish-date">15.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatskog-branica-ceka-transfer-karijere-insajder-najavio-i-debi-za-reprezentaciju/2615599.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatskog brani&#x10D;a &#x10D;eka transfer karijere? Insajder najavio i debi za reprezentaciju" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/78f71c2e-039b-4d96-97a3-d6b3a2df2f0d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatskog braniča čeka transfer karijere? Insajder najavio i debi za reprezentaciju</h3>
+                    <span class="summary">INSAJDER Florian Plettenberg pi&#x161;e da bi hrvatski brani&#x10D; i &#x10D;lan Rijeke uskoro mogao napraviti transfer, a cilj mu je Bundesliga.</span>
+                    <div class="publish-date">14.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/deco-samo-su-dva-igraca-kao-nas-lewandowski-haaland-je-jedan-od-njih/2615513.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Deco: Samo su dva igra&#x10D;a kao na&#x161; Lewandowski. Haaland je jedan od njih" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d0532b7a-717f-4986-a791-6dd77709c612.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Deco: Samo su dva igrača kao naš Lewandowski. Haaland je jedan od njih</h3>
+                    <span class="summary">ERLING HAALAND (24) briljira u Manchester Cityju. Otkako je prije dvije godine do&#x161;ao tamo iz Dortmunda za 60 milijuna eura, u 114 utakmica postigao je &#x10D;ak 105 golova, a 14 ih je namjestio. Istovremeno je u Barceloni sjajan Robert Lewandowski.</span>
+                    <div class="publish-date">14.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-navijaci-rome-u-deliriju-docekali-juricevog-nasljednika-vratio-se-iz-mirovine/2615442.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Navija&#x10D;i Rome u deliriju do&#x10D;ekali Juri&#x107;evog nasljednika. Vratio se iz mirovine" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0649dc86-7574-47da-8fdd-f3b85fd6c479.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Navijači Rome u deliriju dočekali Jurićevog nasljednika. Vratio se iz mirovine</h3>
+                    <span class="summary">CLAUDIO RANIERI (73) novi je trener Rome, koji je zbog nje prekinuo mirovinu u kojoj je bio od ljeta i spa&#x161;avanja Cagliarija od ispadanja iz Serie A.</span>
+                    <div class="publish-date">14.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-3');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-3');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/atletico-o-dovodjenju-petra-sucica-ta-se-vijest-moze-odbaciti/2615345.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Atletico o dovo&#x111;enju Petra Su&#x10D;i&#x107;a: Ta se vijest mo&#x17E;e odbaciti" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/e3bb2354-5af3-4f3a-92c7-214e44f08fd3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Atletico o dovođenju Petra Sučića: Ta se vijest može odbaciti</h3>
+                    <span class="summary">DU&#x17D;NOSNIK Atletico Madrida odgovorio je Hini na upit &#x17E;ele li dovesti Dinamova veznjaka Petra Su&#x10D;i&#x107;a (21).</span>
+                    <div class="publish-date">13.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/marcelova-poruka-na-instagramu-izazvala-ludnicu-kod-navijaca-cileanskog-prvaka/2615131.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Marcelova poruka na Instagramu izazvala ludnicu kod navija&#x10D;a &#x10D;ileanskog prvaka" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5b83933b-895a-411e-a5e9-f255e7347644.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Marcelova poruka na Instagramu izazvala ludnicu kod navijača čileanskog prvaka</h3>
+                    <span class="summary">SLOBODAN je igra&#x10D;.</span>
+                    <div class="publish-date">13.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/real-zeli-cetvoricu-igraca-oni-su-kljucni-za-buducnost-kluba/2614903.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Real &#x17E;eli &#x10D;etvoricu igra&#x10D;a: &quot;Oni su klju&#x10D;ni za budu&#x107;nost kluba&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/bb781347-a306-4943-8324-ca2acd8a3f57.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Real želi četvoricu igrača: "Oni su ključni za budućnost kluba"</h3>
+                    <span class="summary">KRALJEVSKI klub mora u &#x161;oping, a primarni cilj je oja&#x10D;ati obranu.</span>
+                    <div class="publish-date">12.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/turski-mediji-orsica-je-trener-otpisao-recenicom-da-nema-energije-ni-za-trening/2614787.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Turski mediji: Or&#x161;i&#x107;a je trener otpisao re&#x10D;enicom da nema energije ni za trening" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/bdc78dbd-0348-40bb-a10b-db72b27e196a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Turski mediji: Oršića je trener otpisao rečenicom da nema energije ni za trening</h3>
+                    <span class="summary">MISLAV OR&#x160;I&#x106; neslavno zavr&#x161;ava ga&#x17E;u u Trabzonsporu.</span>
+                    <div class="publish-date">12.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sky-sports-baturina-nakon-sezone-napusta-dinamo/2614722.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Sky Sports: Baturina nakon sezone napu&#x161;ta Dinamo" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/781751c2-f367-48b5-a1ff-435d56b3f7d8.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Sky Sports: Baturina nakon sezone napušta Dinamo</h3>
+                    <span class="summary">PRO&#x160;LOG ljeta Baturinu je htjela Fiorentina, koja je u Maksimir poslala &#x10D;ak &#x10D;etiri ponude.</span>
+                    <div class="publish-date">11.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/real-zeli-igraca-leverkusena-zbog-njega-ce-prekrsiti-klupsko-pravilo/2614705.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Real &#x17E;eli igra&#x10D;a Leverkusena. Zbog njega &#x107;e prekr&#x161;iti klupsko pravilo?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/c2185215-5ff0-4c85-bc46-514a011127b3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Real želi igrača Leverkusena. Zbog njega će prekršiti klupsko pravilo?</h3>
+                    <span class="summary">REALU se ozlijedio i Brazilac Eder Militao, tako da treneru Ancelottiju ponestaje opcija u zadnjem redu, koji je ove sezone pokazao brojne nesigurnosti.</span>
+                    <div class="publish-date">11.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>
+                            <div class="read-more-news display-none">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/atletico-zagrizao-za-dinamovog-dragulja-pedja-mijatovic-ga-je-posebno-preporucio/2614646.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Atletico zagrizao za Dinamovog dragulja: &quot;Pe&#x111;a Mijatovi&#x107; ga je posebno preporu&#x10D;io&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/3b3be0d8-7939-484b-ab3c-3ce002dc3b89.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Atletico zagrizao za Dinamovog dragulja: "Peđa Mijatović ga je posebno preporučio"</h3>
+                    <span class="summary">DINAMOV mladi veznjak jedan je od najve&#x107;ih europskih hitova ove sezone.</span>
+                    <div class="publish-date">11.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/real-u-sijecnju-zeli-dovesti-igraca-al-nassra-i-upropastiti-ronaldove-snove/2614314.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Real u sije&#x10D;nju &#x17E;eli dovesti igra&#x10D;a Al Nassra i upropastiti Ronaldove snove" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/52dbb9bd-f2c1-42c8-9807-e1e349b1c9ac.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Real u siječnju želi dovesti igrača Al Nassra i upropastiti Ronaldove snove</h3>
+                    <span class="summary">TKO &#x106;E NA Bernabeu umjesto ozlije&#x111;enog Militaa?</span>
+                    <div class="publish-date">10.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/spanjolci-modric-odlazi-u-lipnju-desetku-ostavlja-zvijezdi-bundeslige/2614119.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x160;panjolci: Modri&#x107; odlazi u lipnju, desetku ostavlja zvijezdi Bundeslige" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/972b5c7e-42c7-4e1c-9092-7e3d18cf8d49.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Španjolci: Modrić odlazi u lipnju, desetku ostavlja zvijezdi Bundeslige</h3>
+                    <span class="summary">LUKA MODRI&#x106; pod ugovorom je do kraja sezone.</span>
+                    <div class="publish-date">9.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ima-16-godina-igra-u-gruziji-vrijedi-300000-eura-i-zele-ga-real-i-barca/2614108.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ima 16 godina, igra u Gruziji, vrijedi 300.000 eura i &#x17E;ele ga Real i Barca" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/e35414f0-2356-4eaf-9c63-4b2c2678e8d2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ima 16 godina, igra u Gruziji, vrijedi 300.000 eura i žele ga Real i Barca</h3>
+                    <span class="summary">KAO 15-GODI&#x160;NJAK ve&#x107; je igrao u prvom sastavu svoje mom&#x10D;adi.</span>
+                    <div class="publish-date">9.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatski-napadac-u-cudesnoj-formi-austrijanci-za-njegov-otkup-moraju-srusiti-rekord/2613784.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatski napada&#x10D; u &#x10D;udesnoj formi. Austrijanci za njegov otkup moraju sru&#x161;iti rekord" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2fcb6cd6-b90a-42a5-95dc-52260d25d0e3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatski napadač u čudesnoj formi. Austrijanci za njegov otkup moraju srušiti rekord</h3>
+                    <span class="summary">DION DRENA BELJO zabio je 12 golova u 24 nastupa za Rapid. Da bi ga Austrijanci otkupili, morat &#x107;e platiti osam milijuna eura, tvrdi Kicker.</span>
+                    <div class="publish-date">8.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nijemci-sopic-je-kandidat-za-preuzimanje-propalog-velikana/2613526.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nijemci: Sopi&#x107; je kandidat za preuzimanje propalog velikana" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/811a7b21-f6c2-4359-8735-6ce61c167243.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nijemci: Sopić je kandidat za preuzimanje propalog velikana</h3>
+                    <span class="summary">&#x17D;ELJKO SOPI&#x106; (50) je, prema informacijama iz Njema&#x10D;ke, jedan od kandidata za preuzimanje Schalkea.</span>
+                    <div class="publish-date">7.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-5');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-5');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/real-nakon-pet-godina-kupuje-u-sijecnju-romano-otkriva-tko-je-top-prioritet/2613493.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Real nakon pet godina kupuje u sije&#x10D;nju. Romano otkriva tko je &quot;top prioritet&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/be6389fb-6c32-47a3-8e56-8fd20a14a61c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Real nakon pet godina kupuje u siječnju. Romano otkriva tko je "top prioritet"</h3>
+                    <span class="summary">OZLJEDE su ve&#x107; drugu sezonu zaredom poharale Realovu obranu.</span>
+                    <div class="publish-date">7.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/gorica-dovela-igraca-koji-je-prosle-sezone-bio-u-dinamu/2613500.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Gorica dovela igra&#x10D;a koji je pro&#x161;le sezone bio u Dinamu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f2e62ed9-8422-41eb-a1e1-ecf8a68bcdbe.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Gorica dovela igrača koji je prošle sezone bio u Dinamu</h3>
+                    <span class="summary">GORICA &#x107;e uskoro predstaviti novog igra&#x10D;a. Rije&#x10D; je o veznjaku koji je pro&#x161;le sezone nastupao za Dinamo.</span>
+                    <div class="publish-date">7.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sego-je-srusio-hajduk-splicani-ce-se-utjesiti-polovinom-njegove-odstete/2613478.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x160;ego je sru&#x161;io Hajduk. Spli&#x107;ani &#x107;e se utje&#x161;iti polovinom njegove od&#x161;tete" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/6644b44b-2444-4593-9c82-3ab89222c446.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Šego je srušio Hajduk. Splićani će se utješiti polovinom njegove odštete</h3>
+                    <span class="summary">MICHELE &#x160;EGO (24), lijevo krilo Vara&#x17E;dina, sjajne igre ove sezone potvrdio je gol&#x10D;inom za pobjedu nad vode&#x107;im Hajdukom. Iz po&#x161;tovanja prema klubu u kojem se probio, &#x160;ego gol karijere nije slavio, ali Hajduk &#x107;e slaviti kad se on proda.</span>
+                    <div class="publish-date">7.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/spanjolski-medij-bomba-saudijci-spremaju-najvecu-razmjenu-u-povijesti-nogometa/2613354.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x160;panjolski medij: Bomba. Saudijci spremaju najve&#x107;u razmjenu u povijesti nogometa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/034e559d-b984-4fae-8d53-f2d05347f27f.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Španjolski medij: Bomba. Saudijci spremaju najveću razmjenu u povijesti nogometa</h3>
+                    <span class="summary">JE LI NA pomolu novi veliki transfer legendarnog napada&#x10D;a?</span>
+                    <div class="publish-date">6.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sportski-direktor-hoffenheima-imao-sam-dug-razgovor-s-kramaricem/2612968.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Sportski direktor Hoffenheima: Imao sam dug razgovor s Kramari&#x107;em" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/e438eb3d-9229-4a56-96e6-5509e706d382.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Sportski direktor Hoffenheima: Imao sam dug razgovor s Kramarićem</h3>
+                    <span class="summary">SPORTSKI direktor Hoffenheima komentirao je potencijalno produljenje ugovora s Andrejom Kramari&#x107;em.</span>
+                    <div class="publish-date">5.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ljetos-odbio-pola-europe-i-otisao-u-romu-no-napusta-je-vec-na-zimu/2612951.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ljetos odbio pola Europe i oti&#x161;ao u Romu, no napu&#x161;ta je ve&#x107; na zimu?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/57e2d7ea-74c5-4e70-a2ee-3141a8c90ffa.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ljetos odbio pola Europe i otišao u Romu, no napušta je već na zimu?</h3>
+                    <span class="summary">LEGENDARNI njema&#x10D;ki brani&#x10D; mogao bi napustiti Romu nakon svega par mjeseci.</span>
+                    <div class="publish-date">5.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-6');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-6');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nijemci-baturina-je-odbio-real/2612730.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nijemci: Baturina je odbio Real" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/89bd9b7e-c2c5-4c0b-b30a-14bf075840f2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nijemci: Baturina je odbio Real</h3>
+                    <span class="summary">MARTIN BATURINA je pod ugovorom s Dinamom do kraja lipnja 2028. godine.</span>
+                    <div class="publish-date">5.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/saudijci-nude-viniciusu-pet-milijardi-eura-otkriveno-je-sto-bi-jos-dobio-osim-novca/2612419.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Saudijci nude Viniciusu pet milijardi eura. Otkriveno je &#x161;to bi jo&#x161; dobio osim novca" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b63bed13-763c-4acb-9d03-7824fb279e72.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Saudijci nude Viniciusu pet milijardi eura. Otkriveno je što bi još dobio osim novca</h3>
+                    <span class="summary">BRAZILAC ima &#x10D;udesnu ponudu.</span>
+                    <div class="publish-date">4.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/marca-vinicius-sve-je-moguce/2612295.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Marca: Vinicius? Sve je mogu&#x107;e" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/339fa472-1c4d-40a5-b165-b1e641fdc650.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Marca: Vinicius? Sve je moguće</h3>
+                    <span class="summary">DEBAKL Viniciusa sa Zlatnom loptom stavio ga je u fokus javnosti. Marca otkriva da je i prije blama&#x17E;e odr&#x17E;an sastanak kluba i igra&#x10D;a koji brine Real.</span>
+                    <div class="publish-date">3.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/neymar-napusta-saudijsku-arabiju-i-vraca-se-u-klub-u-kojem-je-zapoceo-karijeru/2612239.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Neymar napu&#x161;ta Saudijsku Arabiju i vra&#x107;a se u klub u kojem je zapo&#x10D;eo karijeru?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d671b770-4ea5-4fbe-a6b8-8db38646e15d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Neymar napušta Saudijsku Arabiju i vraća se u klub u kojem je započeo karijeru?</h3>
+                    <span class="summary">POTPREDSJEDNIK Neymarova mati&#x10D;nog kluba najavio je dolazak brazilskog krilnog napada&#x10D;a.</span>
+                    <div class="publish-date">3.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-cudesni-golgeter-zabio-4-trener-necu-ga-u-sijecnju-odvesti-za-sobom-u-united/2612110.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO &#x10C;udesni golgeter zabio 4. Trener: Ne&#x107;u ga u sije&#x10D;nju odvesti za sobom u United" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/90cf6308-e763-46c3-b520-61f33cb39405.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Čudesni golgeter zabio 4. Trener: Neću ga u siječnju odvesti za sobom u United</h3>
+                    <span class="summary">NEVJEROJATNU formu koja traje ve&#x107; drugu sezonu, Viktor Gy&#xF6;keres (26), napada&#x10D; portugalskog aktualnog prvaka i lidera Sportinga iz Lisabona, potvrdio je i u utakmici desetog kola.</span>
+                    <div class="publish-date">2.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/milan-djuricic-79-je-novi-trener-najveceg-hrvatskog-nogometnog-cirkusa/2612097.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Milan &#x110;uri&#x10D;i&#x107; (79) je novi trener najve&#x107;eg hrvatskog nogometnog cirkusa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/65ae7b99-8fcf-4492-b9f6-cdd0bdac2c35.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Milan Đuričić (79) je novi trener najvećeg hrvatskog nogometnog cirkusa</h3>
+                    <span class="summary">ZRINSKI OSJE&#x10C;KO 1664, drugoliga&#x161;ki klub kontroverznog Ivana Komaka, pro&#x161;le sezone bio je nadomak ulaska u SuperSport HNL, a sada je blizu ispadanja u tre&#x107;i rang.</span>
+                    <div class="publish-date">2.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-7');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-7');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-ovako-su-navijaci-sportinga-docekali-njihovog-trenera-koji-odlazi-u-united/2612056.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Ovako su navija&#x10D;i Sportinga do&#x10D;ekali njihovog trenera koji odlazi u United" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/c7af5521-cc63-4116-aa6f-59b07312448b.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Ovako su navijači Sportinga dočekali njihovog trenera koji odlazi u United</h3>
+                    <span class="summary">RUBEN AMORIM (40), novi je trener Manchester Uniteda i potpisao je za njega, ali taj klub preuzima 11. studenog. Dogovoreno je da to tada, kada po&#x10D;inje pauza zbog utakmica reprezentacija, vodi njegov aktualni klub Sporting Lisabon.</span>
+                    <div class="publish-date">2.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/real-u-paketu-zeli-dovesti-najpozeljnije-nogometasa-i-trenera-na-svijetu/2612002.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Real u paketu &#x17E;eli dovesti najpo&#x17E;eljnije nogometa&#x161;a i trenera na svijetu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d2f6447f-16ee-41de-b81a-908996ed9778.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Real u paketu želi dovesti najpoželjnije nogometaša i trenera na svijetu</h3>
+                    <span class="summary">REAL MADRID je zainteresiran za sjajan dvojac Bayera iz Leverkusena, tvrdi insajder Florian Plettenberg.</span>
+                    <div class="publish-date">2.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ibricic-da-dzeko-dodje-u-hajduk-govorio-bih-kao-bjelica/2611891.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ibri&#x10D;i&#x107;: Da D&#x17E;eko do&#x111;e u Hajduk, govorio bih kao Bjelica" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d726e1d6-d5f5-408a-9a75-f321c21b6b7e.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ibričić: Da Džeko dođe u Hajduk, govorio bih kao Bjelica</h3>
+                    <span class="summary">BIV&#x160;I nogometa&#x161; Hajduka Senijad Ibri&#x10D;i&#x107; govorio je o glasinama o dolasku Edina D&#x17E;eke u splitski klub.</span>
+                    <div class="publish-date">1.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/liverpool-zeli-jednog-od-najubojitijih-napadaca-europe/2611854.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Liverpool &#x17E;eli jednog od najubojitijih napada&#x10D;a Europe" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/be264653-1d98-41fd-b1c6-e8e54ae27418.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Liverpool želi jednog od najubojitijih napadača Europe</h3>
+                    <span class="summary">INSAJDER Florian Plettenberg pi&#x161;e o interesu Liverpoola za sjajnim napada&#x10D;em Eintrachta.</span>
+                    <div class="publish-date">1.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/united-porucio-antonyju-mozes-ici/2611744.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="United poru&#x10D;io Antonyju: Mo&#x17E;e&#x161; i&#x107;i" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f3c56daf-9adf-48d0-a382-cc725b9f64a9.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">United poručio Antonyju: Možeš ići</h3>
+                    <span class="summary">BRAZILSKI krilni napada&#x10D; Antony nije vi&#x161;e po&#x17E;eljan u mom&#x10D;adi Manchester Uniteda, pi&#x161;e portal Goal.</span>
+                    <div class="publish-date">31.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/united-je-nasao-novog-trenera-ima-samo-4-godine-iskustva-i-senzacionalne-rezultate/2610925.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="United je na&#x161;ao novog trenera. Ima samo 4 godine iskustva i senzacionalne rezultate" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/76f2db89-ce7c-45f9-a829-61e1e2bf7cff.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">United je našao novog trenera. Ima samo 4 godine iskustva i senzacionalne rezultate</h3>
+                    <span class="summary">ODMAH nakon &#x161;to je dao otkaz Eriku ten Hagu Manchester United na&#x161;ao je novog trenera. Fabrizio Romano otkriva da je to Ruben Amorim, trener Sportinga iz Lisabona.</span>
+                    <div class="publish-date">29.10.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-8');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-8');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/balotelli-predstavljen-u-novom-klubu-zlocesti-decko-talijanskog-nogometa/2610828.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Balotelli predstavljen u novom klubu. &quot;Zlo&#x10D;esti de&#x10D;ko talijanskog nogometa&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/57bb209f-cdf7-4674-9817-e8da9b3b8efc.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Balotelli predstavljen u novom klubu. "Zločesti dečko talijanskog nogometa"</h3>
+                    <span class="summary">MARIO BALOTELLI (34) potpisao je za talijanskog prvoliga&#x161;a.</span>
+                    <div class="publish-date">28.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/liverpool-trazi-zamjenu-za-salaha-nasao-ju-je-u-realu-i-spreman-je-dati-70-mil-eura/2610683.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Liverpool tra&#x17E;i zamjenu za Salaha. Na&#x161;ao ju je u Realu i spreman je dati 70 mil. eura" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/7c87626f-ec55-4404-a790-5f427a97ece9.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Liverpool traži zamjenu za Salaha. Našao ju je u Realu i spreman je dati 70 mil. eura</h3>
+                    <span class="summary">U LIVERPOOLU nisu sigurno &#x161;to &#x107;e biti s njihovim egipatskim napada&#x10D;em.</span>
+                    <div class="publish-date">28.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/balotelli-se-u-iznenadjujucem-poslu-vraca-u-serie-a-pregovori-su-u-tijeku/2610188.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Balotelli se u iznena&#x111;uju&#x107;em poslu vra&#x107;a u Serie A? Pregovori su u tijeku" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/fbc63f1e-dd4f-4981-8177-9450f3f9b621.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Balotelli se u iznenađujućem poslu vraća u Serie A? Pregovori su u tijeku</h3>
+                    <span class="summary">TRENUTA&#x10C;NO je slobodan igra&#x10D;.</span>
+                    <div class="publish-date">26.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ima-26-godina-i-58-nastupa-u-shnlu-sad-je-potpisao-za-hrvatskog-treceligasa/2609192.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ima 26 godina i 58 nastupa u SHNL-u. Sad je potpisao za hrvatskog tre&#x107;eliga&#x161;a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/e572e62e-86d0-4f25-ad09-123ed15dfac2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ima 26 godina i 58 nastupa u SHNL-u. Sad je potpisao za hrvatskog trećeligaša</h3>
+                    <span class="summary">MLADOST &#x17D;DRALOVI doveli su brani&#x10D;a s 58 nastupa u SuperSport HNL-u.</span>
+                    <div class="publish-date">22.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/juventus-objavio-da-je-doveo-realovog-wonderkida-zatim-porucio-da-se-salio/2608808.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Juventus objavio da je doveo Realovog wonderkida. Zatim poru&#x10D;io da se &#x161;alio" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/69d2bae1-ab0a-40ed-9053-2dbaa01595cb.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Juventus objavio da je doveo Realovog wonderkida. Zatim poručio da se šalio</h3>
+                    <span class="summary">ZAPREPASTILA je popodnevna objava na slu&#x17E;benom Juventusovom profilu na X-u.</span>
+                    <div class="publish-date">21.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/balotelli-je-tri-mjeseca-bez-kluba-sad-je-pronasao-novi/2608153.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Balotelli je tri mjeseca bez kluba. Sad je prona&#x161;ao novi?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f3a6f14a-9abb-4dfa-b76f-789e2d2c27ed.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Balotelli je tri mjeseca bez kluba. Sad je pronašao novi?</h3>
+                    <span class="summary">MARIO BALOTELLI (34) tra&#x17E;i klub i &#x10D;eka odluku talijanskog prvoliga&#x161;a.</span>
+                    <div class="publish-date">19.10.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                            </div>
+
+                            <div class="btn-read-more" data-offset="0">
+                                <div class="read-more-text">PRIKAŽI JOŠ VIJESTI<i class="index-arrow-down sport-text"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part">
+                
+
+
+<!-- /21703950087/Box1 -->
+<div id='Box1' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box1_sport_hr', sizes, 'Box1').addService(googletag.pubads());
+
+            googletag.display('Box1');
+        });
+    </script>
+</div>
+
+
+                <div class="category-timeline-holder timeline-holder">
+                    <div class="header clearfix">
+                        <h2>Sport</h2>
+                        <div class="periods btn-group">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                danas <i class="index-arrow-down sport-text"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                    <li class="sport-bg-hover" data-value="today">Danas</li>
+                                    <li class="sport-bg-hover" data-value="yesterday">Ju&#x10D;er</li>
+                                    <li class="sport-bg-hover" data-value="week">Zadnjih 7 dana</li>
+                                    <li class="sport-bg-hover" data-value="month">Zadnjih 30 dana</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="most-read-holder">
+                        
+
+    <div class="timeline-content most-read">
+        <ul>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">1</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/bjelica-ga-je-izbacio-iz-momcadi-sada-se-oglasio-prvi-put-nakon-incidenta/2620746.aspx?index_ref=_sport_najcitanije_d">
+                            Bjelica ga je izbacio iz momčadi. Sada se oglasio prvi put nakon incidenta
+                        </a>
+                        <div class="line" style="width: 90%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">2</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/navijac-bernaueru-znas-koliko-mrzimo-hajduk-branic-dinama-odgovorio-znam/2620809.aspx?index_ref=_sport_najcitanije_d">
+                            Navijač Bernaueru: Znaš koliko mrzimo Hajduk? Branič Dinama odgovorio: Znam
+                        </a>
+                        <div class="line" style="width: 81%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">3</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/skaut-se-divi-hajdukovom-dragulju-ima-sut-kao-shaqiri-ali-je-bolji-igrac-od-njega/2620879.aspx?index_ref=_sport_najcitanije_d">
+                            Skaut se divi Hajdukovom dragulju: Ima šut kao Shaqiri, ali je bolji igrač od njega
+                        </a>
+                        <div class="line" style="width: 72%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">4</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ludnica-za-baturinom-sport-barcelona-ga-prati-mjesecima/2620772.aspx?index_ref=_sport_najcitanije_d">
+                            Ludnica za Baturinom. Sport: Barcelona ga prati mjesecima
+                        </a>
+                        <div class="line" style="width: 63%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">5</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/nogomet-sam-poceo-igrati-u-progonstvu-uz-modrica-sam-bio-u-najboljem-kadru-u-hnlu/2620281.aspx?index_ref=_sport_najcitanije_d">
+                            "Nogomet sam počeo igrati u progonstvu. Uz Modrića sam bio u najboljem kadru u HNL-u"
+                        </a>
+                        <div class="line" style="width: 54%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">6</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ivanisevicev-rival-o-igi-swiatek-dozivotna-suspenzija-bez-obzira-tko-ste/2620881.aspx?index_ref=_sport_najcitanije_d">
+                            Ivaniševićev rival o Igi Swiatek: Doživotna suspenzija. Bez obzira tko ste
+                        </a>
+                        <div class="line" style="width: 45%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">7</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/premierligaski-kapetan-odbio-nositi-traku-duginih-boja-klub-dao-objasnjenje/2620802.aspx?index_ref=_sport_najcitanije_d">
+                            Premierligaški kapetan odbio nositi traku duginih boja. Klub dao objašnjenje
+                        </a>
+                        <div class="line" style="width: 36%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">8</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/napisao-je-da-voli-isusa-preko-duginih-boja-savez-ga-opomenuo-da-je-to-zabranjeno/2620894.aspx?index_ref=_sport_najcitanije_d">
+                            Napisao je da voli Isusa preko duginih boja. Savez ga opomenuo da je to zabranjeno
+                        </a>
+                        <div class="line" style="width: 27%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">9</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/trebao-je-u-dinamo-sad-iz-zvezde-porucuje-smetale-su-nam-dinamove-pobjede-u-lpu/2620903.aspx?index_ref=_sport_najcitanije_d">
+                            Trebao je u Dinamo. Sad iz Zvezde poručuje: Smetale su nam Dinamove pobjede u LP-u
+                        </a>
+                        <div class="line" style="width: 18%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">10</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/video-trcali-smo-s-poznatim-trenerom-edom-po-magli-otkrio-nam-je-trikove-za-trening/2617705.aspx?index_ref=_sport_najcitanije_d">
+                            <span class='title-parsed-text'>VIDEO</span>  Trčali smo s poznatim trenerom Edom po magli. Otkrio nam je trikove za trening 
+                        </a>
+                        <div class="line" style="width: 9%;"></div>
+                    </div>
+                </li>
+        </ul>
+        <a class="more-news" href="/najcitanije?kategorija=150&amp;timerange=today">Prikaži još vijesti</a>
+    </div>
+
+                    </div>
+                </div>
+                <div class="separator-55"></div>
+                
+
+
+<!-- /21703950087/Box2 -->
+<div id='Box2' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box2_sport_hr', sizes, 'Box2').addService(googletag.pubads());
+
+            googletag.display('Box2');
+        });
+    </script>
+</div>
+
+                <div class="separator-50"></div>
+                <div class="sticky">
+                    
+
+
+<!-- /21703950087/DSF_sticky -->
+<div id='DSF_sticky' class="js-slot-container" data-css-class="google-box">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF_sticky_sport', [[300, 600], [300, 250], [1, 1]], 'DSF_sticky').addService(googletag.pubads());
+
+            googletag.display('DSF_sticky');
+        });
+    </script>
+</div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+<!-- /21703950087/DSF5 -->
+<div id='DSF5' class="js-slot-container" data-css-class="google-box top-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF5_Sport', [[970, 90], [970, 250], [970, 500], [728, 90], [800, 250], [1, 1]], 'DSF5').addService(googletag.pubads());
+
+            googletag.display('DSF5');
+        });
+    </script>
+</div>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="popup-overlay-container js-login-popup display-none">
+    <div class="popup-holder comments-login-popup-holder">
+        <div class="btn-close-popup" close-popup>
+            <i class="index-close"></i>
+        </div>
+
+        <div class="main-title">
+            Prijavite se
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">
+                Brza prijava
+            </div>
+            <div class="section-desc">
+                (traje par sekundi)
+            </div>
+            <div class="login-social-holder flex">
+                <a class="social-btn fb flex" onclick="accountService.Login('/profil/prijava?auth_action=login-facebook&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Ftransferi%2F1650.aspx')">
+                    <img src="/Content/img/login/fb.svg" /> Facebook
+                </a>
+                <a class="social-btn google flex" onclick="accountService.Login('/profil/prijava?auth_action=login-google&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Ftransferi%2F1650.aspx')">
+                    <img src="/Content/img/login/google.svg" /> Google
+                </a>
+            </div>
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">Prijava emailom</div>
+            <form class="login-form" action="/profil/prijava?redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Ftransferi%2F1650.aspx" method="post" onsubmit="accountService.OnLoginFormSubmit()">
+
+                <div class="input-holder">
+                    <i class="index-mail3"></i>
+                    <input type="email" class="input-field" required name="login_hint" placeholder="Unesite email" value="" />
+                </div>
+                <div class="description">Ako već niste registirani, poslat ćemo vam email s linkom za nastavak registracije.</div>
+                <button class="login-btn" type="submit">Prijavite se</button>
+            </form>
+        </div>
+
+        <div class="disclaimer-holder">
+            Kreiranjem i prijavom na račun slažete se s našim <br>
+            <a href="https://www.index.hr/uvjeti-koristenja">Uvjetima korištenja</a> i <a href="https://www.index.hr/uvjeti-koristenja#pravila-o-zastiti-privatnosti">Pravilima o privatnosti</a>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <footer class="main-footer main-container main-content-bg clearfix">
+    <a class="logo" href="/"><img class="logo-img" src="/Content/img/logo/logo_footer_196x29.svg" /></a>
+    <nav class="list-holder flex">
+        <ul>
+            <li class="heading">
+                <a class="vijesti-text-hover" href="/vijesti">
+                    Vijesti
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/hrvatska/22.aspx">
+                    Hrvatska
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/zagreb/1553.aspx">
+                    Zagreb
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/regija/1540.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/eu/5040.aspx">
+                    EU
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/svijet/23.aspx">
+                    Svijet
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/znanost/1722.aspx">
+                    Znanost
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/crna-kronika/46.aspx">
+                    Crna kronika
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/komentari/1413.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/novac/1554.aspx">
+                    Novac
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/afere">
+                    Afere
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="sport-text-hover" href="/sport">
+                    Sport
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/nogomet/1638.aspx">
+                    Nogomet
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/transferi/1650.aspx">
+                    Transferi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/kosarka/1639.aspx">
+                    Košarka
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/tenis/1640.aspx">
+                    Tenis
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/regija/1692.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/komentari/1738.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/borilacki-sportovi/1662.aspx">
+                    Borilački sportovi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/ostali-sportovi/1641.aspx">
+                    Ostali sportovi
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="magazin-text-hover" href="/magazin">
+                    Magazin
+                </a>
+            </li>
+            <li>
+                <a class="shopping-text-hover" href="/shopping">
+                    Shopping
+                </a>
+            </li>
+            <li>
+                <a class="ljubimci-text-hover" href="/ljubimci">
+                    Ljubimci
+                </a>
+            </li>
+
+            <li>
+                <a class="food-text-hover" href="/food">
+                    Food
+                </a>
+            </li>
+            <li>
+                <a class="mame-text-hover" href="/mame">
+                    Mame
+                </a>
+            </li>
+            <li>
+                <a class="auto-text-hover" href="/auto">
+                    Auto
+                </a>
+            </li>
+            <li>
+                <a class="fit-text-hover" href="/fit">
+                    Fit
+                </a>
+            </li>
+            <li>
+                <a class="chill-text-hover" href="/chill">
+                    Chill
+                </a>
+            </li>
+            <li>
+                <a class="horoskop-text-hover" href="/horoskop">
+                    Horoskop
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Plus
+            </li>
+            <li><a class="oglasi-text-hover" href="https://www.index.hr/oglasi/">Oglasi</a></li>
+            <li><a class="recepti-text-hover" href="https://recepti.index.hr/">Recepti</a></li>
+            <li><a class="lajkhr-text-hover" href="http://www.index.hr/lajk/">Lajk.hr</a></li>
+            <li><a class="odgovori-text-hover" href="https://odgovori.index.hr/">Odgovori</a></li>
+            <li>
+                <a class="kalendar-text-hover" href="/kalendar">
+                    Kalendar
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Info
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tecaj">
+                    Tečaj
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tv">
+                    TV program
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/kino">
+                    Kino
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/vrijeme">
+                    Vrijeme
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/rss/info">
+                    RSS
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                PRATITE NAS
+            </li>
+            <li>
+                <a href="https://www.facebook.com/index.hr/" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="facebook index-facebook"></i>Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="youtube index-youtube"></i>Youtube</a>
+            </li>
+            <li>
+                <a href="https://instagram.com/index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="instagram index-instagram"></i>Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="tiktok index-tiktok"></i>TikTok</a>
+            </li>
+            <li><a href="/posaljite-pricu" class="main-text-hover">Pošaljite nam vijest </a></li>
+            <li><a href="/newsletter" class="main-text-hover">Newsletter</a></li>
+        </ul>
+    </nav>
+    <ul class="impressum">
+        <li><a href="https://cjenik.index.hr">Oglašavanje</a></li>
+        <li><a href="https://jobs.index.hr/">Zaposli se na Indexu</a></li>
+        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/impressum">Impressum</a></li>
+        <li><a href="/uvjeti-koristenja">Uvjeti korištenja</a></li>
+        <li>
+            <a href="javascript:Didomi.preferences.show()">
+                Postavke kolačića
+            </a>
+        </li>
+        <li>
+            © 2024 Index
+        </li>
+    </ul>
+</footer>
+
+    </footer>
+
+    
+
+
+<script>
+    //load the apstag.js library (amazon prebid)
+    !function (a9, a, p, s, t, A, g) { if (a[a9]) return; function q(c, r) { a[a9]._Q.push([c, r]) } a[a9] = { init: function () { q("i", arguments) }, fetchBids: function () { q("f", arguments) }, setDisplayBids: function () { }, targetingKeys: function () { return [] }, _Q: [] }; A = p.createElement(s); A.async = !0; A.src = t; g = p.getElementsByTagName(s)[0]; g.parentNode.insertBefore(A, g) }("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");
+
+    //initialize the apstag.js library on the page to allow bidding
+    apstag.init({
+        pubID: '03086deb-b728-420a-9fad-35ee317c06f6', //enter your pub ID here as shown above, it must within quotes
+        adServer: 'googletag'
+    });
+
+    var PREBID_TIMEOUT = 2000;
+
+    
+    var CONSENT_TIMEOUT = 1000;
+    var FAILSAFE_TIMEOUT = 4000;
+
+    var USER_PPID = accountService.GetUserPPID();
+
+    var requestManager = {
+        adserverRequestSent: false,
+        aps: false,
+        prebid: false
+    };
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+    var adUnits = adUnits || [];
+    var amazonAdSlots = amazonAdSlots || [];
+
+   
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    function initializeGoogletagRefreshWithPrebid() {
+        console.log("AD_INITIALISE_GPT_WITH_PREBID");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        if (cookieService.GetCookie("lcl_near_full") != null) {
+            console.log('localstorage full targeting')
+            googletag.pubads().setTargeting("localstorageFull", "yes");
+        }
+
+        //if PPID provided, set it
+        if (USER_PPID && didomiService.IsGoogleAllowed()) {
+            console.log('AD_PPID_SET', USER_PPID)
+            googletag.pubads().setTargeting("ppid_test", "yes");
+            googletag.pubads().setPublisherProvidedId(USER_PPID);
+
+        }
+        else {
+            googletag.pubads().setTargeting("ppid_test", "no");
+        }
+
+        //amazon prebid init
+        if (amazonAdSlots.length > 0) {
+            apstag.fetchBids({
+                slots: amazonAdSlots,
+                timeout: PREBID_TIMEOUT
+            }, function (bids) {
+                apstag.setDisplayBids();
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack(); // checks whether both APS and Prebid have returned
+            });
+        }
+        else {
+            requestManager.aps = true; // signals that APS request has completed
+            biddersBack(); // checks whether both APS and Prebid have returned
+        }
+
+        //amazon sometimes does process timeout well, so we will add a failsafe to mark it as done from our side, otherwise it will be too slow
+        setTimeout(function () {
+            if (!requestManager.aps) {
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack();
+            }
+        }, PREBID_TIMEOUT)
+
+       
+        pbjs.rp.requestBids({
+            callback: prebidCallback,
+            //gptSlotObjects: googletag.pubads().getSlots()
+        });
+    }
+
+    function initializeGoogletagWithLimitedAds() {
+        console.log("AD_INITIALISE_GPT_WITH_LIMITED_ADS");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        sendAdserverRequest();
+    }
+
+    // when both APS and Prebid have returned, initiate ad request
+    //this function will call function which sends ad request, only if amazon and prebid returned their requests
+    function biddersBack() {
+        if (requestManager.aps && requestManager.prebid) {
+            sendAdserverRequest();
+        }
+        return;
+    }
+
+    function prebidCallback() {
+        requestManager.prebid = true;
+        biddersBack();
+    }
+
+    //will send ad requests if not already sent, otherwise will do nothing
+    function sendAdserverRequest() {
+        if (requestManager.adserverRequestSent === true) {
+            return;
+        }
+
+        requestManager.adserverRequestSent = true;
+
+        var slots = googletag.pubads().getSlots();
+
+        if (slots.length > 0) {
+            googletag.enableServices();
+
+            var slotsToRefresh = [];
+
+            for (i = 0; i < slots.length; i++) {
+                var slot = slots[i];
+
+                var slotElementId = slot.getSlotElementId();
+                var element = document.getElementById(slotElementId);
+
+                var useLazyLoad = false;
+                var useMra = false;
+
+                if (element) {
+                    var useLazyLoadAttr = element.dataset.lazyLoad;
+                    var useMraAttr = element.dataset.useMra;
+
+                    if (useLazyLoadAttr && useLazyLoadAttr == 'True') {
+                        useLazyLoad = true;
+                    }
+
+                    if (useMraAttr && useMraAttr == 'true') {
+                        useMra = true;
+                    }
+                }
+
+                if (useLazyLoad) {
+                    observeAdElement(element, slot);
+                }
+                else if (useMra) {
+                    googletag.pubads().refresh([slot]);
+                }
+                else {
+                    slotsToRefresh.push(slot);
+                }
+            }
+
+            console.log("AD_PBJS_CALLBACK");
+
+            googletag.pubads().refresh(slotsToRefresh);
+
+            console.log("AD_REFRESHED");
+        }
+    }
+
+    function observeAdElement(element, slot) {
+        var observerOptions = {
+            root: null,
+            rootMargin: '300px',
+            threshold: 0
+        };
+
+        let impressionViewableObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    googletag.pubads().refresh([slot]);
+
+                    observer.unobserve(entry.target);
+                }
+            })
+        }, observerOptions);
+
+        impressionViewableObserver.observe(element);
+    }
+
+    // we must wait didomi to be ready, so we can pass consent
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) {
+        console.log("AD_DIDOMI_READY")
+        loadPrebid();
+
+    });
+
+    window.didomiEventListeners = window.didomiEventListeners || [];
+    window.didomiEventListeners.push({
+        event: 'consent.changed',
+        listener: function (context) {
+            // The user consent status has changed, so we wil send permutive PV
+            permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT);
+        }
+    });
+
+    // Function to load Rubicon Project script
+    function loadPrebid() {
+        var prebidScript = document.createElement('script');
+        prebidScript.async = true;
+        prebidScript.src = '//micro.rubiconproject.com/prebid/dynamic/26072.js';
+        prebidScript.onload = loadGPT; // Load GPT.js after Prebid script is loaded
+        document.head.appendChild(prebidScript);
+
+       
+    }
+
+    // Function to load GPT.js
+    function loadGPT() {
+        var gptScript = document.createElement('script');
+        gptScript.async = true;
+        gptScript.src = "https://pagead2.googlesyndication.com/tag/js/gpt.js";
+        gptScript.onload = init;
+        document.head.appendChild(gptScript);
+
+        console.log("AD_PREBID_LOADED")
+      
+    }
+
+    function init() {
+        console.log("AD_GPT_LOADED")
+        console.log("AD_STARTING_AD_TECH_STUFF")
+        permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT)
+            .then(initializeAdLayer)
+            .catch(error => {
+                console.error("AD_IN_PERMUTIVE_STACK");
+                console.warn("Continuing to load ad tech without permutive");
+
+                initializeAdLayer();
+            });
+    }
+
+    function initializeAdLayer() {
+        if (didomiService.IsGoogleAllowed() && Didomi.getUserStatus().purposes.consent.disabled.length == 0) {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: false
+                });
+            });
+
+            googletag.cmd.push(function () {
+                pbjs.que.push(function () {
+                    initializeGoogletagRefreshWithPrebid();
+                });
+            });
+        }
+        else {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: true
+                });
+            });
+
+            googletag.cmd.push(function () {
+                initializeGoogletagWithLimitedAds();
+            });
+        }
+    }
+
+</script>
+
+    
+    
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    (function () {
+        window.dm = window.dm || { AjaxData: [] };
+        window.dm.AjaxEvent = function (et, d, ssid, ad) {
+            dm.AjaxData.push({ et: et, d: d, ssid: ssid, ad: ad });
+            window.DotMetricsObj && DotMetricsObj.onAjaxDataUpdate();
+        };
+        var d = document,
+            h = d.getElementsByTagName('head')[0],
+            s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://script.dotmetrics.net/door.js?id=12270';
+        h.appendChild(s);
+    }());
+    /* ]]> */
+</script>
+
+
+    <script>
+        var mostReadUrl = '/Category/MostReadNews?categoryId=150&categorySlug=sport&timerange=%25timerange%25';
+
+        categoryService.InitAll();
+    </script>
+
+
+    <script>
+        googleEventService.CreateCustomEventGA4("layout", "ab_fifty-fifty", "");
+        googleEventService.CreateCustomEventGA4("user_data", "ab_fifty-fifty", "");
+
+        // if ad block detected send event
+        if (window.indexCanRunAds === undefined) {
+            googleEventService.CreateCustomEventGA4("layout", "ad_block_detected", "true");
+        }
+
+        var abCookieUrl = '/setabcookie';
+
+        globalDirectives.InitAll();
+        layoutService.InitAll();
+
+        layoutService.SetCurrentUrl('https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Ftransferi%2F1650.aspx');
+        deviceService.TrackIfNeeded();
+    </script>
+
+    
+</body>
+</html>

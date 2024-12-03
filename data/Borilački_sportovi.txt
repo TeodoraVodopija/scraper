@@ -1,0 +1,2425 @@
+
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <!--detect slow internet connection-->
+<script type="text/javascript">
+    var IS_SLOW_INTERNET = false;
+    var SLOW_INTERNET_THRESHOLD = 5000;//ms
+    var slowLoadTimeout = window.setTimeout(function () {
+        IS_SLOW_INTERNET = true;
+    }, SLOW_INTERNET_THRESHOLD);
+
+    window.addEventListener('load', function () {
+        window.clearTimeout(slowLoadTimeout);
+    }, false);
+</script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <title>Borilački sportovi - Index.hr</title>
+    <!--todo: remove on production-->
+    <meta name="description" content="Najnovije vijesti iz boksa, MMA-a i ostalih borilačkih sportova. Stipe Miočić, UFC, Conor McGregor, Khabib Nurmagomedov, Cro Cop, Mirko Filipović, Roberto Soldić">
+    <meta property="fb:app_id" content="216060115209819">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <link rel="preload" href="//micro.rubiconproject.com/prebid/dynamic/26072.js" as="script" /> 
+    <link rel="preload" href="https://pagead2.googlesyndication.com/tag/js/gpt.js" as="script" />
+
+     <!--adblock detection-->
+<script src="/Scripts/adblockDetect/ads.js"></script>
+    
+
+<script>
+    window.constants = window.constants || {};
+    window.constants.statsServiceHost = 'https://stats.index.hr';
+    window.constants.socketsHost = 'https://sockets.index.hr';
+    window.constants.chatHost = 'https://chat.index.hr';
+    window.constants.interactiveHost = 'https://interactive.index.hr';
+</script>
+
+        <!--recover ads, if adblock detected-->
+<!--adpushup recovery-->
+<script data-cfasync="false" type="text/javascript">(function (w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/41144/adRecover.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+
+
+    <link rel='preconnect' href='https://fonts.googleapis.com' crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="preload" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="stylesheet">
+
+    
+
+    
+        <link href="/Content/desktop-bundle.min.css?v=b11b4c97-bb50-4173-8acb-0b8e886647e0" rel="preload" as="style" />
+        <link href="/Scripts/desktop-bundle.min.js?v=b11b4c97-bb50-4173-8acb-0b8e886647e0" rel="preload" as="script" />
+
+        <link href="/Content/desktop-bundle.min.css?v=b11b4c97-bb50-4173-8acb-0b8e886647e0" rel="stylesheet" />
+        <script src="/Scripts/desktop-bundle.min.js?v=b11b4c97-bb50-4173-8acb-0b8e886647e0"></script>
+    
+
+    
+<script>
+    !function (e, o, n, i) { if (!e) { e = e || {}, window.permutive = e, e.q = []; var t = function () { return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (e) { return (e ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> e / 4).toString(16) }) }; e.config = i || {}, e.config.apiKey = o, e.config.workspaceId = n, e.config.environment = e.config.environment || "production", (window.crypto || window.msCrypto) && (e.config.viewId = t()); for (var g = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], r = 0; r < g.length; r++) { var w = g[r]; e[w] = function (o) { return function () { var n = Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: o, arguments: n }) } }(w) } } }(window.permutive, "cd150efe-ff8f-4596-bfca-1c8765fae796", "b4d7f9ad-9746-4daa-b552-8205ef41f49d", { "consentRequired": true });
+    window.googletag = window.googletag || {}, window.googletag.cmd = window.googletag.cmd || [], window.googletag.cmd.push(function () { if (0 === window.googletag.pubads().getTargeting("permutive").length) { var e = window.localStorage.getItem("_pdfps"); window.googletag.pubads().setTargeting("permutive", e ? JSON.parse(e) : []); var o = window.localStorage.getItem("permutive-id"); o && (window.googletag.pubads().setTargeting("puid", o), window.googletag.pubads().setTargeting("ptime", Date.now().toString())), window.permutive.config.viewId && window.googletag.pubads().setTargeting("prmtvvid", window.permutive.config.viewId), window.permutive.config.workspaceId && window.googletag.pubads().setTargeting("prmtvwid", window.permutive.config.workspaceId) } });
+    
+</script>
+<script async src="https://b4d7f9ad-9746-4daa-b552-8205ef41f49d.edge.permutive.app/b4d7f9ad-9746-4daa-b552-8205ef41f49d-web.js"></script>
+
+
+    
+
+<script type="text/javascript" src="https://interactive.index.hr/js/embed/interactive.min.js"></script>
+<script>
+    var $inin = $inin || {};
+
+    $inin.config = {
+        log: false,
+        enabled: false
+    }
+
+    var $ininque = $ininque || [];
+
+    var userPPID = accountService.GetUserPPID();
+
+    if (userPPID){
+        $inin.setClientUserId(userPPID);
+    }
+
+    $inin.enable();
+</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="didomi/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-5ZTNWH8GVX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5ZTNWH8GVX');
+</script>
+
+        
+<!-- //Connect Container: Index.hr -->
+<script src="//get.s-onetag.com/90d743ad-16c9-44d6-bb59-5f0ed674ef3b/tag.min.js" async defer></script>
+
+
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    
+    
+
+
+<!-- Make sure this is inserted before your GPT tag -->
+<script>
+    var amazonAdSlots = [];
+
+</script>
+
+
+
+    
+
+<script type="text/javascript">
+    window.gdprAppliesGlobally = true; (function () {
+        function a(e) {
+            if (!window.frames[e]) {
+                if (document.body && document.body.firstChild) { var t = document.body; var n = document.createElement("iframe"); n.style.display = "none"; n.name = e; n.title = e; t.insertBefore(n, t.firstChild) }
+                else { setTimeout(function () { a(e) }, 5) }
+            }
+        } function e(n, r, o, c, s) {
+            function e(e, t, n, a) { if (typeof n !== "function") { return } if (!window[r]) { window[r] = [] } var i = false; if (s) { i = s(e, t, n) } if (!i) { window[r].push({ command: e, parameter: t, callback: n, version: a }) } } e.stub = true; function t(a) {
+                if (!window[n] || window[n].stub !== true) { return } if (!a.data) { return }
+                var i = typeof a.data === "string"; var e; try { e = i ? JSON.parse(a.data) : a.data } catch (t) { return } if (e[o]) { var r = e[o]; window[n](r.command, r.parameter, function (e, t) { var n = {}; n[c] = { returnValue: e, success: t, callId: r.callId }; a.source.postMessage(i ? JSON.stringify(n) : n, "*") }, r.version) }
+            }
+            if (typeof window[n] !== "function") { window[n] = e; if (window.addEventListener) { window.addEventListener("message", t, false) } else { window.attachEvent("onmessage", t) } }
+        } e("__tcfapi", "__tcfapiBuffer", "__tcfapiCall", "__tcfapiReturn"); a("__tcfapiLocator"); (function (e) {
+            var t = document.createElement("script"); t.id = "spcloader"; t.type = "text/javascript"; t.async = true; t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target=" + document.location.hostname; t.charset = "utf-8"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n)
+        })("02757520-ed8b-4c54-8bfd-4a5f5548de98")
+    })();</script>
+
+
+<!--didomi-->
+<!--end-->
+
+
+    <script>
+        googletag.cmd.push(function () {
+        
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().setTargeting('rubrika', 'sport');
+    googletag.pubads().setTargeting('podrubrikaId', '1662');
+    googletag.pubads().setTargeting('sectionhomepage', 'borilački sportovi');
+;
+        });
+    </script>
+
+    
+<script>
+    var mainIndexDomainPath = "https://www.index.hr" + window.location.pathname;
+
+    googletag.cmd.push(function () {
+        googletag.pubads().disableInitialLoad();
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs(true);
+        googletag.pubads().setTargeting('projekt', 'index');
+        googletag.pubads().setTargeting('referer', '');
+        googletag.pubads().setTargeting('hostname', 'www.index.hr');
+        googletag.pubads().setTargeting('ar_1', 'false');
+        googletag.pubads().setTargeting('ab_test', '');
+        googletag.pubads().setTargeting('prebid', 'demand manager');
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                googletag.pubads().setTargeting('TPC', label);
+            });
+        }
+        else {
+            googletag.pubads().setTargeting('TPC', 'none');
+        }
+
+    });
+
+    googleTagService.AddSlotRenderEndedListener();
+</script>
+    <script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+
+    <meta property="og:title" content="Borila&#x10D;ki sportovi" />
+    <meta property="og:description" content="Najnovije vijesti iz boksa, MMA-a i ostalih borila&#x10D;kih sportova. Stipe Mio&#x10D;i&#x107;, UFC, Conor McGregor, Khabib Nurmagomedov, Cro Cop, Mirko Filipovi&#x107;, Roberto Soldi&#x107;" />
+    <meta property="og:image" content="/Content/img/main-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@indexhr">
+    <meta name="twitter:title" content="Borila&#x10D;ki sportovi">
+    <meta name="twitter:description" content="Najnovije vijesti iz boksa, MMA-a i ostalih borila&#x10D;kih sportova. Stipe Mio&#x10D;i&#x107;, UFC, Conor McGregor, Khabib Nurmagomedov, Cro Cop, Mirko Filipovi&#x107;, Roberto Soldi&#x107;">
+    <meta name="twitter:image" content="/Content/img/main-image.png">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebSite","name":"Index.hr","potentialAction":{"@type":"SearchAction","target":"https://www.index.hr/trazi.aspx?upit={search_term_string}","query-input":"required name=search_term_string"},"url":"https://www.index.hr/"}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}
+    </script>
+
+    <!-- Meta Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1418122964915670');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1418122964915670&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Meta Pixel Code -->
+
+
+    <script src="https://apetite.index.hr/bundles/apetite.js"></script>
+    <script>
+        var apetite = new AnalyticsPetite({ host: 'https://apetite.index.hr' });
+        
+    apetite.setCategory('sport');
+
+            apetite.collect();
+    </script>
+
+    
+    <link rel="canonical" href="https://www.index.hr/sport/rubrika/borilacki-sportovi/1662.aspx">
+    <link rel="alternate" href="https://www.index.hr/mobile/kategorija/1662">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebPage","name":"Borilački sportovi","description":"Najnovije vijesti iz boksa, MMA-a i ostalih borilačkih sportova. Stipe Miočić, UFC, Conor McGregor, Khabib Nurmagomedov, Cro Cop, Mirko Filipović, Roberto Soldić","url":"https://www.index.hr/","publisher":{"@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"ItemList","description":"Borilački sportovi","url":"https://www.index.hr/sport/rubrika/borilacki-sportovi/1662","itemListElement":[{"@type":"ListItem","name":"Bivši boksački svjetski prvak (46) preminuo od raka","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/40519878-9762-4bf7-8e64-261d8c13da73.jpg","url":"https://www.index.hr/sport/clanak/bivsi-boksacki-svjetski-prvak-46-preminuo-od-raka/2620942.aspx","position":1},{"@type":"ListItem","name":"Dubois dobio idućeg protivnika nakon pobjeda protiv Hrgovića i Joshue","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/38edb841-5e81-456a-9399-c11530cc238c.jpg","url":"https://www.index.hr/sport/clanak/dubois-dobio-iduceg-protivnika-nakon-pobjeda-protiv-hrgovica-i-joshue/2620914.aspx","position":2},{"@type":"ListItem","name":"UFC-ova zvijezda ima novog čuvara. Brinut će se za to da borac ne tuče fanove","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/80607ad9-ea38-4cfb-b6ca-0b47fe163bbb.jpg","url":"https://www.index.hr/sport/clanak/ufcova-zvijezda-ima-novog-cuvara-brinut-ce-se-za-to-da-borac-ne-tuce-fanove/2620849.aspx","position":3},{"@type":"ListItem","name":"Bivši trener o tome zašto je Tyson grizao rukavicu protiv Paula: Mike zna što reći","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5c9bd4c1-397c-41c1-b909-3bee27c15542.jpg","url":"https://www.index.hr/sport/clanak/bivsi-trener-o-tome-zasto-je-tyson-grizao-rukavicu-protiv-paula-mike-zna-sto-reci/2620225.aspx","position":4},{"@type":"ListItem","name":"Svjetska prvakinja: Prebila bih Jakea Paula i sve boksače u kategoriji do 70kg","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/244e0a43-9bcb-4015-8b4a-d4a6a706e5f6.jpg","url":"https://www.index.hr/sport/clanak/svjetska-prvakinja-prebila-bih-jakea-paula-i-sve-boksace-u-kategoriji-do-70kg/2615904.aspx","position":5},{"@type":"ListItem","name":"Pogledajte nokaut od milijun dolara","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/3c317114-3df0-4c81-9c18-31f0e1ed501c.jpg","url":"https://www.index.hr/sport/clanak/pogledajte-nokaut-od-milijun-dolara/2620053.aspx","position":6},{"@type":"ListItem","name":"McGregor izbačen iz Hitmana, skinuli ga s viskija i maknuli njegova pića s polica","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/35a62153-933f-4750-8ec5-764fc742c088.jpg","url":"https://www.index.hr/sport/clanak/mcgregor-izbacen-iz-hitmana-skinuli-ga-s-viskija-i-maknuli-njegova-pica-s-polica/2620005.aspx","position":7},{"@type":"ListItem","name":"VIDEO Ni minuta mu nije trebala za naslov prvaka. Najbrži nokaut spektakla u Rijadu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f98f02a2-ee2d-41bf-8aa6-dcff695a63bc.jpg","url":"https://www.index.hr/sport/clanak/video-ni-minuta-mu-nije-trebala-za-naslov-prvaka-najbrzi-nokaut-spektakla-u-rijadu/2620001.aspx","position":8},{"@type":"ListItem","name":"VIDEO Dagestanac strašnim nokautom osvojio PFL-ov naslov i milijun dolara","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/81e7c7f1-3d41-480e-bede-e0419ba9f230.jpg","url":"https://www.index.hr/sport/clanak/video-dagestanac-strasnim-nokautom-osvojio-pflov-naslov-i-milijun-dolara/2619993.aspx","position":9},{"@type":"ListItem","name":"Dana White: Canelo bi Paula završio za 30 sekundi","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/688cd451-9940-4d06-9678-41a762e909a6.jpg","url":"https://www.index.hr/sport/clanak/dana-white-canelo-bi-paula-zavrsio-za-30-sekundi/2618872.aspx","position":10},{"@type":"ListItem","name":"McGregor se posuo pepelom: Nisam trebao prevariti ženu koju volim najviše","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/51763cc1-1c0f-454b-86c7-6913ef80d73a.jpg","url":"https://www.index.hr/sport/clanak/mcgregor-se-posuo-pepelom-nisam-trebao-prevariti-zenu-koju-volim-najvise/2618771.aspx","position":11},{"@type":"ListItem","name":"MMA trener vjeruje da bi \"najjači čovjek na svijetu\" pobijedio Jonesa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/27df6565-8b23-4b00-8e7f-9a0158f91c10.jpg","url":"https://www.index.hr/sport/clanak/mma-trener-vjeruje-da-bi-najjaci-covjek-na-svijetu-pobijedio-jonesa/2618331.aspx","position":12},{"@type":"ListItem","name":"VIDEO Je li ovo iskaz nepoštovanja? UFC se od Miočića oprostio na sporednom eventu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/81ed5c54-3eb1-49fa-9fb7-790e0e4984c9.jpg","url":"https://www.index.hr/sport/clanak/video-je-li-ovo-iskaz-nepostovanja-ufc-se-od-miocica-oprostio-na-sporednom-eventu/2618156.aspx","position":13},{"@type":"ListItem","name":"Fabjan želi borbu s legendom koja je pobjeđivala Cro Copa i Miočića: \"Pada kao klada\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2356bbbf-512c-4717-bb05-99256dd3d476.jpg","url":"https://www.index.hr/sport/clanak/fabjan-zeli-borbu-s-legendom-koja-je-pobjedjivala-cro-copa-i-miocica-pada-kao-klada/2618142.aspx","position":14},{"@type":"ListItem","name":"Fantastična večer hrvatskih boraca u FNC-u, Croata slavio u najkrvavijem meču večeri","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/a5e77623-0df7-4d42-b03f-ef019133e09c.jpg","url":"https://www.index.hr/sport/clanak/fantasticna-vecer-hrvatskih-boraca-u-fncu-croata-slavio-u-najkrvavijem-mecu-veceri/2618097.aspx","position":15},{"@type":"ListItem","name":"Slo Rocky pobijedio Ilića u MMA spektaklu u Areni Zagreb","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/6da592b8-c535-42a4-a9e0-3de0704a328c.jpg","url":"https://www.index.hr/sport/clanak/slo-rocky-pobijedio-ilica-u-mma-spektaklu-u-areni-zagreb/2618091.aspx","position":16},{"@type":"ListItem","name":"Paul provocirao Conora zbog presude za silovanje pa dobio homofoban odgovor","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/a30682ab-c1a7-475f-a287-a16e1c04128e.jpg","url":"https://www.index.hr/sport/clanak/paul-provocirao-conora-zbog-presude-za-silovanje-pa-dobio-homofoban-odgovor/2617924.aspx","position":17},{"@type":"ListItem","name":"Jake Paul izazvao jednog od najboljih boksača na svijetu. On mu odgovorio: Zašto ne?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/e972f775-5b8a-4b85-b6ae-f5253ab16656.jpg","url":"https://www.index.hr/sport/clanak/jake-paul-izazvao-jednog-od-najboljih-boksaca-na-svijetu-on-mu-odgovorio-zasto-ne/2617869.aspx","position":18},{"@type":"ListItem","name":"VIDEO Croata u Dinamovom dresu došao na sučeljavanje pa ga dao protivniku","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/6403c5e2-caf5-4e59-8b54-de0f74ba19e1.jpg","url":"https://www.index.hr/sport/clanak/video-croata-u-dinamovom-dresu-dosao-na-suceljavanje-pa-ga-dao-protivniku/2617863.aspx","position":19},{"@type":"ListItem","name":"Conor McGregor proglašen krivim za silovanje","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/df5c40e0-9083-48f5-9d1f-674f4a0d265f.jpg","url":"https://www.index.hr/sport/clanak/conor-mcgregor-proglasen-krivim-za-silovanje/2617859.aspx","position":20},{"@type":"ListItem","name":"Paul je pobijedio Tysona, sad se brani od napada publike o namještanju: Što hoćete?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/97875d62-984a-47b9-b7b4-16f94d445e7d.jpg","url":"https://www.index.hr/sport/clanak/paul-je-pobijedio-tysona-sad-se-brani-od-napada-publike-o-namjestanju-sto-hocete/2617654.aspx","position":21},{"@type":"ListItem","name":"Podignuta tužba zbog prijenosa Tysonova meča. Amerikanac traži 50 milijuna dolara?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/409066dd-008d-4091-9d28-bf3b3517f921.jpg","url":"https://www.index.hr/sport/clanak/podignuta-tuzba-zbog-prijenosa-tysonova-meca-amerikanac-trazi-50-milijuna-dolara/2617566.aspx","position":22},{"@type":"ListItem","name":"Mastelić osvojila srebro, a Kovačić broncu na EP-u za mlađe seniore u taekwondou","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2505d492-b475-465b-a32a-ee7662f3ee02.jpg","url":"https://www.index.hr/sport/clanak/mastelic-osvojila-srebro-a-kovacic-broncu-na-epu-za-mladje-seniore-u-taekwondou/2617563.aspx","position":23},{"@type":"ListItem","name":"Filip Hrgović nakon poraza potonuo na ljestvici izazivača","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ac42acdc-2c37-4fca-95b8-24595c722fbc.jpg","url":"https://www.index.hr/sport/clanak/filip-hrgovic-nakon-poraza-potonuo-na-ljestvici-izazivaca/2617541.aspx","position":24},{"@type":"ListItem","name":"Boksački fanovi bijesni. Jake Paul napravio ogroman skok na ljestvici teškaša","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/c6114810-8fb4-4e3c-b373-44db6c9508b4.jpg","url":"https://www.index.hr/sport/clanak/boksacki-fanovi-bijesni-jake-paul-napravio-ogroman-skok-na-ljestvici-teskasa/2617388.aspx","position":25},{"@type":"ListItem","name":"Youtuber koji je pobijedio Tysona spreman za promjenu u karijeri. Pomagat će bratu?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/3f3082ce-4d5a-4f65-a16a-c3168c873d69.jpg","url":"https://www.index.hr/sport/clanak/youtuber-koji-je-pobijedio-tysona-spreman-za-promjenu-u-karijeri-pomagat-ce-bratu/2617368.aspx","position":26},{"@type":"ListItem","name":"Miočić nakon poraza od Jonesa dobio najnepotrebniju medicinsku suspenziju u karijeri","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f5fbcac5-6206-4544-abe2-796414622fb4.jpg","url":"https://www.index.hr/sport/clanak/miocic-nakon-poraza-od-jonesa-dobio-najnepotrebniju-medicinsku-suspenziju-u-karijeri/2617354.aspx","position":27},{"@type":"ListItem","name":"Magdalena Matić postala europska viceprvakinja u taekwondou","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/1d53f9da-580f-4d16-8a5e-a52a03266e66.jpg","url":"https://www.index.hr/sport/clanak/magdalena-matic-postala-europska-viceprvakinja-u-taekwondou/2617271.aspx","position":28},{"@type":"ListItem","name":"Je li ovaj video dokaz da je borba Tysona i Paula bila namještena?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/3df548cb-105c-4bca-ad37-3aac209318a0.jpg","url":"https://www.index.hr/sport/clanak/je-li-ovaj-video-dokaz-da-je-borba-tysona-i-paula-bila-namjestena/2617253.aspx","position":29},{"@type":"ListItem","name":"Hrvatski borac i prvak FNC-a otkazao nastup u Zagrebu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/500adf26-9007-437b-92c6-b0d2d70ea21c.jpg","url":"https://www.index.hr/sport/clanak/hrvatski-borac-i-prvak-fnca-otkazao-nastup-u-zagrebu/2617241.aspx","position":30},{"@type":"ListItem","name":"UFC-ovu legendu ulovila kamera tijekom borbe Jonesa i Miočića. Fanovi: Ne zna gdje je","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/96812ab4-ac76-4d73-9b99-47c5cae49dc6.jpg","url":"https://www.index.hr/sport/clanak/ufcovu-legendu-ulovila-kamera-tijekom-borbe-jonesa-i-miocica-fanovi-ne-zna-gdje-je/2617240.aspx","position":31},{"@type":"ListItem","name":"Netflix objavio koliko je ljudi gledalo meč između Tysona i Paula","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5c40224e-71ee-43bf-91be-9e5c4db8cf1c.jpg","url":"https://www.index.hr/sport/clanak/netflix-objavio-koliko-je-ljudi-gledalo-mec-izmedju-tysona-i-paula/2617222.aspx","position":32},{"@type":"ListItem","name":"Holyfield izazvao Tysona na revanš nakon 27 godina. Mike: Volim te, brate","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/af2f04a6-0ca6-4837-a2d9-852e29b403f1.jpg","url":"https://www.index.hr/sport/clanak/holyfield-izazvao-tysona-na-revans-nakon-27-godina-mike-volim-te-brate/2617167.aspx","position":33},{"@type":"ListItem","name":"Jones je bio uvjeren da je Miočiću slomio rebra. Sad je doznao istinu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2ccf6ef5-a0ca-4cbf-aba8-f638602f296c.jpg","url":"https://www.index.hr/sport/clanak/jones-je-bio-uvjeren-da-je-miocicu-slomio-rebra-sad-je-doznao-istinu/2617052.aspx","position":34},{"@type":"ListItem","name":"McGregor optužen za silovanje. Priznao je da je te noći šmrkao kokain","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/6e6221fb-1dfa-463b-886b-5ad1d0141ea7.jpg","url":"https://www.index.hr/sport/clanak/mcgregor-optuzen-za-silovanje-priznao-je-da-je-te-noci-smrkao-kokain/2616655.aspx","position":35},{"@type":"ListItem","name":"Miočić: Svi ste mi dali puno, posebno Hrvatska i Cleveland","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/cdc11eaf-1c97-42f2-9705-878faedc8cb7.jpg","url":"https://www.index.hr/sport/clanak/miocic-svi-ste-mi-dali-puno-posebno-hrvatska-i-cleveland/2616649.aspx","position":36},{"@type":"ListItem","name":"Ima 20 nokauta, neporažen je i svjetski je prvak. Želi se tući s Jakeom Paulom","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ad4cd311-94b7-488d-833b-49dbfafae392.jpg","url":"https://www.index.hr/sport/clanak/ima-20-nokauta-neporazen-je-i-svjetski-je-prvak-zeli-se-tuci-s-jakeom-paulom/2616545.aspx","position":37},{"@type":"ListItem","name":"Jake Paul posebnom objavom odao priznanje Stipi Miočiću","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f3f7276b-f16c-49a4-b071-e0cf498d044a.jpg","url":"https://www.index.hr/sport/clanak/jake-paul-posebnom-objavom-odao-priznanje-stipi-miocicu/2616486.aspx","position":38},{"@type":"ListItem","name":"Američki doktor: Bio bih šokiran da Miočiću nisu slomljena rebra","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4ad7d4bc-637f-4110-b95d-fcd30d27c350.jpg","url":"https://www.index.hr/sport/clanak/americki-doktor-bio-bih-sokiran-da-miocicu-nisu-slomljena-rebra/2616385.aspx","position":39},{"@type":"ListItem","name":"Ngannou se javio Miočiću: Naše bitke naučile su me više nego godine u ovom sportu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4faa50b8-4016-4cee-b6a0-9393ad39e0c1.jpg","url":"https://www.index.hr/sport/clanak/ngannou-se-javio-miocicu-nase-bitke-naucile-su-me-vise-nego-godine-u-ovom-sportu/2616381.aspx","position":40},{"@type":"ListItem","name":"Jones se ne želi boriti s opasnim Englezom: \"Predat ću pojas ako treba\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f8e1cc14-8ccd-43a7-ae09-5ff75d762d80.jpg","url":"https://www.index.hr/sport/clanak/jones-se-ne-zeli-boriti-s-opasnim-englezom-predat-cu-pojas-ako-treba/2616314.aspx","position":41},{"@type":"ListItem","name":"\"Jones je bio prebrz i preagilan za Stipu, deklasirao ga je, ništa mu nije dopustio\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8d7b6abb-c809-426c-a7f2-b6ce0a56595d.jpg","url":"https://www.index.hr/sport/clanak/jones-je-bio-prebrz-i-preagilan-za-stipu-deklasirao-ga-je-nista-mu-nije-dopustio/2616262.aspx","position":42},{"@type":"ListItem","name":"Dana White: Stipe mi se činio ljut prije borbe","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0e66f581-d187-4412-8ff9-561133c38492.jpg","url":"https://www.index.hr/sport/clanak/dana-white-stipe-mi-se-cinio-ljut-prije-borbe/2616278.aspx","position":43},{"@type":"ListItem","name":"Paul: Borbu je na Netflixu gledalo 120 mil. ljudi. Netflix: Gledalo je puno manje","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8d183fc3-d516-42d2-a2d5-2a68ee053dc7.jpg","url":"https://www.index.hr/sport/clanak/paul-borbu-je-na-netflixu-gledalo-120-mil-ljudi-netflix-gledalo-je-puno-manje/2616264.aspx","position":44},{"@type":"ListItem","name":"VIDEO Jones izašao iz kaveza i dao pojas Trumpu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ddb0332d-55d4-47cb-a27f-901ae80c7c0c.jpg","url":"https://www.index.hr/sport/clanak/video-jones-izasao-iz-kaveza-i-dao-pojas-trumpu/2616245.aspx","position":45},{"@type":"ListItem","name":"\"Jonesov udarac petom nitko ne bi izdržao. Ne sjećam se da je ikog tako pogodio\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b146d552-977c-43de-91ab-5ce5fd4ad6f5.jpg","url":"https://www.index.hr/sport/clanak/jonesov-udarac-petom-nitko-ne-bi-izdrzao-ne-sjecam-se-da-je-ikog-tako-pogodio/2616238.aspx","position":46},{"@type":"ListItem","name":"Reakcije boraca: Tyson, Miočić... Dosta mi je gledati kako starci dobivaju batine","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/9d792d2f-a463-4e2e-ad80-3b744deeaf90.jpg","url":"https://www.index.hr/sport/clanak/reakcije-boraca-tyson-miocic-dosta-mi-je-gledati-kako-starci-dobivaju-batine/2616231.aspx","position":47},{"@type":"ListItem","name":"Trenutak u kojem je završila Miočićeva karijera","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2ccf6ef5-a0ca-4cbf-aba8-f638602f296c.jpg","url":"https://www.index.hr/sport/clanak/trenutak-u-kojem-je-zavrsila-miociceva-karijera/2616229.aspx","position":48},{"@type":"ListItem","name":"VIDEO Slavnom njujorškom dvoranom odjekuje \"Stipe, Stipe!\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f67e563b-8568-41bc-9d71-e590018e8ab0.jpg","url":"https://www.index.hr/sport/clanak/video-slavnom-njujorskom-dvoranom-odjekuje-stipe-stipe/2616227.aspx","position":49},{"@type":"ListItem","name":"Jones otkrio kako je pobijedio Miočića","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8576d1fb-8320-43b1-ba46-0f3e76bf6395.jpg","url":"https://www.index.hr/sport/clanak/jones-otkrio-kako-je-pobijedio-miocica/2616211.aspx","position":50},{"@type":"ListItem","name":"Dana White: Jonesa sada čeka najveća borba u povijesti teške kategorije UFC-a","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f161c31b-fc48-4a6f-b3f6-526102c4b4a4.jpg","url":"https://www.index.hr/sport/clanak/dana-white-jonesa-sada-ceka-najveca-borba-u-povijesti-teske-kategorije-ufca/2616209.aspx","position":51},{"@type":"ListItem","name":"Jones neće u mirovinu: Pričao sam s Danom Whiteom. Dat ću vam ono što želite","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b70b4f40-139e-411e-a5c1-85b541aaccfc.jpg","url":"https://www.index.hr/sport/clanak/jones-nece-u-mirovinu-pricao-sam-s-danom-whiteom-dat-cu-vam-ono-sto-zelite/2616206.aspx","position":52},{"@type":"ListItem","name":"Pogledajte nokaut kojim je Jones poslao Miočića u mirovinu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/9fd0a315-e608-4465-b6f6-149046573473.jpg","url":"https://www.index.hr/sport/clanak/pogledajte-nokaut-kojim-je-jones-poslao-miocica-u-mirovinu/2616191.aspx","position":53},{"@type":"ListItem","name":"Evo koliko su zaradili Miočić i Jones","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/01ed1663-7684-4f0d-8d6a-1421650f16df.jpg","url":"https://www.index.hr/sport/clanak/evo-koliko-su-zaradili-miocic-i-jones/2616187.aspx","position":54},{"@type":"ListItem","name":"Miočić: Jones je najbolji svih vremena","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/c9f9ae8f-1fb9-4d54-bfc1-0696c9cafa20.jpg","url":"https://www.index.hr/sport/clanak/miocic-jones-je-najbolji-svih-vremena/2616186.aspx","position":55},{"@type":"ListItem","name":"Jones zahvalio Isusu i Trumpu te se naklonio Miočiću: Borio sam se s Terminatorom","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/726752a6-b40b-4222-baec-72b887851f6b.jpg","url":"https://www.index.hr/sport/clanak/jones-zahvalio-isusu-i-trumpu-te-se-naklonio-miocicu-borio-sam-se-s-terminatorom/2616181.aspx","position":56},{"@type":"ListItem","name":"ANKETA Je li Jon Jones potvrdio titulu najvećeg MMA borca svih vremena?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/05e42531-f022-4dc1-ba3a-8fba32619cf0.jpg","url":"https://www.index.hr/sport/clanak/anketa-je-li-jon-jones-potvrdio-titulu-najveceg-mma-borca-svih-vremena/2616185.aspx","position":57},{"@type":"ListItem","name":"Stipe Miočić se umirovio nakon poraza od Jonesa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/4bfcc326-2a23-43dd-8e2f-6f01cf4c5d16.jpg","url":"https://www.index.hr/sport/clanak/stipe-miocic-se-umirovio-nakon-poraza-od-jonesa/2616183.aspx","position":58},{"@type":"ListItem","name":"Jones nokautirao Miočića u trećoj rundi","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/14baf4ed-9aef-4da5-ad16-fc41a13d422c.jpg","url":"https://www.index.hr/sport/clanak/jones-nokautirao-miocica-u-trecoj-rundi/2615486.aspx","position":59},{"@type":"ListItem","name":"Tyson: Skoro sam umro u lipnju. Zahvalan sam za prošlu noć","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/eb0570da-cce1-4711-82c6-0e5ff7a49165.jpg","url":"https://www.index.hr/sport/clanak/tyson-skoro-sam-umro-u-lipnju-zahvalan-sam-za-proslu-noc/2616170.aspx","position":60}]}
+    </script>
+
+</head>
+<body>
+    <script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '216060115209819',
+            xfbml: true,
+            version: 'v19.0'
+        });
+    };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/hr_HR/sdk.js"></script>
+    <!--OpenX-->
+<iframe src="//u.openx.net/w/1.0/pd?ph=&cb=b576bc84-926b-4b71-b4e8-688e56c4a0d0&gdpr=1&gdpr_consent=2" style="display:none;width:0;height:0;border:0; border:none;"></iframe>
+
+        
+
+
+
+
+    <div class="main-container no-padding main-content-bg">
+            
+
+
+<!-- /21703950087/DB1_hr -->
+<div id='DB1_hr' class="js-slot-container" data-css-class="google-box bottom-margin-40">
+    <script>
+        googletag.cmd.push(function () {
+            var db1Slot = googletag.defineSlot('/21703950087/DB1_hr_Sport', [[970, 250], [970, 500], [1140, 250], [1140, 500], [1140, 415], [1, 1]], 'DB1_hr').addService(googletag.pubads());
+
+
+            googletag.display('DB1_hr');
+        });
+    </script>
+</div>
+
+    </div>
+
+    
+
+
+<header class="main-menu-container">
+    <div class="float-menu no-height" style="" menu-fix-top>
+        <div class="main-container no-height clearfix">
+            <div class="main-menu no-height">
+                    <h1 class="js-logo logo sport-gradient-bg">
+                        <img class="main" src="/Content/img/logo/index_sport.svg" alt="index.hr" />
+                        <img class="small" src="/Content/img/logo/paprika_logo.svg" alt="index.hr" />
+                        <a class="homepage-link" href="/" title="index.hr"> </a>
+                    </h1>
+                <nav class="menu-holder clearfix">
+                    <ul>
+                        <li class="menu-naslovnica">
+                            <a class="main-text-hover no-drop" href="/"> Naslovnica</a>
+                        </li>
+
+                        <li>
+                            <a class="vijesti-text-hover" href="/vijesti">
+                                Vijesti
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sport-text-hover" href="/sport">
+                                Sport
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable magazin-text-hover">Magazin</span>
+                            <ul class="dropdown-content display-none">
+                                <li class="magazin-bg-hover">
+                                    <a href="/magazin">
+                                        Magazin
+                                    </a>
+                                </li>
+                                <li class="shopping-bg-gradient-hover">
+                                    <a href="/shopping">
+                                        Shopping
+                                    </a>
+                                </li>
+                                <li class="ljubimci-bg-hover">
+                                    <a href="/ljubimci">
+                                        Ljubimci
+                                    </a>
+                                </li>
+                                <li class="food-bg-hover">
+                                    <a href="/food">
+                                        Food
+                                    </a>
+                                </li>
+                                <li class="mame-bg-hover">
+                                    <a href="/mame">
+                                        Mame
+                                    </a>
+                                </li>
+                                <li class="auto-bg-hover">
+                                    <a href="/auto">
+                                        Auto
+                                    </a>
+                                </li>
+                                <li class="fit-bg-hover">
+                                    <a href="/fit">
+                                        Fit
+                                    </a>
+                                </li>
+                                <li class="chill-bg-hover">
+                                    <a href="/chill">
+                                        Chill
+                                    </a>
+                                </li>
+                                <li class="horoskop-bg-hover">
+                                    <a href="/horoskop">
+                                        Horoskop
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="oglasi-text-hover" href="https://www.index.hr/oglasi">
+                                Oglasi
+                            </a>
+                        </li>
+                        <li>
+                            <a class="recepti-text-hover" href="https://recepti.index.hr">
+                                Recepti
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable">Ostalo</span>
+                            <ul class="dropdown-content ostalo display-none">
+                                <li class="main-bg-hover">
+                                    <a href="https://jobs.index.hr/">
+                                        Zaposli se na Indexu
+                                    </a>
+                                </li>
+                                <li class="lajkhr-bg-hover">
+                                    <a href="http://www.index.hr/lajk/">
+                                        Lajk.hr
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tecaj">
+                                        Tečaj
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tv">
+                                        TV program
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/kino">
+                                        Kino
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/vrijeme">
+                                        Vrijeme
+                                    </a>
+                                </li>
+                                <li class="kalendar-bg-hover">
+                                    <a href="/kalendar">
+                                        Kalendar
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="right-part">
+                        <li id="login-menu" class="menu-drop">
+                            <div id="menu-login"
+     v-scope
+     v-cloak
+     @mounted="onLoad">
+    <div v-if="userInfo !== null && userInfo.IsLoggedIn === true">
+        <div class="user-menu expandable no-padding">
+            <div v-if="userInfo.ProfileImage === null" class="initials-holder separator center-aligner">
+                <div class="initials center-aligner">
+                    {{userInfo.Initials}}
+                </div>
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+
+            <div v-if="userInfo.ProfileImage !== null" class="avatar separator center-aligner">
+                <img :src="'https://ip.index.hr/remote/bucket.index.hr/b/index/' + userInfo.ProfileImage + '?width=20&height=20&mode=crop'" />
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+        </div>
+        <ul class="dropdown-content display-none">
+            <li class="main-bg-hover">
+                <a href="/profil">Moj profil</a>
+            </li>
+            <li class="main-bg-hover">
+                <a @click="logout">Odjavite se</a>
+            </li>
+        </ul>
+    </div>
+
+    <div v-if="userInfo === null || userInfo.IsLoggedIn === false" @click="login" class="user-menu no-padding">
+        <div class="login-btn separator">
+            <i class="index-user-alt"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+    PetiteVue.createApp({
+        userInfo: {},
+        onLoad() {
+            var self = this;
+
+            var userInfoCookie = accountService.GetUserInfo();
+
+            if (userInfoCookie != null) {
+                self.userInfo = accountService.GetUserInfo();
+            }
+            else {
+                $.post('/create-user-cookie', function (response) {
+                    self.userInfo = accountService.GetUserInfo();
+                });
+            }
+        },
+        login() {
+            globalDirectives.ShowLoginPopup()
+        },
+        logout() {
+            accountService.Logout('/profil/odjava')
+        }
+    }).mount("#menu-login");
+</script>
+
+                        </li>
+                        <li>
+                            <a href="/trazi.aspx" class="menu-icon btn-open-search"><i class="index-magnifier"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+        
+
+
+    <div class="sub-menu-container main-container">
+        <div class="sub-menu-holder scroll-menu-arrows-holder" data-animate-width="200">
+            <ul class="sub-menu scroll-menu clearfix">
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport">Sport</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najnovije?kategorija=150">Najnovije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najcitanije?kategorija=150">Naj&#x10D;itanije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/nogomet/1638.aspx">Nogomet</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/transferi/1650.aspx">Transferi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/kosarka/1639.aspx">Ko&#x161;arka</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/tenis/1640.aspx">Tenis</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/regija/1692.aspx">Regija</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/komentari/1738.aspx">Komentari</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom active">
+                        <a class="" href="/sport/rubrika/borilacki-sportovi/1662.aspx">Borila&#x10D;ki sportovi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/ostali-sportovi/1641.aspx">Ostali sportovi</a>
+                    </li>
+            </ul>
+            <div class="scroll-menu-arrows display-none">
+                <div class="navigation-arrow left-arrow disabled sport-text-hover"><i class="index-arrow-left"></i></div>
+                <div class="navigation-arrow right-arrow disabled sport-text-hover"><i class="index-arrow-right"></i></div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+
+    
+
+
+
+
+
+
+    <!-- /21703950087/D_OUP -->
+<div id="D_OUP">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_ALL', 'D_OUP').addService(googletag.pubads());
+
+            googletag.display('D_OUP');
+        });
+    </script>
+</div>
+    <!-- /21703950087/D_OUP_wallpaper -->
+<div id="D_OUP_wallpaper">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_wallpaper', 'D_OUP_wallpaper').addService(googletag.pubads());
+
+            googletag.display('D_OUP_wallpaper');
+        });
+    </script>
+</div>
+
+
+
+
+<div class="js-slot-container" data-has-close-btn="true">
+    <div class="js-slot-close-btn dfp-close-btn dfp-close-btn-fixed display-none">
+        <div class="close-btn-creative">
+            <i class="index-close"></i>
+        </div>
+    </div>
+
+    <!-- /21703950087/D_sticky -->
+    <div id='D_sticky' class="js-slot-holder" data-css-class="google-box bottom-sticky">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.defineSlot('/21703950087/D_sticky_all', [[1200, 150], [728, 90], [970, 250], [970, 90], [1, 1]], 'D_sticky').addService(googletag.pubads());
+
+                googletag.display('D_sticky');
+            });
+        </script>
+    </div>
+</div>
+
+
+
+<div class="category-holder">
+    <div class="category-content-holder main-container main-content-bg">
+
+        
+
+
+        <div class="flex">
+            <div class="left-part">
+                    
+
+    <div class="first-news-holder vertical">
+        <a class="sport-text-hover scale-img-hover" href="/sport/clanak/foto-roditelji-ufcovog-prvaka-nisu-imali-fasadu-sad-im-je-kupio-ovu-kucu/2620958.aspx">
+            <div class="img-holder">
+                <img class="main-img" src="https://ip.index.hr/remote/bucket.index.hr/b/index/878d9d9f-3ace-419b-aca2-398017c917a0.jpg?width=854&height=443&mode=crop&anchor=topcenter&scale=both" alt="FOTO Roditelji UFC-ovog prvaka nisu imali fasadu. Sad im je kupio ovu ku&#x107;u" />
+            </div>
+            <div class="content-holder">
+                <h2 class="title"><span class='title-parsed-text'>FOTO</span>  Roditelji UFC-ovog prvaka nisu imali fasadu. Sad im je kupio ovu kuću</h2>
+                <p class="summary">LIJEP potez brazilskog borca.</p>
+                <div class="publish-date">3.12.2024.</div>
+            </div>
+        </a>
+    </div>
+
+
+                <div class="other-news">
+                    <div class="animate-box">
+                        <div class="items-container">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/bivsi-boksacki-svjetski-prvak-46-preminuo-od-raka/2620942.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Biv&#x161;i boksa&#x10D;ki svjetski prvak (46) preminuo od raka" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/40519878-9762-4bf7-8e64-261d8c13da73.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Bivši boksački svjetski prvak (46) preminuo od raka</h3>
+                    <span class="summary">TROSTUKI svjetski prvak u superbantam kategoriji Meksikanac Israel Vazquez umro je u dobi od 46 godina nakon borbe s rakom.</span>
+                    <div class="publish-date">3.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dubois-dobio-iduceg-protivnika-nakon-pobjeda-protiv-hrgovica-i-joshue/2620914.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dubois dobio idu&#x107;eg protivnika nakon pobjeda protiv Hrgovi&#x107;a i Joshue" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/38edb841-5e81-456a-9399-c11530cc238c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dubois dobio idućeg protivnika nakon pobjeda protiv Hrgovića i Joshue</h3>
+                    <span class="summary">DANIEL DUBOIS i Joseph Parker u velja&#x10D;i &#x107;e se boriti za naslov svjetskog prvaka u te&#x161;koj kategoriji po IBF-u.</span>
+                    <div class="publish-date">3.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ufcova-zvijezda-ima-novog-cuvara-brinut-ce-se-za-to-da-borac-ne-tuce-fanove/2620849.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="UFC-ova zvijezda ima novog &#x10D;uvara. Brinut &#x107;e se za to da borac ne tu&#x10D;e fanove" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/80607ad9-ea38-4cfb-b6ca-0b47fe163bbb.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">UFC-ova zvijezda ima novog čuvara. Brinut će se za to da borac ne tuče fanove</h3>
+                    <span class="summary">ZA SVE je kriv incident ranije ove godine.</span>
+                    <div class="publish-date">3.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/bivsi-trener-o-tome-zasto-je-tyson-grizao-rukavicu-protiv-paula-mike-zna-sto-reci/2620225.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Biv&#x161;i trener o tome za&#x161;to je Tyson grizao rukavicu protiv Paula: Mike zna &#x161;to re&#x107;i" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5c9bd4c1-397c-41c1-b909-3bee27c15542.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Bivši trener o tome zašto je Tyson grizao rukavicu protiv Paula: Mike zna što reći</h3>
+                    <span class="summary">OBJASNIO JE zbog &#x10D;ega Tyson grize rukavicu.</span>
+                    <div class="publish-date">1.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/svjetska-prvakinja-prebila-bih-jakea-paula-i-sve-boksace-u-kategoriji-do-70kg/2615904.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Svjetska prvakinja: Prebila bih Jakea Paula i sve boksa&#x10D;e u kategoriji do 70kg" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/244e0a43-9bcb-4015-8b4a-d4a6a706e5f6.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Svjetska prvakinja: Prebila bih Jakea Paula i sve boksače u kategoriji do 70kg</h3>
+                    <span class="summary">IZAZVALA je Youtubera i popularnog borca.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/pogledajte-nokaut-od-milijun-dolara/2620053.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pogledajte nokaut od milijun dolara" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/3c317114-3df0-4c81-9c18-31f0e1ed501c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Pogledajte nokaut od milijun dolara</h3>
+                    <span class="summary">ODU&#x160;EVIO je publiku.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-0');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-0');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mcgregor-izbacen-iz-hitmana-skinuli-ga-s-viskija-i-maknuli-njegova-pica-s-polica/2620005.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="McGregor izba&#x10D;en iz Hitmana, skinuli ga s viskija i maknuli njegova pi&#x107;a s polica" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/35a62153-933f-4750-8ec5-764fc742c088.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">McGregor izbačen iz Hitmana, skinuli ga s viskija i maknuli njegova pića s polica</h3>
+                    <span class="summary">CONOR MCGREGOR, jedna od najve&#x107;ih zvijezda borila&#x10D;kih sportova u povijesti, progla&#x161;en je krivim za silovanje Nikite Hand, koja ga je za to prijavila jo&#x161; 2021.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-ni-minuta-mu-nije-trebala-za-naslov-prvaka-najbrzi-nokaut-spektakla-u-rijadu/2620001.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Ni minuta mu nije trebala za naslov prvaka. Najbr&#x17E;i nokaut spektakla u Rijadu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f98f02a2-ee2d-41bf-8aa6-dcff695a63bc.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Ni minuta mu nije trebala za naslov prvaka. Najbrži nokaut spektakla u Rijadu</h3>
+                    <span class="summary">NAJIMPRESIVNIJI nokaut PFL-ove zavr&#x161;ne priredbe u godini djelo je Dovleta Yagshimuradova.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-dagestanac-strasnim-nokautom-osvojio-pflov-naslov-i-milijun-dolara/2619993.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Dagestanac stra&#x161;nim nokautom osvojio PFL-ov naslov i milijun dolara" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/81e7c7f1-3d41-480e-bede-e0419ba9f230.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Dagestanac strašnim nokautom osvojio PFL-ov naslov i milijun dolara</h3>
+                    <span class="summary">GADZHI RABADANOV ostvario je desetu pobjedu u nizu.</span>
+                    <div class="publish-date">30.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dana-white-canelo-bi-paula-zavrsio-za-30-sekundi/2618872.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dana White: Canelo bi Paula zavr&#x161;io za 30 sekundi" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/688cd451-9940-4d06-9678-41a762e909a6.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dana White: Canelo bi Paula završio za 30 sekundi</h3>
+                    <span class="summary">PREDSJEDNIK UFC-a nema dilemu tko bi pobijedio u slu&#x10D;aju borbe ovih boksa&#x10D;a.</span>
+                    <div class="publish-date">26.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mcgregor-se-posuo-pepelom-nisam-trebao-prevariti-zenu-koju-volim-najvise/2618771.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="McGregor se posuo pepelom: Nisam trebao prevariti &#x17E;enu koju volim najvi&#x161;e" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/51763cc1-1c0f-454b-86c7-6913ef80d73a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">McGregor se posuo pepelom: Nisam trebao prevariti ženu koju volim najviše</h3>
+                    <span class="summary">IRSKI borac oglasio se na platformi X.</span>
+                    <div class="publish-date">26.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mma-trener-vjeruje-da-bi-najjaci-covjek-na-svijetu-pobijedio-jonesa/2618331.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="MMA trener vjeruje da bi &quot;najja&#x10D;i &#x10D;ovjek na svijetu&quot; pobijedio Jonesa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/27df6565-8b23-4b00-8e7f-9a0158f91c10.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">MMA trener vjeruje da bi "najjači čovjek na svijetu" pobijedio Jonesa</h3>
+                    <span class="summary">MMA TRENER Firas Zahabi komentirao je potencijalni me&#x10D; Jona Jonesa i Toma Aspinalla.</span>
+                    <div class="publish-date">25.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-1');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-1');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-je-li-ovo-iskaz-nepostovanja-ufc-se-od-miocica-oprostio-na-sporednom-eventu/2618156.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Je li ovo iskaz nepo&#x161;tovanja? UFC se od Mio&#x10D;i&#x107;a oprostio na sporednom eventu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/81ed5c54-3eb1-49fa-9fb7-790e0e4984c9.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Je li ovo iskaz nepoštovanja? UFC se od Miočića oprostio na sporednom eventu</h3>
+                    <span class="summary">UFC JE PRIKAZAO video na priredbi u Makau.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/fabjan-zeli-borbu-s-legendom-koja-je-pobjedjivala-cro-copa-i-miocica-pada-kao-klada/2618142.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Fabjan &#x17E;eli borbu s legendom koja je pobje&#x111;ivala Cro Copa i Mio&#x10D;i&#x107;a: &quot;Pada kao klada&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2356bbbf-512c-4717-bb05-99256dd3d476.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Fabjan želi borbu s legendom koja je pobjeđivala Cro Copa i Miočića: "Pada kao klada"</h3>
+                    <span class="summary">MIRAN FABJAN nakon pobjede nad Ili&#x107;em u Areni uzviknuo je: &quot;Junior dos Santos pada kao klada!&quot;</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/fantasticna-vecer-hrvatskih-boraca-u-fncu-croata-slavio-u-najkrvavijem-mecu-veceri/2618097.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Fantasti&#x10D;na ve&#x10D;er hrvatskih boraca u FNC-u, Croata slavio u najkrvavijem me&#x10D;u ve&#x10D;eri" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/a5e77623-0df7-4d42-b03f-ef019133e09c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Fantastična večer hrvatskih boraca u FNC-u, Croata slavio u najkrvavijem meču večeri</h3>
+                    <span class="summary">PRIREDBA FNC 20 bila je izuzetno uspje&#x161;na za hrvatske borce.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/slo-rocky-pobijedio-ilica-u-mma-spektaklu-u-areni-zagreb/2618091.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Slo Rocky pobijedio Ili&#x107;a u MMA spektaklu u Areni Zagreb" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/6da592b8-c535-42a4-a9e0-3de0704a328c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Slo Rocky pobijedio Ilića u MMA spektaklu u Areni Zagreb</h3>
+                    <span class="summary">BORBA je zavr&#x161;ena u drugoj rundi.</span>
+                    <div class="publish-date">24.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/paul-provocirao-conora-zbog-presude-za-silovanje-pa-dobio-homofoban-odgovor/2617924.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Paul provocirao Conora zbog presude za silovanje pa dobio homofoban odgovor" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/a30682ab-c1a7-475f-a287-a16e1c04128e.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Paul provocirao Conora zbog presude za silovanje pa dobio homofoban odgovor</h3>
+                    <span class="summary">CONOR MCGREGOR progla&#x161;en je krivim za silovanje u slu&#x10D;aju iz 2018. godine.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jake-paul-izazvao-jednog-od-najboljih-boksaca-na-svijetu-on-mu-odgovorio-zasto-ne/2617869.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jake Paul izazvao jednog od najboljih boksa&#x10D;a na svijetu. On mu odgovorio: Za&#x161;to ne?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/e972f775-5b8a-4b85-b6ae-f5253ab16656.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jake Paul izazvao jednog od najboljih boksača na svijetu. On mu odgovorio: Zašto ne?</h3>
+                    <span class="summary">YOUTUBER &#x17E;eli boksati s jednim od najboljih na svijetu.</span>
+                    <div class="publish-date">22.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-2');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-2');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-croata-u-dinamovom-dresu-dosao-na-suceljavanje-pa-ga-dao-protivniku/2617863.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Croata u Dinamovom dresu do&#x161;ao na su&#x10D;eljavanje pa ga dao protivniku" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/6403c5e2-caf5-4e59-8b54-de0f74ba19e1.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Croata u Dinamovom dresu došao na sučeljavanje pa ga dao protivniku</h3>
+                    <span class="summary">FNC 20 NA rasporedu je u subotu nave&#x10D;er u Areni Zagreb.</span>
+                    <div class="publish-date">22.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/conor-mcgregor-proglasen-krivim-za-silovanje/2617859.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Conor McGregor progla&#x161;en krivim za silovanje" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/df5c40e0-9083-48f5-9d1f-674f4a0d265f.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Conor McGregor proglašen krivim za silovanje</h3>
+                    <span class="summary">STIGLA JE presuda.</span>
+                    <div class="publish-date">22.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/paul-je-pobijedio-tysona-sad-se-brani-od-napada-publike-o-namjestanju-sto-hocete/2617654.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Paul je pobijedio Tysona, sad se brani od napada publike o namje&#x161;tanju: &#x160;to ho&#x107;ete?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/97875d62-984a-47b9-b7b4-16f94d445e7d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Paul je pobijedio Tysona, sad se brani od napada publike o namještanju: Što hoćete?</h3>
+                    <span class="summary">JAKE PAUL prokomentirao je glasine o namje&#x161;tenoj borbi s biv&#x161;im svjetskim prvakom.</span>
+                    <div class="publish-date">22.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/podignuta-tuzba-zbog-prijenosa-tysonova-meca-amerikanac-trazi-50-milijuna-dolara/2617566.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Podignuta tu&#x17E;ba zbog prijenosa Tysonova me&#x10D;a. Amerikanac tra&#x17E;i 50 milijuna dolara?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/409066dd-008d-4091-9d28-bf3b3517f921.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Podignuta tužba zbog prijenosa Tysonova meča. Amerikanac traži 50 milijuna dolara?</h3>
+                    <span class="summary">AMERIKANAC Ronald Denton podigao je tu&#x17E;bu zbog lo&#x161;eg prijenosa me&#x10D;a Mikea Tysona i Jakea Paula na Netflixu.</span>
+                    <div class="publish-date">21.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mastelic-osvojila-srebro-a-kovacic-broncu-na-epu-za-mladje-seniore-u-taekwondou/2617563.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Masteli&#x107; osvojila srebro, a Kova&#x10D;i&#x107; broncu na EP-u za mla&#x111;e seniore u taekwondou" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2505d492-b475-465b-a32a-ee7662f3ee02.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Mastelić osvojila srebro, a Kovačić broncu na EP-u za mlađe seniore u taekwondou</h3>
+                    <span class="summary">EUROPSKO prvenstvo za mla&#x111;e seniore u taekwondou odr&#x17E;ava se u Sarajevu.</span>
+                    <div class="publish-date">21.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/filip-hrgovic-nakon-poraza-potonuo-na-ljestvici-izazivaca/2617541.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Filip Hrgovi&#x107; nakon poraza potonuo na ljestvici izaziva&#x10D;a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ac42acdc-2c37-4fca-95b8-24595c722fbc.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Filip Hrgović nakon poraza potonuo na ljestvici izazivača</h3>
+                    <span class="summary">HRVATSKI te&#x161;ka&#x161; je nakon poraza potonuo na ljestvici IBF kategorije.</span>
+                    <div class="publish-date">21.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-3');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-3');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/boksacki-fanovi-bijesni-jake-paul-napravio-ogroman-skok-na-ljestvici-teskasa/2617388.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Boksa&#x10D;ki fanovi bijesni. Jake Paul napravio ogroman skok na ljestvici te&#x161;ka&#x161;a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/c6114810-8fb4-4e3c-b373-44db6c9508b4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Boksački fanovi bijesni. Jake Paul napravio ogroman skok na ljestvici teškaša</h3>
+                    <span class="summary">YOUTUBER je pobijedio tridesetak godinu stariju legendu.</span>
+                    <div class="publish-date">21.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/youtuber-koji-je-pobijedio-tysona-spreman-za-promjenu-u-karijeri-pomagat-ce-bratu/2617368.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Youtuber koji je pobijedio Tysona spreman za promjenu u karijeri. Pomagat &#x107;e bratu?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/3f3082ce-4d5a-4f65-a16a-c3168c873d69.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Youtuber koji je pobijedio Tysona spreman za promjenu u karijeri. Pomagat će bratu?</h3>
+                    <span class="summary">USKORO u WWE-u?</span>
+                    <div class="publish-date">21.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/miocic-nakon-poraza-od-jonesa-dobio-najnepotrebniju-medicinsku-suspenziju-u-karijeri/2617354.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Mio&#x10D;i&#x107; nakon poraza od Jonesa dobio najnepotrebniju medicinsku suspenziju u karijeri" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f5fbcac5-6206-4544-abe2-796414622fb4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Miočić nakon poraza od Jonesa dobio najnepotrebniju medicinsku suspenziju u karijeri</h3>
+                    <span class="summary">LIJE&#x10C;NICI su mu naredili odmor.</span>
+                    <div class="publish-date">21.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/magdalena-matic-postala-europska-viceprvakinja-u-taekwondou/2617271.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Magdalena Mati&#x107; postala europska viceprvakinja u taekwondou" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/1d53f9da-580f-4d16-8a5e-a52a03266e66.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Magdalena Matić postala europska viceprvakinja u taekwondou</h3>
+                    <span class="summary">BUDU&#x106;NOST hrvatskog taekwondoa je blistava.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/je-li-ovaj-video-dokaz-da-je-borba-tysona-i-paula-bila-namjestena/2617253.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Je li ovaj video dokaz da je borba Tysona i Paula bila namje&#x161;tena?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/3df548cb-105c-4bca-ad37-3aac209318a0.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Je li ovaj video dokaz da je borba Tysona i Paula bila namještena?</h3>
+                    <span class="summary">POSTAO je viralan na X-u, a brojni fanovi boksa tvrde da je nakon njega potpuno jasno da je ishod borbe bio dogovoren.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatski-borac-i-prvak-fnca-otkazao-nastup-u-zagrebu/2617241.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatski borac i prvak FNC-a otkazao nastup u Zagrebu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/500adf26-9007-437b-92c6-b0d2d70ea21c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatski borac i prvak FNC-a otkazao nastup u Zagrebu</h3>
+                    <span class="summary">PRVAK FNC-a u polute&#x161;koj kategoriji je otkazao borbu zbog lo&#x161;eg zdravstvenog stanja.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>
+                            <div class="read-more-news display-none">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ufcovu-legendu-ulovila-kamera-tijekom-borbe-jonesa-i-miocica-fanovi-ne-zna-gdje-je/2617240.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="UFC-ovu legendu ulovila kamera tijekom borbe Jonesa i Mio&#x10D;i&#x107;a. Fanovi: Ne zna gdje je" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/96812ab4-ac76-4d73-9b99-47c5cae49dc6.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">UFC-ovu legendu ulovila kamera tijekom borbe Jonesa i Miočića. Fanovi: Ne zna gdje je</h3>
+                    <span class="summary">FANOVI su primijetili geste.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/netflix-objavio-koliko-je-ljudi-gledalo-mec-izmedju-tysona-i-paula/2617222.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Netflix objavio koliko je ljudi gledalo me&#x10D; izme&#x111;u Tysona i Paula" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5c40224e-71ee-43bf-91be-9e5c4db8cf1c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Netflix objavio koliko je ljudi gledalo meč između Tysona i Paula</h3>
+                    <span class="summary">BORBA je uistinu zanimala cijeli svijet.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/holyfield-izazvao-tysona-na-revans-nakon-27-godina-mike-volim-te-brate/2617167.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Holyfield izazvao Tysona na revan&#x161; nakon 27 godina. Mike: Volim te, brate" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/af2f04a6-0ca6-4837-a2d9-852e29b403f1.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Holyfield izazvao Tysona na revanš nakon 27 godina. Mike: Volim te, brate</h3>
+                    <span class="summary">LEGENDARNI Tysonov rival &#x17E;elio bi novi me&#x10D;.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jones-je-bio-uvjeren-da-je-miocicu-slomio-rebra-sad-je-doznao-istinu/2617052.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jones je bio uvjeren da je Mio&#x10D;i&#x107;u slomio rebra. Sad je doznao istinu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2ccf6ef5-a0ca-4cbf-aba8-f638602f296c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jones je bio uvjeren da je Miočiću slomio rebra. Sad je doznao istinu</h3>
+                    <span class="summary">BIV&#x160;I prvak je dobio jako te&#x17E;ak udarac.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mcgregor-optuzen-za-silovanje-priznao-je-da-je-te-noci-smrkao-kokain/2616655.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="McGregor optu&#x17E;en za silovanje. Priznao je da je te no&#x107;i &#x161;mrkao kokain" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/6e6221fb-1dfa-463b-886b-5ad1d0141ea7.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">McGregor optužen za silovanje. Priznao je da je te noći šmrkao kokain</h3>
+                    <span class="summary">IRSKI borac ponovno je optu&#x17E;en za navodno silovanje.</span>
+                    <div class="publish-date">19.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/miocic-svi-ste-mi-dali-puno-posebno-hrvatska-i-cleveland/2616649.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Mio&#x10D;i&#x107;: Svi ste mi dali puno, posebno Hrvatska i Cleveland" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/cdc11eaf-1c97-42f2-9705-878faedc8cb7.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Miočić: Svi ste mi dali puno, posebno Hrvatska i Cleveland</h3>
+                    <span class="summary">STIPE MIO&#x10C;I&#x106; oglasio se na Instagramu nakon &#x161;to je zavr&#x161;io borila&#x10D;ku karijeru.</span>
+                    <div class="publish-date">19.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-5');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-5');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ima-20-nokauta-neporazen-je-i-svjetski-je-prvak-zeli-se-tuci-s-jakeom-paulom/2616545.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ima 20 nokauta, nepora&#x17E;en je i svjetski je prvak. &#x17D;eli se tu&#x107;i s Jakeom Paulom" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ad4cd311-94b7-488d-833b-49dbfafae392.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ima 20 nokauta, neporažen je i svjetski je prvak. Želi se tući s Jakeom Paulom</h3>
+                    <span class="summary">AMERI&#x10C;KI boksa&#x10D; tra&#x17E;i nove izazove.</span>
+                    <div class="publish-date">18.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jake-paul-posebnom-objavom-odao-priznanje-stipi-miocicu/2616486.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jake Paul posebnom objavom odao priznanje Stipi Mio&#x10D;i&#x107;u" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f3f7276b-f16c-49a4-b071-e0cf498d044a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jake Paul posebnom objavom odao priznanje Stipi Miočiću</h3>
+                    <span class="summary">LEGENDARNI borac hrvatskih korijena zavr&#x161;io je karijeru.</span>
+                    <div class="publish-date">18.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/americki-doktor-bio-bih-sokiran-da-miocicu-nisu-slomljena-rebra/2616385.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ameri&#x10D;ki doktor: Bio bih &#x161;okiran da Mio&#x10D;i&#x107;u nisu slomljena rebra" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4ad7d4bc-637f-4110-b95d-fcd30d27c350.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Američki doktor: Bio bih šokiran da Miočiću nisu slomljena rebra</h3>
+                    <span class="summary">BORAC hrvatskih korijena pora&#x17E;en je tehni&#x10D;kim nokautom.</span>
+                    <div class="publish-date">18.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ngannou-se-javio-miocicu-nase-bitke-naucile-su-me-vise-nego-godine-u-ovom-sportu/2616381.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ngannou se javio Mio&#x10D;i&#x107;u: Na&#x161;e bitke nau&#x10D;ile su me vi&#x161;e nego godine u ovom sportu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4faa50b8-4016-4cee-b6a0-9393ad39e0c1.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ngannou se javio Miočiću: Naše bitke naučile su me više nego godine u ovom sportu</h3>
+                    <span class="summary">FRANCIS NGANNOU poslao je poruku Stipi Mio&#x10D;i&#x107;u.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jones-se-ne-zeli-boriti-s-opasnim-englezom-predat-cu-pojas-ako-treba/2616314.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jones se ne &#x17E;eli boriti s opasnim Englezom: &quot;Predat &#x107;u pojas ako treba&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f8e1cc14-8ccd-43a7-ae09-5ff75d762d80.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jones se ne želi boriti s opasnim Englezom: "Predat ću pojas ako treba"</h3>
+                    <span class="summary">&#x160;TO &#x106;E BITI idu&#x107;e za prvaka te&#x161;ke kategorije?</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jones-je-bio-prebrz-i-preagilan-za-stipu-deklasirao-ga-je-nista-mu-nije-dopustio/2616262.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&quot;Jones je bio prebrz i preagilan za Stipu, deklasirao ga je, ni&#x161;ta mu nije dopustio&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8d7b6abb-c809-426c-a7f2-b6ce0a56595d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">"Jones je bio prebrz i preagilan za Stipu, deklasirao ga je, ništa mu nije dopustio"</h3>
+                    <span class="summary">IVAN ERSLAN, hrvatski borac koji je nedavno debitirao u UFC-u, za Index je prokomentirao poraz Stipe Mio&#x10D;i&#x107;a od Jona Jonesa i pohvalio ga zbog odluke o odlasku u mirovinu.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-6');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-6');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dana-white-stipe-mi-se-cinio-ljut-prije-borbe/2616278.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dana White: Stipe mi se &#x10D;inio ljut prije borbe" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0e66f581-d187-4412-8ff9-561133c38492.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dana White: Stipe mi se činio ljut prije borbe</h3>
+                    <span class="summary">JON JONES (37) je na priredbi UFC 309 u Madison Square Gardenu u New Yorku nokautirao Stipu Mio&#x10D;i&#x107;a (42) u borbi za naslov prvaka te&#x161;ke kategorije.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/paul-borbu-je-na-netflixu-gledalo-120-mil-ljudi-netflix-gledalo-je-puno-manje/2616264.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Paul: Borbu je na Netflixu gledalo 120 mil. ljudi. Netflix: Gledalo je puno manje" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8d183fc3-d516-42d2-a2d5-2a68ee053dc7.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Paul: Borbu je na Netflixu gledalo 120 mil. ljudi. Netflix: Gledalo je puno manje</h3>
+                    <span class="summary">TYSON i Paul napravili su sjajnu promociju borbe koja je na kraju bila ispod prosje&#x10D;ne razine amaterskog boksa.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-jones-izasao-iz-kaveza-i-dao-pojas-trumpu/2616245.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Jones iza&#x161;ao iz kaveza i dao pojas Trumpu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ddb0332d-55d4-47cb-a27f-901ae80c7c0c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Jones izašao iz kaveza i dao pojas Trumpu</h3>
+                    <span class="summary">JON JONES (37) je na priredbi UFC 309 u Madison Square Gardenu u New Yorku nokautirao Stipu Mio&#x10D;i&#x107;a (42) u borbi za naslov prvaka te&#x161;ke kategorije.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jonesov-udarac-petom-nitko-ne-bi-izdrzao-ne-sjecam-se-da-je-ikog-tako-pogodio/2616238.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&quot;Jonesov udarac petom nitko ne bi izdr&#x17E;ao. Ne sje&#x107;am se da je ikog tako pogodio&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b146d552-977c-43de-91ab-5ce5fd4ad6f5.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">"Jonesov udarac petom nitko ne bi izdržao. Ne sjećam se da je ikog tako pogodio"</h3>
+                    <span class="summary">IGOR POKRAJAC prokomentirao je borbu Stipe Mio&#x10D;i&#x107;a i Jona Jonesa, odlazak u mirovinu borca hrvatskih korijena te Bonesovu ostav&#x161;tinu.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/reakcije-boraca-tyson-miocic-dosta-mi-je-gledati-kako-starci-dobivaju-batine/2616231.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Reakcije boraca: Tyson, Mio&#x10D;i&#x107;... Dosta mi je gledati kako starci dobivaju batine" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/9d792d2f-a463-4e2e-ad80-3b744deeaf90.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Reakcije boraca: Tyson, Miočić... Dosta mi je gledati kako starci dobivaju batine</h3>
+                    <span class="summary">JON JONES (37) spektakularno je okon&#x10D;ao impresivnu karijeru Stipe Mio&#x10D;i&#x107;a (42) tako &#x161;to ga je pobijedio tehni&#x10D;kim nokautom u tre&#x107;oj rundi na UFC 309 priredbi u Madison Square Gardenu.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/trenutak-u-kojem-je-zavrsila-miociceva-karijera/2616229.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Trenutak u kojem je zavr&#x161;ila Mio&#x10D;i&#x107;eva karijera" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2ccf6ef5-a0ca-4cbf-aba8-f638602f296c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Trenutak u kojem je završila Miočićeva karijera</h3>
+                    <span class="summary">BILO JE jasno da je gotovo.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-7');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-7');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-slavnom-njujorskom-dvoranom-odjekuje-stipe-stipe/2616227.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Slavnom njujor&#x161;kom dvoranom odjekuje &quot;Stipe, Stipe!&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f67e563b-8568-41bc-9d71-e590018e8ab0.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Slavnom njujorškom dvoranom odjekuje "Stipe, Stipe!"</h3>
+                    <span class="summary">STIPE MIO&#x10C;I&#x106; (42) okon&#x10D;ao je sjajnu karijeru u UFC-u nakon poraza od Jona Jonesa (37) na UFC 309 priredbi u Madison Square Gardenu.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jones-otkrio-kako-je-pobijedio-miocica/2616211.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jones otkrio kako je pobijedio Mio&#x10D;i&#x107;a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8576d1fb-8320-43b1-ba46-0f3e76bf6395.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jones otkrio kako je pobijedio Miočića</h3>
+                    <span class="summary">JON JONES (37) spektakularno je okon&#x10D;ao impresivnu karijeru Stipe Mio&#x10D;i&#x107;a (42) tako &#x161;to ga je pobijedio tehni&#x10D;kim nokautom u tre&#x107;oj rundi na UFC 309 priredbi u Madison Square Gardenu.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dana-white-jonesa-sada-ceka-najveca-borba-u-povijesti-teske-kategorije-ufca/2616209.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dana White: Jonesa sada &#x10D;eka najve&#x107;a borba u povijesti te&#x161;ke kategorije UFC-a" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f161c31b-fc48-4a6f-b3f6-526102c4b4a4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dana White: Jonesa sada čeka najveća borba u povijesti teške kategorije UFC-a</h3>
+                    <span class="summary">PREDSJEDNIK UFC-a dao je izjavu nakon borbe Jonesa i Mio&#x10D;i&#x107;a.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jones-nece-u-mirovinu-pricao-sam-s-danom-whiteom-dat-cu-vam-ono-sto-zelite/2616206.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jones ne&#x107;e u mirovinu: Pri&#x10D;ao sam s Danom Whiteom. Dat &#x107;u vam ono &#x161;to &#x17E;elite" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b70b4f40-139e-411e-a5c1-85b541aaccfc.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jones neće u mirovinu: Pričao sam s Danom Whiteom. Dat ću vam ono što želite</h3>
+                    <span class="summary">STIPE MIO&#x10C;I&#x106; (42) okon&#x10D;ao je sjajnu karijeru u UFC-u nakon poraza od Jona Jonesa (37) na UFC 309 priredbi u Madison Square Gardenu.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/pogledajte-nokaut-kojim-je-jones-poslao-miocica-u-mirovinu/2616191.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pogledajte nokaut kojim je Jones poslao Mio&#x10D;i&#x107;a u mirovinu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/9fd0a315-e608-4465-b6f6-149046573473.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Pogledajte nokaut kojim je Jones poslao Miočića u mirovinu</h3>
+                    <span class="summary">JON JONES je dominaciju protiv Stipe Mio&#x10D;i&#x107;a okrunio tehni&#x10D;kim nokautom u tre&#x107;oj rundi.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/evo-koliko-su-zaradili-miocic-i-jones/2616187.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Evo koliko su zaradili Mio&#x10D;i&#x107; i Jones" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/01ed1663-7684-4f0d-8d6a-1421650f16df.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Evo koliko su zaradili Miočić i Jones</h3>
+                    <span class="summary">ZARADA UFC velikana od njihovog obra&#x10D;una jedna je od glavnih tema.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-8');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-8');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/miocic-jones-je-najbolji-svih-vremena/2616186.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Mio&#x10D;i&#x107;: Jones je najbolji svih vremena" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/c9f9ae8f-1fb9-4d54-bfc1-0696c9cafa20.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Miočić: Jones je najbolji svih vremena</h3>
+                    <span class="summary">UMIROVIO se nakon borbe s Jonesom.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jones-zahvalio-isusu-i-trumpu-te-se-naklonio-miocicu-borio-sam-se-s-terminatorom/2616181.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jones zahvalio Isusu i Trumpu te se naklonio Mio&#x10D;i&#x107;u: Borio sam se s Terminatorom" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/726752a6-b40b-4222-baec-72b887851f6b.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jones zahvalio Isusu i Trumpu te se naklonio Miočiću: Borio sam se s Terminatorom</h3>
+                    <span class="summary">JON JONES (37) je na priredbi UFC 309 u Madison Square Gardenu u New Yorku nokautirao Stipu Mio&#x10D;i&#x107;a (42) u borbi za naslov prvaka te&#x161;ke kategorije.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/anketa-je-li-jon-jones-potvrdio-titulu-najveceg-mma-borca-svih-vremena/2616185.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="ANKETA Je li Jon Jones potvrdio titulu najve&#x107;eg MMA borca svih vremena?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/05e42531-f022-4dc1-ba3a-8fba32619cf0.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>ANKETA</span>  Je li Jon Jones potvrdio titulu najvećeg MMA borca svih vremena?</h3>
+                    <span class="summary">JON JONES pobijedio je Stipu Mio&#x10D;i&#x107;a nokautom u tre&#x107;oj rundi.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/stipe-miocic-se-umirovio-nakon-poraza-od-jonesa/2616183.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Stipe Mio&#x10D;i&#x107; se umirovio nakon poraza od Jonesa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/4bfcc326-2a23-43dd-8e2f-6f01cf4c5d16.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Stipe Miočić se umirovio nakon poraza od Jonesa</h3>
+                    <span class="summary">U OKTOGONU je objavio kraj karijere nakon poraza od Jonesa.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/jones-nokautirao-miocica-u-trecoj-rundi/2615486.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Jones nokautirao Mio&#x10D;i&#x107;a u tre&#x107;oj rundi" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/14baf4ed-9aef-4da5-ad16-fc41a13d422c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Jones nokautirao Miočića u trećoj rundi</h3>
+                    <span class="summary">TEKSTUALNI prijenos borbe Stipe Mio&#x10D;i&#x107;a i Jona Jonesa mogli ste pratiti na Indexu.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/tyson-skoro-sam-umro-u-lipnju-zahvalan-sam-za-proslu-noc/2616170.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Tyson: Skoro sam umro u lipnju. Zahvalan sam za pro&#x161;lu no&#x107;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/eb0570da-cce1-4711-82c6-0e5ff7a49165.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Tyson: Skoro sam umro u lipnju. Zahvalan sam za prošlu noć</h3>
+                    <span class="summary">LEGENDARNI boksa&#x10D; izgubio je u me&#x10D;u protiv youtubera.</span>
+                    <div class="publish-date">16.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                            </div>
+
+                            <div class="btn-read-more" data-offset="0">
+                                <div class="read-more-text">PRIKAŽI JOŠ VIJESTI<i class="index-arrow-down sport-text"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part">
+                
+
+
+<!-- /21703950087/Box1 -->
+<div id='Box1' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box1_sport_hr', sizes, 'Box1').addService(googletag.pubads());
+
+            googletag.display('Box1');
+        });
+    </script>
+</div>
+
+
+                <div class="category-timeline-holder timeline-holder">
+                    <div class="header clearfix">
+                        <h2>Sport</h2>
+                        <div class="periods btn-group">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                danas <i class="index-arrow-down sport-text"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                    <li class="sport-bg-hover" data-value="today">Danas</li>
+                                    <li class="sport-bg-hover" data-value="yesterday">Ju&#x10D;er</li>
+                                    <li class="sport-bg-hover" data-value="week">Zadnjih 7 dana</li>
+                                    <li class="sport-bg-hover" data-value="month">Zadnjih 30 dana</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="most-read-holder">
+                        
+
+    <div class="timeline-content most-read">
+        <ul>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">1</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/bjelica-ga-je-izbacio-iz-momcadi-sada-se-oglasio-prvi-put-nakon-incidenta/2620746.aspx?index_ref=_sport_najcitanije_d">
+                            Bjelica ga je izbacio iz momčadi. Sada se oglasio prvi put nakon incidenta
+                        </a>
+                        <div class="line" style="width: 90%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">2</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/navijac-bernaueru-znas-koliko-mrzimo-hajduk-branic-dinama-odgovorio-znam/2620809.aspx?index_ref=_sport_najcitanije_d">
+                            Navijač Bernaueru: Znaš koliko mrzimo Hajduk? Branič Dinama odgovorio: Znam
+                        </a>
+                        <div class="line" style="width: 81%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">3</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/skaut-se-divi-hajdukovom-dragulju-ima-sut-kao-shaqiri-ali-je-bolji-igrac-od-njega/2620879.aspx?index_ref=_sport_najcitanije_d">
+                            Skaut se divi Hajdukovom dragulju: Ima šut kao Shaqiri, ali je bolji igrač od njega
+                        </a>
+                        <div class="line" style="width: 72%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">4</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ludnica-za-baturinom-sport-barcelona-ga-prati-mjesecima/2620772.aspx?index_ref=_sport_najcitanije_d">
+                            Ludnica za Baturinom. Sport: Barcelona ga prati mjesecima
+                        </a>
+                        <div class="line" style="width: 63%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">5</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/nogomet-sam-poceo-igrati-u-progonstvu-uz-modrica-sam-bio-u-najboljem-kadru-u-hnlu/2620281.aspx?index_ref=_sport_najcitanije_d">
+                            "Nogomet sam počeo igrati u progonstvu. Uz Modrića sam bio u najboljem kadru u HNL-u"
+                        </a>
+                        <div class="line" style="width: 54%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">6</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ivanisevicev-rival-o-igi-swiatek-dozivotna-suspenzija-bez-obzira-tko-ste/2620881.aspx?index_ref=_sport_najcitanije_d">
+                            Ivaniševićev rival o Igi Swiatek: Doživotna suspenzija. Bez obzira tko ste
+                        </a>
+                        <div class="line" style="width: 45%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">7</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/premierligaski-kapetan-odbio-nositi-traku-duginih-boja-klub-dao-objasnjenje/2620802.aspx?index_ref=_sport_najcitanije_d">
+                            Premierligaški kapetan odbio nositi traku duginih boja. Klub dao objašnjenje
+                        </a>
+                        <div class="line" style="width: 36%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">8</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/napisao-je-da-voli-isusa-preko-duginih-boja-savez-ga-opomenuo-da-je-to-zabranjeno/2620894.aspx?index_ref=_sport_najcitanije_d">
+                            Napisao je da voli Isusa preko duginih boja. Savez ga opomenuo da je to zabranjeno
+                        </a>
+                        <div class="line" style="width: 27%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">9</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/trebao-je-u-dinamo-sad-iz-zvezde-porucuje-smetale-su-nam-dinamove-pobjede-u-lpu/2620903.aspx?index_ref=_sport_najcitanije_d">
+                            Trebao je u Dinamo. Sad iz Zvezde poručuje: Smetale su nam Dinamove pobjede u LP-u
+                        </a>
+                        <div class="line" style="width: 18%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">10</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/video-trcali-smo-s-poznatim-trenerom-edom-po-magli-otkrio-nam-je-trikove-za-trening/2617705.aspx?index_ref=_sport_najcitanije_d">
+                            <span class='title-parsed-text'>VIDEO</span>  Trčali smo s poznatim trenerom Edom po magli. Otkrio nam je trikove za trening 
+                        </a>
+                        <div class="line" style="width: 9%;"></div>
+                    </div>
+                </li>
+        </ul>
+        <a class="more-news" href="/najcitanije?kategorija=150&amp;timerange=today">Prikaži još vijesti</a>
+    </div>
+
+                    </div>
+                </div>
+                <div class="separator-55"></div>
+                
+
+
+<!-- /21703950087/Box2 -->
+<div id='Box2' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box2_sport_hr', sizes, 'Box2').addService(googletag.pubads());
+
+            googletag.display('Box2');
+        });
+    </script>
+</div>
+
+                <div class="separator-50"></div>
+                <div class="sticky">
+                    
+
+
+<!-- /21703950087/DSF_sticky -->
+<div id='DSF_sticky' class="js-slot-container" data-css-class="google-box">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF_sticky_sport', [[300, 600], [300, 250], [1, 1]], 'DSF_sticky').addService(googletag.pubads());
+
+            googletag.display('DSF_sticky');
+        });
+    </script>
+</div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+<!-- /21703950087/DSF5 -->
+<div id='DSF5' class="js-slot-container" data-css-class="google-box top-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF5_Sport', [[970, 90], [970, 250], [970, 500], [728, 90], [800, 250], [1, 1]], 'DSF5').addService(googletag.pubads());
+
+            googletag.display('DSF5');
+        });
+    </script>
+</div>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="popup-overlay-container js-login-popup display-none">
+    <div class="popup-holder comments-login-popup-holder">
+        <div class="btn-close-popup" close-popup>
+            <i class="index-close"></i>
+        </div>
+
+        <div class="main-title">
+            Prijavite se
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">
+                Brza prijava
+            </div>
+            <div class="section-desc">
+                (traje par sekundi)
+            </div>
+            <div class="login-social-holder flex">
+                <a class="social-btn fb flex" onclick="accountService.Login('/profil/prijava?auth_action=login-facebook&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fborilacki-sportovi%2F1662.aspx')">
+                    <img src="/Content/img/login/fb.svg" /> Facebook
+                </a>
+                <a class="social-btn google flex" onclick="accountService.Login('/profil/prijava?auth_action=login-google&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fborilacki-sportovi%2F1662.aspx')">
+                    <img src="/Content/img/login/google.svg" /> Google
+                </a>
+            </div>
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">Prijava emailom</div>
+            <form class="login-form" action="/profil/prijava?redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fborilacki-sportovi%2F1662.aspx" method="post" onsubmit="accountService.OnLoginFormSubmit()">
+
+                <div class="input-holder">
+                    <i class="index-mail3"></i>
+                    <input type="email" class="input-field" required name="login_hint" placeholder="Unesite email" value="" />
+                </div>
+                <div class="description">Ako već niste registirani, poslat ćemo vam email s linkom za nastavak registracije.</div>
+                <button class="login-btn" type="submit">Prijavite se</button>
+            </form>
+        </div>
+
+        <div class="disclaimer-holder">
+            Kreiranjem i prijavom na račun slažete se s našim <br>
+            <a href="https://www.index.hr/uvjeti-koristenja">Uvjetima korištenja</a> i <a href="https://www.index.hr/uvjeti-koristenja#pravila-o-zastiti-privatnosti">Pravilima o privatnosti</a>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <footer class="main-footer main-container main-content-bg clearfix">
+    <a class="logo" href="/"><img class="logo-img" src="/Content/img/logo/logo_footer_196x29.svg" /></a>
+    <nav class="list-holder flex">
+        <ul>
+            <li class="heading">
+                <a class="vijesti-text-hover" href="/vijesti">
+                    Vijesti
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/hrvatska/22.aspx">
+                    Hrvatska
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/zagreb/1553.aspx">
+                    Zagreb
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/regija/1540.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/eu/5040.aspx">
+                    EU
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/svijet/23.aspx">
+                    Svijet
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/znanost/1722.aspx">
+                    Znanost
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/crna-kronika/46.aspx">
+                    Crna kronika
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/komentari/1413.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/novac/1554.aspx">
+                    Novac
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/afere">
+                    Afere
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="sport-text-hover" href="/sport">
+                    Sport
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/nogomet/1638.aspx">
+                    Nogomet
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/transferi/1650.aspx">
+                    Transferi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/kosarka/1639.aspx">
+                    Košarka
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/tenis/1640.aspx">
+                    Tenis
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/regija/1692.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/komentari/1738.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/borilacki-sportovi/1662.aspx">
+                    Borilački sportovi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/ostali-sportovi/1641.aspx">
+                    Ostali sportovi
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="magazin-text-hover" href="/magazin">
+                    Magazin
+                </a>
+            </li>
+            <li>
+                <a class="shopping-text-hover" href="/shopping">
+                    Shopping
+                </a>
+            </li>
+            <li>
+                <a class="ljubimci-text-hover" href="/ljubimci">
+                    Ljubimci
+                </a>
+            </li>
+
+            <li>
+                <a class="food-text-hover" href="/food">
+                    Food
+                </a>
+            </li>
+            <li>
+                <a class="mame-text-hover" href="/mame">
+                    Mame
+                </a>
+            </li>
+            <li>
+                <a class="auto-text-hover" href="/auto">
+                    Auto
+                </a>
+            </li>
+            <li>
+                <a class="fit-text-hover" href="/fit">
+                    Fit
+                </a>
+            </li>
+            <li>
+                <a class="chill-text-hover" href="/chill">
+                    Chill
+                </a>
+            </li>
+            <li>
+                <a class="horoskop-text-hover" href="/horoskop">
+                    Horoskop
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Plus
+            </li>
+            <li><a class="oglasi-text-hover" href="https://www.index.hr/oglasi/">Oglasi</a></li>
+            <li><a class="recepti-text-hover" href="https://recepti.index.hr/">Recepti</a></li>
+            <li><a class="lajkhr-text-hover" href="http://www.index.hr/lajk/">Lajk.hr</a></li>
+            <li><a class="odgovori-text-hover" href="https://odgovori.index.hr/">Odgovori</a></li>
+            <li>
+                <a class="kalendar-text-hover" href="/kalendar">
+                    Kalendar
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Info
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tecaj">
+                    Tečaj
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tv">
+                    TV program
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/kino">
+                    Kino
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/vrijeme">
+                    Vrijeme
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/rss/info">
+                    RSS
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                PRATITE NAS
+            </li>
+            <li>
+                <a href="https://www.facebook.com/index.hr/" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="facebook index-facebook"></i>Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="youtube index-youtube"></i>Youtube</a>
+            </li>
+            <li>
+                <a href="https://instagram.com/index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="instagram index-instagram"></i>Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="tiktok index-tiktok"></i>TikTok</a>
+            </li>
+            <li><a href="/posaljite-pricu" class="main-text-hover">Pošaljite nam vijest </a></li>
+            <li><a href="/newsletter" class="main-text-hover">Newsletter</a></li>
+        </ul>
+    </nav>
+    <ul class="impressum">
+        <li><a href="https://cjenik.index.hr">Oglašavanje</a></li>
+        <li><a href="https://jobs.index.hr/">Zaposli se na Indexu</a></li>
+        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/impressum">Impressum</a></li>
+        <li><a href="/uvjeti-koristenja">Uvjeti korištenja</a></li>
+        <li>
+            <a href="javascript:Didomi.preferences.show()">
+                Postavke kolačića
+            </a>
+        </li>
+        <li>
+            © 2024 Index
+        </li>
+    </ul>
+</footer>
+
+    </footer>
+
+    
+
+
+<script>
+    //load the apstag.js library (amazon prebid)
+    !function (a9, a, p, s, t, A, g) { if (a[a9]) return; function q(c, r) { a[a9]._Q.push([c, r]) } a[a9] = { init: function () { q("i", arguments) }, fetchBids: function () { q("f", arguments) }, setDisplayBids: function () { }, targetingKeys: function () { return [] }, _Q: [] }; A = p.createElement(s); A.async = !0; A.src = t; g = p.getElementsByTagName(s)[0]; g.parentNode.insertBefore(A, g) }("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");
+
+    //initialize the apstag.js library on the page to allow bidding
+    apstag.init({
+        pubID: '03086deb-b728-420a-9fad-35ee317c06f6', //enter your pub ID here as shown above, it must within quotes
+        adServer: 'googletag'
+    });
+
+    var PREBID_TIMEOUT = 2000;
+
+    
+    var CONSENT_TIMEOUT = 1000;
+    var FAILSAFE_TIMEOUT = 4000;
+
+    var USER_PPID = accountService.GetUserPPID();
+
+    var requestManager = {
+        adserverRequestSent: false,
+        aps: false,
+        prebid: false
+    };
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+    var adUnits = adUnits || [];
+    var amazonAdSlots = amazonAdSlots || [];
+
+   
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    function initializeGoogletagRefreshWithPrebid() {
+        console.log("AD_INITIALISE_GPT_WITH_PREBID");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        if (cookieService.GetCookie("lcl_near_full") != null) {
+            console.log('localstorage full targeting')
+            googletag.pubads().setTargeting("localstorageFull", "yes");
+        }
+
+        //if PPID provided, set it
+        if (USER_PPID && didomiService.IsGoogleAllowed()) {
+            console.log('AD_PPID_SET', USER_PPID)
+            googletag.pubads().setTargeting("ppid_test", "yes");
+            googletag.pubads().setPublisherProvidedId(USER_PPID);
+
+        }
+        else {
+            googletag.pubads().setTargeting("ppid_test", "no");
+        }
+
+        //amazon prebid init
+        if (amazonAdSlots.length > 0) {
+            apstag.fetchBids({
+                slots: amazonAdSlots,
+                timeout: PREBID_TIMEOUT
+            }, function (bids) {
+                apstag.setDisplayBids();
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack(); // checks whether both APS and Prebid have returned
+            });
+        }
+        else {
+            requestManager.aps = true; // signals that APS request has completed
+            biddersBack(); // checks whether both APS and Prebid have returned
+        }
+
+        //amazon sometimes does process timeout well, so we will add a failsafe to mark it as done from our side, otherwise it will be too slow
+        setTimeout(function () {
+            if (!requestManager.aps) {
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack();
+            }
+        }, PREBID_TIMEOUT)
+
+       
+        pbjs.rp.requestBids({
+            callback: prebidCallback,
+            //gptSlotObjects: googletag.pubads().getSlots()
+        });
+    }
+
+    function initializeGoogletagWithLimitedAds() {
+        console.log("AD_INITIALISE_GPT_WITH_LIMITED_ADS");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        sendAdserverRequest();
+    }
+
+    // when both APS and Prebid have returned, initiate ad request
+    //this function will call function which sends ad request, only if amazon and prebid returned their requests
+    function biddersBack() {
+        if (requestManager.aps && requestManager.prebid) {
+            sendAdserverRequest();
+        }
+        return;
+    }
+
+    function prebidCallback() {
+        requestManager.prebid = true;
+        biddersBack();
+    }
+
+    //will send ad requests if not already sent, otherwise will do nothing
+    function sendAdserverRequest() {
+        if (requestManager.adserverRequestSent === true) {
+            return;
+        }
+
+        requestManager.adserverRequestSent = true;
+
+        var slots = googletag.pubads().getSlots();
+
+        if (slots.length > 0) {
+            googletag.enableServices();
+
+            var slotsToRefresh = [];
+
+            for (i = 0; i < slots.length; i++) {
+                var slot = slots[i];
+
+                var slotElementId = slot.getSlotElementId();
+                var element = document.getElementById(slotElementId);
+
+                var useLazyLoad = false;
+                var useMra = false;
+
+                if (element) {
+                    var useLazyLoadAttr = element.dataset.lazyLoad;
+                    var useMraAttr = element.dataset.useMra;
+
+                    if (useLazyLoadAttr && useLazyLoadAttr == 'True') {
+                        useLazyLoad = true;
+                    }
+
+                    if (useMraAttr && useMraAttr == 'true') {
+                        useMra = true;
+                    }
+                }
+
+                if (useLazyLoad) {
+                    observeAdElement(element, slot);
+                }
+                else if (useMra) {
+                    googletag.pubads().refresh([slot]);
+                }
+                else {
+                    slotsToRefresh.push(slot);
+                }
+            }
+
+            console.log("AD_PBJS_CALLBACK");
+
+            googletag.pubads().refresh(slotsToRefresh);
+
+            console.log("AD_REFRESHED");
+        }
+    }
+
+    function observeAdElement(element, slot) {
+        var observerOptions = {
+            root: null,
+            rootMargin: '300px',
+            threshold: 0
+        };
+
+        let impressionViewableObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    googletag.pubads().refresh([slot]);
+
+                    observer.unobserve(entry.target);
+                }
+            })
+        }, observerOptions);
+
+        impressionViewableObserver.observe(element);
+    }
+
+    // we must wait didomi to be ready, so we can pass consent
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) {
+        console.log("AD_DIDOMI_READY")
+        loadPrebid();
+
+    });
+
+    window.didomiEventListeners = window.didomiEventListeners || [];
+    window.didomiEventListeners.push({
+        event: 'consent.changed',
+        listener: function (context) {
+            // The user consent status has changed, so we wil send permutive PV
+            permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT);
+        }
+    });
+
+    // Function to load Rubicon Project script
+    function loadPrebid() {
+        var prebidScript = document.createElement('script');
+        prebidScript.async = true;
+        prebidScript.src = '//micro.rubiconproject.com/prebid/dynamic/26072.js';
+        prebidScript.onload = loadGPT; // Load GPT.js after Prebid script is loaded
+        document.head.appendChild(prebidScript);
+
+       
+    }
+
+    // Function to load GPT.js
+    function loadGPT() {
+        var gptScript = document.createElement('script');
+        gptScript.async = true;
+        gptScript.src = "https://pagead2.googlesyndication.com/tag/js/gpt.js";
+        gptScript.onload = init;
+        document.head.appendChild(gptScript);
+
+        console.log("AD_PREBID_LOADED")
+      
+    }
+
+    function init() {
+        console.log("AD_GPT_LOADED")
+        console.log("AD_STARTING_AD_TECH_STUFF")
+        permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT)
+            .then(initializeAdLayer)
+            .catch(error => {
+                console.error("AD_IN_PERMUTIVE_STACK");
+                console.warn("Continuing to load ad tech without permutive");
+
+                initializeAdLayer();
+            });
+    }
+
+    function initializeAdLayer() {
+        if (didomiService.IsGoogleAllowed() && Didomi.getUserStatus().purposes.consent.disabled.length == 0) {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: false
+                });
+            });
+
+            googletag.cmd.push(function () {
+                pbjs.que.push(function () {
+                    initializeGoogletagRefreshWithPrebid();
+                });
+            });
+        }
+        else {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: true
+                });
+            });
+
+            googletag.cmd.push(function () {
+                initializeGoogletagWithLimitedAds();
+            });
+        }
+    }
+
+</script>
+
+    
+    
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    (function () {
+        window.dm = window.dm || { AjaxData: [] };
+        window.dm.AjaxEvent = function (et, d, ssid, ad) {
+            dm.AjaxData.push({ et: et, d: d, ssid: ssid, ad: ad });
+            window.DotMetricsObj && DotMetricsObj.onAjaxDataUpdate();
+        };
+        var d = document,
+            h = d.getElementsByTagName('head')[0],
+            s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://script.dotmetrics.net/door.js?id=12270';
+        h.appendChild(s);
+    }());
+    /* ]]> */
+</script>
+
+
+    <script>
+        var mostReadUrl = '/Category/MostReadNews?categoryId=150&categorySlug=sport&timerange=%25timerange%25';
+
+        categoryService.InitAll();
+    </script>
+
+
+    <script>
+        googleEventService.CreateCustomEventGA4("layout", "ab_fifty-fifty", "");
+        googleEventService.CreateCustomEventGA4("user_data", "ab_fifty-fifty", "");
+
+        // if ad block detected send event
+        if (window.indexCanRunAds === undefined) {
+            googleEventService.CreateCustomEventGA4("layout", "ad_block_detected", "true");
+        }
+
+        var abCookieUrl = '/setabcookie';
+
+        globalDirectives.InitAll();
+        layoutService.InitAll();
+
+        layoutService.SetCurrentUrl('https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Fborilacki-sportovi%2F1662.aspx');
+        deviceService.TrackIfNeeded();
+    </script>
+
+    
+</body>
+</html>

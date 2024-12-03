@@ -1,0 +1,2425 @@
+
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <!--detect slow internet connection-->
+<script type="text/javascript">
+    var IS_SLOW_INTERNET = false;
+    var SLOW_INTERNET_THRESHOLD = 5000;//ms
+    var slowLoadTimeout = window.setTimeout(function () {
+        IS_SLOW_INTERNET = true;
+    }, SLOW_INTERNET_THRESHOLD);
+
+    window.addEventListener('load', function () {
+        window.clearTimeout(slowLoadTimeout);
+    }, false);
+</script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <title>Tenis - Index.hr</title>
+    <!--todo: remove on production-->
+    <meta name="description" content="Najnovije vijesti i rezultati iz tenisa. Iz minute u minutu: tenis, ATP, WTA, Marin Čilić, Borna Ćorić, Novak Đoković, Roger Federer, Rafael Nadal">
+    <meta property="fb:app_id" content="216060115209819">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <link rel="preload" href="//micro.rubiconproject.com/prebid/dynamic/26072.js" as="script" /> 
+    <link rel="preload" href="https://pagead2.googlesyndication.com/tag/js/gpt.js" as="script" />
+
+     <!--adblock detection-->
+<script src="/Scripts/adblockDetect/ads.js"></script>
+    
+
+<script>
+    window.constants = window.constants || {};
+    window.constants.statsServiceHost = 'https://stats.index.hr';
+    window.constants.socketsHost = 'https://sockets.index.hr';
+    window.constants.chatHost = 'https://chat.index.hr';
+    window.constants.interactiveHost = 'https://interactive.index.hr';
+</script>
+
+        <!--recover ads, if adblock detected-->
+<!--adpushup recovery-->
+<script data-cfasync="false" type="text/javascript">(function (w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/41144/adRecover.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+
+
+    <link rel='preconnect' href='https://fonts.googleapis.com' crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="preload" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&family=EB+Garamond:wght@600;700;800" rel="stylesheet">
+
+    
+
+    
+        <link href="/Content/desktop-bundle.min.css?v=b11b4c97-bb50-4173-8acb-0b8e886647e0" rel="preload" as="style" />
+        <link href="/Scripts/desktop-bundle.min.js?v=b11b4c97-bb50-4173-8acb-0b8e886647e0" rel="preload" as="script" />
+
+        <link href="/Content/desktop-bundle.min.css?v=b11b4c97-bb50-4173-8acb-0b8e886647e0" rel="stylesheet" />
+        <script src="/Scripts/desktop-bundle.min.js?v=b11b4c97-bb50-4173-8acb-0b8e886647e0"></script>
+    
+
+    
+<script>
+    !function (e, o, n, i) { if (!e) { e = e || {}, window.permutive = e, e.q = []; var t = function () { return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (e) { return (e ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> e / 4).toString(16) }) }; e.config = i || {}, e.config.apiKey = o, e.config.workspaceId = n, e.config.environment = e.config.environment || "production", (window.crypto || window.msCrypto) && (e.config.viewId = t()); for (var g = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], r = 0; r < g.length; r++) { var w = g[r]; e[w] = function (o) { return function () { var n = Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: o, arguments: n }) } }(w) } } }(window.permutive, "cd150efe-ff8f-4596-bfca-1c8765fae796", "b4d7f9ad-9746-4daa-b552-8205ef41f49d", { "consentRequired": true });
+    window.googletag = window.googletag || {}, window.googletag.cmd = window.googletag.cmd || [], window.googletag.cmd.push(function () { if (0 === window.googletag.pubads().getTargeting("permutive").length) { var e = window.localStorage.getItem("_pdfps"); window.googletag.pubads().setTargeting("permutive", e ? JSON.parse(e) : []); var o = window.localStorage.getItem("permutive-id"); o && (window.googletag.pubads().setTargeting("puid", o), window.googletag.pubads().setTargeting("ptime", Date.now().toString())), window.permutive.config.viewId && window.googletag.pubads().setTargeting("prmtvvid", window.permutive.config.viewId), window.permutive.config.workspaceId && window.googletag.pubads().setTargeting("prmtvwid", window.permutive.config.workspaceId) } });
+    
+</script>
+<script async src="https://b4d7f9ad-9746-4daa-b552-8205ef41f49d.edge.permutive.app/b4d7f9ad-9746-4daa-b552-8205ef41f49d-web.js"></script>
+
+
+    
+
+<script type="text/javascript" src="https://interactive.index.hr/js/embed/interactive.min.js"></script>
+<script>
+    var $inin = $inin || {};
+
+    $inin.config = {
+        log: false,
+        enabled: false
+    }
+
+    var $ininque = $ininque || [];
+
+    var userPPID = accountService.GetUserPPID();
+
+    if (userPPID){
+        $inin.setClientUserId(userPPID);
+    }
+
+    $inin.enable();
+</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="didomi/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-5ZTNWH8GVX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5ZTNWH8GVX');
+</script>
+
+        
+<!-- //Connect Container: Index.hr -->
+<script src="//get.s-onetag.com/90d743ad-16c9-44d6-bb59-5f0ed674ef3b/tag.min.js" async defer></script>
+
+
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    
+    
+
+
+<!-- Make sure this is inserted before your GPT tag -->
+<script>
+    var amazonAdSlots = [];
+
+</script>
+
+
+
+    
+
+<script type="text/javascript">
+    window.gdprAppliesGlobally = true; (function () {
+        function a(e) {
+            if (!window.frames[e]) {
+                if (document.body && document.body.firstChild) { var t = document.body; var n = document.createElement("iframe"); n.style.display = "none"; n.name = e; n.title = e; t.insertBefore(n, t.firstChild) }
+                else { setTimeout(function () { a(e) }, 5) }
+            }
+        } function e(n, r, o, c, s) {
+            function e(e, t, n, a) { if (typeof n !== "function") { return } if (!window[r]) { window[r] = [] } var i = false; if (s) { i = s(e, t, n) } if (!i) { window[r].push({ command: e, parameter: t, callback: n, version: a }) } } e.stub = true; function t(a) {
+                if (!window[n] || window[n].stub !== true) { return } if (!a.data) { return }
+                var i = typeof a.data === "string"; var e; try { e = i ? JSON.parse(a.data) : a.data } catch (t) { return } if (e[o]) { var r = e[o]; window[n](r.command, r.parameter, function (e, t) { var n = {}; n[c] = { returnValue: e, success: t, callId: r.callId }; a.source.postMessage(i ? JSON.stringify(n) : n, "*") }, r.version) }
+            }
+            if (typeof window[n] !== "function") { window[n] = e; if (window.addEventListener) { window.addEventListener("message", t, false) } else { window.attachEvent("onmessage", t) } }
+        } e("__tcfapi", "__tcfapiBuffer", "__tcfapiCall", "__tcfapiReturn"); a("__tcfapiLocator"); (function (e) {
+            var t = document.createElement("script"); t.id = "spcloader"; t.type = "text/javascript"; t.async = true; t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target=" + document.location.hostname; t.charset = "utf-8"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n)
+        })("02757520-ed8b-4c54-8bfd-4a5f5548de98")
+    })();</script>
+
+
+<!--didomi-->
+<!--end-->
+
+
+    <script>
+        googletag.cmd.push(function () {
+        
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().setTargeting('rubrika', 'sport');
+    googletag.pubads().setTargeting('podrubrikaId', '1640');
+    googletag.pubads().setTargeting('sectionhomepage', 'tenis');
+;
+        });
+    </script>
+
+    
+<script>
+    var mainIndexDomainPath = "https://www.index.hr" + window.location.pathname;
+
+    googletag.cmd.push(function () {
+        googletag.pubads().disableInitialLoad();
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs(true);
+        googletag.pubads().setTargeting('projekt', 'index');
+        googletag.pubads().setTargeting('referer', '');
+        googletag.pubads().setTargeting('hostname', 'www.index.hr');
+        googletag.pubads().setTargeting('ar_1', 'false');
+        googletag.pubads().setTargeting('ab_test', '');
+        googletag.pubads().setTargeting('prebid', 'demand manager');
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                googletag.pubads().setTargeting('TPC', label);
+            });
+        }
+        else {
+            googletag.pubads().setTargeting('TPC', 'none');
+        }
+
+    });
+
+    googleTagService.AddSlotRenderEndedListener();
+</script>
+    <script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+
+    <meta property="og:title" content="Tenis" />
+    <meta property="og:description" content="Najnovije vijesti i rezultati iz tenisa. Iz minute u minutu: tenis, ATP, WTA, Marin &#x10C;ili&#x107;, Borna &#x106;ori&#x107;, Novak &#x110;okovi&#x107;, Roger Federer, Rafael Nadal" />
+    <meta property="og:image" content="/Content/img/main-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@indexhr">
+    <meta name="twitter:title" content="Tenis">
+    <meta name="twitter:description" content="Najnovije vijesti i rezultati iz tenisa. Iz minute u minutu: tenis, ATP, WTA, Marin &#x10C;ili&#x107;, Borna &#x106;ori&#x107;, Novak &#x110;okovi&#x107;, Roger Federer, Rafael Nadal">
+    <meta name="twitter:image" content="/Content/img/main-image.png">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebSite","name":"Index.hr","potentialAction":{"@type":"SearchAction","target":"https://www.index.hr/trazi.aspx?upit={search_term_string}","query-input":"required name=search_term_string"},"url":"https://www.index.hr/"}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}
+    </script>
+
+    <!-- Meta Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1418122964915670');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1418122964915670&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Meta Pixel Code -->
+
+
+    <script src="https://apetite.index.hr/bundles/apetite.js"></script>
+    <script>
+        var apetite = new AnalyticsPetite({ host: 'https://apetite.index.hr' });
+        
+    apetite.setCategory('sport');
+
+            apetite.collect();
+    </script>
+
+    
+    <link rel="canonical" href="https://www.index.hr/sport/rubrika/tenis/1640.aspx">
+    <link rel="alternate" href="https://www.index.hr/mobile/kategorija/1640">
+
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebPage","name":"Tenis","description":"Najnovije vijesti i rezultati iz tenisa. Iz minute u minutu: tenis, ATP, WTA, Marin Čilić, Borna Ćorić, Novak Đoković, Roger Federer, Rafael Nadal","url":"https://www.index.hr/","publisher":{"@type":"Organization","name":"Index.hr","sameAs":["https://www.facebook.com/index.hr/","https://twitter.com/indexhr","https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA"],"url":"https://www.index.hr/","logo":{"@type":"ImageObject","url":"https://www.index.hr/Content/img/logo/index_logo_112x112.png"}}}
+    </script>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"ItemList","description":"Tenis","url":"https://www.index.hr/sport/rubrika/tenis/1640","itemListElement":[{"@type":"ListItem","name":"Ivaniševićev rival o Igi Swiatek: Doživotna suspenzija. Bez obzira tko ste","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/dde8d387-8170-44eb-a3a9-a74a27a0cec3.jpg","url":"https://www.index.hr/sport/clanak/ivanisevicev-rival-o-igi-swiatek-dozivotna-suspenzija-bez-obzira-tko-ste/2620881.aspx","position":1},{"@type":"ListItem","name":"Hrvatska će biti domaćin Slovačkoj u kvalifikacijama za Davis Cup","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8c169053-923c-40af-b3cb-65b0a9a421c5.jpg","url":"https://www.index.hr/sport/clanak/hrvatska-ce-biti-domacin-slovackoj-u-kvalifikacijama-za-davis-cup/2620666.aspx","position":2},{"@type":"ListItem","name":"Andy Murray je novi Đokovićev trener","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/dc51f137-39db-4146-966c-c789daffe576.jpg","url":"https://www.index.hr/sport/clanak/andy-murray-je-novi-djokovicev-trener/2618033.aspx","position":3},{"@type":"ListItem","name":"Amerikanci ispali s Davis Cupa. Australija prošla u polufinale","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/49cf6b35-9906-4af3-b03e-28ea78ef104a.jpg","url":"https://www.index.hr/sport/clanak/amerikanci-ispali-s-davis-cupa-australija-prosla-u-polufinale/2617512.aspx","position":4},{"@type":"ListItem","name":"ANKETA Tko je najveći tenisač svih vremena?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/970d5198-887f-4eb1-9bae-6a71c8d8c23c.jpg","url":"https://www.index.hr/sport/clanak/anketa-tko-je-najveci-tenisac-svih-vremena/2617224.aspx","position":5},{"@type":"ListItem","name":"Nadal: Nisam umoran od igranja tenisa, ali moje tijelo više ne želi igrati","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/14d8fdcf-9836-4931-afb0-5a8cf7bb82ef.jpg","url":"https://www.index.hr/sport/clanak/nadal-nisam-umoran-od-igranja-tenisa-ali-moje-tijelo-vise-ne-zeli-igrati/2617109.aspx","position":6},{"@type":"ListItem","name":"Evo koliko je Nadal zaradio u čudesnoj karijeri i što će raditi nakon nje","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/40836d45-5098-44ce-889e-f2118f9da9fa.jpg","url":"https://www.index.hr/sport/clanak/evo-koliko-je-nadal-zaradio-u-cudesnoj-karijeri-i-sto-ce-raditi-nakon-nje/2617067.aspx","position":7},{"@type":"ListItem","name":"Rafael Nadal završio karijeru","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/587850d5-fa8e-49cf-a313-3dc6a647a99c.jpg","url":"https://www.index.hr/sport/clanak/rafael-nadal-zavrsio-karijeru/2616944.aspx","position":8},{"@type":"ListItem","name":"Nadal poražen u potencijalno posljednjem meču karijere","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f47fedbf-bbcf-400d-a2df-648f4538116d.jpg","url":"https://www.index.hr/sport/clanak/nadal-porazen-u-potencijalno-posljednjem-mecu-karijere/2616885.aspx","position":9},{"@type":"ListItem","name":"VIDEO Emotivni Nadal zaplakao pred početak meča Davis Cupa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d5820e6b-46b9-4c4f-a0e3-209d610d8945.jpg","url":"https://www.index.hr/sport/clanak/video-emotivni-nadal-zaplakao-pred-pocetak-meca-davis-cupa/2616866.aspx","position":10},{"@type":"ListItem","name":"Emotivni Federer o Nadalu: Sve što sam čuo o mladiću s Mallorce nije bila pompa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0a5d007b-276e-4bde-9adb-b93bbcf1efac.jpg","url":"https://www.index.hr/sport/clanak/emotivni-federer-o-nadalu-sve-sto-sam-cuo-o-mladicu-s-mallorce-nije-bila-pompa/2616723.aspx","position":11},{"@type":"ListItem","name":"Nadal: Nakon Davis Cupa dogodit će se velika promjena u mom životu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/685f0a4c-766e-488c-ae2d-e34c546ce5df.jpg","url":"https://www.index.hr/sport/clanak/nadal-nakon-davis-cupa-dogodit-ce-se-velika-promjena-u-mom-zivotu/2616465.aspx","position":12},{"@type":"ListItem","name":"Sinner bez izgubljenog seta osvojio ATP Finale. To nisu uspjeli Đoković ni Federer","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/9c217464-3f31-4802-89d6-b9d570c2a955.jpg","url":"https://www.index.hr/sport/clanak/sinner-bez-izgubljenog-seta-osvojio-atp-finale-to-nisu-uspjeli-djokovic-ni-federer/2616359.aspx","position":13},{"@type":"ListItem","name":"Pavić i Arevalo izgubili u finalu završnog turnira u Torinu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0a296381-a4ba-4c4e-b394-cf9b4fa84e1d.jpg","url":"https://www.index.hr/sport/clanak/pavic-i-arevalo-izgubili-u-finalu-zavrsnog-turnira-u-torinu/2616328.aspx","position":14},{"@type":"ListItem","name":"Taylor Fritz prvi je finalist ATP Finala","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/47df41b2-24ad-478d-87ef-2b5a31e2a586.jpg","url":"https://www.index.hr/sport/clanak/taylor-fritz-prvi-je-finalist-atp-finala/2616131.aspx","position":15},{"@type":"ListItem","name":"Zverev pobijedio Alcaraza i izborio polufinale turnira u Torinu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2937bbfe-703f-4ef8-b123-5689b1cf9069.jpg","url":"https://www.index.hr/sport/clanak/zverev-pobijedio-alcaraza-i-izborio-polufinale-turnira-u-torinu/2615893.aspx","position":16},{"@type":"ListItem","name":"Nick Kyrgios potvrdio povratak tenisu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8248a726-2551-4da6-8c9b-92469b1dfbf4.jpg","url":"https://www.index.hr/sport/clanak/nick-kyrgios-potvrdio-povratak-tenisu/2615805.aspx","position":17},{"@type":"ListItem","name":"Borna Ćorić izgubio od 142. igrača svijeta i ispao s Challenger turnira","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/e8ebd556-6c03-44e8-8b83-0b88cc2577ae.jpg","url":"https://www.index.hr/sport/clanak/borna-coric-izgubio-od-142-igraca-svijeta-i-ispao-s-challenger-turnira/2615620.aspx","position":18},{"@type":"ListItem","name":"Bio je najbolji igrač SP-a u nogometu. Porazom je započeo karijeru u tenisu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/224fff24-b710-42f4-8660-d7550f0a8051.jpg","url":"https://www.index.hr/sport/clanak/bio-je-najbolji-igrac-spa-u-nogometu-porazom-je-zapoceo-karijeru-u-tenisu/2615423.aspx","position":19},{"@type":"ListItem","name":"Borna Ćorić pobjedom prošao u četvrtfinale Challenger turnira u Lyonu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/e67e1c43-3b98-4f7a-a27f-9e9f723c8fb4.jpg","url":"https://www.index.hr/sport/clanak/borna-coric-pobjedom-prosao-u-cetvrtfinale-challenger-turnira-u-lyonu/2615341.aspx","position":20},{"@type":"ListItem","name":"Alcaraz pobijedio Rubljova i ostao u igri za polufinale ATP Finala","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/cdf3f4df-dc72-43b9-b6ab-156e0edfcf31.jpg","url":"https://www.index.hr/sport/clanak/alcaraz-pobijedio-rubljova-i-ostao-u-igri-za-polufinale-atp-finala/2615297.aspx","position":21},{"@type":"ListItem","name":"Sinner rutinski stigao do još jedne pobjede na završnom Mastersu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/51da5b08-24b3-4b1f-91c4-f3ee79ba9bae.jpg","url":"https://www.index.hr/sport/clanak/sinner-rutinski-stigao-do-jos-jedne-pobjede-na-zavrsnom-mastersu/2615070.aspx","position":22},{"@type":"ListItem","name":"Mektić i Koolhof stigli do prve pobjede na ATP Finalu. Borit će se za polufinale","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d32dc6aa-1c79-48c1-8bef-7bdee0b76946.jpg","url":"https://www.index.hr/sport/clanak/mektic-i-koolhof-stigli-do-prve-pobjede-na-atp-finalu-borit-ce-se-za-polufinale/2615051.aspx","position":23},{"@type":"ListItem","name":"Medvjedev: Ne uživam u tenisu i više nemam nikakvu želju za njim","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/bf02514d-c0c0-4039-bf5d-9a9ccf145576.jpg","url":"https://www.index.hr/sport/clanak/medvjedev-ne-uzivam-u-tenisu-i-vise-nemam-nikakvu-zelju-za-njim/2614831.aspx","position":24},{"@type":"ListItem","name":"Alcaraz izgubio od Ruuda u 1. kolu ATP Finala","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/60fba320-f572-4774-adf3-62d0bedf6509.jpg","url":"https://www.index.hr/sport/clanak/alcaraz-izgubio-od-ruuda-u-1-kolu-atp-finala/2614674.aspx","position":25},{"@type":"ListItem","name":"TV komentator ismijavao izgled tenisačice. Suspendiran je","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/eb0f4745-73ef-4c7e-b5f0-7673112a3826.jpg","url":"https://www.index.hr/sport/clanak/tv-komentator-ismijavao-izgled-tenisacice-suspendiran-je/2614584.aspx","position":26},{"@type":"ListItem","name":"Đoković više nije među pet najboljih igrača svijeta","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/04fe8936-048f-4a98-86bc-57d2659cbcbf.jpg","url":"https://www.index.hr/sport/clanak/djokovic-vise-nije-medju-pet-najboljih-igraca-svijeta/2614520.aspx","position":27},{"@type":"ListItem","name":"Dodig i Mansouri propustili meč-loptu za naslov u Beogradu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/be528a61-ac6d-46c1-9a04-f438fa075698.jpg","url":"https://www.index.hr/sport/clanak/dodig-i-mansouri-propustili-mecloptu-za-naslov-u-beogradu/2614155.aspx","position":28},{"@type":"ListItem","name":"Objavljena fotka 16-godišnjeg Đokovića snimljena u Vinkovcima. Prepoznajete li ga?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d14773b6-cfe1-44f8-95ad-faf72cdef4b9.jpg","url":"https://www.index.hr/sport/clanak/objavljena-fotka-16godisnjeg-djokovica-snimljena-u-vinkovcima-prepoznajete-li-ga/2614011.aspx","position":29},{"@type":"ListItem","name":"Finale Beograda igrat će Šapovalov i Međedović","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/7ff018e5-be4e-41c3-b52e-38dbdc7920d4.jpg","url":"https://www.index.hr/sport/clanak/finale-beograda-igrat-ce-sapovalov-i-medjedovic/2614009.aspx","position":30},{"@type":"ListItem","name":"Qinwen Zheng je prva finalistica Završnog turnira","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/d737cefe-cfa2-418c-817c-413b8ff49ff0.jpg","url":"https://www.index.hr/sport/clanak/qinwen-zheng-je-prva-finalistica-zavrsnog-turnira/2613994.aspx","position":31},{"@type":"ListItem","name":"Dodig i Mansouri uvjerljivo izborili finale Beograda","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/aef612cc-335f-4802-be80-829c8d36548f.jpg","url":"https://www.index.hr/sport/clanak/dodig-i-mansouri-uvjerljivo-izborili-finale-beograda/2613910.aspx","position":32},{"@type":"ListItem","name":"VIDEO Đoković dobio kip u Srbiji. Prepoznajete li ga?","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8e48f5d2-29a5-4947-aba5-0e0dc5853773.jpg","url":"https://www.index.hr/sport/clanak/video-djokovic-dobio-kip-u-srbiji-prepoznajete-li-ga/2613704.aspx","position":33},{"@type":"ListItem","name":"Krejčikova osvojila Narančastu skupinu na Završnom turniru","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/11cdbd0f-db3f-4d92-b957-9cc83d8ec4ed.jpg","url":"https://www.index.hr/sport/clanak/krejcikova-osvojila-narancastu-skupinu-na-zavrsnom-turniru/2613695.aspx","position":34},{"@type":"ListItem","name":"Swiatek lako pobijedila Kasatkinu, ali još nije osigurala polufinale Završnog turnira","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/a5e54d5b-b652-4ddf-9c2b-0f42f8a456f2.jpg","url":"https://www.index.hr/sport/clanak/swiatek-lako-pobijedila-kasatkinu-ali-jos-nije-osigurala-polufinale-zavrsnog-turnira/2613636.aspx","position":35},{"@type":"ListItem","name":"Duje Ajduković ispao u drugom kolu turnira u Beogradu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/9d582a2a-2227-40ca-a085-603747244d89.jpg","url":"https://www.index.hr/sport/clanak/duje-ajdukovic-ispao-u-drugom-kolu-turnira-u-beogradu/2613384.aspx","position":36},{"@type":"ListItem","name":"Čilić ispao s turnira u Beogradu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/7e394cd7-9754-48da-92f0-6c6415d44866.jpg","url":"https://www.index.hr/sport/clanak/cilic-ispao-s-turnira-u-beogradu/2612984.aspx","position":37},{"@type":"ListItem","name":"Đoković odustao od ATP završnice: Ispričavam se svima","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2d1efbf6-0bfc-4bc7-a423-323186566bb3.jpg","url":"https://www.index.hr/sport/clanak/djokovic-odustao-od-atp-zavrsnice-ispricavam-se-svima/2612865.aspx","position":38},{"@type":"ListItem","name":"Ivanišević o novom poslu: Fućkaš trenera koji nije uspio na oba Toura","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/8fc4bc7d-cdbf-4546-9fef-00441a891bc4.jpg","url":"https://www.index.hr/sport/clanak/ivanisevic-o-novom-poslu-fuckas-trenera-koji-nije-uspio-na-oba-toura/2612788.aspx","position":39},{"@type":"ListItem","name":"Čilić pobijedio u 1. kolu ATP turnira u Beogradu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/83e90d70-690e-4053-9e63-5a9f2c9c203a.jpg","url":"https://www.index.hr/sport/clanak/cilic-pobijedio-u-1-kolu-atp-turnira-u-beogradu/2612532.aspx","position":40},{"@type":"ListItem","name":"Zverev osvojio Masters u Parizu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/f0e051fb-55cf-49f7-8a5f-c752f4894fca.jpg","url":"https://www.index.hr/sport/clanak/zverev-osvojio-masters-u-parizu/2612348.aspx","position":41},{"@type":"ListItem","name":"Duje Ajduković nije izborio glavni dio turnira u Beogradu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/df6a2cdd-702f-4de7-9145-bf82dfc65d6d.jpg","url":"https://www.index.hr/sport/clanak/duje-ajdukovic-nije-izborio-glavni-dio-turnira-u-beogradu/2612317.aspx","position":42},{"@type":"ListItem","name":"Mektić i Koolhof osvojili Masters u Parizu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/927c0bef-33c4-412e-9c58-473b03122070.jpg","url":"https://www.index.hr/sport/clanak/mektic-i-koolhof-osvojili-masters-u-parizu/2612297.aspx","position":43},{"@type":"ListItem","name":"Tenisačica srpsko-hrvatskih korijena osvojila drugu titulu u karijeri","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/228baf96-ef64-4b29-a59a-c200e05f8908.jpg","url":"https://www.index.hr/sport/clanak/tenisacica-srpskohrvatskih-korijena-osvojila-drugu-titulu-u-karijeri/2612294.aspx","position":44},{"@type":"ListItem","name":"Prižmić ostao bez finala u Bratislavi","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/022d9008-ef08-418f-b806-0a4d3171b1b3.jpg","url":"https://www.index.hr/sport/clanak/prizmic-ostao-bez-finala-u-bratislavi/2612208.aspx","position":45},{"@type":"ListItem","name":"Sabaljenka došla na dvije pobjede od toga da sezonu završio kao svjetski broj 1","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5ab1ffc3-951f-4327-8035-f098d7f68fb3.jpg","url":"https://www.index.hr/sport/clanak/sabaljenka-dosla-na-dvije-pobjede-od-toga-da-sezonu-zavrsio-kao-svjetski-broj-1/2612156.aspx","position":46},{"@type":"ListItem","name":"Sjajni Mektić i Koolhof u finalu Mastersa u Parizu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ad979704-2099-4e47-94fa-e9a21ad3fcfe.jpg","url":"https://www.index.hr/sport/clanak/sjajni-mektic-i-koolhof-u-finalu-mastersa-u-parizu/2612111.aspx","position":47},{"@type":"ListItem","name":"VIDEO Dino Prižmić započeo meč u bijelim tenisicama. Na kraju je nosio jednu crnu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/5a1e6fe5-0ec0-41a3-9bd4-b94a4d3b6982.jpg","url":"https://www.index.hr/sport/clanak/video-dino-prizmic-zapoceo-mec-u-bijelim-tenisicama-na-kraju-je-nosio-jednu-crnu/2612074.aspx","position":48},{"@type":"ListItem","name":"Procurile poruke zatvorskih čuvara o Borisu Beckeru. \"Noćas će vidjeti nove loptice\"","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/20a30f2a-df21-4e05-9b38-c14e39a19c60.jpg","url":"https://www.index.hr/sport/clanak/procurile-poruke-zatvorskih-cuvara-o-borisu-beckeru-nocas-ce-vidjeti-nove-loptice/2612005.aspx","position":49},{"@type":"ListItem","name":"Prižmić pobijedio novog igrača iz Top 100 i plasirao se u polufinale","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/0fa3f942-7f90-48c2-b655-bb2858b55aaf.jpg","url":"https://www.index.hr/sport/clanak/prizmic-pobijedio-novog-igraca-iz-top-100-i-plasirao-se-u-polufinale/2611997.aspx","position":50},{"@type":"ListItem","name":"Nikola Mektić i Wesley Koolhof prošli u polufinale Mastersa","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/1dfa60c7-27db-4c15-88ba-8738f46748ed.jpg","url":"https://www.index.hr/sport/clanak/nikola-mektic-i-wesley-koolhof-prosli-u-polufinale-mastersa/2611952.aspx","position":51},{"@type":"ListItem","name":"Peta igračica svijeta potvrdila Ivaniševića za trenera: Htjela sam raditi s njim","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/730c0099-5092-4458-94fb-7b77a14436d2.jpg","url":"https://www.index.hr/sport/clanak/peta-igracica-svijeta-potvrdila-ivanisevica-za-trenera-htjela-sam-raditi-s-njim/2611924.aspx","position":52},{"@type":"ListItem","name":"Goran Ivanišević trenirat će jednu od najboljih tenisačica svijeta","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/44f2a908-0174-49c3-8c39-b7b5936512b4.jpg","url":"https://www.index.hr/sport/clanak/goran-ivanisevic-trenirat-ce-jednu-od-najboljih-tenisacica-svijeta/2611916.aspx","position":53},{"@type":"ListItem","name":"Kyrgios: Ludi ste ako mislite da su stari Egipćani izgradili piramide","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/30242419-7fe8-44bd-9e9a-57e698a2d3b8.jpg","url":"https://www.index.hr/sport/clanak/kyrgios-ludi-ste-ako-mislite-da-su-stari-egipcani-izgradili-piramide/2611915.aspx","position":54},{"@type":"ListItem","name":"Prižmić nakon pobjede protiv trostrukog osvajača Grand Slama: Bio je ludo dobar igrač","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/2c78e9fa-fc24-48df-815b-ac3a9378a1da.jpg","url":"https://www.index.hr/sport/clanak/prizmic-nakon-pobjede-protiv-trostrukog-osvajaca-grand-slama-bio-je-ludo-dobar-igrac/2611866.aspx","position":55},{"@type":"ListItem","name":"Mektić i Koolhof bez borbe prošli u četvrtfinale Mastersa u Parizu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/ff81c0c6-c574-4101-8a36-413b01a7b2ef.jpg","url":"https://www.index.hr/sport/clanak/mektic-i-koolhof-bez-borbe-prosli-u-cetvrtfinale-mastersa-u-parizu/2611785.aspx","position":56},{"@type":"ListItem","name":"Alex De Minaur je na korak do prvog nastupa na ATP Finalu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/93c627ea-a2ae-49cf-9681-723538826966.jpg","url":"https://www.index.hr/sport/clanak/alex-de-minaur-je-na-korak-do-prvog-nastupa-na-atp-finalu/2611777.aspx","position":57},{"@type":"ListItem","name":"Čilić ispao u prvom kolu Pariza","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/b7e100ff-2c00-4e8e-8ce0-de0943024449.jpg","url":"https://www.index.hr/sport/clanak/cilic-ispao-u-prvom-kolu-pariza/2611036.aspx","position":58},{"@type":"ListItem","name":"Čilić i Dodig pobjedom otvorili turnir parova u Parizu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/c2e9df8c-6736-404c-8cc3-033446065054.jpg","url":"https://www.index.hr/sport/clanak/cilic-i-dodig-pobjedom-otvorili-turnir-parova-u-parizu/2610781.aspx","position":59},{"@type":"ListItem","name":"Poraz Petre Martić nakon vodstva 5:1 u odlučujućem setu","image":"https://ip.index.hr/remote/bucket.index.hr/b/index/15d9708b-8015-46c4-9b52-99b4638a8982.jpg","url":"https://www.index.hr/sport/clanak/poraz-petre-martic-nakon-vodstva-51-u-odlucujucem-setu/2610688.aspx","position":60}]}
+    </script>
+
+</head>
+<body>
+    <script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '216060115209819',
+            xfbml: true,
+            version: 'v19.0'
+        });
+    };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/hr_HR/sdk.js"></script>
+    <!--OpenX-->
+<iframe src="//u.openx.net/w/1.0/pd?ph=&cb=22260326-92de-4f8e-ad82-b916fbdaa02c&gdpr=1&gdpr_consent=2" style="display:none;width:0;height:0;border:0; border:none;"></iframe>
+
+        
+
+
+
+
+    <div class="main-container no-padding main-content-bg">
+            
+
+
+<!-- /21703950087/DB1_hr -->
+<div id='DB1_hr' class="js-slot-container" data-css-class="google-box bottom-margin-40">
+    <script>
+        googletag.cmd.push(function () {
+            var db1Slot = googletag.defineSlot('/21703950087/DB1_hr_Sport', [[970, 250], [970, 500], [1140, 250], [1140, 500], [1140, 415], [1, 1]], 'DB1_hr').addService(googletag.pubads());
+
+
+            googletag.display('DB1_hr');
+        });
+    </script>
+</div>
+
+    </div>
+
+    
+
+
+<header class="main-menu-container">
+    <div class="float-menu no-height" style="" menu-fix-top>
+        <div class="main-container no-height clearfix">
+            <div class="main-menu no-height">
+                    <h1 class="js-logo logo sport-gradient-bg">
+                        <img class="main" src="/Content/img/logo/index_sport.svg" alt="index.hr" />
+                        <img class="small" src="/Content/img/logo/paprika_logo.svg" alt="index.hr" />
+                        <a class="homepage-link" href="/" title="index.hr"> </a>
+                    </h1>
+                <nav class="menu-holder clearfix">
+                    <ul>
+                        <li class="menu-naslovnica">
+                            <a class="main-text-hover no-drop" href="/"> Naslovnica</a>
+                        </li>
+
+                        <li>
+                            <a class="vijesti-text-hover" href="/vijesti">
+                                Vijesti
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sport-text-hover" href="/sport">
+                                Sport
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable magazin-text-hover">Magazin</span>
+                            <ul class="dropdown-content display-none">
+                                <li class="magazin-bg-hover">
+                                    <a href="/magazin">
+                                        Magazin
+                                    </a>
+                                </li>
+                                <li class="shopping-bg-gradient-hover">
+                                    <a href="/shopping">
+                                        Shopping
+                                    </a>
+                                </li>
+                                <li class="ljubimci-bg-hover">
+                                    <a href="/ljubimci">
+                                        Ljubimci
+                                    </a>
+                                </li>
+                                <li class="food-bg-hover">
+                                    <a href="/food">
+                                        Food
+                                    </a>
+                                </li>
+                                <li class="mame-bg-hover">
+                                    <a href="/mame">
+                                        Mame
+                                    </a>
+                                </li>
+                                <li class="auto-bg-hover">
+                                    <a href="/auto">
+                                        Auto
+                                    </a>
+                                </li>
+                                <li class="fit-bg-hover">
+                                    <a href="/fit">
+                                        Fit
+                                    </a>
+                                </li>
+                                <li class="chill-bg-hover">
+                                    <a href="/chill">
+                                        Chill
+                                    </a>
+                                </li>
+                                <li class="horoskop-bg-hover">
+                                    <a href="/horoskop">
+                                        Horoskop
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="oglasi-text-hover" href="https://www.index.hr/oglasi">
+                                Oglasi
+                            </a>
+                        </li>
+                        <li>
+                            <a class="recepti-text-hover" href="https://recepti.index.hr">
+                                Recepti
+                            </a>
+                        </li>
+                        <li class="menu-drop">
+                            <span class="expandable">Ostalo</span>
+                            <ul class="dropdown-content ostalo display-none">
+                                <li class="main-bg-hover">
+                                    <a href="https://jobs.index.hr/">
+                                        Zaposli se na Indexu
+                                    </a>
+                                </li>
+                                <li class="lajkhr-bg-hover">
+                                    <a href="http://www.index.hr/lajk/">
+                                        Lajk.hr
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tecaj">
+                                        Tečaj
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/tv">
+                                        TV program
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/kino">
+                                        Kino
+                                    </a>
+                                </li>
+                                <li class="main-bg-hover">
+                                    <a href="/info/vrijeme">
+                                        Vrijeme
+                                    </a>
+                                </li>
+                                <li class="kalendar-bg-hover">
+                                    <a href="/kalendar">
+                                        Kalendar
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="right-part">
+                        <li id="login-menu" class="menu-drop">
+                            <div id="menu-login"
+     v-scope
+     v-cloak
+     @mounted="onLoad">
+    <div v-if="userInfo !== null && userInfo.IsLoggedIn === true">
+        <div class="user-menu expandable no-padding">
+            <div v-if="userInfo.ProfileImage === null" class="initials-holder separator center-aligner">
+                <div class="initials center-aligner">
+                    {{userInfo.Initials}}
+                </div>
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+
+            <div v-if="userInfo.ProfileImage !== null" class="avatar separator center-aligner">
+                <img :src="'https://ip.index.hr/remote/bucket.index.hr/b/index/' + userInfo.ProfileImage + '?width=20&height=20&mode=crop'" />
+                <div class="user-firstname">
+                    {{userInfo.FirstName}}
+                </div>
+            </div>
+        </div>
+        <ul class="dropdown-content display-none">
+            <li class="main-bg-hover">
+                <a href="/profil">Moj profil</a>
+            </li>
+            <li class="main-bg-hover">
+                <a @click="logout">Odjavite se</a>
+            </li>
+        </ul>
+    </div>
+
+    <div v-if="userInfo === null || userInfo.IsLoggedIn === false" @click="login" class="user-menu no-padding">
+        <div class="login-btn separator">
+            <i class="index-user-alt"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+    PetiteVue.createApp({
+        userInfo: {},
+        onLoad() {
+            var self = this;
+
+            var userInfoCookie = accountService.GetUserInfo();
+
+            if (userInfoCookie != null) {
+                self.userInfo = accountService.GetUserInfo();
+            }
+            else {
+                $.post('/create-user-cookie', function (response) {
+                    self.userInfo = accountService.GetUserInfo();
+                });
+            }
+        },
+        login() {
+            globalDirectives.ShowLoginPopup()
+        },
+        logout() {
+            accountService.Logout('/profil/odjava')
+        }
+    }).mount("#menu-login");
+</script>
+
+                        </li>
+                        <li>
+                            <a href="/trazi.aspx" class="menu-icon btn-open-search"><i class="index-magnifier"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+        
+
+
+    <div class="sub-menu-container main-container">
+        <div class="sub-menu-holder scroll-menu-arrows-holder" data-animate-width="200">
+            <ul class="sub-menu scroll-menu clearfix">
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport">Sport</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najnovije?kategorija=150">Najnovije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/najcitanije?kategorija=150">Naj&#x10D;itanije</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/nogomet/1638.aspx">Nogomet</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/transferi/1650.aspx">Transferi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/kosarka/1639.aspx">Ko&#x161;arka</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom active">
+                        <a class="" href="/sport/rubrika/tenis/1640.aspx">Tenis</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/regija/1692.aspx">Regija</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/komentari/1738.aspx">Komentari</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/borilacki-sportovi/1662.aspx">Borila&#x10D;ki sportovi</a>
+                    </li>
+                    <li class="sub-menu-item scroll-menu-item sport-border-bottom ">
+                        <a class="" href="/sport/rubrika/ostali-sportovi/1641.aspx">Ostali sportovi</a>
+                    </li>
+            </ul>
+            <div class="scroll-menu-arrows display-none">
+                <div class="navigation-arrow left-arrow disabled sport-text-hover"><i class="index-arrow-left"></i></div>
+                <div class="navigation-arrow right-arrow disabled sport-text-hover"><i class="index-arrow-right"></i></div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+
+    
+
+
+
+
+
+
+    <!-- /21703950087/D_OUP -->
+<div id="D_OUP">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_ALL', 'D_OUP').addService(googletag.pubads());
+
+            googletag.display('D_OUP');
+        });
+    </script>
+</div>
+    <!-- /21703950087/D_OUP_wallpaper -->
+<div id="D_OUP_wallpaper">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineOutOfPageSlot('/21703950087/D_OUP_wallpaper', 'D_OUP_wallpaper').addService(googletag.pubads());
+
+            googletag.display('D_OUP_wallpaper');
+        });
+    </script>
+</div>
+
+
+
+
+<div class="js-slot-container" data-has-close-btn="true">
+    <div class="js-slot-close-btn dfp-close-btn dfp-close-btn-fixed display-none">
+        <div class="close-btn-creative">
+            <i class="index-close"></i>
+        </div>
+    </div>
+
+    <!-- /21703950087/D_sticky -->
+    <div id='D_sticky' class="js-slot-holder" data-css-class="google-box bottom-sticky">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.defineSlot('/21703950087/D_sticky_all', [[1200, 150], [728, 90], [970, 250], [970, 90], [1, 1]], 'D_sticky').addService(googletag.pubads());
+
+                googletag.display('D_sticky');
+            });
+        </script>
+    </div>
+</div>
+
+
+
+<div class="category-holder">
+    <div class="category-content-holder main-container main-content-bg">
+
+        
+
+
+        <div class="flex">
+            <div class="left-part">
+                    
+
+    <div class="first-news-holder vertical">
+        <a class="sport-text-hover scale-img-hover" href="/sport/clanak/majka-11-tenisaca-svijeta-pisu-da-je-djokovic-srbin-a-zapravo-je-bosanac/2620928.aspx">
+            <div class="img-holder">
+                <img class="main-img" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0a0ccd3e-d68b-4d7a-aa1d-619d14b8731a.jpg?width=854&height=443&mode=crop&anchor=topcenter&scale=both" alt="Majka 11. tenisa&#x10D;a svijeta: Pi&#x161;u da je &#x110;okovi&#x107; Srbin, a zapravo je Bosanac" />
+            </div>
+            <div class="content-holder">
+                <h2 class="title">Majka 11. tenisača svijeta: Pišu da je Đoković Srbin, a zapravo je Bosanac</h2>
+                <p class="summary">JULIA APOSTOLI, majka 11. tenisa&#x10D;a svijeta Stefanosa Tsistipasa, govorila je o Novaku &#x110;okovi&#x107;u.</p>
+                <div class="publish-date">3.12.2024.</div>
+            </div>
+        </a>
+    </div>
+
+
+                <div class="other-news">
+                    <div class="animate-box">
+                        <div class="items-container">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ivanisevicev-rival-o-igi-swiatek-dozivotna-suspenzija-bez-obzira-tko-ste/2620881.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ivani&#x161;evi&#x107;ev rival o Igi Swiatek: Do&#x17E;ivotna suspenzija. Bez obzira tko ste" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/dde8d387-8170-44eb-a3a9-a74a27a0cec3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ivaniševićev rival o Igi Swiatek: Doživotna suspenzija. Bez obzira tko ste</h3>
+                    <span class="summary">JEVGENIJ Kafeljnikov (50) podijelio je svoje mi&#x161;ljenje u vezi njene nedavne suspenzije.</span>
+                    <div class="publish-date">3.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/hrvatska-ce-biti-domacin-slovackoj-u-kvalifikacijama-za-davis-cup/2620666.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Hrvatska &#x107;e biti doma&#x107;in Slova&#x10D;koj u kvalifikacijama za Davis Cup" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8c169053-923c-40af-b3cb-65b0a9a421c5.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Hrvatska će biti domaćin Slovačkoj u kvalifikacijama za Davis Cup</h3>
+                    <span class="summary">HRVATSKI tenisa&#x10D;i bit &#x107;e doma&#x107;ini Slova&#x10D;koj u&#xA0; Qualifier fazi Davis Cupa za 2025. godinu, odlu&#x10D;eno je na izvla&#x10D;enju u Londonu u ponedjeljak.</span>
+                    <div class="publish-date">2.12.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/andy-murray-je-novi-djokovicev-trener/2618033.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Andy Murray je novi &#x110;okovi&#x107;ev trener" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/dc51f137-39db-4146-966c-c789daffe576.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Andy Murray je novi Đokovićev trener</h3>
+                    <span class="summary">NEKAD veliki rivali sada &#x107;e postati suradnici.</span>
+                    <div class="publish-date">23.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/amerikanci-ispali-s-davis-cupa-australija-prosla-u-polufinale/2617512.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Amerikanci ispali s Davis Cupa. Australija pro&#x161;la u polufinale" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/49cf6b35-9906-4af3-b03e-28ea78ef104a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Amerikanci ispali s Davis Cupa. Australija prošla u polufinale</h3>
+                    <span class="summary">REPREZENTACIJA Australije &#x107;e u polufinalu igrati protiv boljeg iz ogleda izme&#x111;u branitelja naslova Italije i Argentine.</span>
+                    <div class="publish-date">21.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/anketa-tko-je-najveci-tenisac-svih-vremena/2617224.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="ANKETA Tko je najve&#x107;i tenisa&#x10D; svih vremena?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/970d5198-887f-4eb1-9bae-6a71c8d8c23c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>ANKETA</span>  Tko je najveći tenisač svih vremena?</h3>
+                    <span class="summary">ODLAZAK Rafaela Nadala u mirovinu je ponovno potegnuo vje&#x10D;no pitanje.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nadal-nisam-umoran-od-igranja-tenisa-ali-moje-tijelo-vise-ne-zeli-igrati/2617109.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nadal: Nisam umoran od igranja tenisa, ali moje tijelo vi&#x161;e ne &#x17E;eli igrati" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/14d8fdcf-9836-4931-afb0-5a8cf7bb82ef.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nadal: Nisam umoran od igranja tenisa, ali moje tijelo više ne želi igrati</h3>
+                    <span class="summary">&#x160;PANJOLSKI tenisa&#x10D; zavr&#x161;io je legendarnu karijeru.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-0');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-0'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-0').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-0');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/evo-koliko-je-nadal-zaradio-u-cudesnoj-karijeri-i-sto-ce-raditi-nakon-nje/2617067.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Evo koliko je Nadal zaradio u &#x10D;udesnoj karijeri i &#x161;to &#x107;e raditi nakon nje" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/40836d45-5098-44ce-889e-f2118f9da9fa.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Evo koliko je Nadal zaradio u čudesnoj karijeri i što će raditi nakon nje</h3>
+                    <span class="summary">RAFAEL NADAL vi&#x161;e nije profesionalni tenisa&#x10D;.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/rafael-nadal-zavrsio-karijeru/2616944.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Rafael Nadal zavr&#x161;io karijeru" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/587850d5-fa8e-49cf-a313-3dc6a647a99c.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Rafael Nadal završio karijeru</h3>
+                    <span class="summary">RAFAEL NADAL je porazom u Davis Cupu zaklju&#x10D;io blistavu karijeru.</span>
+                    <div class="publish-date">20.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nadal-porazen-u-potencijalno-posljednjem-mecu-karijere/2616885.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nadal pora&#x17E;en u potencijalno posljednjem me&#x10D;u karijere" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f47fedbf-bbcf-400d-a2df-648f4538116d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nadal poražen u potencijalno posljednjem meču karijere</h3>
+                    <span class="summary">RAFAEL NADAL je do&#x17E;ivio poraz u Davis Cupu.</span>
+                    <div class="publish-date">19.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-emotivni-nadal-zaplakao-pred-pocetak-meca-davis-cupa/2616866.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Emotivni Nadal zaplakao pred po&#x10D;etak me&#x10D;a Davis Cupa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d5820e6b-46b9-4c4f-a0e3-209d610d8945.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Emotivni Nadal zaplakao pred početak meča Davis Cupa</h3>
+                    <span class="summary">RAFAEL NADAL na Davis Cupu u Malagi zavr&#x161;ava karijeru.</span>
+                    <div class="publish-date">19.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/emotivni-federer-o-nadalu-sve-sto-sam-cuo-o-mladicu-s-mallorce-nije-bila-pompa/2616723.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Emotivni Federer o Nadalu: Sve &#x161;to sam &#x10D;uo o mladi&#x107;u s Mallorce nije bila pompa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0a5d007b-276e-4bde-9adb-b93bbcf1efac.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Emotivni Federer o Nadalu: Sve što sam čuo o mladiću s Mallorce nije bila pompa</h3>
+                    <span class="summary">POSLAO je poruku nekada&#x161;njem velikom rivalu.</span>
+                    <div class="publish-date">19.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nadal-nakon-davis-cupa-dogodit-ce-se-velika-promjena-u-mom-zivotu/2616465.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nadal: Nakon Davis Cupa dogodit &#x107;e se velika promjena u mom &#x17E;ivotu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/685f0a4c-766e-488c-ae2d-e34c546ce5df.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nadal: Nakon Davis Cupa dogodit će se velika promjena u mom životu</h3>
+                    <span class="summary">RAFAEL NADAL odigrat &#x107;e Davis Cup sa &#x160;panjolskom, a zatim zavr&#x161;iti jednu od najve&#x107;ih teniskih karijera u povijesti.</span>
+                    <div class="publish-date">18.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-1');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-1'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-1').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-1');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sinner-bez-izgubljenog-seta-osvojio-atp-finale-to-nisu-uspjeli-djokovic-ni-federer/2616359.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Sinner bez izgubljenog seta osvojio ATP Finale. To nisu uspjeli &#x110;okovi&#x107; ni Federer" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/9c217464-3f31-4802-89d6-b9d570c2a955.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Sinner bez izgubljenog seta osvojio ATP Finale. To nisu uspjeli Đoković ni Federer</h3>
+                    <span class="summary">TALIJAN Jannik Sinner pobijedio je Amerikanca Taylora Fritza sa 6:4, 6:4 u ATP Finalu.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/pavic-i-arevalo-izgubili-u-finalu-zavrsnog-turnira-u-torinu/2616328.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pavi&#x107; i Arevalo izgubili u finalu zavr&#x161;nog turnira u Torinu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0a296381-a4ba-4c4e-b394-cf9b4fa84e1d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Pavić i Arevalo izgubili u finalu završnog turnira u Torinu</h3>
+                    <span class="summary">MATE PAVI&#x106; i Marcelo Arevalo izgubili su od Nijemaca Kevina Krawietza i Tima Puetza u finalu turnira u Torinu.</span>
+                    <div class="publish-date">17.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/taylor-fritz-prvi-je-finalist-atp-finala/2616131.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Taylor Fritz prvi je finalist ATP Finala" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/47df41b2-24ad-478d-87ef-2b5a31e2a586.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Taylor Fritz prvi je finalist ATP Finala</h3>
+                    <span class="summary">TAYLOR FRITZ pobijedio je Alexandera Zvereva sa 6:3, 3:6, 7:6 u polufinalu teniskog turnira u Torinu.</span>
+                    <div class="publish-date">16.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/zverev-pobijedio-alcaraza-i-izborio-polufinale-turnira-u-torinu/2615893.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Zverev pobijedio Alcaraza i izborio polufinale turnira u Torinu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2937bbfe-703f-4ef8-b123-5689b1cf9069.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Zverev pobijedio Alcaraza i izborio polufinale turnira u Torinu</h3>
+                    <span class="summary">ALEXANDER ZVEREV izborio je polufinale ATP Finala u Torinu pobjedom protiv &#x160;panjolca Carlosa Alcaraza 7:5 (5), 6:4.</span>
+                    <div class="publish-date">15.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nick-kyrgios-potvrdio-povratak-tenisu/2615805.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nick Kyrgios potvrdio povratak tenisu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8248a726-2551-4da6-8c9b-92469b1dfbf4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nick Kyrgios potvrdio povratak tenisu</h3>
+                    <span class="summary">AUSTRALSKI tenisa&#x10D; vra&#x107;a se nakon &#x161;to je tijekom protekle dvije godine zbog ozljeda odigrao samo jedan me&#x10D;.</span>
+                    <div class="publish-date">15.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/borna-coric-izgubio-od-142-igraca-svijeta-i-ispao-s-challenger-turnira/2615620.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Borna &#x106;ori&#x107; izgubio od 142. igra&#x10D;a svijeta i ispao s Challenger turnira" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/e8ebd556-6c03-44e8-8b83-0b88cc2577ae.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Borna Ćorić izgubio od 142. igrača svijeta i ispao s Challenger turnira</h3>
+                    <span class="summary">BORNA &#x106;ORI&#x106; izgubio je u &#x10D;etvrtfinalu ATP Challenger turnira u Lyonu.</span>
+                    <div class="publish-date">14.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-2');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-2'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-2').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-2');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/bio-je-najbolji-igrac-spa-u-nogometu-porazom-je-zapoceo-karijeru-u-tenisu/2615423.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Bio je najbolji igra&#x10D; SP-a u nogometu. Porazom je zapo&#x10D;eo karijeru u tenisu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/224fff24-b710-42f4-8660-d7550f0a8051.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Bio je najbolji igrač SP-a u nogometu. Porazom je započeo karijeru u tenisu</h3>
+                    <span class="summary">FORLAN i Coria pora&#x17E;eni su u 1. kolu challengera u Montevideu.</span>
+                    <div class="publish-date">14.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/borna-coric-pobjedom-prosao-u-cetvrtfinale-challenger-turnira-u-lyonu/2615341.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Borna &#x106;ori&#x107; pobjedom pro&#x161;ao u &#x10D;etvrtfinale Challenger turnira u Lyonu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/e67e1c43-3b98-4f7a-a27f-9e9f723c8fb4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Borna Ćorić pobjedom prošao u četvrtfinale Challenger turnira u Lyonu</h3>
+                    <span class="summary">BORNA &#x106;ORI&#x106; pobijedio je Milo&#x161;a Karola sa 7:6(3), 6:4 na Challenger turniru u Lyonu.</span>
+                    <div class="publish-date">13.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/alcaraz-pobijedio-rubljova-i-ostao-u-igri-za-polufinale-atp-finala/2615297.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Alcaraz pobijedio Rubljova i ostao u igri za polufinale ATP Finala" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/cdf3f4df-dc72-43b9-b6ab-156e0edfcf31.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Alcaraz pobijedio Rubljova i ostao u igri za polufinale ATP Finala</h3>
+                    <span class="summary">CARLOS ALCARAZ pobijedio je Andreja Rubljova 6:3, 7:6 na ATP Finalu u Torinu.</span>
+                    <div class="publish-date">13.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sinner-rutinski-stigao-do-jos-jedne-pobjede-na-zavrsnom-mastersu/2615070.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Sinner rutinski stigao do jo&#x161; jedne pobjede na zavr&#x161;nom Mastersu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/51da5b08-24b3-4b1f-91c4-f3ee79ba9bae.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Sinner rutinski stigao do još jedne pobjede na završnom Mastersu</h3>
+                    <span class="summary">POBJEDA u dva seta Jannika Sinnera.</span>
+                    <div class="publish-date">12.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mektic-i-koolhof-stigli-do-prve-pobjede-na-atp-finalu-borit-ce-se-za-polufinale/2615051.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Mekti&#x107; i Koolhof stigli do prve pobjede na ATP Finalu. Borit &#x107;e se za polufinale" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d32dc6aa-1c79-48c1-8bef-7bdee0b76946.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Mektić i Koolhof stigli do prve pobjede na ATP Finalu. Borit će se za polufinale</h3>
+                    <span class="summary">HRVATSKI tenisa&#x10D; Nikola Mekti&#x107; i Nizozemac Wesley Koolhof svladali su &#x160;panjolca Marcela Granollersa i Argentinca Horacija Zeballosa.</span>
+                    <div class="publish-date">12.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/medvjedev-ne-uzivam-u-tenisu-i-vise-nemam-nikakvu-zelju-za-njim/2614831.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Medvjedev: Ne u&#x17E;ivam u tenisu i vi&#x161;e nemam nikakvu &#x17E;elju za njim" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/bf02514d-c0c0-4039-bf5d-9a9ccf145576.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Medvjedev: Ne uživam u tenisu i više nemam nikakvu želju za njim</h3>
+                    <span class="summary">RUSKI tenisa&#x10D; ove sezone bilje&#x17E;i slabije rezultate, a &#x10D;ini se kako su razlozi prvenstveno psiholo&#x161;ki.</span>
+                    <div class="publish-date">12.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                    
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-3');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-3'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-3').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-3');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/alcaraz-izgubio-od-ruuda-u-1-kolu-atp-finala/2614674.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Alcaraz izgubio od Ruuda u 1. kolu ATP Finala" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/60fba320-f572-4774-adf3-62d0bedf6509.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Alcaraz izgubio od Ruuda u 1. kolu ATP Finala</h3>
+                    <span class="summary">NORVE&#x160;KI tenisa&#x10D; Casper Ruud u petom je poku&#x161;aju uspio do&#x107;i do prve pobjede nad &#x160;panjolcem Carlosom Alcarazom.</span>
+                    <div class="publish-date">11.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/tv-komentator-ismijavao-izgled-tenisacice-suspendiran-je/2614584.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="TV komentator ismijavao izgled tenisa&#x10D;ice. Suspendiran je" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/eb0f4745-73ef-4c7e-b5f0-7673112a3826.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">TV komentator ismijavao izgled tenisačice. Suspendiran je</h3>
+                    <span class="summary">ISPRI&#x10C;AO se zbog neprofesionalnosti, a slu&#x10D;aj je komentirala i igra&#x10D;ica.</span>
+                    <div class="publish-date">11.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/djokovic-vise-nije-medju-pet-najboljih-igraca-svijeta/2614520.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x110;okovi&#x107; vi&#x161;e nije me&#x111;u pet najboljih igra&#x10D;a svijeta" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/04fe8936-048f-4a98-86bc-57d2659cbcbf.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Đoković više nije među pet najboljih igrača svijeta</h3>
+                    <span class="summary">SRPSKI tenisa&#x10D; pao je na ATP listi.</span>
+                    <div class="publish-date">11.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dodig-i-mansouri-propustili-mecloptu-za-naslov-u-beogradu/2614155.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dodig i Mansouri propustili me&#x10D;-loptu za naslov u Beogradu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/be528a61-ac6d-46c1-9a04-f438fa075698.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dodig i Mansouri propustili meč-loptu za naslov u Beogradu</h3>
+                    <span class="summary">HRVATSKI tenisa&#x10D; je pora&#x17E;en.</span>
+                    <div class="publish-date">9.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/objavljena-fotka-16godisnjeg-djokovica-snimljena-u-vinkovcima-prepoznajete-li-ga/2614011.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Objavljena fotka 16-godi&#x161;njeg &#x110;okovi&#x107;a snimljena u Vinkovcima. Prepoznajete li ga?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d14773b6-cfe1-44f8-95ad-faf72cdef4b9.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Objavljena fotka 16-godišnjeg Đokovića snimljena u Vinkovcima. Prepoznajete li ga?</h3>
+                    <span class="summary">POJAVILA se na dru&#x161;tvenim mre&#x17E;ama.</span>
+                    <div class="publish-date">8.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/finale-beograda-igrat-ce-sapovalov-i-medjedovic/2614009.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Finale Beograda igrat &#x107;e &#x160;apovalov i Me&#x111;edovi&#x107;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/7ff018e5-be4e-41c3-b52e-38dbdc7920d4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Finale Beograda igrat će Šapovalov i Međedović</h3>
+                    <span class="summary">PRO&#x160;LI su svoja polufinala.</span>
+                    <div class="publish-date">8.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>
+                            <div class="read-more-news display-none">
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/qinwen-zheng-je-prva-finalistica-zavrsnog-turnira/2613994.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Qinwen Zheng je prva finalistica Zavr&#x161;nog turnira" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/d737cefe-cfa2-418c-817c-413b8ff49ff0.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Qinwen Zheng je prva finalistica Završnog turnira</h3>
+                    <span class="summary">ZA NASLOV &#x107;e u subotu igrati protiv bolje iz ogleda prve igra&#x10D;ice svijeta Arine Sabalenke i Amerikanke Coco Gauff.</span>
+                    <div class="publish-date">8.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/dodig-i-mansouri-uvjerljivo-izborili-finale-beograda/2613910.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Dodig i Mansouri uvjerljivo izborili finale Beograda" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/aef612cc-335f-4802-be80-829c8d36548f.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Dodig i Mansouri uvjerljivo izborili finale Beograda</h3>
+                    <span class="summary">DODIG lovi novu titulu.</span>
+                    <div class="publish-date">8.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-djokovic-dobio-kip-u-srbiji-prepoznajete-li-ga/2613704.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO &#x110;okovi&#x107; dobio kip u Srbiji. Prepoznajete li ga?" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8e48f5d2-29a5-4947-aba5-0e0dc5853773.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Đoković dobio kip u Srbiji. Prepoznajete li ga?</h3>
+                    <span class="summary">KIP JE NAPRAVIO kipar iz Kikinde.</span>
+                    <div class="publish-date">7.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/krejcikova-osvojila-narancastu-skupinu-na-zavrsnom-turniru/2613695.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Krej&#x10D;ikova osvojila Naran&#x10D;astu skupinu na Zavr&#x161;nom turniru" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/11cdbd0f-db3f-4d92-b957-9cc83d8ec4ed.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Krejčikova osvojila Narančastu skupinu na Završnom turniru</h3>
+                    <span class="summary">SAZNALA je i s kim &#x107;e igrati u polufinalu.</span>
+                    <div class="publish-date">7.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/swiatek-lako-pobijedila-kasatkinu-ali-jos-nije-osigurala-polufinale-zavrsnog-turnira/2613636.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Swiatek lako pobijedila Kasatkinu, ali jo&#x161; nije osigurala polufinale Zavr&#x161;nog turnira" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/a5e54d5b-b652-4ddf-9c2b-0f42f8a456f2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Swiatek lako pobijedila Kasatkinu, ali još nije osigurala polufinale Završnog turnira</h3>
+                    <span class="summary">MORA JO&#x160; pri&#x10D;ekati.</span>
+                    <div class="publish-date">7.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/duje-ajdukovic-ispao-u-drugom-kolu-turnira-u-beogradu/2613384.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Duje Ajdukovi&#x107; ispao u drugom kolu turnira u Beogradu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/9d582a2a-2227-40ca-a085-603747244d89.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Duje Ajduković ispao u drugom kolu turnira u Beogradu</h3>
+                    <span class="summary">OPROSTIO se od natjecanja.</span>
+                    <div class="publish-date">6.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-5');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-5'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-5').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-5');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/cilic-ispao-s-turnira-u-beogradu/2612984.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x10C;ili&#x107; ispao s turnira u Beogradu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/7e394cd7-9754-48da-92f0-6c6415d44866.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Čilić ispao s turnira u Beogradu</h3>
+                    <span class="summary">&#x10C;E&#x160;KI tenisa&#x10D; Jiri Lehe&#x10D;ka izbacio je Marina &#x10C;ili&#x107;a s ATP 250 turnira u Beogradu.</span>
+                    <div class="publish-date">5.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/djokovic-odustao-od-atp-zavrsnice-ispricavam-se-svima/2612865.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x110;okovi&#x107; odustao od ATP zavr&#x161;nice: Ispri&#x10D;avam se svima" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2d1efbf6-0bfc-4bc7-a423-323186566bb3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Đoković odustao od ATP završnice: Ispričavam se svima</h3>
+                    <span class="summary">MORAO je odustati.</span>
+                    <div class="publish-date">5.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/ivanisevic-o-novom-poslu-fuckas-trenera-koji-nije-uspio-na-oba-toura/2612788.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Ivani&#x161;evi&#x107; o novom poslu: Fu&#x107;ka&#x161; trenera koji nije uspio na oba Toura" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/8fc4bc7d-cdbf-4546-9fef-00441a891bc4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Ivanišević o novom poslu: Fućkaš trenera koji nije uspio na oba Toura</h3>
+                    <span class="summary">GORAN IVANI&#x160;EVI&#x106; je odnedavno trener kazahstanske tenisa&#x10D;ice Elene Ribakine.</span>
+                    <div class="publish-date">5.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/cilic-pobijedio-u-1-kolu-atp-turnira-u-beogradu/2612532.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x10C;ili&#x107; pobijedio u 1. kolu ATP turnira u Beogradu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/83e90d70-690e-4053-9e63-5a9f2c9c203a.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Čilić pobijedio u 1. kolu ATP turnira u Beogradu</h3>
+                    <span class="summary">SLAVIO je u dva seta.</span>
+                    <div class="publish-date">4.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/zverev-osvojio-masters-u-parizu/2612348.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Zverev osvojio Masters u Parizu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/f0e051fb-55cf-49f7-8a5f-c752f4894fca.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Zverev osvojio Masters u Parizu</h3>
+                    <span class="summary">POBIJEDIO je u finalu francuskog tenisa&#x10D;a Uga Humberta.</span>
+                    <div class="publish-date">3.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/duje-ajdukovic-nije-izborio-glavni-dio-turnira-u-beogradu/2612317.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Duje Ajdukovi&#x107; nije izborio glavni dio turnira u Beogradu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/df6a2cdd-702f-4de7-9145-bf82dfc65d6d.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Duje Ajduković nije izborio glavni dio turnira u Beogradu</h3>
+                    <span class="summary">HRVATSKI tenisa&#x10D; Duje Ajdukovi&#x107; izgubio je od Ma&#x111;ara Martona Fucsovicsa u kvalifikacijama za beogradski turnir.</span>
+                    <div class="publish-date">3.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-6');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-6'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-6').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-6');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mektic-i-koolhof-osvojili-masters-u-parizu/2612297.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Mekti&#x107; i Koolhof osvojili Masters u Parizu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/927c0bef-33c4-412e-9c58-473b03122070.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Mektić i Koolhof osvojili Masters u Parizu</h3>
+                    <span class="summary">HRVATSKI tenisa&#x10D; Nikola Mekti&#x107; s&#xA0;Nizozemcem Wesleyjem Koolhofom pobijedio je &#xA0;britansko-&#x10D;e&#x161;ku&#xA0;kombinaciju za osvajanje pari&#x161;kog turnira.</span>
+                    <div class="publish-date">3.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/tenisacica-srpskohrvatskih-korijena-osvojila-drugu-titulu-u-karijeri/2612294.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Tenisa&#x10D;ica srpsko-hrvatskih korijena osvojila drugu titulu u karijeri" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/228baf96-ef64-4b29-a59a-c200e05f8908.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Tenisačica srpsko-hrvatskih korijena osvojila drugu titulu u karijeri</h3>
+                    <span class="summary">SLIJEDI joj veliki uzlet na ljestvici.</span>
+                    <div class="publish-date">3.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/prizmic-ostao-bez-finala-u-bratislavi/2612208.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pri&#x17E;mi&#x107; ostao bez finala u Bratislavi" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/022d9008-ef08-418f-b806-0a4d3171b1b3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Prižmić ostao bez finala u Bratislavi</h3>
+                    <span class="summary">DINO PRI&#x17D;MI&#x106; ispao je u polufinalu Challengera u Bratislavi.</span>
+                    <div class="publish-date">2.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sabaljenka-dosla-na-dvije-pobjede-od-toga-da-sezonu-zavrsio-kao-svjetski-broj-1/2612156.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Sabaljenka do&#x161;la na dvije pobjede od toga da sezonu zavr&#x161;io kao svjetski broj 1" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5ab1ffc3-951f-4327-8035-f098d7f68fb3.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Sabaljenka došla na dvije pobjede od toga da sezonu završio kao svjetski broj 1</h3>
+                    <span class="summary">MALO JOJ nedostaje da osvoji vrh.</span>
+                    <div class="publish-date">2.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/sjajni-mektic-i-koolhof-u-finalu-mastersa-u-parizu/2612111.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Sjajni Mekti&#x107; i Koolhof u finalu Mastersa u Parizu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ad979704-2099-4e47-94fa-e9a21ad3fcfe.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Sjajni Mektić i Koolhof u finalu Mastersa u Parizu</h3>
+                    <span class="summary">VELIKI uspjeh na&#x161;eg zlatnog olimpijca.</span>
+                    <div class="publish-date">2.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/video-dino-prizmic-zapoceo-mec-u-bijelim-tenisicama-na-kraju-je-nosio-jednu-crnu/2612074.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="VIDEO Dino Pri&#x17E;mi&#x107; zapo&#x10D;eo me&#x10D; u bijelim tenisicama. Na kraju je nosio jednu crnu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/5a1e6fe5-0ec0-41a3-9bd4-b94a4d3b6982.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title"><span class='title-parsed-text'>VIDEO</span>  Dino Prižmić započeo meč u bijelim tenisicama. Na kraju je nosio jednu crnu</h3>
+                    <span class="summary">POGLEDAJTE &#x161;to se doga&#x111;alo u &#x10D;etvrtfinalnom me&#x10D;u Challenger turnira u Bratislavi.</span>
+                    <div class="publish-date">2.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-7');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-7'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-7').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-7');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/procurile-poruke-zatvorskih-cuvara-o-borisu-beckeru-nocas-ce-vidjeti-nove-loptice/2612005.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Procurile poruke zatvorskih &#x10D;uvara o Borisu Beckeru. &quot;No&#x107;as &#x107;e vidjeti nove loptice&quot;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/20a30f2a-df21-4e05-9b38-c14e39a19c60.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Procurile poruke zatvorskih čuvara o Borisu Beckeru. "Noćas će vidjeti nove loptice"</h3>
+                    <span class="summary">THE TIMES je objavio poruke zatvorskih &#x10D;uvara u Wandsworthu, gdje je kratko bio smje&#x161;ten legendarni njema&#x10D;ki tenisa&#x10D; Boris Becker.</span>
+                    <div class="publish-date">2.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/prizmic-pobijedio-novog-igraca-iz-top-100-i-plasirao-se-u-polufinale/2611997.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pri&#x17E;mi&#x107; pobijedio novog igra&#x10D;a iz Top 100 i plasirao se u polufinale" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/0fa3f942-7f90-48c2-b655-bb2858b55aaf.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Prižmić pobijedio novog igrača iz Top 100 i plasirao se u polufinale</h3>
+                    <span class="summary">POBJEDA mladog tenisa&#x10D;a.</span>
+                    <div class="publish-date">1.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/nikola-mektic-i-wesley-koolhof-prosli-u-polufinale-mastersa/2611952.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Nikola Mekti&#x107; i Wesley Koolhof pro&#x161;li u polufinale Mastersa" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/1dfa60c7-27db-4c15-88ba-8738f46748ed.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Nikola Mektić i Wesley Koolhof prošli u polufinale Mastersa</h3>
+                    <span class="summary">NA KORAK su do finala uglednog turnira.</span>
+                    <div class="publish-date">1.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/peta-igracica-svijeta-potvrdila-ivanisevica-za-trenera-htjela-sam-raditi-s-njim/2611924.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Peta igra&#x10D;ica svijeta potvrdila Ivani&#x161;evi&#x107;a za trenera: Htjela sam raditi s njim" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/730c0099-5092-4458-94fb-7b77a14436d2.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Peta igračica svijeta potvrdila Ivaniševića za trenera: Htjela sam raditi s njim</h3>
+                    <span class="summary">KAZAHSTANKA Elena Ribakina odr&#x17E;ala je konferenciju za medije na kojoj je potvrdila da &#x107;e joj Goran Ivani&#x161;evi&#x107; biti trener.</span>
+                    <div class="publish-date">1.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/goran-ivanisevic-trenirat-ce-jednu-od-najboljih-tenisacica-svijeta/2611916.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Goran Ivani&#x161;evi&#x107; trenirat &#x107;e jednu od najboljih tenisa&#x10D;ica svijeta" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/44f2a908-0174-49c3-8c39-b7b5936512b4.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Goran Ivanišević trenirat će jednu od najboljih tenisačica svijeta</h3>
+                    <span class="summary">SLAVNI hrvatski tenisa&#x10D;, a danas trener Goran Ivani&#x161;evi&#x107; ima novi posao.</span>
+                    <div class="publish-date">1.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/kyrgios-ludi-ste-ako-mislite-da-su-stari-egipcani-izgradili-piramide/2611915.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Kyrgios: Ludi ste ako mislite da su stari Egip&#x107;ani izgradili piramide" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/30242419-7fe8-44bd-9e9a-57e698a2d3b8.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Kyrgios: Ludi ste ako mislite da su stari Egipćani izgradili piramide</h3>
+                    <span class="summary">NICK KYRGIOS je od pro&#x161;le godine odigrao samo jedan me&#x10D;.</span>
+                    <div class="publish-date">1.11.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                                        
+
+
+<div class="js-slot-container" data-css-class="ad-container dfp-container">
+    <div class="flex no-margin double">
+        <!-- /21703950087/DSSF_L -->
+        <div id='DSSF_L-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_L = googletag.defineSlot('/21703950087/DSSF_L_Sport', [[300, 250], [1, 1]], 'DSSF_L-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_L-8');
+            });
+        </script>
+
+        <!-- /21703950087/DSSF_R -->
+        <div id='DSSF_R-8'></div>
+        <script>
+            googletag.cmd.push(function () {
+                var DSSF_R = googletag.defineSlot('/21703950087/DSSF_R_Sport', [[300, 250], [1, 1]], 'DSSF_R-8').addService(googletag.pubads());
+
+                googletag.display('DSSF_R-8');
+            });
+        </script>
+    </div>
+</div>
+
+
+<div class="grid-items-list">
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/prizmic-nakon-pobjede-protiv-trostrukog-osvajaca-grand-slama-bio-je-ludo-dobar-igrac/2611866.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Pri&#x17E;mi&#x107; nakon pobjede protiv trostrukog osvaja&#x10D;a Grand Slama: Bio je ludo dobar igra&#x10D;" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/2c78e9fa-fc24-48df-815b-ac3a9378a1da.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Prižmić nakon pobjede protiv trostrukog osvajača Grand Slama: Bio je ludo dobar igrač</h3>
+                    <span class="summary">HRVATSKI tenisa&#x10D; Dino Pri&#x17E;mi&#x107; dao je izjavu nakon &#x161;to je pobijedio Stana Wawrinku u osmini finala Challenger turnira u Bratislavi.</span>
+                    <div class="publish-date">1.11.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/mektic-i-koolhof-bez-borbe-prosli-u-cetvrtfinale-mastersa-u-parizu/2611785.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Mekti&#x107; i Koolhof bez borbe pro&#x161;li u &#x10D;etvrtfinale Mastersa u Parizu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/ff81c0c6-c574-4101-8a36-413b01a7b2ef.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Mektić i Koolhof bez borbe prošli u četvrtfinale Mastersa u Parizu</h3>
+                    <span class="summary">PONOVO su me&#x111;u osam najboljih.</span>
+                    <div class="publish-date">31.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/alex-de-minaur-je-na-korak-do-prvog-nastupa-na-atp-finalu/2611777.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Alex De Minaur je na korak do prvog nastupa na ATP Finalu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/93c627ea-a2ae-49cf-9681-723538826966.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Alex De Minaur je na korak do prvog nastupa na ATP Finalu</h3>
+                    <span class="summary">MALO MU je jo&#x161; ostalo.</span>
+                    <div class="publish-date">31.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/cilic-ispao-u-prvom-kolu-pariza/2611036.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x10C;ili&#x107; ispao u prvom kolu Pariza" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/b7e100ff-2c00-4e8e-8ce0-de0943024449.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Čilić ispao u prvom kolu Pariza</h3>
+                    <span class="summary">NIJE i&#x161;lo.</span>
+                    <div class="publish-date">29.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/cilic-i-dodig-pobjedom-otvorili-turnir-parova-u-parizu/2610781.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="&#x10C;ili&#x107; i Dodig pobjedom otvorili turnir parova u Parizu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/c2e9df8c-6736-404c-8cc3-033446065054.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Čilić i Dodig pobjedom otvorili turnir parova u Parizu</h3>
+                    <span class="summary">HRVATSKI tenisa&#x10D;i Marin &#x10C;ili&#x107; i Ivan Dodig pobijedili su argentinske igra&#x10D;e Maxima Gonzaleza i Andresa Moltenija 7:5, 6:4.</span>
+                    <div class="publish-date">28.10.2024.</div>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item ">
+            <a class="sport-text-hover scale-img-hover" href="/sport/clanak/poraz-petre-martic-nakon-vodstva-51-u-odlucujucem-setu/2610688.aspx">
+                <div class="img-holder">
+                    <img class="img-responsive" alt="Poraz Petre Marti&#x107; nakon vodstva 5:1 u odlu&#x10D;uju&#x107;em setu" loading="lazy" src="https://ip.index.hr/remote/bucket.index.hr/b/index/15d9708b-8015-46c4-9b52-99b4638a8982.jpg?width=250&height=134&mode=crop&anchor=topcenter&scale=both" />
+                </div>
+                <div class="content">
+                    <h3 class="title">Poraz Petre Martić nakon vodstva 5:1 u odlučujućem setu</h3>
+                    <span class="summary">RANI KRAJ za hrvatsku tenisa&#x10D;icu u Jiujiangu.</span>
+                    <div class="publish-date">28.10.2024.</div>
+                </div>
+            </a>
+        </div>
+</div>                            </div>
+
+                            <div class="btn-read-more" data-offset="0">
+                                <div class="read-more-text">PRIKAŽI JOŠ VIJESTI<i class="index-arrow-down sport-text"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part">
+                
+
+
+<!-- /21703950087/Box1 -->
+<div id='Box1' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box1_sport_hr', sizes, 'Box1').addService(googletag.pubads());
+
+            googletag.display('Box1');
+        });
+    </script>
+</div>
+
+
+                <div class="category-timeline-holder timeline-holder">
+                    <div class="header clearfix">
+                        <h2>Sport</h2>
+                        <div class="periods btn-group">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                danas <i class="index-arrow-down sport-text"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                    <li class="sport-bg-hover" data-value="today">Danas</li>
+                                    <li class="sport-bg-hover" data-value="yesterday">Ju&#x10D;er</li>
+                                    <li class="sport-bg-hover" data-value="week">Zadnjih 7 dana</li>
+                                    <li class="sport-bg-hover" data-value="month">Zadnjih 30 dana</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="most-read-holder">
+                        
+
+    <div class="timeline-content most-read">
+        <ul>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">1</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/bjelica-ga-je-izbacio-iz-momcadi-sada-se-oglasio-prvi-put-nakon-incidenta/2620746.aspx?index_ref=_sport_najcitanije_d">
+                            Bjelica ga je izbacio iz momčadi. Sada se oglasio prvi put nakon incidenta
+                        </a>
+                        <div class="line" style="width: 90%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">2</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/navijac-bernaueru-znas-koliko-mrzimo-hajduk-branic-dinama-odgovorio-znam/2620809.aspx?index_ref=_sport_najcitanije_d">
+                            Navijač Bernaueru: Znaš koliko mrzimo Hajduk? Branič Dinama odgovorio: Znam
+                        </a>
+                        <div class="line" style="width: 81%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">3</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/skaut-se-divi-hajdukovom-dragulju-ima-sut-kao-shaqiri-ali-je-bolji-igrac-od-njega/2620879.aspx?index_ref=_sport_najcitanije_d">
+                            Skaut se divi Hajdukovom dragulju: Ima šut kao Shaqiri, ali je bolji igrač od njega
+                        </a>
+                        <div class="line" style="width: 72%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">4</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ludnica-za-baturinom-sport-barcelona-ga-prati-mjesecima/2620772.aspx?index_ref=_sport_najcitanije_d">
+                            Ludnica za Baturinom. Sport: Barcelona ga prati mjesecima
+                        </a>
+                        <div class="line" style="width: 63%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center sport-text">
+                        <span class="num">5</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/nogomet-sam-poceo-igrati-u-progonstvu-uz-modrica-sam-bio-u-najboljem-kadru-u-hnlu/2620281.aspx?index_ref=_sport_najcitanije_d">
+                            "Nogomet sam počeo igrati u progonstvu. Uz Modrića sam bio u najboljem kadru u HNL-u"
+                        </a>
+                        <div class="line" style="width: 54%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">6</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/ivanisevicev-rival-o-igi-swiatek-dozivotna-suspenzija-bez-obzira-tko-ste/2620881.aspx?index_ref=_sport_najcitanije_d">
+                            Ivaniševićev rival o Igi Swiatek: Doživotna suspenzija. Bez obzira tko ste
+                        </a>
+                        <div class="line" style="width: 45%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">7</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/premierligaski-kapetan-odbio-nositi-traku-duginih-boja-klub-dao-objasnjenje/2620802.aspx?index_ref=_sport_najcitanije_d">
+                            Premierligaški kapetan odbio nositi traku duginih boja. Klub dao objašnjenje
+                        </a>
+                        <div class="line" style="width: 36%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">8</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/napisao-je-da-voli-isusa-preko-duginih-boja-savez-ga-opomenuo-da-je-to-zabranjeno/2620894.aspx?index_ref=_sport_najcitanije_d">
+                            Napisao je da voli Isusa preko duginih boja. Savez ga opomenuo da je to zabranjeno
+                        </a>
+                        <div class="line" style="width: 27%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">9</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/trebao-je-u-dinamo-sad-iz-zvezde-porucuje-smetale-su-nam-dinamove-pobjede-u-lpu/2620903.aspx?index_ref=_sport_najcitanije_d">
+                            Trebao je u Dinamo. Sad iz Zvezde poručuje: Smetale su nam Dinamove pobjede u LP-u
+                        </a>
+                        <div class="line" style="width: 18%;"></div>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="side-content text-center disabled-text">
+                        <span class="num">10</span>
+                    </div>
+                    <div class="title-box">
+                        <a class="sport-text-hover" href="/sport/clanak/video-trcali-smo-s-poznatim-trenerom-edom-po-magli-otkrio-nam-je-trikove-za-trening/2617705.aspx?index_ref=_sport_najcitanije_d">
+                            <span class='title-parsed-text'>VIDEO</span>  Trčali smo s poznatim trenerom Edom po magli. Otkrio nam je trikove za trening 
+                        </a>
+                        <div class="line" style="width: 9%;"></div>
+                    </div>
+                </li>
+        </ul>
+        <a class="more-news" href="/najcitanije?kategorija=150&amp;timerange=today">Prikaži još vijesti</a>
+    </div>
+
+                    </div>
+                </div>
+                <div class="separator-55"></div>
+                
+
+
+<!-- /21703950087/Box2 -->
+<div id='Box2' class="js-slot-container" data-css-class="google-box bottom-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            var sizes = [[300, 250], [300, 600], [160, 600], [300, 200], [1, 1]];
+
+            if ('False' == 'True') {
+                sizes = [[300, 170], [250, 250], [200, 200], [160, 600], [300, 250], [300, 100], [300, 600], [300, 50], [1, 1], 'fluid'];
+            }
+
+            googletag.defineSlot('/21703950087/Box2_sport_hr', sizes, 'Box2').addService(googletag.pubads());
+
+            googletag.display('Box2');
+        });
+    </script>
+</div>
+
+                <div class="separator-50"></div>
+                <div class="sticky">
+                    
+
+
+<!-- /21703950087/DSF_sticky -->
+<div id='DSF_sticky' class="js-slot-container" data-css-class="google-box">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF_sticky_sport', [[300, 600], [300, 250], [1, 1]], 'DSF_sticky').addService(googletag.pubads());
+
+            googletag.display('DSF_sticky');
+        });
+    </script>
+</div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+<!-- /21703950087/DSF5 -->
+<div id='DSF5' class="js-slot-container" data-css-class="google-box top-margin-50">
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21703950087/DSF5_Sport', [[970, 90], [970, 250], [970, 500], [728, 90], [800, 250], [1, 1]], 'DSF5').addService(googletag.pubads());
+
+            googletag.display('DSF5');
+        });
+    </script>
+</div>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="popup-overlay-container js-login-popup display-none">
+    <div class="popup-holder comments-login-popup-holder">
+        <div class="btn-close-popup" close-popup>
+            <i class="index-close"></i>
+        </div>
+
+        <div class="main-title">
+            Prijavite se
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">
+                Brza prijava
+            </div>
+            <div class="section-desc">
+                (traje par sekundi)
+            </div>
+            <div class="login-social-holder flex">
+                <a class="social-btn fb flex" onclick="accountService.Login('/profil/prijava?auth_action=login-facebook&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Ftenis%2F1640.aspx')">
+                    <img src="/Content/img/login/fb.svg" /> Facebook
+                </a>
+                <a class="social-btn google flex" onclick="accountService.Login('/profil/prijava?auth_action=login-google&amp;redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Ftenis%2F1640.aspx')">
+                    <img src="/Content/img/login/google.svg" /> Google
+                </a>
+            </div>
+        </div>
+
+        <div class="login-section">
+            <div class="section-label">Prijava emailom</div>
+            <form class="login-form" action="/profil/prijava?redirectUrl=https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Ftenis%2F1640.aspx" method="post" onsubmit="accountService.OnLoginFormSubmit()">
+
+                <div class="input-holder">
+                    <i class="index-mail3"></i>
+                    <input type="email" class="input-field" required name="login_hint" placeholder="Unesite email" value="" />
+                </div>
+                <div class="description">Ako već niste registirani, poslat ćemo vam email s linkom za nastavak registracije.</div>
+                <button class="login-btn" type="submit">Prijavite se</button>
+            </form>
+        </div>
+
+        <div class="disclaimer-holder">
+            Kreiranjem i prijavom na račun slažete se s našim <br>
+            <a href="https://www.index.hr/uvjeti-koristenja">Uvjetima korištenja</a> i <a href="https://www.index.hr/uvjeti-koristenja#pravila-o-zastiti-privatnosti">Pravilima o privatnosti</a>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <footer class="main-footer main-container main-content-bg clearfix">
+    <a class="logo" href="/"><img class="logo-img" src="/Content/img/logo/logo_footer_196x29.svg" /></a>
+    <nav class="list-holder flex">
+        <ul>
+            <li class="heading">
+                <a class="vijesti-text-hover" href="/vijesti">
+                    Vijesti
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/hrvatska/22.aspx">
+                    Hrvatska
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/zagreb/1553.aspx">
+                    Zagreb
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/regija/1540.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/eu/5040.aspx">
+                    EU
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/svijet/23.aspx">
+                    Svijet
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/znanost/1722.aspx">
+                    Znanost
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/crna-kronika/46.aspx">
+                    Crna kronika
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/komentari/1413.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/vijesti/rubrika/novac/1554.aspx">
+                    Novac
+                </a>
+            </li>
+            <li>
+                <a class="vijesti-text-hover" href="/afere">
+                    Afere
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="sport-text-hover" href="/sport">
+                    Sport
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/nogomet/1638.aspx">
+                    Nogomet
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/transferi/1650.aspx">
+                    Transferi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/kosarka/1639.aspx">
+                    Košarka
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/tenis/1640.aspx">
+                    Tenis
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/regija/1692.aspx">
+                    Regija
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/komentari/1738.aspx">
+                    Komentari
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/borilacki-sportovi/1662.aspx">
+                    Borilački sportovi
+                </a>
+            </li>
+            <li>
+                <a class="sport-text-hover" href="/sport/rubrika/ostali-sportovi/1641.aspx">
+                    Ostali sportovi
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                <a class="magazin-text-hover" href="/magazin">
+                    Magazin
+                </a>
+            </li>
+            <li>
+                <a class="shopping-text-hover" href="/shopping">
+                    Shopping
+                </a>
+            </li>
+            <li>
+                <a class="ljubimci-text-hover" href="/ljubimci">
+                    Ljubimci
+                </a>
+            </li>
+
+            <li>
+                <a class="food-text-hover" href="/food">
+                    Food
+                </a>
+            </li>
+            <li>
+                <a class="mame-text-hover" href="/mame">
+                    Mame
+                </a>
+            </li>
+            <li>
+                <a class="auto-text-hover" href="/auto">
+                    Auto
+                </a>
+            </li>
+            <li>
+                <a class="fit-text-hover" href="/fit">
+                    Fit
+                </a>
+            </li>
+            <li>
+                <a class="chill-text-hover" href="/chill">
+                    Chill
+                </a>
+            </li>
+            <li>
+                <a class="horoskop-text-hover" href="/horoskop">
+                    Horoskop
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Plus
+            </li>
+            <li><a class="oglasi-text-hover" href="https://www.index.hr/oglasi/">Oglasi</a></li>
+            <li><a class="recepti-text-hover" href="https://recepti.index.hr/">Recepti</a></li>
+            <li><a class="lajkhr-text-hover" href="http://www.index.hr/lajk/">Lajk.hr</a></li>
+            <li><a class="odgovori-text-hover" href="https://odgovori.index.hr/">Odgovori</a></li>
+            <li>
+                <a class="kalendar-text-hover" href="/kalendar">
+                    Kalendar
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                Info
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tecaj">
+                    Tečaj
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/tv">
+                    TV program
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/kino">
+                    Kino
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/info/vrijeme">
+                    Vrijeme
+                </a>
+            </li>
+            <li>
+                <a class="main-text-hover" href="/rss/info">
+                    RSS
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="heading">
+                PRATITE NAS
+            </li>
+            <li>
+                <a href="https://www.facebook.com/index.hr/" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="facebook index-facebook"></i>Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCUp6H4ko32XqnV_6MOPunBA" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="youtube index-youtube"></i>Youtube</a>
+            </li>
+            <li>
+                <a href="https://instagram.com/index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="instagram index-instagram"></i>Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@index.hr" target="_blank" class="main-text-hover flex flex-align-items-center"><i class="tiktok index-tiktok"></i>TikTok</a>
+            </li>
+            <li><a href="/posaljite-pricu" class="main-text-hover">Pošaljite nam vijest </a></li>
+            <li><a href="/newsletter" class="main-text-hover">Newsletter</a></li>
+        </ul>
+    </nav>
+    <ul class="impressum">
+        <li><a href="https://cjenik.index.hr">Oglašavanje</a></li>
+        <li><a href="https://jobs.index.hr/">Zaposli se na Indexu</a></li>
+        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/impressum">Impressum</a></li>
+        <li><a href="/uvjeti-koristenja">Uvjeti korištenja</a></li>
+        <li>
+            <a href="javascript:Didomi.preferences.show()">
+                Postavke kolačića
+            </a>
+        </li>
+        <li>
+            © 2024 Index
+        </li>
+    </ul>
+</footer>
+
+    </footer>
+
+    
+
+
+<script>
+    //load the apstag.js library (amazon prebid)
+    !function (a9, a, p, s, t, A, g) { if (a[a9]) return; function q(c, r) { a[a9]._Q.push([c, r]) } a[a9] = { init: function () { q("i", arguments) }, fetchBids: function () { q("f", arguments) }, setDisplayBids: function () { }, targetingKeys: function () { return [] }, _Q: [] }; A = p.createElement(s); A.async = !0; A.src = t; g = p.getElementsByTagName(s)[0]; g.parentNode.insertBefore(A, g) }("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");
+
+    //initialize the apstag.js library on the page to allow bidding
+    apstag.init({
+        pubID: '03086deb-b728-420a-9fad-35ee317c06f6', //enter your pub ID here as shown above, it must within quotes
+        adServer: 'googletag'
+    });
+
+    var PREBID_TIMEOUT = 2000;
+
+    
+    var CONSENT_TIMEOUT = 1000;
+    var FAILSAFE_TIMEOUT = 4000;
+
+    var USER_PPID = accountService.GetUserPPID();
+
+    var requestManager = {
+        adserverRequestSent: false,
+        aps: false,
+        prebid: false
+    };
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+    var adUnits = adUnits || [];
+    var amazonAdSlots = amazonAdSlots || [];
+
+   
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    function initializeGoogletagRefreshWithPrebid() {
+        console.log("AD_INITIALISE_GPT_WITH_PREBID");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        if (cookieService.GetCookie("lcl_near_full") != null) {
+            console.log('localstorage full targeting')
+            googletag.pubads().setTargeting("localstorageFull", "yes");
+        }
+
+        //if PPID provided, set it
+        if (USER_PPID && didomiService.IsGoogleAllowed()) {
+            console.log('AD_PPID_SET', USER_PPID)
+            googletag.pubads().setTargeting("ppid_test", "yes");
+            googletag.pubads().setPublisherProvidedId(USER_PPID);
+
+        }
+        else {
+            googletag.pubads().setTargeting("ppid_test", "no");
+        }
+
+        //amazon prebid init
+        if (amazonAdSlots.length > 0) {
+            apstag.fetchBids({
+                slots: amazonAdSlots,
+                timeout: PREBID_TIMEOUT
+            }, function (bids) {
+                apstag.setDisplayBids();
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack(); // checks whether both APS and Prebid have returned
+            });
+        }
+        else {
+            requestManager.aps = true; // signals that APS request has completed
+            biddersBack(); // checks whether both APS and Prebid have returned
+        }
+
+        //amazon sometimes does process timeout well, so we will add a failsafe to mark it as done from our side, otherwise it will be too slow
+        setTimeout(function () {
+            if (!requestManager.aps) {
+                requestManager.aps = true; // signals that APS request has completed
+                biddersBack();
+            }
+        }, PREBID_TIMEOUT)
+
+       
+        pbjs.rp.requestBids({
+            callback: prebidCallback,
+            //gptSlotObjects: googletag.pubads().getSlots()
+        });
+    }
+
+    function initializeGoogletagWithLimitedAds() {
+        console.log("AD_INITIALISE_GPT_WITH_LIMITED_ADS");
+        //in case PBJS doesn't load
+        setTimeout(function () {
+            sendAdserverRequest();
+        }, FAILSAFE_TIMEOUT);
+
+        sendAdserverRequest();
+    }
+
+    // when both APS and Prebid have returned, initiate ad request
+    //this function will call function which sends ad request, only if amazon and prebid returned their requests
+    function biddersBack() {
+        if (requestManager.aps && requestManager.prebid) {
+            sendAdserverRequest();
+        }
+        return;
+    }
+
+    function prebidCallback() {
+        requestManager.prebid = true;
+        biddersBack();
+    }
+
+    //will send ad requests if not already sent, otherwise will do nothing
+    function sendAdserverRequest() {
+        if (requestManager.adserverRequestSent === true) {
+            return;
+        }
+
+        requestManager.adserverRequestSent = true;
+
+        var slots = googletag.pubads().getSlots();
+
+        if (slots.length > 0) {
+            googletag.enableServices();
+
+            var slotsToRefresh = [];
+
+            for (i = 0; i < slots.length; i++) {
+                var slot = slots[i];
+
+                var slotElementId = slot.getSlotElementId();
+                var element = document.getElementById(slotElementId);
+
+                var useLazyLoad = false;
+                var useMra = false;
+
+                if (element) {
+                    var useLazyLoadAttr = element.dataset.lazyLoad;
+                    var useMraAttr = element.dataset.useMra;
+
+                    if (useLazyLoadAttr && useLazyLoadAttr == 'True') {
+                        useLazyLoad = true;
+                    }
+
+                    if (useMraAttr && useMraAttr == 'true') {
+                        useMra = true;
+                    }
+                }
+
+                if (useLazyLoad) {
+                    observeAdElement(element, slot);
+                }
+                else if (useMra) {
+                    googletag.pubads().refresh([slot]);
+                }
+                else {
+                    slotsToRefresh.push(slot);
+                }
+            }
+
+            console.log("AD_PBJS_CALLBACK");
+
+            googletag.pubads().refresh(slotsToRefresh);
+
+            console.log("AD_REFRESHED");
+        }
+    }
+
+    function observeAdElement(element, slot) {
+        var observerOptions = {
+            root: null,
+            rootMargin: '300px',
+            threshold: 0
+        };
+
+        let impressionViewableObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    googletag.pubads().refresh([slot]);
+
+                    observer.unobserve(entry.target);
+                }
+            })
+        }, observerOptions);
+
+        impressionViewableObserver.observe(element);
+    }
+
+    // we must wait didomi to be ready, so we can pass consent
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) {
+        console.log("AD_DIDOMI_READY")
+        loadPrebid();
+
+    });
+
+    window.didomiEventListeners = window.didomiEventListeners || [];
+    window.didomiEventListeners.push({
+        event: 'consent.changed',
+        listener: function (context) {
+            // The user consent status has changed, so we wil send permutive PV
+            permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT);
+        }
+    });
+
+    // Function to load Rubicon Project script
+    function loadPrebid() {
+        var prebidScript = document.createElement('script');
+        prebidScript.async = true;
+        prebidScript.src = '//micro.rubiconproject.com/prebid/dynamic/26072.js';
+        prebidScript.onload = loadGPT; // Load GPT.js after Prebid script is loaded
+        document.head.appendChild(prebidScript);
+
+       
+    }
+
+    // Function to load GPT.js
+    function loadGPT() {
+        var gptScript = document.createElement('script');
+        gptScript.async = true;
+        gptScript.src = "https://pagead2.googlesyndication.com/tag/js/gpt.js";
+        gptScript.onload = init;
+        document.head.appendChild(gptScript);
+
+        console.log("AD_PREBID_LOADED")
+      
+    }
+
+    function init() {
+        console.log("AD_GPT_LOADED")
+        console.log("AD_STARTING_AD_TECH_STUFF")
+        permutiveService.TriggerAllIfAllowed(null, PREBID_TIMEOUT)
+            .then(initializeAdLayer)
+            .catch(error => {
+                console.error("AD_IN_PERMUTIVE_STACK");
+                console.warn("Continuing to load ad tech without permutive");
+
+                initializeAdLayer();
+            });
+    }
+
+    function initializeAdLayer() {
+        if (didomiService.IsGoogleAllowed() && Didomi.getUserStatus().purposes.consent.disabled.length == 0) {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: false
+                });
+            });
+
+            googletag.cmd.push(function () {
+                pbjs.que.push(function () {
+                    initializeGoogletagRefreshWithPrebid();
+                });
+            });
+        }
+        else {
+            googletag.cmd.push(function () {
+                googletag.pubads().setPrivacySettings({
+                    limitedAds: true
+                });
+            });
+
+            googletag.cmd.push(function () {
+                initializeGoogletagWithLimitedAds();
+            });
+        }
+    }
+
+</script>
+
+    
+    
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    (function () {
+        window.dm = window.dm || { AjaxData: [] };
+        window.dm.AjaxEvent = function (et, d, ssid, ad) {
+            dm.AjaxData.push({ et: et, d: d, ssid: ssid, ad: ad });
+            window.DotMetricsObj && DotMetricsObj.onAjaxDataUpdate();
+        };
+        var d = document,
+            h = d.getElementsByTagName('head')[0],
+            s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://script.dotmetrics.net/door.js?id=12270';
+        h.appendChild(s);
+    }());
+    /* ]]> */
+</script>
+
+
+    <script>
+        var mostReadUrl = '/Category/MostReadNews?categoryId=150&categorySlug=sport&timerange=%25timerange%25';
+
+        categoryService.InitAll();
+    </script>
+
+
+    <script>
+        googleEventService.CreateCustomEventGA4("layout", "ab_fifty-fifty", "");
+        googleEventService.CreateCustomEventGA4("user_data", "ab_fifty-fifty", "");
+
+        // if ad block detected send event
+        if (window.indexCanRunAds === undefined) {
+            googleEventService.CreateCustomEventGA4("layout", "ad_block_detected", "true");
+        }
+
+        var abCookieUrl = '/setabcookie';
+
+        globalDirectives.InitAll();
+        layoutService.InitAll();
+
+        layoutService.SetCurrentUrl('https%3A%2F%2Fwww.index.hr%2Fsport%2Frubrika%2Ftenis%2F1640.aspx');
+        deviceService.TrackIfNeeded();
+    </script>
+
+    
+</body>
+</html>
