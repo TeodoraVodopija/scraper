@@ -39,7 +39,7 @@ Ensure the following are installed on your system:
 ```
 .
 ├── data/                # Directory for storing downloaded HTML and .xlsx files
-├── Scraper.py   # Main script
+├── Scraper.py           # Main script
 ├── README.md            # Project documentation
 ```
 
