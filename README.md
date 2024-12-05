@@ -20,7 +20,7 @@ Ensure the following are installed on your system:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yTeodoraVodopija/scraper.git
+   git clone https://github.com/teodoraa2019/scraper.git
    cd scraper
    ```
 
